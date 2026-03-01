@@ -1,0 +1,24 @@
+[project]
+name = "fyp-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.79.0",
+    "chromadb>=1.5.0",
+    "fastapi>=0.129.0",
+    "groq>=1.0.0",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.9",
+    "langgraph>=1.0.8",
+    "openai>=2.21.0",
+    "pandas>=3.0.0",
+    "pdfplumber>=0.11.9",
+    "pinecone-client>=6.0.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "sentence-transformers>=5.2.2",
+    "uvicorn>=0.40.0",
+]

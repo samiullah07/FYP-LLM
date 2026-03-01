@@ -1,0 +1,6 @@
+id,title,year,cited_by,doi
+https://openalex.org/W4404534210,"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",2024,1044,https://doi.org/10.1145/3703155
+https://openalex.org/W4399803256,Detecting hallucinations in large language models using semantic entropy,2024,444,https://doi.org/10.1038/s41586-024-07421-0
+https://openalex.org/W4393160124,Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-Based Retrofitting,2024,53,https://doi.org/10.1609/aaai.v38i16.29770
+https://openalex.org/W4389523832,Evaluating Object Hallucination in Large Vision-Language Models,2023,285,https://doi.org/10.18653/v1/2023.emnlp-main.20
+https://openalex.org/W4353015365,Large language models and the perils of their hallucinations,2023,278,https://doi.org/10.1186/s13054-023-04393-x

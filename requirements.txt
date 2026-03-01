@@ -1,0 +1,16 @@
+langchain
+langchain-openai
+langchain_community
+groq
+pinecone-client
+python-dotenv
+langgraph
+fastapi
+uvicorn
+pandas
+anthropic
+chromadb
+sentence-transformers
+pdfplumber
+requests
+openai
