@@ -1,0 +1,16 @@
+The use of retrieval augmented generation has been increasingly explored as a means to reduce hallucinations in large language models (LLMs) (Tran and Vijai, 2024; Joseph, 2025). Hallucinations in LLMs refer to the phenomenon where the model generates text that is not grounded in reality, often resulting in inaccurate or nonsensical output. Retrieval augmented generation involves combining the strengths of LLMs with retrieval-based approaches, which can help to mitigate hallucinations by providing the model with relevant information from external sources (Zhang and Zhang, 2025).
+
+Studies have shown that retrieval augmented generation can be effective in reducing hallucinations in various domains, including medical education (Vrdoljak and Boban, 2025), legal research (Magesh and Surani, 2025), and scientific research (Lála and O’Donoghue, 2023). For instance, CardioCanon, a chatbot for cardiology inquiry, utilized retrieval augmented generation to reduce hallucinations and improve the performance of LLMs (Tran and Vijai, 2024). Similarly, PaperQA, a retrieval-augmented generative agent, was developed for scientific research and demonstrated the potential of this approach in reducing hallucinations (Lála and O’Donoghue, 2023).
+
+The integration of self-verification and retrieval-augmented generation has also been proposed as a means to reduce hallucinations in LLMs (Joseph, 2025). This approach involves verifying the generated text against external sources to ensure its accuracy and relevance. Furthermore, the use of long context in retrieval augmented language models has been shown to improve the performance of LLMs in medical question answering (Zhang and Xu, 2025).
+
+Overall, the literature suggests that retrieval augmented generation is a promising approach for reducing hallucinations in LLMs. By combining the strengths of LLMs with retrieval-based approaches, it is possible to develop more accurate and reliable language models that can be applied in various domains.
+
+References:
+Joseph, A. (2025) Reducing Hallucinations in Large Language Models Through Integrated Self-Verification and Retrieval-Augmented Generation.
+Lála, J. and O’Donoghue, O. (2023) PaperQA: Retrieval-Augmented Generative Agent for Scientific Research.
+Magesh, V. and Surani, F. (2025) Hallucination‐Free? Assessing the Reliability of Leading AI Legal Research Tools.
+Tran, A. and Vijai, J. (2024) CardioCanon: A Customised Chatbot for Cardiology Inquiry With Retrieval Augmented Generation to Reduce Hallucinations and Improve Performance of Large Language Models.
+Vrdoljak, J. and Boban, Z. (2025) A Review of Large Language Models in Medical Education, Clinical Decision Support, and Healthcare Administration.
+Zhang, G. and Xu, Z. (2025) Leveraging long context in retrieval augmented language models for medical question answering.
+Zhang, W. and Zhang, J. (2025) Hallucination Mitigation for Retrieval-Augmented Large Language Models: A Review.

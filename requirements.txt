@@ -14,3 +14,6 @@ sentence-transformers
 pdfplumber
 requests
 openai
+tiktoken
+faiss-cpu
+groq

@@ -1,0 +1,20 @@
+The application of multi-agent systems for automated fact-checking and citation verification is a rapidly evolving field, with recent advancements in large language models and artificial intelligence (Enkelejda Kasneci, Kathrin Seßler, Stefan Küchemann et al., 2023; Yogesh K. Dwivedi, Nir Kshetri, Laurie Hughes et al., 2023). However, the detection and resolution of rumours in social media remains a significant challenge (Arkaitz Zubiaga, Ahmet Aker, Kalina Bontcheva et al., 2018). The use of machine learning and deep learning techniques has shown promise in addressing this issue, but bias in data-driven artificial intelligence systems is a concern that must be addressed (Eirini Ntoutsi, Pavlos Fafalios, Ujwal Gadiraju et al., 2020).
+
+The potential of large language models for education and research has been explored, with some studies highlighting the benefits and challenges of using these models in academic settings (Enkelejda Kasneci, Kathrin Seßler, Stefan Küchemann et al., 2023; Cecilia Ka Yuk Chan, Wenjie Hu, 2023). However, the ethics of using artificial intelligence-written research papers and the implications for scholarly publishing are still being debated (Brady Lund, Ting Wang, Nishith Reddy Mannuru et al., 2023). In contrast, other studies have focused on the technical aspects of detecting and resolving rumours in social media, with some proposing the use of physics-informed neural networks (Salvatore Cuomo, Vincenzo Schiano Di Cola, Fabio Giampaolo et al., 2022) and others exploring the use of comparative analysis of LLM-based misinformation detection strategies (Tianyi Huang, Jingyuan Yi, Peiyang Yu et al., 2025).
+
+Despite the progress made in this field, there are still significant research gaps that need to be addressed. For example, the use of multi-agent systems for automated fact-checking and citation verification is still in its infancy, and more research is needed to explore the potential of these systems (Arkaitz Zubiaga, Ahmet Aker, Kalina Bontcheva et al., 2018). Additionally, the issue of bias in data-driven artificial intelligence systems must be addressed in order to ensure the accuracy and reliability of these systems (Eirini Ntoutsi, Pavlos Fafalios, Ujwal Gadiraju et al., 2020).
+
+References:
+Arkaitz Zubiaga, A. Aker, K. Bontcheva et al. (2018) Detection and resolution of rumours in social media: a survey. 
+Arkaitz Zubiaga, A. Aker, K. Bontcheva et al. (2018) Detection and Resolution of Rumours in Social Media. 
+B. Nuseibeh, S. Easterbrook (2000) Requirements engineering. 
+Brady Lund, T. Wang, N. Reddy Mannuru et al. (2023) ChatGPT and a new academic reality: Artificial Intelligence-written research papers and the ethics of the large language models in scholarly publishing. 
+Cecilia Ka Yuk Chan, W. Hu (2023) Students’ voices on generative AI: perceptions, benefits, and challenges in higher education. 
+Christian Janiesch, P. Zschech, K. Heinrich (2021) Machine learning and deep learning. 
+Eirini Ntoutsi, P. Fafalios, U. Gadiraju et al. (2020) Bias in data‐driven artificial intelligence systems—An introductory survey. 
+Enkelejda Kasneci, K. Seßler, S. Küchemann et al. (2023) ChatGPT for good? On opportunities and challenges of large language models for education. 
+Haoran Wang, Y. Dou, C. Chen et al. (2023) Attacking Fake News Detectors via Manipulating News Social Engagement. 
+Jan P. Vandenbroucke, E. von Elm, D. G. Altman et al. (2007) Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration. 
+Salvatore Cuomo, V. Schiano Di Cola, F. Giampaolo et al. (2022) Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next. 
+Tianyi Huang, J. Yi, P. Yu et al. (2025) Unmasking Digital Falsehoods: A Comparative Analysis of LLM-Based Misinformation Detection Strategies. 
+Yogesh K. Dwivedi, N. Kshetri, L. Hughes et al. (2023) Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy.

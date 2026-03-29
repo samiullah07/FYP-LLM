@@ -1,0 +1,19 @@
+The integration of Agentic AI in academic literature reviews has gained significant attention in recent years, particularly in the context of reliable information retrieval and hallucination mitigation. According to (Kasneci, Seßler, Küchemann et al., 2023), large language models such as ChatGPT have the potential to revolutionize education, but also pose significant challenges. Similarly, (Rudolph, Tan, Tan, 2023) argue that ChatGPT can either be a valuable tool or a "bullshit spewer" in higher education, highlighting the need for careful consideration of its applications.
+
+In the context of artificial intelligence in education, (Chen, Chen, Lin, 2020) provide a comprehensive review of the current state of AI in education, while (Vinuesa, Azizpour, Leite et al., 2020) discuss the role of AI in achieving the Sustainable Development Goals. However, (Antoniadi, Du, Guendouz et al., 2021) highlight the current challenges and future opportunities for Explainable Artificial Intelligence (XAI) in machine learning-based clinical decision support systems, which is also relevant to the context of academic literature reviews.
+
+The use of XAI is crucial in mitigating hallucinations in AI-generated content, as emphasized by (Arrieta, Díaz-Rodríguez, Del Ser et al., 2019). Furthermore, (Page, Moher, Bossuyt et al., 2021) provide updated guidance on reporting systematic reviews, which can be applied to the development of reliable academic literature reviews using Agentic AI. The potential of deep learning in healthcare is also discussed by (Miotto, Wang, Wang et al., 2017) and (Alzubaidi, Zhang, Humaidi et al., 2021), which can inform the development of Agentic AI for literature reviews.
+
+Despite the potential benefits of Agentic AI, there are still significant research gaps, particularly in the context of hallucination mitigation. As noted by (Dwivedi, Kshetri, Hughes et al., 2023), the use of generative conversational AI raises important questions about the implications for research, practice, and policy. Therefore, further research is needed to fully explore the potential of Agentic AI for reliable academic literature reviews and hallucination mitigation.
+
+References:
+Alzubaidi, L., Zhang, J., Humaidi, A. J. et al. (2021) Review of deep learning: concepts, CNN architectures, challenges, applications, future directions.
+Antoniadi, A. M., Du, Y., Guendouz, Y. et al. (2021) Current Challenges and Future Opportunities for XAI in Machine Learning-Based Clinical Decision Support Systems: A Systematic Review.
+Arrieta, A. B., Díaz-Rodríguez, N., Del Ser, J. et al. (2019) Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI.
+Chen, L., Chen, P., Lin, Z. (2020) Artificial Intelligence in Education: A Review.
+Dwivedi, Y. K., Kshetri, N., Hughes, L. et al. (2023) Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy.
+Kasneci, E., Seßler, K., Küchemann, S. et al. (2023) ChatGPT for good? On opportunities and challenges of large language models for education.
+Miotto, R., Wang, F., Wang, S. et al. (2017) Deep learning for healthcare: review, opportunities and challenges.
+Page, M. J., Moher, D., Bossuyt, P. M. et al. (2021) PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews.
+Rudolph, J., Tan, S., Tan, S. (2023) ChatGPT: Bullshit spewer or the end of traditional assessments in higher education?
+Vinuesa, R., Azizpour, H., Leite, I. et al. (2020) The role of artificial intelligence in achieving the Sustainable Development Goals.

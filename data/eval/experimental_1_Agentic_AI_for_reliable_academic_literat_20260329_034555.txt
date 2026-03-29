@@ -1,0 +1,14 @@
+The integration of Agentic AI in academic literature reviews has sparked significant interest in recent years, with a focus on reliability and hallucination mitigation. According to Olaf Zawacki‐Richter, Victoria I. Marín, Melissa Bond et al. (2019), the application of artificial intelligence in higher education is a rapidly growing field, but it often lacks the involvement of educators. This highlights the need for a multidisciplinary approach to AI development, as also emphasized by Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova et al. (2019).
+
+The concept of Explainable Artificial Intelligence (XAI) has been explored by Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser et al. (2019), who discuss the importance of transparency and accountability in AI decision-making. This is particularly relevant in the context of large language models, such as ChatGPT, which have been shown to have both opportunities and challenges for education (Enkelejda Kasneci, Kathrin Seßler, Stefan Küchemann et al., 2023; Jürgen Rudolph, Samson Tan, Shannon Tan, 2023). The use of such models raises concerns about the potential for hallucination and the need for reliable fact-checking mechanisms.
+
+Recent studies have also focused on the technical aspects of large language models, including their architecture and applications (Wayne Xin Zhao, Kun Zhou, Junyi Li et al., 2023; OpenAI, Wijayagunawardhana, W. A. Hasindu N., 2023). However, there is a need for further research on the intersection of Agentic AI and academic literature reviews, particularly in terms of mitigating hallucination and ensuring reliability. The current literature highlights the importance of a multidisciplinary approach to AI development and the need for transparency and accountability in AI decision-making.
+
+References:
+Alejandro Barredo Arrieta, N. D.-R., J. Del Ser, et al. (2019) Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI
+Enkelejda Kasneci, K. Seßler, S. Küchemann, et al. (2023) ChatGPT for good? On opportunities and challenges of large language models for education
+Jürgen Rudolph, S. Tan, S. Tan (2023) ChatGPT: Bullshit spewer or the end of traditional assessments in higher education?
+Olaf Zawacki‐Richter, V. I. Marín, M. Bond, et al. (2019) Systematic review of research on artificial intelligence applications in higher education – where are the educators?
+OpenAI, W. A. Hasindu N. (2023) GPT-4 Technical Report
+Wayne Xin Zhao, K. Zhou, J. Li, et al. (2023) A Survey of Large Language Models
+Yogesh K. Dwivedi, L. Hughes, E. Ismagilova, et al. (2019) Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy

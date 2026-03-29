@@ -1,0 +1,24 @@
+The integration of Agentic AI in academic literature reviews has the potential to revolutionize the way researchers conduct and synthesize research (GPT-4 Technical Report, 2023). Agentic AI refers to artificial intelligence systems that can perform tasks autonomously, making decisions and taking actions based on their programming and goals (Stefan Feuerriegel and Jochen Hartmann, 2023). In the context of academic literature reviews, Agentic AI can help mitigate the issue of hallucination, where AI models generate false or misleading information (Konstantinos I. Roumeliotis and Nikolaos D. Tselikas, 2023). 
+
+Several studies have explored the applications and challenges of large language models, including their potential to transform computational social science (Caleb Ziems and William A. Held, 2023) and biomedicine (Shubo Tian and Qiao Jin, 2023). However, these models also pose significant challenges, including the risk of perpetuating biases and inaccuracies (Muhammad Usman Hadi and Qasem Al Tashi, 2023). To address these challenges, researchers have emphasized the need for transparency, accountability, and human oversight in the development and deployment of Agentic AI systems (Bernd Carsten Stahl and Damian Eke, 2023).
+
+In educational settings, Agentic AI has the potential to support students and teachers in conducting literature reviews, providing personalized feedback, and promoting critical thinking (Simone Grassini, 2023). However, there are also concerns about the potential for Agentic AI to disrupt traditional assessment methods and exacerbate existing inequalities (Jürgen Rudolph and Samson Tan, 2023). 
+
+To fully realize the potential of Agentic AI in academic literature reviews, further research is needed to address the challenges of hallucination mitigation, bias, and accountability. This includes the development of more sophisticated AI models that can accurately identify and correct errors, as well as the creation of frameworks for human-AI collaboration that prioritize transparency and trust (Lixiang Yan and Samuel Greiff, 2024).
+
+References:
+GPT-4 Technical Report (2023) OpenAI, Wijayagunawardhana, W. A. Hasindu N.
+Rudolph, J. and Tan, S. (2023) ChatGPT: Bullshit spewer or the end of traditional assessments in higher education?
+Alowais, S. A. and Alghamdi, S. S. (2023) Revolutionizing healthcare: the role of artificial intelligence in clinical practice
+Zhao, W. X. and Zhou, K. (2023) A Survey of Large Language Models
+Grassini, S. (2023) Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings
+Feuerriegel, S. and Hartmann, J. (2023) Generative AI
+Roumeliotis, K. I. and Tselikas, N. D. (2023) ChatGPT and Open-AI Models: A Preliminary Review
+Park, S. and Kim, Y. G. (2022) A Metaverse: Taxonomy, Components, Applications, and Open Challenges
+Banh, L. and Strobel, G. (2023) Generative artificial intelligence
+Rasul, T. and Nair, S. (2023) The role of ChatGPT in higher education: Benefits, challenges, and future research directions
+Stahl, B. C. and Eke, D. (2023) The ethics of ChatGPT – Exploring the ethical issues of an emerging technology
+Yan, L. and Greiff, S. (2024) Promises and challenges of generative artificial intelligence for human learning
+Hadi, M. U. and Al Tashi, Q. (2023) A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage
+Tian, S. and Jin, Q. (2023) Opportunities and challenges for ChatGPT and large language models in biomedicine and health
+Ziems, C. and Held, W. A. (2023) Can Large Language Models Transform Computational Social Science?
