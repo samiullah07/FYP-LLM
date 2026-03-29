@@ -99,49 +99,33 @@ def baseline_search_node(state: BaselineState) -> BaselineState:
 
 def baseline_write_node(state: BaselineState) -> BaselineState:
     """
-    Write a full literature review in a SINGLE LLM call.
-
-    This is the naive approach:
-    - No planning, no sub-queries
-    - No verification of citations
-    - LLM may hallucinate references
+    Single LLM call — deliberately allows general knowledge.
+    This is the naive approach that causes hallucinations.
     """
-    print("\n[Baseline] Running Write Node (single LLM call, no verifier)...")
+    print("\n[Baseline] Running Write Node (single LLM, no restriction)...")
+    client = _get_groq_client()
+    topic  = state["topic"]
 
-    client  = _get_groq_client()
-    topic   = state["topic"]
-    papers  = state["papers"]
-
-    # Format paper list for prompt
-    paper_list_str = "\n".join(
-        f"- {p.title} ({p.year or 'N/A'}) "
-        f"by {', '.join(p.authors[:2]) if p.authors else 'Unknown'}"
-        for p in papers[:15]
-    )
-
+    # IMPORTANT: Do NOT pass paper list to baseline
+    # This forces the LLM to use its own (hallucination-prone) knowledge
     prompt = (
-        "You are an academic writer.\n\n"
-        f"Write a literature review section of 300-400 words on this topic:\n"
-        f"Topic: {topic}\n\n"
-        "Use the following papers as references. "
-        "Include in-text citations in Harvard format (Author, Year). "
-        "End with a full reference list in Harvard format.\n\n"
-        "Available papers:\n"
-        f"{paper_list_str}\n\n"
-        "Important: You may also draw on your general knowledge of "
-        "the topic to supplement the listed papers."
+        f"You are an academic writer. Write a detailed literature review "
+        f"of 400-500 words on this topic:\n\nTopic: {topic}\n\n"
+        f"Requirements:\n"
+        f"1. Include in-text citations in Harvard format (Author et al., Year)\n"
+        f"2. Include at least 8-10 specific citations with real author names and years\n"
+        f"3. End with a full reference list in Harvard format\n"
+        f"4. Write with confidence as an academic expert\n"
+        f"5. Include specific statistics, findings, and paper titles where relevant\n\n"
+        f"Write the full literature review now:"
     )
-
-    # Key difference from experimental:
-    # "draw on your general knowledge" → invites hallucination
-    # This is intentional for the baseline comparison
 
     try:
         response = client.chat.completions.create(
             model=settings.llm_model,
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=1500,
-            temperature=0.7,  # higher temp = more creative = more hallucination risk
+            max_tokens=2000,
+            temperature=0.9,  # HIGH temperature = more hallucination risk
         )
         review_text = response.choices[0].message.content.strip()
     except Exception as e:
@@ -151,7 +135,6 @@ def baseline_write_node(state: BaselineState) -> BaselineState:
     print(f"[Baseline] Review written ({len(review_text)} chars).")
     state["review_text"] = review_text
     return state
-
 
 # ---------------------------------------------------------------------------
 # Node 3: Verify (run verifier on baseline output for measurement)

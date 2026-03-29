@@ -1,0 +1,113 @@
+{
+  "run_id": "20260329_063749",
+  "timestamp": "2026-03-29T06:37:58.683971",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Kermany et al., 2018)",
+      "cited_author": "Kermany et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2807876212",
+      "matched_title": "Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Imag",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Daniel Kermany"
+      ],
+      "matched_doi": "https://doi.org/10.17632/rscbjbr9sj.3"
+    },
+    {
+      "raw_citation": "(Ting et al., 2019)",
+      "cited_author": "Ting et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2971167298",
+      "matched_title": "A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Langu",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Libo Qin",
+        "Wanxiang Che",
+        "Yangming Li"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1214"
+    },
+    {
+      "raw_citation": "(Rajpurkar et al., 2017)",
+      "cited_author": "Rajpurkar et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.762,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963323070",
+      "matched_title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Pranav Rajpurkar",
+        "Robin Jia",
+        "Percy Liang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p18-2124"
+    },
+    {
+      "raw_citation": "(Ardila et al., 2019)",
+      "cited_author": "Ardila et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.575,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W7130472011",
+      "matched_title": "Plega mixteca Ardila 2019",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Adrian Ardila‐Camacho",
+        "Renato José Pires Machado",
+        "Michael Ohl"
+      ],
+      "matched_doi": "https://doi.org/10.5281/zenodo.18676300"
+    },
+    {
+      "raw_citation": "(Chen et al., 2022)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409283601",
+      "matched_title": "Towards conversational diagnostic artificial intelligence",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Tao Tu",
+        "Mike Schaekermann",
+        "Anil Palepu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-025-08866-7"
+    },
+    {
+      "raw_citation": "(Kondo et al., 2021)",
+      "cited_author": "Kondo et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3170740203",
+      "matched_title": "Sentence Concatenation Approach to Data Augmentation for Neural Machine Translat",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Seiichiro Kondo",
+        "Kengo Hotate",
+        "Tosho Hirasawa"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.naacl-srw.18"
+    }
+  ]
+}

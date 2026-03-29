@@ -1,0 +1,94 @@
+{
+  "run_id": "20260329_062631",
+  "timestamp": "2026-03-29T06:26:31.901897",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Abolhasani and Kumacheva, 2023)",
+      "cited_author": "Abolhasani and Kumacheva",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4318486595",
+      "matched_title": "The rise of self-driving labs in chemical and materials sciences",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Milad Abolhasani",
+        "Eugenia Kumacheva"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s44160-022-00231-0"
+    },
+    {
+      "raw_citation": "(OpenAI, 2023)",
+      "cited_author": "OpenAI",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "OpenAI",
+        "Wijayagunawardhana, W. A. Hasindu N."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Cuomo and Di Cola, 2022)",
+      "cited_author": "Cuomo and Di Cola",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4288039037",
+      "matched_title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we a",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Salvatore Cuomo",
+        "Vincenzo Schiano Di Cola",
+        "Fabio Giampaolo"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10915-022-01939-z"
+    },
+    {
+      "raw_citation": "(Parker and Grote, 2019)",
+      "cited_author": "Parker and Grote",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2998691503",
+      "matched_title": "Automation, Algorithms, and Beyond: Why Work Design Matters More Than Ever in a ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Sharon K. Parker",
+        "Gudela Grote"
+      ],
+      "matched_doi": "https://doi.org/10.1111/apps.12241"
+    },
+    {
+      "raw_citation": "(Morley and Floridi, 2019)",
+      "cited_author": "Morley and Floridi",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2996541402",
+      "matched_title": "From What to How: An Initial Review of Publicly Available AI Ethics Tools, Metho",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jessica Morley",
+        "Luciano Floridi",
+        "Libby Kinsey"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11948-019-00165-5"
+    }
+  ]
+}

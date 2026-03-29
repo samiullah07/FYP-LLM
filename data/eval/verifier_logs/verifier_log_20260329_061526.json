@@ -1,0 +1,176 @@
+{
+  "run_id": "20260329_061526",
+  "timestamp": "2026-03-29T06:15:45.842399",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Zhao et al., 2024)",
+      "cited_author": "Zhao et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4401042136",
+      "matched_title": "Better Zero-Shot Reasoning with Role-Play Prompting",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Aobo Kong",
+        "Shiwan Zhao",
+        "Hao Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.naacl-long.228"
+    },
+    {
+      "raw_citation": "(Lewis et al., 2020)",
+      "cited_author": "Lewis et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2982399380",
+      "matched_title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generatio",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Mike Lewis",
+        "Yinhan Liu",
+        "Naman Goyal"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.acl-main.703"
+    },
+    {
+      "raw_citation": "(Sun et al., 2025)",
+      "cited_author": "Sun et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.475,
+      "error_type": "WRONG_AUTHOR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4411787722",
+      "matched_title": "Colors and Dynamics of a Near-Sun Orbital Asteroid Family: 2021 PH27 and 2025 GN",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Scott S. Sheppard",
+        "Henry H. Hsieh",
+        "Petr Pokorný"
+      ],
+      "matched_doi": "https://doi.org/10.3847/2041-8213/ade3da"
+    },
+    {
+      "raw_citation": "(Chen et al., 2026)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 0.875,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W7126786854",
+      "matched_title": "Chen(2026).v1.14_U",
+      "matched_year": 2026,
+      "matched_authors": [
+        "Chen"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhang et al., 2024)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.875,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4401730262",
+      "matched_title": "Reply to Discussion: “Haiyang Zhang and Muhammad Arif. Residual trapping capacit",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyang Zhang",
+        "Muhammad Arif"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.earscirev.2024.104907"
+    },
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4404783774",
+      "matched_title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Zhen Tan",
+        "Dawei Li",
+        "Song Wang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.emnlp-main.54"
+    },
+    {
+      "raw_citation": "(Liu et al., 2023)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.787,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4399055010",
+      "matched_title": "Description of three new species of the spider genus Pseudopoda Jäger, 2000 (Ara",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Yanrong Wu",
+        "Rui Zhong",
+        "Yang Zhu"
+      ],
+      "matched_doi": "https://doi.org/10.3897/zookeys.1202.116007"
+    },
+    {
+      "raw_citation": "(Patel et al., 2024)",
+      "cited_author": "Patel et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4400250300",
+      "matched_title": "3D Printed Medical Devices: Regulatory Standards and Technological Advancements ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Megha Ganesh Bhise",
+        "Lakshya Patel",
+        "Khyati Patel"
+      ],
+      "matched_doi": "https://doi.org/10.5530/ijpi.14.3.99"
+    },
+    {
+      "raw_citation": "(Jones and Brown, 2025)",
+      "cited_author": "Jones and Brown",
+      "cited_year": 2025,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Tonmoy et al., 2024)",
+      "cited_author": "Tonmoy et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

@@ -1,32 +1,34 @@
 # agents/verifier_agent.py
 """
-Verifier Agent for the Literature Review Pipeline.
+Verifier Agent — Core Research Contribution.
 
-Responsibility:
-    This is the CORE contribution of the project.
-    It verifies citations in a generated literature review against:
-        1. Locally retrieved papers (from Search Agent)
-        2. OpenAlex API (live lookup for unmatched citations)
+This agent verifies citations in a generated literature review against:
+    1. Locally retrieved papers  (fast, no API call needed)
+    2. OpenAlex live lookup      (for citations not found locally)
 
-    For each citation found in the review text, it determines:
-        - "valid"       : author + year match a real retrieved paper
-        - "partial"     : paper found but year is slightly off (±1)
-        - "hallucinated": no matching paper found anywhere
+For each citation produces:
+    - status      : VALID / PARTIAL / HALLUCINATED
+    - confidence  : 0.0 to 1.0 combining author + year + title signals
+    - error_type  : FABRICATED_PAPER / WRONG_YEAR / WRONG_AUTHOR /
+                    MISATTRIBUTION / UNKNOWN
+    - matched_paper: Paper object if a match was found
 
-Metrics returned:
-    - total citations found
-    - valid / partial / hallucinated counts
-    - hallucination rate (0.0 to 1.0)
-    - detailed result per citation
-
-This directly addresses the research question:
-    'Can a multi-agent system reduce LLM hallucination in
-     academic literature reviews?'
+Addresses IPR feedback:
+    - Fuzzy author name matching
+    - Title normalisation
+    - Confidence scoring per citation
+    - Error typology logging
+    - Structured JSON logs for annotation
 """
 
 import re
 import sys
+import json
+import unicodedata
+from collections import Counter
 from pathlib import Path
+from datetime import datetime
+from difflib import SequenceMatcher
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -34,6 +36,79 @@ if str(ROOT) not in sys.path:
 
 from src.api_clients import search_openalex_works
 from src.models import Paper, Citation
+from src.config import settings
+
+
+# ---------------------------------------------------------------------------
+# Configuration — tune these thresholds to improve verifier performance
+# ---------------------------------------------------------------------------
+
+# TIGHTER thresholds — less lenient matching
+AUTHOR_FUZZY_THRESHOLD = 0.80   # was 0.72 — stricter author matching
+YEAR_EXACT_TOLERANCE   = 0      # exact year required for VALID
+YEAR_PARTIAL_TOLERANCE = 1      # only ±1 year for PARTIAL (was ±2)
+
+# Confidence weights
+W_AUTHOR = 0.50   # increase author weight
+W_YEAR   = 0.35
+W_TITLE  = 0.15   # reduce title bonus
+
+# Confidence thresholds in _determine_status
+# VALID   : confidence >= 0.70 (was 0.65)
+# PARTIAL : confidence >= 0.50 (was 0.45)
+
+MAX_OPENALEX_RESULTS = 5
+LOG_DIR = settings.data_dir / "eval" / "verifier_logs"
+
+
+# ---------------------------------------------------------------------------
+# Text normalisation helpers
+# ---------------------------------------------------------------------------
+
+def _normalise_text(text: str) -> str:
+    """
+    Lowercase, remove punctuation, strip accents for robust matching.
+
+    Examples:
+        "Küchemann et al." → "kuchemann et al"
+        "Zawacki‐Richter"  → "zawacki richter"
+        "Smith, J."        → "smith j"
+    """
+    # Decompose accented characters (e.g. é → e + combining accent)
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    # Lowercase
+    text = text.lower()
+    # Replace hyphens and unicode dashes with space
+    text = re.sub(r"[\-\u2010\u2011\u2012\u2013\u2014]", " ", text)
+    # Remove all remaining punctuation
+    text = re.sub(r"[^\w\s]", " ", text)
+    # Collapse multiple spaces
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _fuzzy_score(a: str, b: str) -> float:
+    """
+    Compute fuzzy string similarity (0.0 to 1.0).
+    Uses difflib SequenceMatcher ratio = 2*M / T.
+    """
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def _author_words(author_str: str) -> list[str]:
+    """
+    Extract significant words from a citation author string.
+
+    Examples:
+        "Dwivedi et al."   → ["dwivedi"]
+        "Smith and Jones"  → ["smith", "jones"]
+        "Chen, X."         → ["chen"]
+        "Zawacki-Richter"  → ["zawacki", "richter"]
+    """
+    clean = _normalise_text(author_str)
+    noise = {"et", "al", "and", "or", "the", "van", "de", "von", "der"}
+    return [w for w in clean.split() if len(w) > 2 and w not in noise]
 
 
 # ---------------------------------------------------------------------------
@@ -44,55 +119,60 @@ def extract_citations(text: str) -> list[dict]:
     """
     Extract all (Author, Year) style citations from review text.
 
-    Handles formats like:
+    Handles:
         (Smith, 2023)
         (Chen et al., 2024)
-        (Raiaan and Mukta, 2024)
-        (Dwivedi et al., 2023)
         (Zawacki-Richter et al., 2019)
-        (OpenAI, W. A. H. N., 2023)
-        Smith (2023)
+        (Smith and Jones, 2022)
+        (OpenAI, 2023)
+        Multiple: (Smith, 2023; Jones, 2024)
+
+    Parameters
+    ----------
+    text : str
+        Generated literature review text.
+
+    Returns
+    -------
+    list[dict]
+        Each dict has keys: author (str), year (int), raw (str)
     """
     citations = []
-    seen = set()
+    seen      = set()
 
-    # Pattern 1: (Author et al., YEAR) or (Author, YEAR)
-    # Covers most Harvard inline citation styles
-    patterns = [
-        # (Author et al., 2023) or (Author and Author, 2023)
-        r'\(([A-Z][a-zA-ZÀ-ž\s\-‐]+?(?:\s+et al\.)?(?:\s+and\s+[A-Z][a-zA-Z]+)?),\s*((?:19|20)\d{2})\)',
-
-        # (Author et al., 2023; Author2 et al., 2024) — split these
-        r'([A-Z][a-zA-ZÀ-ž\s\-‐]+?(?:\s+et al\.)?),\s*((?:19|20)\d{2})',
-    ]
-
-    # Use the broader pattern to catch all cases
-    broad_pattern = r'([A-Z][A-Za-zÀ-ž\u2010\-]+(?:\s+[A-Z]?[A-Za-z\-‐]+)*(?:\s+et al\.)?(?:\s+and\s+[A-Z][a-zA-Z]+)?),?\s*((?:19|20)\d{2})'
-
-    # Find all content inside parentheses first
+    # Find all content inside parentheses
     paren_contents = re.findall(r'\(([^)]+)\)', text)
 
+    # Broad pattern: Author string + 4-digit year
+    pattern = (
+        r'([A-Z][A-Za-z\u00C0-\u024F\u2010\-]+'
+        r'(?:\s+[A-Z]?[A-Za-z\u00C0-\u024F\u2010\-]+)*'
+        r'(?:\s+et\s+al\.)?'
+        r'(?:\s+and\s+[A-Z][A-Za-z\u00C0-\u024F]+)?)'
+        r',?\s*((?:19|20)\d{2})'
+    )
+
     for content in paren_contents:
-        # Skip if it looks like a URL or number only
-        if 'http' in content or content.strip().isdigit():
+        # Skip URLs and standalone numbers
+        if "http" in content or content.strip().isdigit():
             continue
 
-        # Find all author+year pairs inside this parenthetical
-        matches = re.findall(broad_pattern, content)
+        matches = re.findall(pattern, content)
 
         for author_raw, year_str in matches:
             author = author_raw.strip().rstrip(",").strip()
             year   = int(year_str)
 
-            # Skip very short or clearly wrong matches
+            # Skip very short matches
             if len(author) < 3:
                 continue
 
-            # Skip if author looks like it's just numbers
-            if author.replace(" ", "").isdigit():
+            # Skip if author is all digits
+            if _normalise_text(author).replace(" ", "").isdigit():
                 continue
 
-            key = f"{author.lower()}_{year}"
+            # Deduplicate
+            key = f"{_normalise_text(author)}_{year}"
             if key in seen:
                 continue
             seen.add(key)
@@ -104,181 +184,392 @@ def extract_citations(text: str) -> list[dict]:
             })
 
     return citations
+
+
 # ---------------------------------------------------------------------------
-# Step 2: Match a citation against locally retrieved papers
+# Step 2: Compute confidence score for a candidate match
+# ---------------------------------------------------------------------------
+
+def _compute_confidence(
+    cited_author: str,
+    cited_year:   int,
+    paper:        Paper,
+) -> float:
+    """
+    Compute a confidence score (0.0 to 1.0) for a candidate paper match.
+
+    Combines three signals:
+        1. Author similarity  — fuzzy match of cited author vs paper authors
+        2. Year match         — exact=1.0, within tolerance=partial, else=0.0
+        3. Title bonus        — small boost if author surname in paper title
+
+    Parameters
+    ----------
+    cited_author : str   — author string extracted from citation
+    cited_year   : int   — year extracted from citation
+    paper        : Paper — candidate paper to score against
+
+    Returns
+    -------
+    float : confidence score 0.0 to 1.0
+    """
+    # --- Author score ---
+    cited_words   = _author_words(cited_author)
+    paper_authors = _normalise_text(" ".join(paper.authors or []))
+
+    if not cited_words:
+        author_score = 0.0
+    else:
+        matches = sum(
+            1 for w in cited_words
+            if w in paper_authors
+            or any(
+                _fuzzy_score(w, pw) >= AUTHOR_FUZZY_THRESHOLD
+                for pw in paper_authors.split()
+                if len(pw) > 2
+            )
+        )
+        author_score = matches / len(cited_words)
+
+    # --- Year score ---
+    paper_year = paper.year or 0
+    year_diff  = abs(paper_year - cited_year)
+
+    if year_diff == 0:
+        year_score = 1.0
+    elif year_diff <= YEAR_PARTIAL_TOLERANCE:
+        year_score = 1.0 - (year_diff * 0.25)
+    else:
+        year_score = 0.0
+
+    # --- Title bonus ---
+    paper_title = _normalise_text(paper.title or "")
+    title_score = (
+        0.5 if cited_words and any(w in paper_title for w in cited_words)
+        else 0.0
+    )
+
+    # --- Weighted combination ---
+    confidence = (
+        W_AUTHOR * author_score +
+        W_YEAR   * year_score   +
+        W_TITLE  * title_score
+    )
+
+    return round(min(confidence, 1.0), 3)
+
+
+# ---------------------------------------------------------------------------
+# Step 3: Determine VALID / PARTIAL / HALLUCINATED
+# ---------------------------------------------------------------------------
+
+def _determine_status(
+    cited_year: int,
+    paper:      Paper,
+    confidence: float,
+) -> str:
+    paper_year = paper.year or 0
+    year_diff  = abs(paper_year - cited_year)
+
+    if confidence >= 0.70 and year_diff == 0:
+        return "VALID"
+    elif confidence >= 0.50 and year_diff <= 1:
+        return "PARTIAL"
+    else:
+        return "HALLUCINATED"
+# ---------------------------------------------------------------------------
+# Step 4: Classify error type
+# ---------------------------------------------------------------------------
+
+def _classify_error_type(
+    cited_author:  str,
+    cited_year:    int,
+    matched_paper: Paper | None,
+) -> str:
+    """
+    Classify error type for a citation that failed verification.
+
+    Error types:
+        FABRICATED_PAPER : no matching paper found anywhere
+        WRONG_YEAR       : paper exists but year is wrong
+        WRONG_AUTHOR     : paper exists but author does not match
+        MISATTRIBUTION   : paper exists but both author and year wrong
+        UNKNOWN          : cannot determine
+    """
+    if matched_paper is None:
+        return "FABRICATED_PAPER"
+
+    paper_year    = matched_paper.year or 0
+    paper_authors = _normalise_text(" ".join(matched_paper.authors or []))
+    cited_words   = _author_words(cited_author)
+
+    year_diff    = abs(paper_year - cited_year)
+    author_match = any(w in paper_authors for w in cited_words)
+
+    if year_diff > YEAR_PARTIAL_TOLERANCE and author_match:
+        return "WRONG_YEAR"
+    elif not author_match and year_diff <= YEAR_PARTIAL_TOLERANCE:
+        return "WRONG_AUTHOR"
+    elif not author_match and year_diff > YEAR_PARTIAL_TOLERANCE:
+        return "MISATTRIBUTION"
+    else:
+        return "UNKNOWN"
+
+
+# ---------------------------------------------------------------------------
+# Step 5: Local match against retrieved papers
 # ---------------------------------------------------------------------------
 
 def _match_locally(
     author: str,
-    year: int,
+    year:   int,
     papers: list[Paper],
-) -> tuple[Paper | None, str]:
+) -> tuple[Paper | None, float]:
     """
-    Try to match a citation against locally retrieved papers.
-
-    Matching rules:
-        - At least one significant word from author string appears
-          in paper's author list
-        - Year matches exactly     → "valid"
-        - Year matches within ±1   → "partial"
+    Find best matching paper from local corpus using confidence scoring.
 
     Parameters
     ----------
-    author : str
-        Author string extracted from citation.
-    year   : int
-        Year extracted from citation.
-    papers : list[Paper]
-        Papers retrieved by the Search Agent.
+    author : str         — cited author string
+    year   : int         — cited year
+    papers : list[Paper] — locally retrieved papers
 
     Returns
     -------
-    tuple[Paper | None, str]
-        (matched_paper, status) where status is
-        "valid", "partial", or "no_match"
+    tuple[Paper | None, float]
+        Best matching paper and confidence score.
+        Returns (None, 0.0) if corpus is empty.
     """
-    # Clean author string for matching
-    author_clean = (
-        author
-        .replace("et al.", "")
-        .replace(" and ", " ")
-        .replace(",", " ")
-        .lower()
-    )
-    author_words = [w for w in author_clean.split() if len(w) > 3]
+    best_paper      = None
+    best_confidence = 0.0
 
     for paper in papers:
-        paper_authors_str = " ".join(paper.authors).lower()
+        conf = _compute_confidence(author, year, paper)
+        if conf > best_confidence:
+            best_confidence = conf
+            best_paper      = paper
 
-        # Check if any significant author word matches
-        author_match = any(
-            word in paper_authors_str
-            for word in author_words
-        )
-
-        if not author_match:
-            continue
-
-        paper_year = paper.year or 0
-
-        if paper_year == year:
-            return paper, "valid"
-        elif abs(paper_year - year) <= 1:
-            return paper, "partial"
-
-    return None, "no_match"
+    return best_paper, best_confidence
 
 
 # ---------------------------------------------------------------------------
-# Step 3: Match a citation via OpenAlex live search
+# Step 6: Live OpenAlex lookup
 # ---------------------------------------------------------------------------
 
 def _match_via_openalex(
     author: str,
-    year: int,
-) -> tuple[Paper | None, str]:
+    year:   int,
+) -> tuple[Paper | None, float]:
     """
-    Search OpenAlex directly to verify a citation not found locally.
+    Search OpenAlex for a citation not found locally.
 
     Parameters
     ----------
-    author : str
-        Author string from citation.
-    year   : int
-        Year from citation.
+    author : str — cited author string
+    year   : int — cited year
 
     Returns
     -------
-    tuple[Paper | None, str]
-        (matched_paper, status)
+    tuple[Paper | None, float]
+        Best matching paper and confidence score.
     """
-    search_query = f"{author} {year}"
+    author_words = _author_words(author)
+    query = (
+        f"{' '.join(author_words[:2])} {year}"
+        if author_words
+        else str(year)
+    )
 
     try:
-        results = search_openalex_works(search_query, max_results=3)
+        results = search_openalex_works(query, max_results=MAX_OPENALEX_RESULTS)
     except Exception as e:
-        print(f"[VerifierAgent] OpenAlex lookup failed for '{search_query}': {e}")
-        return None, "no_match"
+        print(f"  [Verifier] OpenAlex lookup failed for '{query}': {e}")
+        return None, 0.0
 
-    author_clean = (
-        author
-        .replace("et al.", "")
-        .replace(" and ", " ")
-        .replace(",", " ")
-        .lower()
-    )
-    author_words = [w for w in author_clean.split() if len(w) > 3]
+    best_paper      = None
+    best_confidence = 0.0
 
     for paper in results:
-        paper_authors_str = " ".join(paper.authors).lower()
-        author_match = any(w in paper_authors_str for w in author_words)
+        conf = _compute_confidence(author, year, paper)
+        if conf > best_confidence:
+            best_confidence = conf
+            best_paper      = paper
 
-        if not author_match:
-            continue
-
-        paper_year = paper.year or 0
-        if paper_year == year:
-            return paper, "valid"
-        elif abs(paper_year - year) <= 1:
-            return paper, "partial"
-
-    return None, "no_match"
+    return best_paper, best_confidence
 
 
 # ---------------------------------------------------------------------------
-# Step 4: Main verification function
+# Step 7: Build structured log entry
+# ---------------------------------------------------------------------------
+
+def _build_log_entry(
+    raw:           str,
+    author:        str,
+    year:          int,
+    status:        str,
+    confidence:    float,
+    error_type:    str | None,
+    matched_paper: Paper | None,
+    source:        str,
+) -> dict:
+    """
+    Build a structured log entry for one citation verification result.
+
+    This log is used for:
+        - Manual annotation in the annotation helper notebook
+        - Error typology analysis in the dissertation
+        - FPR results tables
+
+    Parameters
+    ----------
+    raw           : raw citation string e.g. "(Smith et al., 2023)"
+    author        : extracted author string
+    year          : extracted year
+    status        : VALID / PARTIAL / HALLUCINATED
+    confidence    : float 0.0 to 1.0
+    error_type    : error type label or None if VALID
+    matched_paper : Paper object or None
+    source        : "local" or "openalex"
+
+    Returns
+    -------
+    dict : structured log entry
+    """
+    return {
+        "raw_citation":     raw,
+        "cited_author":     author,
+        "cited_year":       year,
+        "status":           status,
+        "confidence":       confidence,
+        "error_type":       error_type,
+        "match_source":     source,
+        "matched_paper_id": matched_paper.paper_id if matched_paper else None,
+        "matched_title":    matched_paper.title[:80] if matched_paper else None,
+        "matched_year":     matched_paper.year if matched_paper else None,
+        "matched_authors":  matched_paper.authors[:3] if matched_paper else [],
+        "matched_doi":      matched_paper.doi if matched_paper else None,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Step 8: Save verification log to JSON
+# ---------------------------------------------------------------------------
+
+def _save_verification_log(
+    logs:   list[dict],
+    run_id: str,
+) -> Path:
+    """
+    Save all citation verification logs as a structured JSON file.
+
+    File is saved to: data/eval/verifier_logs/verifier_log_{run_id}.json
+
+    Parameters
+    ----------
+    logs   : list of log entry dicts (one per citation verified)
+    run_id : unique run identifier e.g. "20260329_040000"
+
+    Returns
+    -------
+    Path : path to saved log file
+    """
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = LOG_DIR / f"verifier_log_{run_id}.json"
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "run_id":    run_id,
+                "timestamp": datetime.now().isoformat(),
+                "total":     len(logs),
+                "entries":   logs,
+            },
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    print(f"[VerifierAgent] Log saved → {out_path}")
+    return out_path
+
+
+# ---------------------------------------------------------------------------
+# Step 9: Main verification function
 # ---------------------------------------------------------------------------
 
 def verify_review(
     review_text: str,
-    papers: list[Paper],
+    papers:      list[Paper],
+    run_id:      str | None = None,
 ) -> dict:
     """
     Verify all citations in a generated literature review.
 
     Process for each citation:
-        1. Try to match against locally retrieved papers.
-        2. If no local match, search OpenAlex directly.
-        3. Classify as valid / partial / hallucinated.
+        1. Extract (Author, Year) citations from review text.
+        2. Try local match against retrieved papers (fast, no API).
+        3. If local confidence < 0.45, try OpenAlex live lookup.
+        4. Classify as VALID / PARTIAL / HALLUCINATED.
+        5. Assign confidence score and error type.
+        6. Build Citation model for Assembler Agent.
+        7. Build structured log entry for annotation/FPR.
+        8. Save all logs to JSON file.
+        9. Return full results dict.
 
     Parameters
     ----------
     review_text : str
-        The generated literature review text from Summariser Agent.
+        Generated literature review from Summariser Agent.
     papers : list[Paper]
-        Papers retrieved by the Search Agent (used for local matching).
+        Papers retrieved by Search Agent (used for local matching).
+    run_id : str | None
+        Optional run ID for log file naming. Auto-generated if None.
 
     Returns
     -------
-    dict with keys:
-        total           : int   - total citations found
-        valid           : int   - exactly matched citations
-        partial         : int   - year-off-by-one citations
-        hallucinated    : int   - citations with no match found
-        hallucination_rate : float - hallucinated / total
-        citations       : list[Citation] - detailed per-citation results
+    dict:
+        total              : int
+        valid              : int
+        partial            : int
+        hallucinated       : int
+        hallucination_rate : float   (hallucinated / total)
+        citations          : list[Citation]  (for Assembler Agent)
+        logs               : list[dict]      (for annotation/FPR)
     """
+    # Auto-generate run ID if not provided
+    if run_id is None:
+        run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     print("\n[VerifierAgent] Starting citation verification...")
+    print(f"[VerifierAgent] Local corpus  : {len(papers)} papers")
 
-    # Step 1: Extract citations from review text
+    # ----------------------------------------------------------------
+    # Step 1: Extract all citations from review text
+    # ----------------------------------------------------------------
     raw_citations = extract_citations(review_text)
-    print(f"[VerifierAgent] Found {len(raw_citations)} unique citations in review.")
+    print(f"[VerifierAgent] Found {len(raw_citations)} unique citations.")
 
+    # Handle empty case
     if not raw_citations:
         print("[VerifierAgent] No citations found to verify.")
         return {
-            "total": 0,
-            "valid": 0,
-            "partial": 0,
-            "hallucinated": 0,
+            "total":              0,
+            "valid":              0,
+            "partial":            0,
+            "hallucinated":       0,
             "hallucination_rate": 0.0,
-            "citations": [],
+            "citations":          [],
+            "logs":               [],
         }
 
-    # Step 2: Verify each citation
-    results: list[Citation] = []
-    valid_count = 0
-    partial_count = 0
+    # ----------------------------------------------------------------
+    # Step 2: Verify each citation one by one
+    # ----------------------------------------------------------------
+    citation_objects: list[Citation] = []
+    logs:             list[dict]     = []
+
+    valid_count        = 0
+    partial_count      = 0
     hallucinated_count = 0
 
     for cit in raw_citations:
@@ -288,60 +579,125 @@ def verify_review(
 
         print(f"\n[VerifierAgent] Checking: {raw}")
 
-        # --- Try local match first ---
-        matched_paper, status = _match_locally(author, year, papers)
+        # --- Try local match first (no API call) ---
+        matched_paper, confidence = _match_locally(author, year, papers)
+        source = "local"
 
-        # --- If no local match, try OpenAlex ---
-        if status == "no_match":
-            print(f"  → No local match. Searching OpenAlex...")
-            matched_paper, status = _match_via_openalex(author, year)
+        # --- If confidence too low, try OpenAlex live lookup ---
+        if confidence < 0.45:
+            print(
+                f"  → Low local confidence ({confidence:.2f}). "
+                f"Searching OpenAlex..."
+            )
+            oa_paper, oa_confidence = _match_via_openalex(author, year)
 
-        # --- Classify result ---
-        if status == "valid":
+            # Use OpenAlex result only if it scores better
+            if oa_confidence > confidence:
+                matched_paper = oa_paper
+                confidence    = oa_confidence
+                source        = "openalex"
+
+        # --- Determine VALID / PARTIAL / HALLUCINATED ---
+        if matched_paper and confidence >= 0.45:
+            status = _determine_status(year, matched_paper, confidence)
+        else:
+            status        = "HALLUCINATED"
+            matched_paper = None
+
+        # --- Classify error type (only for non-VALID) ---
+        error_type = (
+            None
+            if status == "VALID"
+            else _classify_error_type(author, year, matched_paper)
+        )
+
+        # --- Update counters and print result ---
+        if status == "VALID":
             valid_count += 1
-            error_reason = None
-            print(f"  → VALID ✓ — matched: '{matched_paper.title[:60]}...'")
-
-        elif status == "partial":
+            print(
+                f"  → VALID ✓  "
+                f"(conf: {confidence:.2f}, src: {source}) "
+                f"— '{(matched_paper.title or '')[:55]}...'"
+            )
+        elif status == "PARTIAL":
             partial_count += 1
-            error_reason = f"Year mismatch: cited {year}, paper year {matched_paper.year}"
-            print(f"  → PARTIAL ⚠ — year mismatch. Paper: '{matched_paper.title[:50]}...'")
-
+            print(
+                f"  → PARTIAL ⚠ "
+                f"(conf: {confidence:.2f}, {error_type}, src: {source}) "
+                f"— '{(matched_paper.title or '')[:50]}...'"
+            )
         else:
             hallucinated_count += 1
-            matched_paper = None
-            error_reason = "No matching paper found in local store or OpenAlex"
-            print(f"  → HALLUCINATED ✗ — no match found anywhere")
+            print(
+                f"  → HALLUCINATED ✗ "
+                f"(conf: {confidence:.2f}, {error_type})"
+            )
 
-        # Build Citation model
+        # --- Build Citation model (used by Assembler Agent) ---
         citation_obj = Citation(
-            raw_reference=raw,
-            matched_paper_id=matched_paper.paper_id if matched_paper else None,
-            valid=(status in ("valid", "partial")),
-            error_reason=error_reason,
+            raw_reference    = raw,
+            matched_paper_id = matched_paper.paper_id if matched_paper else None,
+            valid            = (status in ("VALID", "PARTIAL")),
+            error_reason     = error_type,
         )
-        results.append(citation_obj)
+        citation_objects.append(citation_obj)
 
+        # --- Build structured log entry (annotation + FPR tables) ---
+        log_entry = _build_log_entry(
+            raw           = raw,
+            author        = author,
+            year          = year,
+            status        = status,
+            confidence    = confidence,
+            error_type    = error_type,
+            matched_paper = matched_paper,
+            source        = source,
+        )
+        logs.append(log_entry)
+
+    # ----------------------------------------------------------------
     # Step 3: Compute hallucination rate
-    total = len(raw_citations)
-    hallucination_rate = round(hallucinated_count / total, 3) if total > 0 else 0.0
+    # ----------------------------------------------------------------
+    total              = len(raw_citations)
+    hallucination_rate = (
+        round(hallucinated_count / total, 3) if total > 0 else 0.0
+    )
 
-    # Step 4: Print summary
+    # ----------------------------------------------------------------
+    # Step 4: Save structured JSON log
+    # ----------------------------------------------------------------
+    _save_verification_log(logs, run_id)
+
+    # ----------------------------------------------------------------
+    # Step 5: Print summary
+    # ----------------------------------------------------------------
     print("\n" + "=" * 60)
     print("[VerifierAgent] VERIFICATION SUMMARY")
     print("=" * 60)
-    print(f"  Total citations   : {total}")
-    print(f"  Valid             : {valid_count}")
-    print(f"  Partial           : {partial_count}")
-    print(f"  Hallucinated      : {hallucinated_count}")
-    print(f"  Hallucination Rate: {hallucination_rate:.1%}")
+    print(f"  Total citations     : {total}")
+    print(f"  Valid               : {valid_count}")
+    print(f"  Partial             : {partial_count}")
+    print(f"  Hallucinated        : {hallucinated_count}")
+    print(f"  Hallucination Rate  : {hallucination_rate:.1%}")
     print("=" * 60)
 
+    # Error type breakdown
+    error_types = [l["error_type"] for l in logs if l["error_type"]]
+    if error_types:
+        print("\n  Error type breakdown:")
+        for etype, count in Counter(error_types).most_common():
+            print(f"    {etype:<25} : {count}")
+        print()
+
+    # ----------------------------------------------------------------
+    # Step 6: Return full results
+    # ----------------------------------------------------------------
     return {
-        "total": total,
-        "valid": valid_count,
-        "partial": partial_count,
-        "hallucinated": hallucinated_count,
-        "hallucination_rate": hallucination_rate,
-        "citations": results,
+        "total":               total,
+        "valid":               valid_count,
+        "partial":             partial_count,
+        "hallucinated":        hallucinated_count,
+        "hallucination_rate":  hallucination_rate,
+        "citations":           citation_objects,
+        "logs":                logs,
     }

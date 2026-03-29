@@ -1,0 +1,112 @@
+{
+  "run_id": "20260329_062819",
+  "timestamp": "2026-03-29T06:28:19.260114",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Gisin and Ribordy, 2002)",
+      "cited_author": "Gisin and Ribordy",
+      "cited_year": 2002,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3038067977",
+      "matched_title": "Quantum cryptography",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Nicolas Gisin",
+        "G. Ribordy",
+        "Wolfgang Tittel"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.74.145"
+    },
+    {
+      "raw_citation": "(DiVincenzo, 2000)",
+      "cited_author": "DiVincenzo",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2158605123",
+      "matched_title": "The Physical Implementation of Quantum Computation",
+      "matched_year": 2000,
+      "matched_authors": [
+        "David P. DiVincenzo"
+      ],
+      "matched_doi": "https://doi.org/10.1002/1521-3978(200009)48:9/11<771::aid-prop771>3.0.co;2-e"
+    },
+    {
+      "raw_citation": "(Vedran and Briegel, 2018)",
+      "cited_author": "Vedran and Briegel",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2792315573",
+      "matched_title": "Machine learning &amp; artificial intelligence in the quantum domain: a review o",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Vedran Dunjko",
+        "Hans J. Briegel"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1361-6633/aab406"
+    },
+    {
+      "raw_citation": "(Modi and Brodutch, 2012)",
+      "cited_author": "Modi and Brodutch",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2082014836",
+      "matched_title": "The classical-quantum boundary for correlations: Discord and related measures",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Kavan Modi",
+        "Aharon Brodutch",
+        "Hugo Cable"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.84.1655"
+    },
+    {
+      "raw_citation": "(Ryu and Schnyder, 2010)",
+      "cited_author": "Ryu and Schnyder",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1501955150",
+      "matched_title": "Topological insulators and superconductors: tenfold way and dimensional hierarch",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Shinsei Ryu",
+        "Andreas P. Schnyder",
+        "Akira Furusaki"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1367-2630/12/6/065010"
+    },
+    {
+      "raw_citation": "(Bharti and Cervera-Lierta, 2022)",
+      "cited_author": "Bharti and Cervera-Lierta",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213212652",
+      "matched_title": "Noisy intermediate-scale quantum algorithms",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kishor Bharti",
+        "Alba Cervera-Lierta",
+        "Thi Ha Kyaw"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.94.015004"
+    }
+  ]
+}

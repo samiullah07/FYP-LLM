@@ -1,0 +1,37 @@
+{
+  "built_at": "2026-03-29T04:34:46.732099",
+  "inclusion_criteria": {
+    "year_min": 2019,
+    "year_max": 2025,
+    "min_abstract_words": 30,
+    "language": "English",
+    "max_papers_per_query": 8,
+    "target_per_topic": 25,
+    "relevance_check": "keyword overlap with topic keywords"
+  },
+  "topics": {
+    "topic1": {
+      "name": "Hallucinations and Factuality in LLMs",
+      "total": 25,
+      "core": 15,
+      "peripheral": 10,
+      "year_range": [
+        2023,
+        2025
+      ]
+    },
+    "topic2": {
+      "name": "Agentic and Multi-Agent LLM Systems",
+      "total": 25,
+      "core": 20,
+      "peripheral": 5,
+      "year_range": [
+        2023,
+        2025
+      ]
+    }
+  },
+  "total_papers": 50,
+  "core_total": 35,
+  "peripheral_total": 15
+}

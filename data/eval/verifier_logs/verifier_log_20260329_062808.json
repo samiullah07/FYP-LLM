@@ -1,0 +1,128 @@
+{
+  "run_id": "20260329_062808",
+  "timestamp": "2026-03-29T06:28:11.104448",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Dunjko and Briegel, 2018)",
+      "cited_author": "Dunjko and Briegel",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2792315573",
+      "matched_title": "Machine learning &amp; artificial intelligence in the quantum domain: a review o",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Vedran Dunjko",
+        "Hans J. Briegel"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1361-6633/aab406"
+    },
+    {
+      "raw_citation": "(Klco et al., 2022)",
+      "cited_author": "Klco et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3178213288",
+      "matched_title": "Standard model physics and the digital quantum revolution: thoughts about the in",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Natalie Klco",
+        "Alessandro Roggero",
+        "Martin J. Savage"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1361-6633/ac58a4"
+    },
+    {
+      "raw_citation": "(Cerezo et al., 2021)",
+      "cited_author": "Cerezo et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111162498",
+      "matched_title": "Variational quantum algorithms",
+      "matched_year": 2021,
+      "matched_authors": [
+        "M. Cerezo",
+        "Andrew Arrasmith",
+        "Ryan Babbush"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00348-9"
+    },
+    {
+      "raw_citation": "(Bharti et al., 2022)",
+      "cited_author": "Bharti et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213212652",
+      "matched_title": "Noisy intermediate-scale quantum algorithms",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kishor Bharti",
+        "Alba Cervera-Lierta",
+        "Thi Ha Kyaw"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.94.015004"
+    },
+    {
+      "raw_citation": "(Modi et al., 2012)",
+      "cited_author": "Modi et al.",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2082014836",
+      "matched_title": "The classical-quantum boundary for correlations: Discord and related measures",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Kavan Modi",
+        "Aharon Brodutch",
+        "Hugo Cable"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.84.1655"
+    },
+    {
+      "raw_citation": "(Li et al., 2020)",
+      "cited_author": "Li et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Liu et al., 2022)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "run_id": "20260329_062622",
+  "timestamp": "2026-03-29T06:26:22.671197",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Wang et al., 2025)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409201831",
+      "matched_title": "SpatialAgent: An autonomous AI agent for spatial biology",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Hanchen Wang",
+        "Yichun He",
+        "Paula P. Coelho"
+      ],
+      "matched_doi": "https://doi.org/10.1101/2025.04.03.646459"
+    },
+    {
+      "raw_citation": "(Ghareeb et al., 2025)",
+      "cited_author": "Ghareeb et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4417287919",
+      "matched_title": "Robin: A multi-agent system for automating scientific discovery",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ali Ghareeb",
+        "Benjamin Chang",
+        "Ludovico Mitchener"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2505.13400"
+    },
+    {
+      "raw_citation": "(Rueden et al., 2021)",
+      "cited_author": "Rueden et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3006087551",
+      "matched_title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laura von Rueden",
+        "Sebastian Mayer",
+        "Katharina Beckh"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tkde.2021.3079836"
+    },
+    {
+      "raw_citation": "(Schölkopf et al., 2021)",
+      "cited_author": "Schölkopf et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3135588948",
+      "matched_title": "Toward Causal Representation Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Bernhard Schölkopf",
+        "Francesco Locatello",
+        "Stefan Bauer"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jproc.2021.3058954"
+    },
+    {
+      "raw_citation": "(Cooper and Herskovits, 1992)",
+      "cited_author": "Cooper and Herskovits",
+      "cited_year": 1992,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2008906462",
+      "matched_title": "A Bayesian Method for the Induction of Probabilistic Networks from Data",
+      "matched_year": 1992,
+      "matched_authors": [
+        "Gregory F. Cooper",
+        "Edward H. Herskovits"
+      ],
+      "matched_doi": "https://doi.org/10.1023/a:1022649401552"
+    },
+    {
+      "raw_citation": "(Heckerman et al., 1995)",
+      "cited_author": "Heckerman et al.",
+      "cited_year": 1995,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2170112109",
+      "matched_title": "Learning Bayesian Networks: The Combination of Knowledge and Statistical Data",
+      "matched_year": 1995,
+      "matched_authors": [
+        "David Heckerman",
+        "Dan Geiger",
+        "David M. Chickering"
+      ],
+      "matched_doi": "https://doi.org/10.1023/a:1022623210503"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2019)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2969625533",
+      "matched_title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challen",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Elvira Ismagilova"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+    },
+    {
+      "raw_citation": "(Floridi et al., 2018)",
+      "cited_author": "Floridi et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.75,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2902634493",
+      "matched_title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Prin",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Luciano Floridi",
+        "Josh Cowls",
+        "Monica Beltrametti"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11023-018-9482-5"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "run_id": "20260329_063340",
+  "timestamp": "2026-03-29T06:33:41.046036",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Gisin et al., 2002)",
+      "cited_author": "Gisin et al.",
+      "cited_year": 2002,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3038067977",
+      "matched_title": "Quantum cryptography",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Nicolas Gisin",
+        "G. Ribordy",
+        "Wolfgang Tittel"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.74.145"
+    },
+    {
+      "raw_citation": "(Cerezo et al., 2021)",
+      "cited_author": "Cerezo et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111162498",
+      "matched_title": "Variational quantum algorithms",
+      "matched_year": 2021,
+      "matched_authors": [
+        "M. Cerezo",
+        "Andrew Arrasmith",
+        "Ryan Babbush"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00348-9"
+    },
+    {
+      "raw_citation": "(Modi et al., 2012)",
+      "cited_author": "Modi et al.",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2082014836",
+      "matched_title": "The classical-quantum boundary for correlations: Discord and related measures",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Kavan Modi",
+        "Aharon Brodutch",
+        "Hugo Cable"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.84.1655"
+    },
+    {
+      "raw_citation": "(Dunjko and Briegel, 2018)",
+      "cited_author": "Dunjko and Briegel",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2792315573",
+      "matched_title": "Machine learning &amp; artificial intelligence in the quantum domain: a review o",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Vedran Dunjko",
+        "Hans J. Briegel"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1361-6633/aab406"
+    },
+    {
+      "raw_citation": "(Socher et al., 2013)",
+      "cited_author": "Socher et al.",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2251939518",
+      "matched_title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Richard Socher",
+        "Alex Perelygin",
+        "Jean Y. Wu"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d13-1170"
+    },
+    {
+      "raw_citation": "(Touvron et al., 2023)",
+      "cited_author": "Touvron et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322718191",
+      "matched_title": "LLaMA: Open and Efficient Foundation Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hugo Touvron",
+        "Thibaut Lavril",
+        "Gautier Izacard"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2302.13971"
+    }
+  ]
+}

@@ -150,63 +150,59 @@ def write_literature_review(
     topic: str,
 ) -> tuple[str, list[Paper]]:
     """
-    Write a 300-400 word literature review section across multiple papers.
-
-    Includes:
-        - In-text citations in Harvard format: (Author, Year)
-        - A reference list at the end in Harvard format
-        - Thematic grouping of papers where possible
-
-    Parameters
-    ----------
-    papers : list[Paper]
-        Papers retrieved and deduplicated by the Search Agent.
-    topic  : str
-        The original research topic (used to frame the review).
-
-    Returns
-    -------
-    tuple[str, list[Paper]]
-        (review_text, papers_used)
-        review_text  : the generated literature review string
-        papers_used  : the subset of papers passed to the LLM
+    Write a strict literature review — ONLY cite retrieved papers.
     """
     client = _get_groq_client()
-
-    # Cap number of papers to avoid context overflow
     papers_used = papers[:MAX_PAPERS_IN_REVIEW]
 
-    # Format paper list for the prompt
+    # Format with full details so LLM can cite accurately
     paper_list_str = "\n".join(
-        f"- {_format_paper_for_prompt(p)}"
-        for p in papers_used
+        f"[{i+1}] Title: {p.title}\n"
+        f"    Authors: {', '.join(p.authors[:3]) if p.authors else 'Unknown'}\n"
+        f"    Year: {p.year or 'Unknown'}\n"
+        f"    Venue: {p.venue or 'Unknown'}\n"
+        f"    DOI: {p.doi or 'N/A'}"
+        for i, p in enumerate(papers_used)
     )
 
     prompt = (
-        "You are an expert academic writer helping a student write a "
-        "literature review for their MSc Data Science dissertation.\n\n"
+        f"You are an expert academic writer.\n\n"
         f"Topic: {topic}\n\n"
-        "Using ONLY the papers listed below, write a literature review "
-        "section of 300-400 words.\n\n"
-        "Requirements:\n"
-        "  1. Use in-text citations in Harvard format: (Author, Year)\n"
-        "  2. Group related papers thematically where possible\n"
-        "  3. Highlight agreements, disagreements, and research gaps\n"
-        "  4. End with a full reference list in Harvard format\n"
-        "  5. Do NOT invent or hallucinate papers not in the list below\n"
-        "  6. Only cite papers from the list provided\n\n"
-        "Available papers:\n"
+        f"Write a literature review of 350-450 words using ONLY the papers below.\n\n"
+        f"CRITICAL RULES:\n"
+        f"1. You MUST ONLY cite papers from the numbered list below\n"
+        f"2. Use Harvard format: (First Author et al., Year) or (Author, Year)\n"
+        f"3. Use the EXACT author surname and year from the list\n"
+        f"4. DO NOT invent any paper not in the list\n"
+        f"5. DO NOT use your general training knowledge for citations\n"
+        f"6. Every claim needs a citation from the list\n"
+        f"7. End with References section listing ONLY cited papers\n\n"
+        f"Available papers (cite ONLY from this list):\n"
         f"{paper_list_str}"
     )
 
-    response = client.chat.completions.create(
-        model=settings.llm_model,
-        messages=[{"role": "user", "content": prompt}],
-        max_tokens=MAX_TOKENS_REVIEW,
-        temperature=0.4,
-    )
-
-    review_text = response.choices[0].message.content.strip()
+    try:
+        response = client.chat.completions.create(
+            model=settings.llm_model,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a strict academic writer. "
+                        "You NEVER invent citations. "
+                        "You ONLY cite papers explicitly provided to you. "
+                        "If you are unsure, do not cite rather than guess."
+                    ),
+                },
+                {"role": "user", "content": prompt},
+            ],
+            max_tokens=2000,
+            temperature=0.2,  # LOW temperature = strict, factual output
+        )
+        review_text = response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"[SummariserAgent] ERROR: {e}")
+        review_text = ""
 
     print(f"[SummariserAgent] Literature review written ({len(review_text)} chars)")
     print(f"[SummariserAgent] Papers used: {len(papers_used)}")
