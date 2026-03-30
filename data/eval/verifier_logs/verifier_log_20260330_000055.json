@@ -1,0 +1,25 @@
+{
+  "run_id": "20260330_000055",
+  "timestamp": "2026-03-30T00:00:55.924949",
+  "total": 1,
+  "entries": [
+    {
+      "raw_citation": "(Kamran Shaukat et al., 2020)",
+      "cited_author": "Kamran Shaukat et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3108671495",
+      "matched_title": "A Survey on Machine Learning Techniques for Cyber Security in the Last Decade",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Kamran Shaukat",
+        "Suhuai Luo",
+        "Vijay Varadharajan"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.3041951"
+    }
+  ]
+}

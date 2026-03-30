@@ -1,0 +1,178 @@
+{
+  "run_id": "20260330_004700",
+  "timestamp": "2026-03-30T00:47:03.022525",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Wolf et al., 2019)",
+      "cited_author": "Wolf et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2980282514",
+      "matched_title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Thomas Wolf",
+        "Lysandre Debut",
+        "Victor Sanh"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1910.03771"
+    },
+    {
+      "raw_citation": "(Gokul et al., 2024)",
+      "cited_author": "Gokul et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394828356",
+      "matched_title": "GPT (Generative Pre-Trained Transformer)— A Comprehensive Review on Enabling Tec",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Gokul Yenduri",
+        "M. Ramalingam",
+        "G. Chemmalar Selvi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2024.3389497"
+    },
+    {
+      "raw_citation": "(Evans et al., 2023)",
+      "cited_author": "Evans et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327737695",
+      "matched_title": "A Systematic Review of Transformer-Based Pre-Trained Language Models through Sel",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Evans Kotei",
+        "Ramkumar Thirunavukarasu"
+      ],
+      "matched_doi": "https://doi.org/10.3390/info14030187"
+    },
+    {
+      "raw_citation": "(Kun et al., 2018)",
+      "cited_author": "Kun et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2796167946",
+      "matched_title": "Graph2Seq: Graph to Sequence Learning with Attention-based Neural Networks",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Kun Xu",
+        "Lingfei Wu",
+        "Zhiguo Wang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1804.00823"
+    },
+    {
+      "raw_citation": "(Haohuai et al., 2024)",
+      "cited_author": "Haohuai et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401478001",
+      "matched_title": "De novo generation of SARS-CoV-2 antibody CDRH3 with a pre-trained generative la",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haohuai He",
+        "Bing He",
+        "Lei Guan"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-024-50903-y"
+    },
+    {
+      "raw_citation": "(Ji et al., 2020)",
+      "cited_author": "Ji et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Ning et al., 2021)",
+      "cited_author": "Ning et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3167536469",
+      "matched_title": "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Trackin",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Ning Wang",
+        "Wengang Zhou",
+        "Jie Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr46437.2021.00162"
+    },
+    {
+      "raw_citation": "(Ali et al., 2022)",
+      "cited_author": "Ali et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4212875960",
+      "matched_title": "UNETR: Transformers for 3D Medical Image Segmentation",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Ali Hatamizadeh",
+        "Yucheng Tang",
+        "Vishwesh Nath"
+      ],
+      "matched_doi": "https://doi.org/10.1109/wacv51458.2022.00181"
+    },
+    {
+      "raw_citation": "(Ce et al., 2021)",
+      "cited_author": "Ce et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Haoyi et al., 2021)",
+      "cited_author": "Haoyi et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3177318507",
+      "matched_title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Haoyi Zhou",
+        "Shanghang Zhang",
+        "Jieqi Peng"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v35i12.17325"
+    }
+  ]
+}

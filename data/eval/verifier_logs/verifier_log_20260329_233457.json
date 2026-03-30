@@ -1,0 +1,77 @@
+{
+  "run_id": "20260329_233457",
+  "timestamp": "2026-03-29T23:34:57.895911",
+  "total": 4,
+  "entries": [
+    {
+      "raw_citation": "(Lund et al., 2023)",
+      "cited_author": "Lund et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323848232",
+      "matched_title": "<scp>ChatGPT</scp> and a new academic reality: <scp>Artificial Intelligence‐writ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Brady Lund",
+        "Ting Wang",
+        "Nishith Reddy Mannuru"
+      ],
+      "matched_doi": "https://doi.org/10.1002/asi.24750"
+    },
+    {
+      "raw_citation": "(Cotton et al., 2023)",
+      "cited_author": "Cotton et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4324046518",
+      "matched_title": "Chatting and cheating: Ensuring academic integrity in the era of ChatGPT",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Debby Cotton",
+        "Peter A. Cotton",
+        "J. Reuben Shipway"
+      ],
+      "matched_doi": "https://doi.org/10.1080/14703297.2023.2190148"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2019)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2969625533",
+      "matched_title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challen",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Elvira Ismagilova"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+    },
+    {
+      "raw_citation": "(Grassini, 2023)",
+      "cited_author": "Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    }
+  ]
+}

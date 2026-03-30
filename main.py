@@ -214,6 +214,13 @@ def parse_args():
         default=2,
         help="Number of topics to evaluate in evaluate mode (default: 2)",
     )
+    parser.add_argument(
+        "--file",
+        type=str,
+        default=None,
+        help="Path to PDF, DOCX, or TXT file to use as topic input",
+    )
+
 
     return parser.parse_args()
 
@@ -245,6 +252,19 @@ def main():
 
     elif args.mode == "evaluate":
         run_evaluate_mode(args.topics)
+    
+    # Handle file input
+    if args.file:
+        from src.document_reader import load_input, extract_topic_from_document
+        print(f"[Main] Reading input file: {args.file}")
+        raw_text = load_input(args.file, mode="auto")
+        if len(raw_text) > 500:
+            topic = extract_topic_from_document(raw_text)
+        else:
+            topic = raw_text
+        print(f"[Main] Topic: {topic}")
+    else:
+        topic = args.topic or default_topic
 
 
 if __name__ == "__main__":

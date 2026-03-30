@@ -1,0 +1,191 @@
+{
+  "run_id": "20260329_224253",
+  "timestamp": "2026-03-29T22:43:04.426809",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Marcus et al., 2020)",
+      "cited_author": "Marcus et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.925,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4398814909",
+      "matched_title": "Kurtz, Marcus and Adam Lauretig, 2020, \"Replication Data for \"Does Free-Market R",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Marcus J. Kurtz"
+      ],
+      "matched_doi": "https://doi.org/10.7910/dvn/wu2wse"
+    },
+    {
+      "raw_citation": "(Bender et al., 2021)",
+      "cited_author": "Bender et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Hinton et al., 2022)",
+      "cited_author": "Hinton et al.",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Sutton et al., 2018)",
+      "cited_author": "Sutton et al.",
+      "cited_year": 2018,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Liu et al., 2020)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    },
+    {
+      "raw_citation": "(Lin et al., 2022)",
+      "cited_author": "Lin et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.925,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4385565879",
+      "matched_title": "Few-shot Learning with Multilingual Generative Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Xi Victoria Lin",
+        "Todor Mihaylov",
+        "Mikel Artetxe"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.emnlp-main.616"
+    },
+    {
+      "raw_citation": "(Thorne et al., 2021)",
+      "cited_author": "Thorne et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3212606841",
+      "matched_title": "The Fact Extraction and VERification Over Unstructured and Structured informatio",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Rami Aly",
+        "Zhijiang Guo",
+        "Michael Schlichtkrull"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.fever-1.1"
+    },
+    {
+      "raw_citation": "(Patel et al., 2021)",
+      "cited_author": "Patel et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383913712",
+      "matched_title": "Human resource management in the age of generative artificial intelligence: Pers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pawan Budhwar",
+        "Soumyadeb Chowdhury",
+        "Geoffrey Wood"
+      ],
+      "matched_doi": "https://doi.org/10.1111/1748-8583.12524"
+    },
+    {
+      "raw_citation": "(Chen et al., 2022)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.762,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Adadi et al., 2021)",
+      "cited_author": "Adadi et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "MISATTRIBUTION",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381587418",
+      "matched_title": "Opportunities and challenges for ChatGPT and large language models in biomedicin",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shubo Tian",
+        "Qiao Jin",
+        "Lana Yeganova"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbad493"
+    },
+    {
+      "raw_citation": "(Wang et al., 2022)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.762,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    }
+  ]
+}

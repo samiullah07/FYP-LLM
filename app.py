@@ -16,15 +16,45 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from app_styles import CSS
-
 st.set_page_config(
     page_title="LitReview Agent",
     page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.markdown(CSS, unsafe_allow_html=True)
+
+# Inline CSS styles
+st.markdown("""
+<style>
+html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+.stApp { background-color: #f4f6fb; }
+[data-testid="stSidebar"] { background: linear-gradient(180deg, #1a2b5e 0%, #0d1b3e 100%); }
+[data-testid="stSidebar"] * { color: white !important; }
+.header-banner { background: linear-gradient(135deg, #1a2b5e 0%, #0d47a1 50%, #1565c0 100%); padding: 28px 32px; border-radius: 16px; margin-bottom: 24px; display: flex; align-items: center; gap: 20px; box-shadow: 0 4px 20px rgba(26,43,94,0.3); }
+.header-title { color: white; font-size: 1.8rem; font-weight: 700; margin: 0; line-height: 1.2; }
+.header-subtitle { color: #a8d4f5; font-size: 0.9rem; margin: 6px 0 0 0; }
+.metric-card { background: white; border-radius: 12px; padding: 20px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border-left: 5px solid #1a2b5e; margin-bottom: 16px; text-align: center; }
+.metric-card-green { border-left-color: #2e7d32; }
+.metric-card-red { border-left-color: #c62828; }
+.metric-card-orange { border-left-color: #ef6c00; }
+.metric-card-blue { border-left-color: #1565c0; }
+.metric-card-teal { border-left-color: #00695c; }
+.metric-value { font-size: 2.2rem; font-weight: 700; color: #1a2b5e; line-height: 1; }
+.metric-label { font-size: 0.8rem; color: #6b7280; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 6px; }
+.section-card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 20px; }
+.section-title { font-size: 1.05rem; font-weight: 600; color: #1a2b5e; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; }
+.agent-step { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 8px; margin-bottom: 8px; font-size: 0.9rem; font-weight: 500; }
+.step-pending { background:#f3f4f6; color:#9ca3af; }
+.step-running { background:#dbeafe; color:#1d4ed8; border:1px solid #93c5fd; }
+.step-done { background:#d1fae5; color:#065f46; }
+.step-error { background:#fee2e2; color:#991b1b; }
+.badge-valid { background:#d1fae5; color:#065f46; padding:3px 10px; border-radius:12px; font-size:0.78rem; font-weight:600; }
+.badge-partial { background:#fef3c7; color:#92400e; padding:3px 10px; border-radius:12px; font-size:0.78rem; font-weight:600; }
+.badge-hallucinated { background:#fee2e2; color:#991b1b; padding:3px 10px; border-radius:12px; font-size:0.78rem; font-weight:600; }
+.review-box { background: #fafafa; border: 1px solid #e5e7eb; border-radius: 10px; padding: 20px; font-size: 0.92rem; line-height: 1.8; color: #374151; max-height: 420px; overflow-y: auto; white-space: pre-wrap; }
+.citation-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border-radius: 8px; background: #f9fafb; border: 1px solid #e5e7eb; margin-bottom: 8px; font-size: 0.88rem; }
+</style>
+""", unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------------------
@@ -215,21 +245,68 @@ def page_run_experiment(model, max_papers):
         "topic",
         value=st.session_state.get("topic", ""),
         height=80,
-        placeholder="e.g. Agentic AI for reliable academic literature review and hallucination mitigation",
+        placeholder=(
+            "e.g. Agentic AI for reliable academic literature review "
+            "and hallucination mitigation"
+        ),
         label_visibility="collapsed",
+        key="topic_input",          # ADD THIS KEY
     )
+    st.session_state["topic"] = topic
     sc_close()
+    if topic.strip():
+        st.session_state["topic"] = topic.strip()
+
+    # Add file upload option
+    st.markdown("**Or upload a research document:**")
+
+    uploaded_file = st.file_uploader(
+        "Upload PDF, DOCX, or TXT file",
+        type=["pdf", "docx", "txt"],
+        help=(
+            "Upload a research brief, paper, or document. "
+            "The system will extract the topic automatically."
+        ),
+    )
+
+    if uploaded_file is not None:
+        import tempfile
+        import os
+
+        suffix = Path(uploaded_file.name).suffix
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+            tmp.write(uploaded_file.read())
+            tmp_path = tmp.name
+
+        try:
+            from src.document_reader import load_input, extract_topic_from_document
+
+            with st.spinner(f"Reading {uploaded_file.name}..."):
+                raw_text = load_input(tmp_path, mode="auto")
+                if len(raw_text) > 500:
+                    with st.spinner("Extracting research topic from document..."):
+                        extracted_topic = extract_topic_from_document(raw_text)
+                    st.success(f"Topic extracted: **{extracted_topic}**")
+                    st.session_state["topic"] = extracted_topic
+                else:
+                    st.session_state["topic"] = raw_text
+                    st.success("Document loaded as topic.")
+        except Exception as e:
+            st.error(f"Could not read file: {e}")
+        finally:
+            os.unlink(tmp_path)
+
 
     st.markdown("**Or choose a preset:**")
-    p1, p2, p3 = st.columns(3)
     presets = [
         "Hallucination detection and mitigation in large language models",
         "Retrieval augmented generation for reducing LLM hallucinations",
         "Multi-agent systems for automated academic literature review",
     ]
-    for i, (col, preset) in enumerate(zip([p1, p2, p3], presets)):
+    preset_cols = st.columns(3)   # ← ADD THIS LINE
+    for i, (col, preset) in enumerate(zip(preset_cols, presets)):
         with col:
-            if st.button(f"📌 {preset[:45]}...", key=f"p{i}", use_container_width=True):
+            if st.button(f"📌 {preset[:45]}...", key=f"preset_{i}", use_container_width=True):
                 st.session_state["topic"] = preset
                 st.rerun()
 
@@ -242,17 +319,21 @@ def page_run_experiment(model, max_papers):
     with c3:
         run_both = st.button("⚖️ Run Both\n(Full Comparison)", use_container_width=True)
 
-    if (run_exp or run_base or run_both) and not topic.strip():
-        st.error("Please enter a research topic.")
+    # Get topic from text area OR session state
+    # (Streamlit sometimes loses text area value on button click)
+    active_topic = topic.strip() if topic.strip() else st.session_state.get("topic", "").strip()
+
+    if (run_exp or run_base or run_both) and not active_topic:
+        st.error("Please enter a research topic before running.")
         return
 
     if run_exp or run_both:
-        st.session_state["topic"] = topic
-        run_experimental(topic)
+        st.session_state["topic"] = active_topic
+        run_experimental(active_topic)
 
     if run_base or run_both:
-        st.session_state["topic"] = topic
-        run_baseline(topic)
+        st.session_state["topic"] = active_topic
+        run_baseline(active_topic)
 
     if st.session_state["pipeline_state"] or st.session_state["baseline_state"]:
         show_results()
@@ -415,21 +496,39 @@ def show_system(state, system):
     with cc:
         sc_open("Citation Verification")
         citations = state.get("citation_details", [])
+        # REPLACE the citations loop in show_system() with this:
         if citations:
             for cit in citations:
                 raw    = getattr(cit, "raw_reference", str(cit))
-                valid  = getattr(cit, "valid", None)
-                reason = getattr(cit, "error_reason", None)
+                valid  = getattr(cit, "valid",         None)
+                reason = getattr(cit, "error_reason",  None)
+
+                # Status badge
                 if valid is True and not reason:
-                    badge = '<span class="badge-valid">VALID</span>'
+                    badge  = '<span class="badge-valid">✓ VALID</span>'
                 elif valid is True and reason:
-                    badge = '<span class="badge-partial">PARTIAL</span>'
+                    badge  = f'<span class="badge-partial">⚠ PARTIAL</span>'
                 else:
-                    badge = '<span class="badge-hallucinated">HALLUCINATED</span>'
+                    error_label = reason or "No match found"
+                    badge  = f'<span class="badge-hallucinated">✗ HALLUCINATED</span>'
+
+                # Error type pill
+                error_pill = ""
+                if reason:
+                    pill_colour = "#fef3c7" if valid else "#fee2e2"
+                    text_colour = "#92400e" if valid else "#991b1b"
+                    error_pill = (
+                        f'<span style="font-size:0.7rem;background:{pill_colour};'
+                        f'color:{text_colour};padding:2px 6px;border-radius:8px;'
+                        f'margin-left:6px;">{reason}</span>'
+                    )
+
                 st.markdown(
                     f'<div class="citation-row">'
-                    f'<span style="font-size:0.83rem;color:#374151;">{raw}</span>'
-                    f'{badge}</div>',
+                    f'<span style="font-size:0.83rem;color:#374151;'
+                    f'max-width:55%;overflow:hidden;">{raw}</span>'
+                    f'<span>{badge}{error_pill}</span>'
+                    f'</div>',
                     unsafe_allow_html=True,
                 )
         else:
@@ -446,6 +545,33 @@ def show_system(state, system):
                     unsafe_allow_html=True,
                 )
             sc_close()
+    # Add latency and cost display for experimental system
+    if is_exp:
+        latency = state.get("latency_seconds", 0)
+        tokens  = state.get("token_estimate",  0)
+
+        # Cost estimate (Groq llama-3.3-70b pricing)
+        cost_usd = (tokens / 1_000_000) * 0.79
+
+        ca, cb, cc = st.columns(3)
+        with ca:
+            mc(
+                f"{latency}s",
+                "Pipeline Latency",
+                "teal",
+            )
+        with cb:
+            mc(
+                f"~{tokens:,}",
+                "Token Estimate",
+                "blue",
+            )
+        with cc:
+            mc(
+                f"${cost_usd:.4f}",
+                "Est. Cost (USD)",
+                "orange",
+            )
 
 
 def show_comparison(base, exp):
@@ -693,11 +819,11 @@ def page_about():
     with col2:
         sc_open("Project Details")
         for label, value in [
-            ("Student",    "Sami Ullah"),
-            ("Degree",     "MSc Data Science and Analytics"),
+            ("Student", "Sami Ullah"),
+            ("Degree", "MSc Data Science and Analytics"),
             ("University", "University of Hertfordshire"),
-            ("Module",     "Final Year Project"),
-            ("Year",       "2025–2026"),
+            ("Module", "Final Year Project"),
+            ("Year", "2025–2026"),
         ]:
             st.markdown(
                 f'<div style="padding:8px 0;border-bottom:1px solid #f3f4f6;">'
@@ -721,9 +847,11 @@ def page_about():
             ("app.py",        "Streamlit frontend"),
         ]:
             st.markdown(
-                f'<div style="display:flex;justify-content:space-between;'
-                f'padding:5px 0;border-bottom:1px solid #f9fafb;font-size:0.83rem;">'
-                f'de style="color:#1565c0;">{fname}</code>'
+                f'<div style="display:flex;'
+                f'justify-content:space-between;'
+                f'padding:5px 0;border-bottom:1px solid #f9fafb;'
+                f'font-size:0.83rem;">'
+                f'<code style="color:#1565c0;">{fname}</code>'
                 f'<span style="color:#9ca3af;">{desc}</span></div>',
                 unsafe_allow_html=True,
             )

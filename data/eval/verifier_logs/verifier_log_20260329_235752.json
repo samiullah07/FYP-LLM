@@ -1,0 +1,114 @@
+{
+  "run_id": "20260329_235752",
+  "timestamp": "2026-03-29T23:57:52.656587",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Wan Zhang et al., 2025)",
+      "cited_author": "Wan Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408145721",
+      "matched_title": "Hallucination Mitigation for Retrieval-Augmented Large Language Models: A Review",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Wan Zhang",
+        "Jing Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/math13050856"
+    },
+    {
+      "raw_citation": "(Josip Vrdoljak et al., 2025)",
+      "cited_author": "Josip Vrdoljak et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408286179",
+      "matched_title": "A Review of Large Language Models in Medical Education, Clinical Decision Suppor",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Josip Vrdoljak",
+        "Zvonimir Boban",
+        "Marino Vilović"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare13060603"
+    },
+    {
+      "raw_citation": "(Kurt Shuster et al., 2021)",
+      "cited_author": "Kurt Shuster et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3155807546",
+      "matched_title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Kurt Shuster",
+        "Spencer Poff",
+        "Moya Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp.320"
+    },
+    {
+      "raw_citation": "(Gongbo Zhang et al., 2025)",
+      "cited_author": "Gongbo Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4410030662",
+      "matched_title": "Leveraging long context in retrieval augmented language models for medical quest",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Gongbo Zhang",
+        "Zihan Xu",
+        "Qiao Jin"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-025-01651-w"
+    },
+    {
+      "raw_citation": "(Yanming Liu et al., 2024)",
+      "cited_author": "Yanming Liu et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402670862",
+      "matched_title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterat",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Yanming Liu",
+        "Xinyue Peng",
+        "Xuhong Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.findings-acl.281"
+    },
+    {
+      "raw_citation": "(Sebastian Farquhar et al., 2024)",
+      "cited_author": "Sebastian Farquhar et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399803256",
+      "matched_title": "Detecting hallucinations in large language models using semantic entropy",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Sebastian Farquhar",
+        "Jannik Kossen",
+        "Lorenz Kuhn"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-07421-0"
+    }
+  ]
+}

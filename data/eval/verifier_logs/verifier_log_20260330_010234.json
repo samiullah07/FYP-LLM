@@ -1,0 +1,253 @@
+{
+  "run_id": "20260330_010234",
+  "timestamp": "2026-03-30T01:02:36.407523",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Technical Report, 2023)",
+      "cited_author": "Technical Report",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Firoj Alam et al., 2021)",
+      "cited_author": "Firoj Alam et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3101118213",
+      "matched_title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Firoj Alam",
+        "Shaden Shaar",
+        "Fahim Dalvi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp"
+    },
+    {
+      "raw_citation": "(Yejin Bang et al., 2023)",
+      "cited_author": "Yejin Bang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392669753",
+      "matched_title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Halluc",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yejin Bang",
+        "Samuel Cahyawijaya",
+        "Nayeon Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.ijcnlp-main.45"
+    },
+    {
+      "raw_citation": "(Stephanie Lin et al., 2022)",
+      "cited_author": "Stephanie Lin et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3201174429",
+      "matched_title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Stephanie Lin",
+        "Jacob Hilton",
+        "Owain Evans"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.acl-long.229"
+    },
+    {
+      "raw_citation": "(Dave Van Veen et al., 2024)",
+      "cited_author": "Dave Van Veen et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392193048",
+      "matched_title": "Adapted large language models can outperform medical experts in clinical text su",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Dave Van Veen",
+        "Cara Van Uden",
+        "Louis Blankemeier"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-024-02855-5"
+    },
+    {
+      "raw_citation": "(Shubo Tian et al., 2023)",
+      "cited_author": "Shubo Tian et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381587418",
+      "matched_title": "Opportunities and challenges for ChatGPT and large language models in biomedicin",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shubo Tian",
+        "Qiao Jin",
+        "Lana Yeganova"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbad493"
+    },
+    {
+      "raw_citation": "(Yunxiang Li et al., 2023)",
+      "cited_author": "Yunxiang Li et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381930847",
+      "matched_title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (L",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunxiang Li",
+        "Zihan Li",
+        "Kai Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.7759/cureus.40895"
+    },
+    {
+      "raw_citation": "(Caleb Ziems et al., 2023)",
+      "cited_author": "Caleb Ziems et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389636360",
+      "matched_title": "Can Large Language Models Transform Computational Social Science?",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Caleb Ziems",
+        "William A. Held",
+        "Omar Ahmed Shaikh"
+      ],
+      "matched_doi": "https://doi.org/10.1162/coli_a_00502"
+    },
+    {
+      "raw_citation": "(Jingfeng Yang et al., 2024)",
+      "cited_author": "Jingfeng Yang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392240262",
+      "matched_title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jingfeng Yang",
+        "Hongye Jin",
+        "Ruixiang Tang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3649506"
+    },
+    {
+      "raw_citation": "(Haotian Liu et al., 2023)",
+      "cited_author": "Haotian Liu et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366330503",
+      "matched_title": "Visual Instruction Tuning",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Haotian Liu",
+        "Chunyuan Li",
+        "Qingyang Wu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2304.08485"
+    },
+    {
+      "raw_citation": "(Mohaimenul Azam Khan Raiaan et al., 2024)",
+      "cited_author": "Mohaimenul Azam Khan Raiaan et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391855109",
+      "matched_title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mohaimenul Azam Khan Raiaan",
+        "Md. Saddam Hossain Mukta",
+        "Kaniz Fatema"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2024.3365742"
+    },
+    {
+      "raw_citation": "(Pawan Budhwar et al., 2023)",
+      "cited_author": "Pawan Budhwar et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383913712",
+      "matched_title": "Human resource management in the age of generative artificial intelligence: Pers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pawan Budhwar",
+        "Soumyadeb Chowdhury",
+        "Geoffrey Wood"
+      ],
+      "matched_doi": "https://doi.org/10.1111/1748-8583.12524"
+    },
+    {
+      "raw_citation": "(Sangmin Park et al., 2022)",
+      "cited_author": "Sangmin Park et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Roumeliotis et al., 2023)",
+      "cited_author": "Roumeliotis et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378574344",
+      "matched_title": "ChatGPT and Open-AI Models: A Preliminary Review",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Konstantinos I. Roumeliotis",
+        "Nikolaos D. Tselikas"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15060192"
+    }
+  ]
+}

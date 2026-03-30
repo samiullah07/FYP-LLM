@@ -1,0 +1,125 @@
+{
+  "run_id": "20260330_003131",
+  "timestamp": "2026-03-30T00:31:31.693740",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Piccinini, 2003)",
+      "cited_author": "Piccinini",
+      "cited_year": 2003,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1526700759",
+      "matched_title": "Computations and Computers in the Sciences of Mind and Brain",
+      "matched_year": 2003,
+      "matched_authors": [
+        "Gualtiero Piccinini"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Saygın et al., 2000)",
+      "cited_author": "Saygın et al.",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1648383461",
+      "matched_title": "Turing Test: 50 Years Later",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Ayşe Pınar Saygın",
+        "Ilyas Cicekli",
+        "Varol Akman"
+      ],
+      "matched_doi": "https://doi.org/10.1023/a:1011288000451"
+    },
+    {
+      "raw_citation": "(Wang, 2019)",
+      "cited_author": "Wang",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2969912247",
+      "matched_title": "On Defining Artificial Intelligence",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Pei Wang"
+      ],
+      "matched_doi": "https://doi.org/10.2478/jagi-2019-0002"
+    },
+    {
+      "raw_citation": "(Denning and Tedre, 2021)",
+      "cited_author": "Denning and Tedre",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3182123655",
+      "matched_title": "Computational Thinking: A Disciplinary Perspective",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Peter J. Denning",
+        "Matti Tedre"
+      ],
+      "matched_doi": "https://doi.org/10.15388/infedu.2021.21"
+    },
+    {
+      "raw_citation": "(Tedre and Moisseinen, 2014)",
+      "cited_author": "Tedre and Moisseinen",
+      "cited_year": 2014,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1978378806",
+      "matched_title": "Experiments in Computing: A Survey",
+      "matched_year": 2014,
+      "matched_authors": [
+        "Matti Tedre",
+        "Nella Moisseinen"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2014/549398"
+    },
+    {
+      "raw_citation": "(Fernandez and Vico, 2013)",
+      "cited_author": "Fernandez and Vico",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2103498773",
+      "matched_title": "AI Methods in Algorithmic Composition: A Comprehensive Survey",
+      "matched_year": 2013,
+      "matched_authors": [
+        "J.D. Fernandez",
+        "F. Vico"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.3908"
+    },
+    {
+      "raw_citation": "(Piccinini and Scarantino, 2010)",
+      "cited_author": "Piccinini and Scarantino",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2070269130",
+      "matched_title": "Information processing, computation, and cognition",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Gualtiero Piccinini",
+        "Andrea Scarantino"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10867-010-9195-3"
+    }
+  ]
+}

@@ -79,6 +79,10 @@ class ReviewState(TypedDict):
     # Run metadata
     run_id: str
     prompt_version: str
+    retry_count: int
+    latency_seconds: float
+    token_estimate: int
+
 
 
 # ---------------------------------------------------------------------------
@@ -198,103 +202,105 @@ def assembler_node(state: ReviewState) -> ReviewState:
 
     return state
 
+# 2. Add routing function after verifier
+def should_retry(state: ReviewState) -> str:
+    """
+    Route: if hallucination rate > 30% and retry < 1, go back to summariser.
+    Otherwise proceed to assembler.
+    This implements the self-correcting agentic behaviour.
+    """
+    hall_rate   = state.get("hallucination_rate", 0)
+    retry_count = state.get("retry_count", 0)
 
+    if hall_rate > 0.30 and retry_count < 1:
+        print(
+            f"\n[Graph] ⚠️  High hallucination rate ({hall_rate:.1%}). "
+            f"Retrying summariser (attempt {retry_count + 1})..."
+        )
+        state["retry_count"] = retry_count + 1
+        return "retry"
+
+    print(f"\n[Graph] ✅ Hallucination rate acceptable ({hall_rate:.1%}). Proceeding.")
+    return "continue"
 # ---------------------------------------------------------------------------
 # Build and compile the LangGraph workflow
 # ---------------------------------------------------------------------------
 
 def build_workflow():
-    """
-    Build the full 5-node LangGraph pipeline.
-
-    Graph:
-        START → planner → search → summariser → verifier → assembler → END
-    """
     graph = StateGraph(ReviewState)
 
-    # Register all nodes
     graph.add_node("planner",    planner_node)
     graph.add_node("search",     search_node)
     graph.add_node("summariser", summariser_node)
     graph.add_node("verifier",   verifier_node)
     graph.add_node("assembler",  assembler_node)
 
-    # Define sequential edges
     graph.add_edge(START,        "planner")
     graph.add_edge("planner",    "search")
     graph.add_edge("search",     "summariser")
     graph.add_edge("summariser", "verifier")
-    graph.add_edge("verifier",   "assembler")
-    graph.add_edge("assembler",  END)
 
+    # CONDITIONAL EDGE: retry or continue
+    graph.add_conditional_edges(
+        "verifier",
+        should_retry,
+        {
+            "retry":    "summariser",  # go back to rewrite
+            "continue": "assembler",   # proceed to final
+        },
+    )
+
+    graph.add_edge("assembler", END)
     return graph.compile()
-
 
 # ---------------------------------------------------------------------------
 # Run workflow
 # ---------------------------------------------------------------------------
 
 def run_workflow(topic: str) -> ReviewState:
-    """
-    Run the full 5-agent pipeline for a given research topic.
-
-    Parameters
-    ----------
-    topic : str
-        Research topic string.
-
-    Returns
-    -------
-    ReviewState
-        Final state with all agent outputs populated.
-    """
+    import time
     workflow = build_workflow()
     run_id   = datetime.now().strftime("%Y%m%d_%H%M%S")
+    start    = time.time()
 
-    # Initial state — only topic and metadata pre-filled
     initial_state: ReviewState = {
-        "topic":                   topic,
-        "sub_queries":             [],
-        "papers":                  [],
-        "draft_review":            "",
-        "papers_used":             [],
-        "total_citations":         0,
-        "valid_citations":         0,
-        "partial_citations":       0,
-        "hallucinated_citations":  0,
-        "hallucination_rate":      0.0,
-        "citation_details":        [],
-        "final_review":            "",
-        "verified_refs":           [],
-        "hallucinated_refs":       [],
-        "changes":                 {},
-        "run_id":                  run_id,
-        "prompt_version":          PROMPT_VERSION,
+        "topic":                  topic,
+        "sub_queries":            [],
+        "papers":                 [],
+        "draft_review":           "",
+        "papers_used":            [],
+        "total_citations":        0,
+        "valid_citations":        0,
+        "partial_citations":      0,
+        "hallucinated_citations": 0,
+        "hallucination_rate":     0.0,
+        "citation_details":       [],
+        "final_review":           "",
+        "verified_refs":          [],
+        "hallucinated_refs":      [],
+        "changes":                {},
+        "run_id":                 run_id,
+        "prompt_version":         PROMPT_VERSION,
+        "retry_count":            0,        # NEW
+        "latency_seconds":        0.0,      # NEW
+        "token_estimate":         0,        # NEW
     }
-
-    print("\n" + "=" * 60)
-    print(f"[Workflow] Run ID      : {run_id}")
-    print(f"[Workflow] Prompt ver  : {PROMPT_VERSION}")
-    print(f"[Workflow] Topic       : {topic[:55]}")
-    print("=" * 60)
 
     final_state = workflow.invoke(initial_state)
 
-    # Print final summary
-    print("\n" + "=" * 60)
-    print("[Workflow] PIPELINE COMPLETE")
-    print("=" * 60)
-    print(f"  Sub-queries         : {len(final_state['sub_queries'])}")
-    print(f"  Papers retrieved    : {len(final_state['papers'])}")
-    print(f"  Draft length        : {len(final_state['draft_review'])} chars")
-    print(f"  Total citations     : {final_state['total_citations']}")
-    print(f"  Valid               : {final_state['valid_citations']}")
-    print(f"  Partial             : {final_state['partial_citations']}")
-    print(f"  Hallucinated        : {final_state['hallucinated_citations']}")
-    print(f"  Hallucination Rate  : {final_state['hallucination_rate']:.1%}")
-    print(f"  Final review length : {len(final_state['final_review'])} chars")
-    print(f"  Words removed       : {final_state['changes'].get('words_removed', 0)}")
-    print(f"  Prompt version      : {final_state['prompt_version']}")
-    print("=" * 60)
+    # Track latency
+    latency = round(time.time() - start, 2)
+    final_state["latency_seconds"] = latency
+
+    # Estimate tokens (rough: 1 token ≈ 4 chars)
+    total_text = (
+        final_state.get("draft_review", "") +
+        final_state.get("final_review", "")
+    )
+    final_state["token_estimate"] = len(total_text) // 4
+
+    print(f"\n  Latency           : {latency}s")
+    print(f"  Token estimate    : ~{final_state['token_estimate']:,}")
+    print(f"  Retry count       : {final_state.get('retry_count', 0)}")
 
     return final_state

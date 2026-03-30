@@ -43,19 +43,15 @@ from src.config import settings
 # Configuration — tune these thresholds to improve verifier performance
 # ---------------------------------------------------------------------------
 
-# TIGHTER thresholds — less lenient matching
-AUTHOR_FUZZY_THRESHOLD = 0.80   # was 0.72 — stricter author matching
-YEAR_EXACT_TOLERANCE   = 0      # exact year required for VALID
-YEAR_PARTIAL_TOLERANCE = 1      # only ±1 year for PARTIAL (was ±2)
 
-# Confidence weights
-W_AUTHOR = 0.50   # increase author weight
-W_YEAR   = 0.35
-W_TITLE  = 0.15   # reduce title bonus
+AUTHOR_FUZZY_THRESHOLD = 0.85   # was 0.72 — stricter author matching
+YEAR_EXACT_TOLERANCE   = 0      # exact year only for VALID
+YEAR_PARTIAL_TOLERANCE = 1      # was 2 — only ±1 year for PARTIAL
 
-# Confidence thresholds in _determine_status
-# VALID   : confidence >= 0.70 (was 0.65)
-# PARTIAL : confidence >= 0.50 (was 0.45)
+# Confidence score weights (must sum to 1.0)
+W_AUTHOR = 0.55   # was 0.40 — author match is most important signal
+W_YEAR   = 0.35   # unchanged
+W_TITLE  = 0.10   # was 0.25 — reduce title bonus impact
 
 MAX_OPENALEX_RESULTS = 5
 LOG_DIR = settings.data_dir / "eval" / "verifier_logs"
@@ -268,12 +264,19 @@ def _determine_status(
     paper:      Paper,
     confidence: float,
 ) -> str:
+    """
+    UPDATED: Stricter thresholds to better detect hallucinations.
+
+    VALID       : confidence >= 0.75 AND exact year match
+    PARTIAL     : confidence >= 0.55 AND year within ±1
+    HALLUCINATED: everything else
+    """
     paper_year = paper.year or 0
     year_diff  = abs(paper_year - cited_year)
 
-    if confidence >= 0.70 and year_diff == 0:
+    if confidence >= 0.75 and year_diff == 0:
         return "VALID"
-    elif confidence >= 0.50 and year_diff <= 1:
+    elif confidence >= 0.55 and year_diff <= 1:
         return "PARTIAL"
     else:
         return "HALLUCINATED"

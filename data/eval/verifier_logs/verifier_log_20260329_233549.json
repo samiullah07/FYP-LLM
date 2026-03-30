@@ -1,0 +1,109 @@
+{
+  "run_id": "20260329_233549",
+  "timestamp": "2026-03-29T23:35:55.860522",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Liu et al., 2020)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Marcus et al., 2020)",
+      "cited_author": "Marcus et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.925,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4398814909",
+      "matched_title": "Kurtz, Marcus and Adam Lauretig, 2020, \"Replication Data for \"Does Free-Market R",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Marcus J. Kurtz"
+      ],
+      "matched_doi": "https://doi.org/10.7910/dvn/wu2wse"
+    },
+    {
+      "raw_citation": "(Wang et al., 2020)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.5,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Ding et al., 2019)",
+      "cited_author": "Ding et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2970236742",
+      "matched_title": "Towards Knowledge-Based Recommender Dialog System",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Qibin Chen",
+        "Junyang Lin",
+        "Yichang Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1189"
+    },
+    {
+      "raw_citation": "(Kumar et al., 2020)",
+      "cited_author": "Kumar et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.575,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4390654522",
+      "matched_title": "Occurrence of Andreimyrme substriolata (Chen, 1957) and Odontomutilla fletcheri ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "JOSHUA B. TERINE",
+        "Dipanwita Das",
+        "Puthuvayi Girish Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.61186/jibs.10.1.81"
+    },
+    {
+      "raw_citation": "(Bender et al., 2021)",
+      "cited_author": "Bender et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

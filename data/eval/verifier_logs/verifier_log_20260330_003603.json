@@ -1,0 +1,149 @@
+{
+  "run_id": "20260330_003603",
+  "timestamp": "2026-03-30T00:36:03.868278",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Michel‐Villarreal and Vilalta-perdomo, 2023)",
+      "cited_author": "Michel‐Villarreal and Vilalta-perdomo",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386098991",
+      "matched_title": "Challenges and Opportunities of Generative AI for Higher Education as Explained ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Rosario Michel‐Villarreal",
+        "Eliseo Luis Vilalta-perdomo",
+        "David Ernesto Salinas-Navarro"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13090856"
+    },
+    {
+      "raw_citation": "(Rudolph and Tan, 2023)",
+      "cited_author": "Rudolph and Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366989878",
+      "matched_title": "War of the chatbots: Bard, Bing Chat, ChatGPT, Ernie and beyond. The new AI gold",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Shannon Tan",
+        "Samson Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.23"
+    },
+    {
+      "raw_citation": "(Al Naqbi and Bahroun, 2024)",
+      "cited_author": "Al Naqbi and Bahroun",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391361874",
+      "matched_title": "Enhancing Work Productivity through Generative Artificial Intelligence: A Compre",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Humaid Al Naqbi",
+        "Zied Bahroun",
+        "Vian Ahmed"
+      ],
+      "matched_doi": "https://doi.org/10.3390/su16031166"
+    },
+    {
+      "raw_citation": "(Al-kfairy and Mustafa, 2024)",
+      "cited_author": "Al-kfairy and Mustafa",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401509761",
+      "matched_title": "Ethical Challenges and Solutions of Generative AI: An Interdisciplinary Perspect",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mousa Al-kfairy",
+        "Dheya Mustafa",
+        "Nir Kshetri"
+      ],
+      "matched_doi": "https://doi.org/10.3390/informatics11030058"
+    },
+    {
+      "raw_citation": "(Almusaed and Almssad, 2023)",
+      "cited_author": "Almusaed and Almssad",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381686136",
+      "matched_title": "Enhancing Student Engagement: Harnessing “AIED”’s Power in Hybrid Education—A Re",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Amjad Almusaed",
+        "Asaad Almssad",
+        "İbrahim Yitmen"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070632"
+    },
+    {
+      "raw_citation": "(Ayling and Chapman, 2021)",
+      "cited_author": "Ayling and Chapman",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3199196172",
+      "matched_title": "Putting AI ethics to work: are the tools fit for purpose?",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Jacqui Ayling",
+        "Adriane Chapman"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s43681-021-00084-x"
+    },
+    {
+      "raw_citation": "(Aldboush and Ferdous, 2023)",
+      "cited_author": "Aldboush and Ferdous",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383911728",
+      "matched_title": "Building Trust in Fintech: An Analysis of Ethical and Privacy Considerations in ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hassan Hamad Aldboush",
+        "Marah Ferdous"
+      ],
+      "matched_doi": "https://doi.org/10.3390/ijfs11030090"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+The integration of large language models in automated academic peer review and citation generation has sparked intense debate regarding its ethical implications. According to Kasneci et al. (2023), large language models, such as ChatGPT, present both opportunities and challenges for education. One of the primary concerns is the potential for these models to generate artificial intelligence-written research papers, raising questions about authorship and authenticity (Brady Lund et al., 2023). 
+
+Dwivedi et al. (2023) highlight the multidisciplinary perspectives on the opportunities, challenges, and implications of generative conversational AI for research, practice, and policy. They emphasize the need for careful consideration of the benefits and drawbacks of these technologies. Similarly, Kasneci et al. (2023) discuss the potential of large language models to support educational activities, but also note the importance of addressing the challenges associated with their use.
+
+The use of large language models in academic settings also raises concerns about academic integrity. Cotton et al. (2023) discuss the potential for these models to facilitate cheating and plagiarism, highlighting the need for strategies to ensure academic integrity in the era of ChatGPT. Furthermore, Dwivedi et al. (2019) emphasize the importance of considering the emerging challenges and opportunities presented by artificial intelligence in various fields, including education.
+
+In the context of citation generation, large language models may also have significant implications. While they can facilitate the generation of citations, they may also introduce errors or biases (Kasneci et al., 2023). Therefore, it is essential to carefully evaluate the use of these models in academic settings and consider their potential impact on the integrity of research and scholarship.
+
+References:
+Brady Lund et al. (2023)
+Cotton et al. (2023)
+Dwivedi et al. (2019)
+Dwivedi et al. (2023)
+Kasneci et al. (2023)

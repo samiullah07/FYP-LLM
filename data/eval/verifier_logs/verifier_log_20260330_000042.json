@@ -1,0 +1,130 @@
+{
+  "run_id": "20260330_000042",
+  "timestamp": "2026-03-30T00:00:42.253871",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Resnik and Hosseini, 2024)",
+      "cited_author": "Resnik and Hosseini",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399054066",
+      "matched_title": "The ethics of using artificial intelligence in scientific research: new guidance",
+      "matched_year": 2024,
+      "matched_authors": [
+        "David B. Resnik",
+        "Mohammad Hosseini"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s43681-024-00493-8"
+    },
+    {
+      "raw_citation": "(Wang and Su, 2021)",
+      "cited_author": "Wang and Su",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3167574177",
+      "matched_title": "Integrating Digital Technologies and Public Health to Fight Covid-19 Pandemic: K",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Qiang Wang",
+        "Min Su",
+        "Min Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/ijerph18116053"
+    },
+    {
+      "raw_citation": "(Williamson and Prybutok, 2024)",
+      "cited_author": "Williamson and Prybutok",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390829176",
+      "matched_title": "Balancing Privacy and Progress: A Review of Privacy Challenges, Systemic Oversig",
+      "matched_year": 2024,
+      "matched_authors": [
+        "S. Williamson",
+        "Victor R. Prybutok"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app14020675"
+    },
+    {
+      "raw_citation": "(Bibri and Krogstie, 2023)",
+      "cited_author": "Bibri and Krogstie",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387767134",
+      "matched_title": "Smarter eco-cities and their leading-edge artificial intelligence of things solu",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Elias Bibri",
+        "John Krogstie",
+        "Amin Kaboli"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ese.2023.100330"
+    },
+    {
+      "raw_citation": "(Saarela and Podgorelec, 2024)",
+      "cited_author": "Saarela and Podgorelec",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4403048643",
+      "matched_title": "Recent Applications of Explainable AI (XAI): A Systematic Literature Review",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mirka Saarela",
+        "Vili Podgorelec"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app14198884"
+    },
+    {
+      "raw_citation": "(De Bock and Coussement, 2023)",
+      "cited_author": "De Bock and Coussement",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386968640",
+      "matched_title": "Explainable AI for Operational Research: A defining framework, methods, applicat",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Koen W. De Bock",
+        "Kristof Coussement",
+        "Arno De Caigny"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ejor.2023.09.026"
+    }
+  ]
+}

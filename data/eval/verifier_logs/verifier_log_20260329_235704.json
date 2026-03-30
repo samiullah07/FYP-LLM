@@ -1,0 +1,143 @@
+{
+  "run_id": "20260329_235704",
+  "timestamp": "2026-03-29T23:57:06.911071",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Xueyang Feng, 2024)",
+      "cited_author": "Xueyang Feng",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Andy Clark, 2013)",
+      "cited_author": "Andy Clark",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2153791616",
+      "matched_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive s",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andy Clark"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s0140525x12000477"
+    },
+    {
+      "raw_citation": "(Sarker, 2021)",
+      "cited_author": "Sarker",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3194730353",
+      "matched_title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications an",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Iqbal H. Sarker"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s42979-021-00815-1"
+    },
+    {
+      "raw_citation": "(Brendan Avent, 2020)",
+      "cited_author": "Brendan Avent",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995022099",
+      "matched_title": "Advances and Open Problems in Federated Learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Peter Kairouz",
+        "H. Brendan McMahan",
+        "Brendan Avent"
+      ],
+      "matched_doi": "https://doi.org/10.1561/2200000083"
+    },
+    {
+      "raw_citation": "(Yakov Bart, 2019)",
+      "cited_author": "Yakov Bart",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2978346165",
+      "matched_title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Peter C. Verhoef",
+        "Thijs Broekhuizen",
+        "Yakov Bart"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jbusres.2019.09.022"
+    },
+    {
+      "raw_citation": "(Tobias Riasanow, 2019)",
+      "cited_author": "Tobias Riasanow",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2985680329",
+      "matched_title": "Digital platform ecosystems",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Andreas Hein",
+        "Maximilian Schreieck",
+        "Tobias Riasanow"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12525-019-00377-4"
+    },
+    {
+      "raw_citation": "(En Li, 2019)",
+      "cited_author": "En Li",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Francesco De Pellegrini, 2012)",
+      "cited_author": "Francesco De Pellegrini",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2119046642",
+      "matched_title": "Internet of things: Vision, applications and research challenges",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Daniele Miorandi",
+        "Sabrina Sicari",
+        "Francesco De Pellegrini"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.adhoc.2012.02.016"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+timestamp,experiment,topic,system,papers_retrieved,sub_queries_used,review_length_chars,total_citations,valid_citations,partial_citations,hallucinated,hallucination_rate
+20260330_000037,1,Autonomous self-correcting AI agents for peer review validation and academic citation fraud detection,baseline,15,1,3009,7,7,0,0,0.0
+20260330_000037,1,Autonomous self-correcting AI agents for peer review validation and academic citation fraud detection,experimental,20,5,2083,1,1,0,0,0.0
+20260330_000037,2,Ethical implications of large language models in automated academic peer review and citation generation,baseline,15,1,3615,7,7,0,0,0.0
+20260330_000037,2,Ethical implications of large language models in automated academic peer review and citation generation,experimental,19,5,2202,0,0,0,0,0.0
+20260330_000037,3,Multi-agent orchestration frameworks for knowledge-intensive reasoning and automated literature synthesis,baseline,15,1,3687,0,0,0,0,0.0
+20260330_000037,3,Multi-agent orchestration frameworks for knowledge-intensive reasoning and automated literature synthesis,experimental,22,5,2304,9,9,0,0,0.0
+20260330_000037,4,Agentic AI for reliable academic literature review and hallucination mitigation in large language models,baseline,15,1,2946,7,7,0,0,0.0
+20260330_000037,4,Agentic AI for reliable academic literature review and hallucination mitigation in large language models,experimental,19,5,2201,7,7,0,0,0.0
+20260330_000037,5,Retrieval augmented generation for hallucination reduction in large language model outputs,baseline,15,1,3720,8,8,0,0,0.0
+20260330_000037,5,Retrieval augmented generation for hallucination reduction in large language model outputs,experimental,20,5,1908,5,5,0,0,0.0

@@ -1,0 +1,20 @@
+The integration of Artificial Intelligence (AI) in various domains has sparked intense debate and research, with a particular focus on its applications in scientific research and academic settings (Dwivedi and Kshetri, 2023; Resnik and Hosseini, 2024). The use of AI in research has raised concerns regarding academic citation fraud detection and peer review validation (Resnik and Hosseini, 2024). In this context, the development of autonomous self-correcting AI agents has been proposed as a potential solution (Dwivedi and Kshetri, 2023). 
+
+Studies have explored the applications of AI in environmental sustainability (Bibri and Krogstie, 2023), healthcare (Wang and Su, 2021; Williamson and Prybutok, 2024), and economic development (Qin and Xu, 2023). These papers highlight the potential benefits of AI, including improved efficiency and accuracy, but also raise concerns regarding privacy and oversight (Williamson and Prybutok, 2024). The ethics of using AI in scientific research have also been discussed, with calls for new guidance and regulations (Resnik and Hosseini, 2024).
+
+The development of explainable AI (XAI) has been identified as a key area of research, with applications in various domains, including operational research (De Bock and Coussement, 2023) and healthcare (Saarela and Podgorelec, 2024). The use of XAI can help to build trust in AI systems and improve their transparency and accountability (Saarela and Podgorelec, 2024). However, there are also challenges and limitations associated with the development of XAI, including the need for high-quality data and the potential for bias (Asudani and Nagwani, 2023).
+
+In terms of agreements and contradictions, there is a general consensus regarding the potential benefits of AI, but also concerns regarding its limitations and challenges (Dwivedi and Kshetri, 2023; Resnik and Hosseini, 2024). However, there are also contradictions regarding the role of AI in academic settings, with some authors arguing that it can improve efficiency and accuracy, while others raise concerns regarding its potential impact on academic integrity (Resnik and Hosseini, 2024). 
+
+Gaps in the current literature include the need for further research on the development of autonomous self-correcting AI agents and their applications in academic settings. Additionally, there is a need for more studies on the ethics of using AI in scientific research and its potential impact on academic integrity.
+
+References:
+Asudani, D. S. and Nagwani, N. K. (2023) Impact of word embedding models on text analytics in deep learning environment: a review.
+Bibri, S. E. and Krogstie, J. (2023) Smarter eco-cities and their leading-edge artificial intelligence of things solutions for environmental sustainability: A comprehensive systematic review.
+De Bock, K. W. and Coussement, K. (2023) Explainable AI for Operational Research: A defining framework, methods, applications, and a research agenda.
+Dwivedi, Y. K. and Kshetri, N. (2023) Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy.
+Qin, Y. and Xu, Z. (2023) Artificial Intelligence and Economic Development: An Evolutionary Investigation and Systematic Review.
+Resnik, D. B. and Hosseini, M. (2024) The ethics of using artificial intelligence in scientific research: new guidance needed for a new tool.
+Saarela, M. and Podgorelec, V. (2024) Recent Applications of Explainable AI (XAI): A Systematic Literature Review.
+Wang, Q. and Su, M. (2021) Integrating Digital Technologies and Public Health to Fight Covid-19 Pandemic: Key Technologies, Applications, Challenges and Outlook of Digital Healthcare.
+Williamson, S. and Prybutok, V. R. (2024) Balancing Privacy and Progress: A Review of Privacy Challenges, Systemic Oversight, and Patient Perceptions in AI-Driven Healthcare.

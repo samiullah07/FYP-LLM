@@ -1,0 +1,238 @@
+{
+  "run_id": "20260330_004840",
+  "timestamp": "2026-03-30T00:48:41.256151",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Laith Alzubaidi et al., 2021)",
+      "cited_author": "Laith Alzubaidi et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Yann LeCun et al., 1998)",
+      "cited_author": "Yann LeCun et al.",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(Hao Tan and Mohit Bansal, 2019)",
+      "cited_author": "Hao Tan and Mohit Bansal",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970231061",
+      "matched_title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Hao Tan",
+        "Mohit Bansal"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1514"
+    },
+    {
+      "raw_citation": "(Nils Reimers and Iryna Gurevych, 2019)",
+      "cited_author": "Nils Reimers and Iryna Gurevych",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970641574",
+      "matched_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1410"
+    },
+    {
+      "raw_citation": "(Karan Singhal et al., 2023)",
+      "cited_author": "Karan Singhal et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Timm Teubner et al., 2023)",
+      "cited_author": "Timm Teubner et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360980513",
+      "matched_title": "Welcome to the Era of ChatGPT et al.",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Timm Teubner",
+        "Christoph M. Flath",
+        "Christof Weinhardt"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00795-x"
+    },
+    {
+      "raw_citation": "(Enkelejda Kasneci et al., 2023)",
+      "cited_author": "Enkelejda Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Alejandro Barredo Arrieta et al., 2019)",
+      "cited_author": "Alejandro Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Holter and Ell, 2018)",
+      "cited_author": "Holter and Ell",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(Xiaoqi Jiao et al., 2020)",
+      "cited_author": "Xiaoqi Jiao et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3105966348",
+      "matched_title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaoqi Jiao",
+        "Yichun Yin",
+        "Lifeng Shang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.372"
+    },
+    {
+      "raw_citation": "(Jianbo Yuan et al., 2019)",
+      "cited_author": "Jianbo Yuan et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2979861699",
+      "matched_title": "Automatic Radiology Report Generation Based on Multi-view Image Fusion and Medic",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jianbo Yuan",
+        "Haofu Liao",
+        "Rui Luo"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-32226-7_80"
+    },
+    {
+      "raw_citation": "(Pengfei Liu et al., 2022)",
+      "cited_author": "Pengfei Liu et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(George Em Karniadakis et al., 2021)",
+      "cited_author": "George Em Karniadakis et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3163993681",
+      "matched_title": "Physics-informed machine learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "George Em Karniadakis",
+        "Ioannis G. Kevrekidis",
+        "Lu Lu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00314-5"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "run_id": "20260330_003205",
+  "timestamp": "2026-03-30T00:32:05.570308",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Wan Zhang et al., 2025)",
+      "cited_author": "Wan Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408145721",
+      "matched_title": "Hallucination Mitigation for Retrieval-Augmented Large Language Models: A Review",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Wan Zhang",
+        "Jing Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/math13050856"
+    },
+    {
+      "raw_citation": "(Kurt Shuster et al., 2021)",
+      "cited_author": "Kurt Shuster et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3155807546",
+      "matched_title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Kurt Shuster",
+        "Spencer Poff",
+        "Moya Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp.320"
+    },
+    {
+      "raw_citation": "(Josip Vrdoljak et al., 2025)",
+      "cited_author": "Josip Vrdoljak et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408286179",
+      "matched_title": "A Review of Large Language Models in Medical Education, Clinical Decision Suppor",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Josip Vrdoljak",
+        "Zvonimir Boban",
+        "Marino Vilović"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare13060603"
+    },
+    {
+      "raw_citation": "(Varun Magesh et al., 2025)",
+      "cited_author": "Varun Magesh et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409716856",
+      "matched_title": "Hallucination‐Free? Assessing the Reliability of Leading <scp>AI</scp> Legal Res",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Varun Magesh",
+        "Faiz Surani",
+        "Matthew Dahl"
+      ],
+      "matched_doi": "https://doi.org/10.1111/jels.12413"
+    },
+    {
+      "raw_citation": "(Pengfei Liu et al., 2022)",
+      "cited_author": "Pengfei Liu et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Gongbo Zhang et al., 2025)",
+      "cited_author": "Gongbo Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4410030662",
+      "matched_title": "Leveraging long context in retrieval augmented language models for medical quest",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Gongbo Zhang",
+        "Zihan Xu",
+        "Qiao Jin"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-025-01651-w"
+    },
+    {
+      "raw_citation": "(Yanming Liu et al., 2024)",
+      "cited_author": "Yanming Liu et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402670862",
+      "matched_title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterat",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Yanming Liu",
+        "Xinyue Peng",
+        "Xuhong Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.findings-acl.281"
+    }
+  ]
+}

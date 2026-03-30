@@ -1,0 +1,22 @@
+The concept of retrieval augmented generation has gained significant attention in recent years as a means to reduce hallucination in large language model outputs (Shuster and Poff, 2021). Hallucination refers to the phenomenon where language models generate text that is not grounded in reality (Zhang and Li, 2023). Studies have shown that retrieval augmented generation can effectively reduce hallucination by incorporating external knowledge into the generation process (Kamra and Gupta, 2025; Prahlad and Lee, 2025). For instance, Prahlad and Lee (2025) demonstrated that personalizing large language models using retrieval augmented generation and knowledge graphs can improve the accuracy of generated text.
+
+The use of retrieval augmented generation has been explored in various applications, including conversation (Shuster and Poff, 2021) and report generation from X-ray imaging (Bernardi and Cimitile, 2024). These studies have shown that retrieval augmented generation can improve the quality of generated text by reducing hallucination and incorporating relevant external knowledge (Kamra and Gupta, 2025; Bernardi and Cimitile, 2024). However, there are also challenges associated with retrieval augmented generation, such as the need for high-quality external knowledge sources (Prahlad and Lee, 2025).
+
+In contrast to the benefits of retrieval augmented generation, some studies have highlighted the limitations of large language models in general (Naveed and Khan, 2023; Raiaan and Mukta, 2024). For example, Naveed and Khan (2023) noted that large language models can suffer from hallucination due to their reliance on patterns in the training data. However, the use of retrieval augmented generation can help mitigate this issue (Shuster and Poff, 2021). There is a gap in the literature regarding the application of retrieval augmented generation to specific domains, such as medical challenge problems (Nori and King, 2023). Further research is needed to explore the potential benefits and challenges of retrieval augmented generation in these domains.
+
+References:
+Abiodun, O. I. and Kiru, M. U. (2019) Comprehensive Review of Artificial Neural Network Applications to Pattern Recognition.
+Bernardi, M. L. and Cimitile, M. (2024) Report Generation from X-Ray imaging by Retrieval-Augmented Generation and improved Image-Text Matching.
+Choi, W. C. and Chang, C. C. (2025) A Survey of Techniques, Key Components, Strategies, Challenges, and Student Perspectives on Prompt Engineering for Large Language Models (LLMs) in Education.
+de Lange, F. P. and Heilbron, M. (2018) How Do Expectations Shape Perception?
+Kamra, V. and Gupta, L. (2025) Evaluating Reinforcement Learning Based Models for Test Time Enhancement in RAG.
+Khan Raiaan, M. A. and Mukta, M. S. H. (2024) A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges.
+Naveed, H. and Khan, A. U. (2023) A Comprehensive Overview of Large Language Models.
+Nori, H. and King, N. (2023) Capabilities of GPT-4 on Medical Challenge Problems.
+OpenAI, Wijayagunawardhana, W. A. H. N. (2023) GPT-4 Technical Report.
+Park, S. and Kim, Y. G. (2022) A Metaverse: Taxonomy, Components, Applications, and Open Challenges.
+Prahlad, D. and Lee, C. P. (2025) Personalizing Large Language Models using Retrieval Augmented Generation and Knowledge Graph.
+Saharia, C. and Chan, W. (2022) Palette: Image-to-Image Diffusion Models.
+Shuster, K. and Poff, S. (2021) Retrieval Augmentation Reduces Hallucination in Conversation.
+Shorten, C. and Khoshgoftaar, T. M. (2021) Text Data Augmentation for Deep Learning.
+Zhang, Y. and Li, Y. (2023) Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.

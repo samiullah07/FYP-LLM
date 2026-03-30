@@ -1,0 +1,12 @@
+The integration of Agentic AI in academic literature review has the potential to enhance the reliability and efficiency of the process (Kasneci et al., 2023). However, one of the significant challenges associated with large language models is hallucination, which can lead to the generation of inaccurate or misleading information (Dwivedi et al., 2023). To mitigate this issue, explainable artificial intelligence (XAI) can be employed to provide insights into the decision-making process of AI models (Barredo Arrieta et al., 2019). XAI can help identify the sources of hallucination and enable the development of more transparent and trustworthy AI systems.
+
+The use of Agentic AI in academic literature review can also facilitate the analysis of complex datasets and identification of patterns that may not be apparent to human reviewers (Dwivedi et al., 2019). Moreover, AI-powered tools can assist in the evaluation of the quality and relevance of academic sources, reducing the risk of including biased or inaccurate information in the review (Zawacki‐Richter et al., 2019). However, it is essential to ensure that AI models are designed and trained to prioritize accuracy and reliability over other considerations (Dwivedi et al., 2023).
+
+The development of Agentic AI for academic literature review requires a multidisciplinary approach, incorporating insights from education, computer science, and other relevant fields (Kasneci et al., 2023). By leveraging the capabilities of AI and addressing the challenges associated with hallucination and bias, it is possible to create more efficient, reliable, and effective academic literature review processes (Dwivedi et al., 2023).
+
+References:
+Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., 2019
+Dwivedi, Y. K., Hughes, L., Ismagilova, E., 2019
+Dwivedi, Y. K., Kshetri, N., Hughes, L., 2023
+Kasneci, E., Seßler, K., Küchemann, S., 2023
+Zawacki‐Richter, O., Marín, V. I., Bond, M., 2019

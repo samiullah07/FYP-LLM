@@ -1,0 +1,21 @@
+The integration of Agentic AI in large language models has been explored in various contexts, including education and healthcare. In the realm of education, researchers have investigated the potential benefits and challenges of using ChatGPT and other AI models (Rudolph and Tan, 2023; Grassini, 2023; Rasul and Nair, 2023). These studies suggest that AI can revolutionize traditional assessments and educational settings, but also raise concerns about the reliability of AI-generated content and the potential for hallucination (Rudolph and Tan, 2023; Zhang and Li, 2023).
+
+In the healthcare sector, AI has been found to have the potential to improve clinical practice and patient outcomes (Alowais and Alghamdi, 2023; Tian and Jin, 2023). However, the use of large language models in biomedicine and health also poses challenges, such as ensuring the accuracy and reliability of AI-generated medical information (Tian and Jin, 2023). The mitigation of hallucination in large language models is a critical issue that requires further research (Zhang and Li, 2023).
+
+Recent surveys and reviews have highlighted the applications, challenges, and limitations of large language models (Hadi and Al Tashi, 2023; Roumeliotis and Tselikas, 2023). These studies agree that large language models have the potential to transform various fields, including computational social science (Ziems and Held, 2023), but also emphasize the need for further research on the ethics and reliability of AI-generated content (Stahl and Eke, 2023). There is a gap in the literature regarding the development of Agentic AI for reliable academic literature review and hallucination mitigation, which requires further investigation.
+
+References:
+Alowais, S. A. and Alghamdi, S. S. (2023) Revolutionizing healthcare: the role of artificial intelligence in clinical practice.
+Feuerriegel, S. and Hartmann, J. (2023) Generative AI.
+Grassini, S. (2023) Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings.
+Hadi, M. U. and Al Tashi, Q. (2023) A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage.
+OpenAI, W. A. H. N. (2023) GPT-4 Technical Report.
+Park, S. and Kim, Y. G. (2022) A Metaverse: Taxonomy, Components, Applications, and Open Challenges.
+Rasul, T. and Nair, S. (2023) The role of ChatGPT in higher education: Benefits, challenges, and future research directions.
+Roumeliotis, K. I. and Tselikas, N. D. (2023) ChatGPT and Open-AI Models: A Preliminary Review.
+Rudolph, J. and Tan, S. (2023) ChatGPT: Bullshit spewer or the end of traditional assessments in higher education?
+Stahl, B. C. and Eke, D. (2023) The ethics of ChatGPT – Exploring the ethical issues of an emerging technology.
+Tian, S. and Jin, Q. (2023) Opportunities and challenges for ChatGPT and large language models in biomedicine and health.
+Yan, L. and Greiff, S. (2024) Promises and challenges of generative artificial intelligence for human learning.
+Zhang, Y. and Li, Y. (2023) Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.
+Ziems, C. and Held, W. A. (2023) Can Large Language Models Transform Computational Social Science?

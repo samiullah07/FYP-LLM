@@ -1,0 +1,164 @@
+{
+  "run_id": "20260330_000136",
+  "timestamp": "2026-03-30T00:01:36.634293",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Barredo Arrieta et al., 2019)",
+      "cited_author": "Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Sarker, 2021)",
+      "cited_author": "Sarker",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3194730353",
+      "matched_title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications an",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Iqbal H. Sarker"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s42979-021-00815-1"
+    },
+    {
+      "raw_citation": "(OpenAI et al., 2023)",
+      "cited_author": "OpenAI et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "OpenAI",
+        "Wijayagunawardhana, W. A. Hasindu N."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Kasneci et al., 2023)",
+      "cited_author": "Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Gao et al., 2023)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322576964",
+      "matched_title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Cheng‐Xiang Wang",
+        "Xiaohu You",
+        "Xiqi Gao"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2023.3249835"
+    },
+    {
+      "raw_citation": "(Clark, 2013)",
+      "cited_author": "Clark",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2153791616",
+      "matched_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive s",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andy Clark"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s0140525x12000477"
+    },
+    {
+      "raw_citation": "(Zanella et al., 2014)",
+      "cited_author": "Zanella et al.",
+      "cited_year": 2014,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2058401212",
+      "matched_title": "Internet of Things for Smart Cities",
+      "matched_year": 2014,
+      "matched_authors": [
+        "Andréa Zanella",
+        "Nicola Bui",
+        "Angelo Castellani"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jiot.2014.2306328"
+    },
+    {
+      "raw_citation": "(Miorandi et al., 2012)",
+      "cited_author": "Miorandi et al.",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2119046642",
+      "matched_title": "Internet of things: Vision, applications and research challenges",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Daniele Miorandi",
+        "Sabrina Sicari",
+        "Francesco De Pellegrini"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.adhoc.2012.02.016"
+    },
+    {
+      "raw_citation": "(Voinov et al., 2018)",
+      "cited_author": "Voinov et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2889262254",
+      "matched_title": "Tools and methods in participatory modeling: Selecting the right tool for the jo",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Alexey Voinov",
+        "Karen E. Jenni",
+        "Steven Gray"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.envsoft.2018.08.028"
+    }
+  ]
+}

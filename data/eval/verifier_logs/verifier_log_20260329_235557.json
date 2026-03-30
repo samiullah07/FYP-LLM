@@ -1,0 +1,95 @@
+{
+  "run_id": "20260329_235557",
+  "timestamp": "2026-03-29T23:55:58.216346",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Bibri and Krogstie, 2023)",
+      "cited_author": "Bibri and Krogstie",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387767134",
+      "matched_title": "Smarter eco-cities and their leading-edge artificial intelligence of things solu",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Elias Bibri",
+        "John Krogstie",
+        "Amin Kaboli"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ese.2023.100330"
+    },
+    {
+      "raw_citation": "(Resnik and Hosseini, 2024)",
+      "cited_author": "Resnik and Hosseini",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399054066",
+      "matched_title": "The ethics of using artificial intelligence in scientific research: new guidance",
+      "matched_year": 2024,
+      "matched_authors": [
+        "David B. Resnik",
+        "Mohammad Hosseini"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s43681-024-00493-8"
+    },
+    {
+      "raw_citation": "(Williamson and Prybutok, 2024)",
+      "cited_author": "Williamson and Prybutok",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390829176",
+      "matched_title": "Balancing Privacy and Progress: A Review of Privacy Challenges, Systemic Oversig",
+      "matched_year": 2024,
+      "matched_authors": [
+        "S. Williamson",
+        "Victor R. Prybutok"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app14020675"
+    },
+    {
+      "raw_citation": "(Spreitzenbarth and Bode, 2024)",
+      "cited_author": "Spreitzenbarth and Bode",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391656114",
+      "matched_title": "Artificial intelligence and machine learning in purchasing and supply management",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jan Martin Spreitzenbarth",
+        "Christoph Bode",
+        "Heiner Stuckenschmidt"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.pursup.2024.100896"
+    }
+  ]
+}

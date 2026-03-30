@@ -1,0 +1,17 @@
+The integration of large language models in automated academic peer review and citation generation raises significant ethical implications. According to Dwivedi and Kshetri (2023), the use of generative conversational AI, such as ChatGPT, in research and practice poses both opportunities and challenges. Lund and Wang (2023) also highlight the ethics of large language models in scholarly publishing, emphasizing the need for careful consideration of their impact on academic integrity. In line with this, Perkins (2023) discusses the academic integrity considerations of AI large language models, including ChatGPT, in the post-pandemic era.
+
+In contrast, some researchers focus on the potential benefits of AI in education and research. Rahman and Watanobe (2023) explore the opportunities and threats of using ChatGPT in educational settings, while Grassini (2023) examines the potential and consequences of AI and ChatGPT in education. Similarly, Zhai and Chu (2021) review the applications of AI in education from 2010 to 2020, highlighting its potential to enhance learning outcomes.
+
+However, other studies raise concerns about the limitations and challenges of AI in academic settings. Greenhalgh and Wherton (2017) propose a framework for evaluating the nonadoption, abandonment, and challenges of health and care technologies, which can be applied to the adoption of AI in academia. Additionally, Secinaro and Calandra (2021) conduct a structured literature review on the role of AI in healthcare, highlighting the need for careful evaluation of its impact on academic research.
+
+Overall, the literature suggests that the use of large language models in automated academic peer review and citation generation is a complex issue, with both benefits and drawbacks. While some researchers emphasize the potential of AI to enhance academic research, others raise concerns about its impact on academic integrity and the need for careful evaluation of its limitations.
+
+References:
+Dwivedi, Y. K., & Kshetri, N. (2023). Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy.
+Grassini, S. (2023). Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings.
+Greenhalgh, T., & Wherton, J. (2017). Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.
+Lund, B., & Wang, T. (2023). ChatGPT and a new academic reality: Artificial Intelligence-written research papers and the ethics of the large language models in scholarly publishing.
+Perkins, M. (2023). Academic Integrity considerations of AI Large Language Models in the post-pandemic era: ChatGPT and beyond.
+Rahman, M. M., & Watanobe, Y. (2023). ChatGPT for Education and Research: Opportunities, Threats, and Strategies.
+Secinaro, S., & Calandra, D. (2021). The role of artificial intelligence in healthcare: a structured literature review.
+Zhai, X., & Chu, X. (2021). A Review of Artificial Intelligence (AI) in Education from 2010 to 2020.

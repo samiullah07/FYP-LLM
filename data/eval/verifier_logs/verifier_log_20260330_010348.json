@@ -1,0 +1,239 @@
+{
+  "run_id": "20260330_010348",
+  "timestamp": "2026-03-30T01:03:48.617693",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Salatino, 2024)",
+      "cited_author": "Salatino",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401667275",
+      "matched_title": "Artificial intelligence for literature reviews: opportunities and challenges",
+      "matched_year": 2024,
+      "matched_authors": [
+        "F. J. Bolaños",
+        "Angelo A. Salatino",
+        "Francesco Osborne"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10902-3"
+    },
+    {
+      "raw_citation": "(Miles Brundage and Shahar Avin, 2018)",
+      "cited_author": "Miles Brundage and Shahar Avin",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2787887017",
+      "matched_title": "The malicious use of artificial intelligence: Forecasting, prevention, and mitig",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Miles Brundage",
+        "Shahar Avin",
+        "Jack Clark"
+      ],
+      "matched_doi": "https://doi.org/10.17863/cam.22520"
+    },
+    {
+      "raw_citation": "(Roumeliotis, 2025)",
+      "cited_author": "Roumeliotis",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412505619",
+      "matched_title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "matched_doi": "https://doi.org/10.70777/si.v2i3.15161"
+    },
+    {
+      "raw_citation": "(Ping Yu and Hua Xu, 2023)",
+      "cited_author": "Ping Yu and Hua Xu",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387809804",
+      "matched_title": "Leveraging Generative AI and Large Language Models: A Comprehensive Roadmap for ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Ping Yu",
+        "Hua Xu",
+        "Xia Hu"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare11202776"
+    },
+    {
+      "raw_citation": "(McCoy, 2025)",
+      "cited_author": "McCoy",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406421570",
+      "matched_title": "Improving large language model applications in biomedicine with retrieval-augmen",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Siru Liu",
+        "Allison B. McCoy",
+        "Adam Wright"
+      ],
+      "matched_doi": "https://doi.org/10.1093/jamia/ocaf008"
+    },
+    {
+      "raw_citation": "(Peden, 2023)",
+      "cited_author": "Peden",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385392091",
+      "matched_title": "The risks of using ChatGPT to obtain common safety-related information and advic",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Óscar Oviedo-Trespalacios",
+        "Amy E. Peden",
+        "Tom Cole‐Hunter"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ssci.2023.106244"
+    },
+    {
+      "raw_citation": "(Muhammad Usman Hadi and qasem al tashi, 2023)",
+      "cited_author": "Muhammad Usman Hadi and qasem al tashi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Hiroaki Kitano, 2021)",
+      "cited_author": "Hiroaki Kitano",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3170949898",
+      "matched_title": "Nobel Turing Challenge: creating the engine for scientific discovery",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Hiroaki Kitano"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41540-021-00189-3"
+    },
+    {
+      "raw_citation": "(Gerald Byrne and Dimitri Dimitrov, 2018)",
+      "cited_author": "Gerald Byrne and Dimitri Dimitrov",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2796481342",
+      "matched_title": "Biologicalisation: Biological transformation in manufacturing",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Gerald Byrne",
+        "Dimitri Dimitrov",
+        "László Monostori"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.cirpj.2018.03.003"
+    },
+    {
+      "raw_citation": "(Lixiang Yan and Samuel Greiff, 2024)",
+      "cited_author": "Lixiang Yan and Samuel Greiff",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4403637324",
+      "matched_title": "Promises and challenges of generative artificial intelligence for human learning",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lixiang Yan",
+        "Samuel Greiff",
+        "Ziwen Teuber"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41562-024-02004-5"
+    },
+    {
+      "raw_citation": "(Raiha Tallat and Ammar Hawbani, 2023)",
+      "cited_author": "Raiha Tallat and Ammar Hawbani",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388240496",
+      "matched_title": "Navigating Industry 5.0: A Survey of Key Enabling Technologies, Trends, Challeng",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Raiha Tallat",
+        "Ammar Hawbani",
+        "Xingfu Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2023.3329472"
+    },
+    {
+      "raw_citation": "(Mohanty and Feng Wu, 2022)",
+      "cited_author": "Mohanty and Feng Wu",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4283013916",
+      "matched_title": "Sustainable polymers",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Amar K. Mohanty",
+        "Feng Wu",
+        "Rosica Mincheva"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s43586-022-00124-8"
+    },
+    {
+      "raw_citation": "(Mengfang Li and Yuanyuan Jiang, 2023)",
+      "cited_author": "Mengfang Li and Yuanyuan Jiang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388459526",
+      "matched_title": "Medical image analysis using deep learning algorithms",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Mengfang Li",
+        "Yuanyuan Jiang",
+        "Yanzhou Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fpubh.2023.1273253"
+    }
+  ]
+}

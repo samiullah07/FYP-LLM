@@ -1,0 +1,17 @@
+The integration of large language models in automated academic peer review and citation generation has sparked intense debate regarding its ethical implications. According to Kasneci et al. (2023), large language models such as ChatGPT present both opportunities and challenges for education. One of the primary concerns is the potential for these models to generate artificial or fake content, which could compromise academic integrity (Dwivedi et al., 2023). 
+
+The use of generative conversational AI in research and practice also raises questions about authorship and ownership (Dwivedi et al., 2023). Moreover, the ability of large language models to encode clinical knowledge (Singhal et al., 2023) and generate text that is often indistinguishable from human-written content (Debby Cotton et al., 2023) further complicates the issue. Ensuring academic integrity in the era of ChatGPT is crucial, and measures such as detection tools for AI-generated text are being developed (Weber-Wulff et al., 2023).
+
+However, the benefits of large language models in education should not be overlooked. For instance, they can facilitate the achievement of Sustainable Development Goals (Vinuesa et al., 2020) and enhance the learning experience (Kasneci et al., 2023). Moreover, students' perceptions of generative AI in higher education highlight both benefits and challenges (Chan et al., 2023). 
+
+To address the ethical implications of large language models in automated academic peer review and citation generation, it is essential to consider the perspectives of educators and researchers. As highlighted by Zawacki‐Richter et al. (2019), the role of educators in the development and implementation of AI applications in higher education is crucial. Furthermore, a systematic review of research on artificial intelligence applications in higher education emphasizes the need for a multifaceted approach (Zawacki‐Richter et al., 2019).
+
+References:
+Chan, C. K. Y., & Hu, W. (2023)
+Debby Cotton, D., Cotton, P. A., & Shipway, J. R. (2023)
+Dwivedi, Y. K., Kshetri, N., & Hughes, L. (2023)
+Kasneci, E., Seßler, K., & Küchemann, S. (2023)
+Singhal, K., Azizi, S., & Tu, T. (2023)
+Vinuesa, R., Azizpour, H., & Leite, I. (2020)
+Weber-Wulff, D., Anohina-Naumeca, A., & Bjelobaba, S. (2023)
+Zawacki‐Richter, O., Marín, V. I., & Bond, M. (2019)

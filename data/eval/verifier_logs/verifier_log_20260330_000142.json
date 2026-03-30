@@ -1,0 +1,128 @@
+{
+  "run_id": "20260330_000142",
+  "timestamp": "2026-03-30T00:01:42.923345",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(OpenAI, 2023)",
+      "cited_author": "OpenAI",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "OpenAI",
+        "Wijayagunawardhana, W. A. Hasindu N."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Tan, 2023)",
+      "cited_author": "Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Nair, 2023)",
+      "cited_author": "Nair",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4376139682",
+      "matched_title": "The role of ChatGPT in higher education: Benefits, challenges, and future resear",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tareq Rasul",
+        "Sumesh Nair",
+        "Diane Robyn Kalendra"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.29"
+    },
+    {
+      "raw_citation": "(Grassini, 2023)",
+      "cited_author": "Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Tselikas, 2023)",
+      "cited_author": "Tselikas",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378574344",
+      "matched_title": "ChatGPT and Open-AI Models: A Preliminary Review",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Konstantinos I. Roumeliotis",
+        "Nikolaos D. Tselikas"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15060192"
+    },
+    {
+      "raw_citation": "(Eke, 2023)",
+      "cited_author": "Eke",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386580390",
+      "matched_title": "The ethics of ChatGPT – Exploring the ethical issues of an emerging technology",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Bernd Carsten Stahl",
+        "Damian Eke"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102700"
+    },
+    {
+      "raw_citation": "(Al Tashi, 2023)",
+      "cited_author": "Al Tashi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    }
+  ]
+}

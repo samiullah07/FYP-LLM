@@ -803,3 +803,72 @@ def print_metrics_report(report: dict) -> None:
         print(f"  {k:<25} : {v}")
 
     print("=" * 70)
+
+
+def compute_verifier_performance_from_annotations(
+    annotation_csv_path: str,
+) -> dict:
+    """
+    Compute verifier sensitivity and specificity from annotation CSV.
+
+    After you annotate citations in annotation_tool.ipynb,
+    compare verifier decisions vs human labels.
+
+    Parameters
+    ----------
+    annotation_csv_path : str
+        Path to annotations CSV from annotation_tool.ipynb
+
+    Returns
+    -------
+    dict with sensitivity, specificity, precision, f1, accuracy
+    """
+    import csv
+
+    rows = []
+    with open(annotation_csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            rows.append(row)
+
+    if not rows:
+        return {}
+
+    # Map labels to binary: hallucinated=1, valid=0
+    def is_hallucinated_human(label: str) -> bool:
+        return label.strip().lower() == "unsupported"
+
+    def is_hallucinated_verifier(status: str) -> bool:
+        return status.strip().upper() == "HALLUCINATED"
+
+    tp = fp = tn = fn = 0
+
+    for row in rows:
+        human_hall    = is_hallucinated_human(row.get("label", ""))
+        verifier_hall = is_hallucinated_verifier(row.get("verifier_status", ""))
+
+        if human_hall and verifier_hall:
+            tp += 1   # correctly flagged hallucination
+        elif not human_hall and verifier_hall:
+            fp += 1   # valid citation wrongly flagged
+        elif not human_hall and not verifier_hall:
+            tn += 1   # valid citation correctly accepted
+        elif human_hall and not verifier_hall:
+            fn += 1   # hallucination missed by verifier
+
+    perf = verifier_performance(tp, fp, tn, fn)
+
+    print("\n" + "=" * 55)
+    print("VERIFIER PERFORMANCE vs HUMAN ANNOTATION")
+    print("=" * 55)
+    print(f"  True Positives  (caught hallucinations)  : {tp}")
+    print(f"  False Positives (wrongly flagged valid)   : {fp}")
+    print(f"  True Negatives  (correctly accepted)      : {tn}")
+    print(f"  False Negatives (missed hallucinations)   : {fn}")
+    print(f"  Sensitivity     (recall of hallucinations): {perf['sensitivity']:.1%}")
+    print(f"  Specificity     (valid acceptance rate)   : {perf['specificity']:.1%}")
+    print(f"  Precision       (flag accuracy)           : {perf['precision']:.1%}")
+    print(f"  F1 Score                                  : {perf['f1_score']:.3f}")
+    print(f"  Overall Accuracy                          : {perf['accuracy']:.1%}")
+
+    return perf

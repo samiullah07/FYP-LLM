@@ -1,0 +1,217 @@
+{
+  "run_id": "20260330_003319",
+  "timestamp": "2026-03-30T00:33:19.370734",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Ziems and Held, 2023)",
+      "cited_author": "Ziems and Held",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389636360",
+      "matched_title": "Can Large Language Models Transform Computational Social Science?",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Caleb Ziems",
+        "William A. Held",
+        "Omar Ahmed Shaikh"
+      ],
+      "matched_doi": "https://doi.org/10.1162/coli_a_00502"
+    },
+    {
+      "raw_citation": "(Yan and Greiff, 2024)",
+      "cited_author": "Yan and Greiff",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4403637324",
+      "matched_title": "Promises and challenges of generative artificial intelligence for human learning",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lixiang Yan",
+        "Samuel Greiff",
+        "Ziwen Teuber"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41562-024-02004-5"
+    },
+    {
+      "raw_citation": "(Zhang and Li, 2023)",
+      "cited_author": "Zhang and Li",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389636360",
+      "matched_title": "Can Large Language Models Transform Computational Social Science?",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Caleb Ziems",
+        "William A. Held",
+        "Omar Ahmed Shaikh"
+      ],
+      "matched_doi": "https://doi.org/10.1162/coli_a_00502"
+    },
+    {
+      "raw_citation": "(Williamson and Prybutok, 2024)",
+      "cited_author": "Williamson and Prybutok",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4398256042",
+      "matched_title": "The Era of Artificial Intelligence Deception: Unraveling the Complexities of Fal",
+      "matched_year": 2024,
+      "matched_authors": [
+        "S. Williamson",
+        "Victor R. Prybutok"
+      ],
+      "matched_doi": "https://doi.org/10.3390/info15060299"
+    },
+    {
+      "raw_citation": "(Rudolph and Tan, 2023)",
+      "cited_author": "Rudolph and Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Roumeliotis and Tselikas, 2023)",
+      "cited_author": "Roumeliotis and Tselikas",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378574344",
+      "matched_title": "ChatGPT and Open-AI Models: A Preliminary Review",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Konstantinos I. Roumeliotis",
+        "Nikolaos D. Tselikas"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15060192"
+    },
+    {
+      "raw_citation": "(Bail, 2024)",
+      "cited_author": "Bail",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4396781199",
+      "matched_title": "Can Generative AI improve social science?",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Christopher A. Bail"
+      ],
+      "matched_doi": "https://doi.org/10.1073/pnas.2314021121"
+    },
+    {
+      "raw_citation": "(Xi and Chen, 2023)",
+      "cited_author": "Xi and Chen",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Minaee and Mikolov, 2024)",
+      "cited_author": "Minaee and Mikolov",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391766565",
+      "matched_title": "Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Shervin Minaee",
+        "Tomas Mikolov",
+        "Narjes Nikzad-Khasmakhi"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2402.06196"
+    },
+    {
+      "raw_citation": "(Hadi and al tashi, 2023)",
+      "cited_author": "Hadi and al tashi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Kumar, 2024)",
+      "cited_author": "Kumar",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401671778",
+      "matched_title": "Large language models (LLMs): survey, technical frameworks, and future challenge",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Pranjal Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10888-y"
+    },
+    {
+      "raw_citation": "(Chang and Wang, 2023)",
+      "cited_author": "Chang and Wang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.85,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    }
+  ]
+}

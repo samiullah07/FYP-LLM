@@ -98,25 +98,37 @@ def baseline_search_node(state: BaselineState) -> BaselineState:
 # ---------------------------------------------------------------------------
 
 def baseline_write_node(state: BaselineState) -> BaselineState:
-    """
-    Single LLM call — deliberately allows general knowledge.
-    This is the naive approach that causes hallucinations.
-    """
-    print("\n[Baseline] Running Write Node (single LLM, no restriction)...")
-    client = _get_groq_client()
-    topic  = state["topic"]
+    print("\n[Baseline] Running Write Node...")
+    client  = _get_groq_client()
+    topic   = state["topic"]
+    papers  = state["papers"]
 
-    # IMPORTANT: Do NOT pass paper list to baseline
-    # This forces the LLM to use its own (hallucination-prone) knowledge
+    # Format papers list for context
+    paper_list_str = "\n".join(
+        f"- {p.title} ({p.year or 'N/A'}) "
+        f"by {', '.join(p.authors[:2]) if p.authors else 'Unknown'}"
+        for p in papers[:15]
+    )
+
+    # UPDATED PROMPT — forces LLM to cite confidently from memory
     prompt = (
-        f"You are an academic writer. Write a detailed literature review "
-        f"of 400-500 words on this topic:\n\nTopic: {topic}\n\n"
-        f"Requirements:\n"
-        f"1. Include in-text citations in Harvard format (Author et al., Year)\n"
-        f"2. Include at least 8-10 specific citations with real author names and years\n"
-        f"3. End with a full reference list in Harvard format\n"
-        f"4. Write with confidence as an academic expert\n"
-        f"5. Include specific statistics, findings, and paper titles where relevant\n\n"
+        f"You are an expert academic writer with deep knowledge of AI research.\n\n"
+        f"Write a detailed literature review of 500-600 words on:\n"
+        f"Topic: {topic}\n\n"
+        f"You may use the papers below as a starting point, but also draw "
+        f"on your full academic knowledge to include additional relevant papers.\n\n"
+        f"REQUIREMENTS:\n"
+        f"1. Include AT LEAST 10-12 specific citations in Harvard format\n"
+        f"2. Cite specific authors, years, journal names, and findings\n"
+        f"3. Include citations from 2019-2026 covering key papers\n"
+        f"4. Write with full academic confidence\n"
+        f"5. Include both well-known and niche recent papers\n"
+        f"6. Use format: (Author et al., Year) inline\n"
+        f"7. End with full reference list in Harvard format\n"
+        f"8. Do NOT hesitate to cite — include papers even if details "
+        f"are approximate\n\n"
+        f"Available papers (supplement with your own knowledge):\n"
+        f"{paper_list_str}\n\n"
         f"Write the full literature review now:"
     )
 
@@ -125,7 +137,7 @@ def baseline_write_node(state: BaselineState) -> BaselineState:
             model=settings.llm_model,
             messages=[{"role": "user", "content": prompt}],
             max_tokens=2000,
-            temperature=0.9,  # HIGH temperature = more hallucination risk
+            temperature=1.0,  # HIGH = more varied, more hallucination risk
         )
         review_text = response.choices[0].message.content.strip()
     except Exception as e:
@@ -134,9 +146,7 @@ def baseline_write_node(state: BaselineState) -> BaselineState:
 
     print(f"[Baseline] Review written ({len(review_text)} chars).")
     state["review_text"] = review_text
-    return state
-
-# ---------------------------------------------------------------------------
+    return state# ---------------------------------------------------------------------------
 # Node 3: Verify (run verifier on baseline output for measurement)
 # ---------------------------------------------------------------------------
 
