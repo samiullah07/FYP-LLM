@@ -1,0 +1,286 @@
+{
+  "run_id": "20260409_105018",
+  "timestamp": "2026-04-09T10:50:19.166707",
+  "total": 16,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Lund and Wang, 2023)",
+      "cited_author": "Lund and Wang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323848232",
+      "matched_title": "<scp>ChatGPT</scp> and a new academic reality: <scp>Artificial Intelligence‐writ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Brady Lund",
+        "Ting Wang",
+        "Nishith Reddy Mannuru"
+      ],
+      "matched_doi": "https://doi.org/10.1002/asi.24750"
+    },
+    {
+      "raw_citation": "(Dwivedi and Ismagilova, 2020)",
+      "cited_author": "Dwivedi and Ismagilova",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3035686316",
+      "matched_title": "Setting the future of digital and social media marketing research: Perspectives ",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Elvira Ismagilova",
+        "David L. Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2020.102168"
+    },
+    {
+      "raw_citation": "(Goldin and Rouse, 2000)",
+      "cited_author": "Goldin and Rouse",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1991418004",
+      "matched_title": "Orchestrating Impartiality: The Impact of “Blind” Auditions on Female Musicians",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Claudia Goldin",
+        "Cecilia Elena Rouse"
+      ],
+      "matched_doi": "https://doi.org/10.1257/aer.90.4.715"
+    },
+    {
+      "raw_citation": "(Fiske and Henningsen, 2019)",
+      "cited_author": "Fiske and Henningsen",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2916945592",
+      "matched_title": "Your Robot Therapist Will See You Now: Ethical Implications of Embodied Artifici",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Amelia Fiske",
+        "Peter Henningsen",
+        "Alena Buyx"
+      ],
+      "matched_doi": "https://doi.org/10.2196/13216"
+    },
+    {
+      "raw_citation": "(Greller and Drachsler, 2012)",
+      "cited_author": "Greller and Drachsler",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2146286581",
+      "matched_title": "Translating Learning into Numbers: A Generic Framework for Learning Analytics",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Wolfgang Greller",
+        "Hendrik Drachsler"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Greenhalgh and Wherton, 2017)",
+      "cited_author": "Greenhalgh and Wherton",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2765304416",
+      "matched_title": "Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Aban",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Trisha Greenhalgh",
+        "Joseph Wherton",
+        "Chrysanthi Papoutsi"
+      ],
+      "matched_doi": "https://doi.org/10.2196/jmir.8775"
+    },
+    {
+      "raw_citation": "(Williamson and Altman, 2017)",
+      "cited_author": "Williamson and Altman",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2683672249",
+      "matched_title": "The COMET Handbook: version 1.0",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Paula Williamson",
+        "Douglas G. Altman",
+        "Heather Bagley"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13063-017-1978-4"
+    },
+    {
+      "raw_citation": "(Perkins, 2023)",
+      "cited_author": "Perkins",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4321605350",
+      "matched_title": "Academic Integrity considerations of AI Large Language Models in the post-pandem",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Mike Perkins"
+      ],
+      "matched_doi": "https://doi.org/10.53761/1.20.02.07"
+    },
+    {
+      "raw_citation": "(Rahman and Watanobe, 2023)",
+      "cited_author": "Rahman and Watanobe",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381982883",
+      "matched_title": "ChatGPT for Education and Research: Opportunities, Threats, and Strategies",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Md. Mostafizer Rahman",
+        "Yutaka Watanobe"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app13095783"
+    },
+    {
+      "raw_citation": "(Jenkins, 2006)",
+      "cited_author": "Jenkins",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112957339",
+      "matched_title": "Confronting the Challenges of Participatory Culture: Media Education for the 21s",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Henry Jenkins"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhai and Chu, 2021)",
+      "cited_author": "Zhai and Chu",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3156614709",
+      "matched_title": "A Review of Artificial Intelligence (AI) in Education from 2010 to 2020",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Xuesong Zhai",
+        "Xiaoyan Chu",
+        "Ching Sing Chai"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2021/8812542"
+    },
+    {
+      "raw_citation": "(Secinaro and Calandra, 2021)",
+      "cited_author": "Secinaro and Calandra",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3148271110",
+      "matched_title": "The role of artificial intelligence in healthcare: a structured literature revie",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Silvana Secinaro",
+        "Davide Calandra",
+        "Aurelio Secinaro"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12911-021-01488-9"
+    },
+    {
+      "raw_citation": "(Grassini, 2023)",
+      "cited_author": "Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Stenson and Mort, 2017)",
+      "cited_author": "Stenson and Mort",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2604078450",
+      "matched_title": "The Human Gene Mutation Database: towards a comprehensive repository of inherite",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Peter D. Stenson",
+        "Matthew Mort",
+        "Edward V. Ball"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00439-017-1779-6"
+    },
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    }
+  ]
+}

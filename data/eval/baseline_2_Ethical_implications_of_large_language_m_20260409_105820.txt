@@ -1,0 +1,28 @@
+The increasing use of large language models in automated academic peer review and citation generation has significant ethical implications (Dwivedi et al., 2023; Lund et al., 2023). As (Jenkins, 2006) noted, the intersection of technology and culture can lead to new forms of participation and collaboration, but also raises concerns about authorship and ownership. The use of AI-generated content, such as ChatGPT, challenges traditional notions of academic integrity and authenticity (Perkins, 2023; Rahman et al., 2023). 
+
+In the context of healthcare, (Greenhalgh et al., 2017) emphasized the need to consider the socio-technical factors that influence the adoption and sustainability of new technologies. Similarly, in the realm of education, (Greller et al., 2012) proposed a framework for learning analytics that takes into account the complex relationships between technology, pedagogy, and student learning outcomes. More recently, (Secinaro et al., 2021) conducted a structured literature review on the role of artificial intelligence in healthcare, highlighting the potential benefits and challenges of AI adoption in this field.
+
+The use of AI in education has also been extensively studied, with (Zhai et al., 2021) reviewing the applications of AI in education from 2010 to 2020. They noted that AI can enhance student learning outcomes, but also raises concerns about bias, equity, and access. In the context of academic publishing, (Stenson et al., 2017) discussed the importance of maintaining the integrity of the scientific record, which is critical in the face of AI-generated content.
+
+The potential for bias in AI-generated content is a significant concern, as highlighted by (Goldin et al., 2000) in their study on the impact of "blind" auditions on female musicians. Similarly, (Fiske et al., 2019) discussed the ethical implications of embodied artificial intelligence in psychiatry, psychology, and psychotherapy. In the context of AI-generated academic content, (Dwivedi et al., 2023) noted that the use of ChatGPT and other large language models can perpetuate existing biases and inequalities.
+
+The implications of AI-generated content for citation generation are also significant, as noted by (Williamson et al., 2017) in their discussion of the COMET handbook. The potential for AI-generated citations to perpetuate errors or biases in the scientific record is a concern that needs to be addressed (Lund et al., 2023). Furthermore, (Grassini, 2023) highlighted the need for educators to develop strategies for teaching students to critically evaluate AI-generated content and to use these tools in a responsible and ethical manner.
+
+In conclusion, the use of large language models in automated academic peer review and citation generation has significant ethical implications that need to be carefully considered (Dwivedi et al., 2023; Lund et al., 2023). As (Ismagilova et al., 2020) noted, the future of digital and social media marketing research will depend on our ability to develop and apply new technologies in a responsible and ethical manner. Similarly, in the context of academic publishing, we need to ensure that the use of AI-generated content is transparent, accountable, and aligned with the values of academic integrity and authenticity.
+
+References:
+Dwivedi, Y. K., & Kshetri, N. (2023). So what if ChatGPT wrote it? Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy. 
+Fiske, A., & Henningsen, P. (2019). Your Robot Therapist Will See You Now: Ethical Implications of Embodied Artificial Intelligence in Psychiatry, Psychology, and Psychotherapy. 
+Goldin, C., & Rouse, C. E. (2000). Orchestrating Impartiality: The Impact of “Blind” Auditions on Female Musicians. 
+Greller, W., & Drachsler, H. (2012). Translating Learning into Numbers: A Generic Framework for Learning Analytics. 
+Grassini, S. (2023). Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings. 
+Greenhalgh, T., & Wherton, J. (2017). Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies. 
+Ismagilova, E., & Dwivedi, Y. K. (2020). Setting the future of digital and social media marketing research: Perspectives and research propositions. 
+Jenkins, H. (2006). Confronting the Challenges of Participatory Culture: Media Education for the 21st Century. 
+Lund, B., & Wang, T. (2023). ChatGPT and a new academic reality: Artificial Intelligence‐written research papers and the ethics of the large language models in scholarly publishing. 
+Perkins, M. (2023). Academic Integrity considerations of AI Large Language Models in the post-pandemic era: ChatGPT and beyond. 
+Rahman, M. M., & Watanobe, Y. (2023). ChatGPT for Education and Research: Opportunities, Threats, and Strategies. 
+Secinaro, S., & Calandra, D. (2021). The role of artificial intelligence in healthcare: a structured literature review. 
+Stenson, P. D., & Mort, M. (2017). The Human Gene Mutation Database: towards a comprehensive repository of inherited mutation data for medical research, genetic diagnosis and next-generation sequencing studies. 
+Williamson, P., & Altman, D. G. (2017). The COMET Handbook: version 1.0. 
+Zhai, X., & Chu, X. (2021). A Review of Artificial Intelligence (AI) in Education from 2010 to 2020.

@@ -1,0 +1,257 @@
+{
+  "run_id": "20260403_094659",
+  "timestamp": "2026-04-03T09:47:00.328610",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Radosvet Desislavov and Fernando Martínez‐Plumed, 2023)",
+      "cited_author": "Radosvet Desislavov and Fernando Martínez‐Plumed",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322153971",
+      "matched_title": "Trends in AI inference energy consumption: Beyond the performance-vs-parameter l",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Radosvet Desislavov",
+        "Fernando Martínez‐Plumed",
+        "José Hernández‐Orallo"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.suscom.2023.100857"
+    },
+    {
+      "raw_citation": "(Antonio Carlos Cob-Parro and Cristina Losada, 2021)",
+      "cited_author": "Antonio Carlos Cob-Parro and Cristina Losada",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3157789903",
+      "matched_title": "Smart Video Surveillance System Based on Edge Computing",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Antonio Carlos Cob-Parro",
+        "Cristina Losada",
+        "Marta Marrón-Romera"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s21092958"
+    },
+    {
+      "raw_citation": "(Miguel de Prado and Manuele Rusci, 2021)",
+      "cited_author": "Miguel de Prado and Manuele Rusci",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3129911950",
+      "matched_title": "Robustifying the Deployment of tinyML Models for Autonomous Mini-Vehicles",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Miguel de Prado",
+        "Manuele Rusci",
+        "Alessandro Capotondi"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s21041339"
+    },
+    {
+      "raw_citation": "(Muhammad Hussain, 2024)",
+      "cited_author": "Muhammad Hussain",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392939809",
+      "matched_title": "YOLOv1 to v8: Unveiling Each Variant–A Comprehensive Review of YOLO",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Muhammad Hussain"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2024.3378568"
+    },
+    {
+      "raw_citation": "(Yiwen Xu and Tariq Khan, 2025)",
+      "cited_author": "Yiwen Xu and Tariq Khan",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406488955",
+      "matched_title": "Edge deep learning in computer vision and medical diagnostics: a comprehensive s",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Yiwen Xu",
+        "Tariq Khan",
+        "Yang Song"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-11033-5"
+    },
+    {
+      "raw_citation": "(Kathiravan Thangavel and Dario Spiller, 2023)",
+      "cited_author": "Kathiravan Thangavel and Dario Spiller",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4318206819",
+      "matched_title": "Autonomous Satellite Wildfire Detection Using Hyperspectral Imagery and Neural N",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Kathiravan Thangavel",
+        "Dario Spiller",
+        "Roberto Sabatini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/rs15030720"
+    },
+    {
+      "raw_citation": "(Driss Aouladhadj and Ettien Kpré, 2023)",
+      "cited_author": "Driss Aouladhadj and Ettien Kpré",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386422724",
+      "matched_title": "Drone Detection and Tracking Using RF Identification Signals",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Driss Aouladhadj",
+        "Ettien Kpré",
+        "Virginie Deniau"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s23177650"
+    },
+    {
+      "raw_citation": "(Sana Parez and Naqqash Dilshad, 2023)",
+      "cited_author": "Sana Parez and Naqqash Dilshad",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4379743944",
+      "matched_title": "Towards Sustainable Agricultural Systems: A Lightweight Deep Learning Model for ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sana Parez",
+        "Naqqash Dilshad",
+        "Turki M. Alanazi"
+      ],
+      "matched_doi": "https://doi.org/10.32604/csse.2023.037992"
+    },
+    {
+      "raw_citation": "(Sergio Trilles and Sahibzada Saadoon Hammad, 2024)",
+      "cited_author": "Sergio Trilles and Sahibzada Saadoon Hammad",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390748831",
+      "matched_title": "Anomaly detection based on Artificial Intelligence of Things: A Systematic Liter",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Sergio Trilles",
+        "Sahibzada Saadoon Hammad",
+        "Ditsuhi Iskandaryan"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.iot.2024.101063"
+    },
+    {
+      "raw_citation": "(Liew, 2024)",
+      "cited_author": "Liew",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4395466652",
+      "matched_title": "AI can empower agriculture for global food security: challenges and prospects in",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Ahmad Ali",
+        "Anderson X. W. Liew",
+        "Francesca Venturini"
+      ],
+      "matched_doi": "https://doi.org/10.3389/frai.2024.1328530"
+    },
+    {
+      "raw_citation": "(Luigi Capogrosso and Federico Cunico, 2024)",
+      "cited_author": "Luigi Capogrosso and Federico Cunico",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391759599",
+      "matched_title": "A Machine Learning-Oriented Survey on Tiny Machine Learning",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Luigi Capogrosso",
+        "Federico Cunico",
+        "Dong Seon Cheng"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2024.3365349"
+    },
+    {
+      "raw_citation": "(Peter Sertic and Ayman Alahmar, 2022)",
+      "cited_author": "Peter Sertic and Ayman Alahmar",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4229455392",
+      "matched_title": "Intelligent Real-Time Face-Mask Detection System with Hardware Acceleration for ",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Peter Sertic",
+        "Ayman Alahmar",
+        "Thangarajah Akilan"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare10050873"
+    },
+    {
+      "raw_citation": "(Dewant Katare and Diego Perino, 2023)",
+      "cited_author": "Dewant Katare and Diego Perino",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385696134",
+      "matched_title": "A Survey on Approximate Edge AI for Energy Efficient Autonomous Driving Services",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dewant Katare",
+        "Diego Perino",
+        "Jari Nurmi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2023.3302474"
+    },
+    {
+      "raw_citation": "(Md Shahriar Iqbal and Rahul Krishna, 2022)",
+      "cited_author": "Md Shahriar Iqbal and Rahul Krishna",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4220691208",
+      "matched_title": "Unicorn",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Md Shahriar Iqbal",
+        "Rahul Krishna",
+        "Mohammad Ali Javidian"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3492321.3519575"
+    }
+  ]
+}

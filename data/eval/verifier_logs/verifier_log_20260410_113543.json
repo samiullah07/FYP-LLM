@@ -1,0 +1,197 @@
+{
+  "run_id": "20260410_113543",
+  "timestamp": "2026-04-10T11:36:03.477865",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Müller and Zhang, 2023)",
+      "cited_author": "Müller and Zhang",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.537,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Farquhar et al., 2024)",
+      "cited_author": "Farquhar et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399803256",
+      "matched_title": "Detecting hallucinations in large language models using semantic entropy",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Sebastian Farquhar",
+        "Jannik Kossen",
+        "Lorenz Kuhn"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-07421-0"
+    },
+    {
+      "raw_citation": "(Rawte et al., 2023)",
+      "cited_author": "Rawte et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389524379",
+      "matched_title": "The Troubling Emergence of Hallucination in Large Language Models - An Extensive",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vipula Rawte",
+        "Swagata Chakraborty",
+        "Agnibh Pathak"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.155"
+    },
+    {
+      "raw_citation": "(Sui et al., 2024)",
+      "cited_author": "Sui et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402671036",
+      "matched_title": "Confabulation: The Surprising Value of Large Language Model Hallucinations",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Peiqi Sui",
+        "Eamon Duede",
+        "Sophie Wu"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.acl-long.770"
+    },
+    {
+      "raw_citation": "(Bradshaw et al., 2025)",
+      "cited_author": "Bradshaw et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406443601",
+      "matched_title": "Large Language Models and Large Multimodal Models in Medical Imaging: A Primer f",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Tyler Bradshaw",
+        "Xin Tie",
+        "Joshua Warner"
+      ],
+      "matched_doi": "https://doi.org/10.2967/jnumed.124.268072"
+    },
+    {
+      "raw_citation": "(Tu et al., 2025)",
+      "cited_author": "Tu et al.",
+      "cited_year": 2025,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Tam et al., 2024)",
+      "cited_author": "Tam et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402909345",
+      "matched_title": "A framework for human evaluation of large language models in healthcare derived ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Thomas Yu Chow Tam",
+        "Sonish Sivarajkumar",
+        "Sumit Kapoor"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-024-01258-7"
+    },
+    {
+      "raw_citation": "(Scoboria et al., 2013)",
+      "cited_author": "Scoboria et al.",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2131499562",
+      "matched_title": "The role of belief in occurrence within autobiographical memory.",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Alan Scoboria",
+        "Dennis L. Jackson",
+        "Jennifer M. Talarico"
+      ],
+      "matched_doi": "https://doi.org/10.1037/a0034110"
+    },
+    {
+      "raw_citation": "(Vocat et al., 2010)",
+      "cited_author": "Vocat et al.",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2080297230",
+      "matched_title": "Anosognosia for hemiplegia: a clinical-anatomical prospective study",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Roland Vocat",
+        "F. Staub",
+        "Tiziano Stroppini"
+      ],
+      "matched_doi": "https://doi.org/10.1093/brain/awq297"
+    },
+    {
+      "raw_citation": "(Werner, 2010)",
+      "cited_author": "Werner",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2063804532",
+      "matched_title": "Fractals in the nervous system: conceptual implications for theoretical neurosci",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Gerhard Werner"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fphys.2010.00015"
+    },
+    {
+      "raw_citation": "(Clark, 2013)",
+      "cited_author": "Clark",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2153791616",
+      "matched_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive s",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andy Clark"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s0140525x12000477"
+    }
+  ]
+}

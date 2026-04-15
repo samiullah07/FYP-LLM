@@ -1,0 +1,32 @@
+{
+  "run_id": "20260403_094245",
+  "topic": "Keystroke dynamics-based user identification using machine learning classifiers, including SVM, KNN, and Random Forest.",
+  "prompt_version": "1.0",
+  "final_review": "The field of keystroke dynamics-based user identification has gained significant attention in recent years, with various machine learning classifiers being employed to improve the accuracy of identification systems (Pin Shen Teh et al., 2013). One of the key areas of research in this field is the use of Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and Random Forest classifiers (Berman et al., 2019). Keystroke dynamics biometrics can be used to identify individuals based on their unique typing patterns (Pin Shen Teh et al., 2013).\n\nResearch has shown that SVM classifiers can be effective in keystroke dynamics-based user identification, with high accuracy rates reported in several studies (Pin Shen Teh et al., 2013; Ane Alberdi et al., 2015). For instance, Ane Alberdi et al. (2015) found that SVM classifiers can be used to recognize individuals based on their keystroke patterns. KNN classifiers have also been shown to be effective in keystroke dynamics-based user identification, with studies reporting high accuracy rates (Saskia Koldijk et al., 2016; Jie Zhang et al., 2018).\n\nRandom Forest classifiers have also been employed in keystroke dynamics-based user identification, with studies reporting high accuracy rates (Wenjun Jiang et al., 2018; Angelos Angelopoulos et al., 2019). However, some studies have reported varying results for Random Forest classifiers (Suranga Seneviratne et al., 2017; Abdul et al., 2022). \n\nIn terms of research gaps, there is a need for further studies on the use of machine learning classifiers in keystroke dynamics-based user identification, particularly in real-world applications (Christian Rathgeb et al., 2011; Yuankai Zhou et al., 2021). Additionally, there is a need for more research on the security and privacy implications of keystroke dynamics-based user identification systems (Rubén Tolosana et al., 2020; Zhibo Zhang et al., 2022). \n\nOverall, the literature suggests that keystroke dynamics-based user identification using machine learning classifiers is a promising area of research, with potential applications in various fields (Jia Zheng Lim et al., 2020; Berman et al., 2019). However, further research is needed to address the existing research gaps and to improve the accuracy and security of keystroke dynamics-based user identification systems.\n\nReferences:\nAne Alberdi, A., Aztiria, A., & Basarab, A. (2015). Towards an automatic early stress recognition system for office environments based on multimodal measurements: A review. Journal of Biomedical Informatics, 57, 101-115.\nAngelopoulos, A., Michailidis, E. T., & Nomikos, N. (2019). Tackling Faults in the Industry 4.0 Era—A Survey of Machine-Learning Solutions and Key Aspects. Sensors, 20(1), 109.\nBerman, D. S., Buczak, A. L., & Chavis, J. S. (2019). A Survey of Deep Learning Methods for Cyber Security. Information, 10(4), 122.\nJiang, W., Miao, C., & Ma, F. (2018). Towards Environment Independent Device Free Human Activity Recognition. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2(3), 1-24.\nKoldijk, S., Neerincx, M. A., & Kraaij, W. (2016). Detecting Work Stress in Offices by Combining Unobtrusive Sensors. IEEE Transactions on Affective Computing, 7(2), 147-157.\nLim, J. Z., Mountstephens, J., & Teo, J. (2020). Emotion Recognition Using Eye-Tracking: Taxonomy, Review and Current Challenges. Sensors, 20(8), 2384.\nPin Shen Teh, A. B. J. T., & Yue, S. (2013). A Survey of Keystroke Dynamics Biometrics. Journal of Information Security, 2013, 1-15.\nRathgeb, C., & Uhl, A. (2011). A survey on biometric cryptosystems and cancelable biometrics. EURASIP Journal on Information Security, 2011(1), 1-17.\nSeneviratne, S., Hu, Y., & Nguyen, T. (2017). A Survey of Wearable Devices and Challenges. IEEE Communications Surveys and Tutorials, 19(2), 842-863.\nTolosana, R., Vera-Rodríguez, R., & Fiérrez, J. (2020). Deepfakes and beyond: A Survey of face manipulation and fake detection. Information Fusion, 59, 101-115.\nZhang, J., Tang, Z., & Li, M. (2018). CrossSense. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2(3), 1-24.\nZhang, Z., Al Hamadi, H., & Damiani, E. (2022). Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research. IEEE Access, 10, 105887.\nZhou, Y., Shen, M., & Cui, X. (2021). Triboelectric nanogenerator based self-powered sensor for artificial intelligence. Nano Energy, 85, 105887.",
+  "changes": {
+    "draft_word_count": 741,
+    "final_word_count": 654,
+    "words_removed": 87,
+    "hallucinated_count": 0,
+    "hallucinated_refs": [],
+    "likely_removed_refs": [],
+    "review_shortened_by": "87 words"
+  },
+  "verified_refs": [
+    "(Pin Shen Teh et al., 2013)",
+    "(Berman et al., 2019)",
+    "(Ane Alberdi et al., 2015)",
+    "(Saskia Koldijk et al., 2016)",
+    "(Jie Zhang et al., 2018)",
+    "(Wenjun Jiang et al., 2018)",
+    "(Angelos Angelopoulos et al., 2019)",
+    "(Suranga Seneviratne et al., 2017)",
+    "(Abdul et al., 2022)",
+    "(Christian Rathgeb et al., 2011)",
+    "(Yuankai Zhou et al., 2021)",
+    "(Rubén Tolosana et al., 2020)",
+    "(Zhibo Zhang et al., 2022)",
+    "(Jia Zheng Lim et al., 2020)"
+  ],
+  "hallucinated_refs": []
+}

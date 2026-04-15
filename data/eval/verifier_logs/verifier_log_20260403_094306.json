@@ -1,0 +1,257 @@
+{
+  "run_id": "20260403_094306",
+  "timestamp": "2026-04-03T09:43:06.794011",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Pin Shen Teh et al., 2013)",
+      "cited_author": "Pin Shen Teh et al.",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2045011071",
+      "matched_title": "A Survey of Keystroke Dynamics Biometrics",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Pin Shen Teh",
+        "Andrew Beng Jin Teoh",
+        "Shigang Yue"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2013/408280"
+    },
+    {
+      "raw_citation": "(Berman et al., 2019)",
+      "cited_author": "Berman et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2929803724",
+      "matched_title": "A Survey of Deep Learning Methods for Cyber Security",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Daniel S. Berman",
+        "Anna L. Buczak",
+        "Jeffrey S. Chavis"
+      ],
+      "matched_doi": "https://doi.org/10.3390/info10040122"
+    },
+    {
+      "raw_citation": "(Ane Alberdi et al., 2015)",
+      "cited_author": "Ane Alberdi et al.",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2184481998",
+      "matched_title": "Towards an automatic early stress recognition system for office environments bas",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Ane Alberdi",
+        "Asier Aztiria",
+        "Adrian Basarab"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jbi.2015.11.007"
+    },
+    {
+      "raw_citation": "(Saskia Koldijk et al., 2016)",
+      "cited_author": "Saskia Koldijk et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2522453581",
+      "matched_title": "Detecting Work Stress in Offices by Combining Unobtrusive Sensors",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Saskia Koldijk",
+        "Mark A. Neerincx",
+        "Wessel Kraaij"
+      ],
+      "matched_doi": "https://doi.org/10.1109/taffc.2016.2610975"
+    },
+    {
+      "raw_citation": "(Jie Zhang et al., 2018)",
+      "cited_author": "Jie Zhang et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896542121",
+      "matched_title": "CrossSense",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Jie Zhang",
+        "Zhanyong Tang",
+        "Meng Li"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3241539.3241570"
+    },
+    {
+      "raw_citation": "(Wenjun Jiang et al., 2018)",
+      "cited_author": "Wenjun Jiang et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2897132279",
+      "matched_title": "Towards Environment Independent Device Free Human Activity Recognition",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Wenjun Jiang",
+        "Chenglin Miao",
+        "Fenglong Ma"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3241539.3241548"
+    },
+    {
+      "raw_citation": "(Angelos Angelopoulos et al., 2019)",
+      "cited_author": "Angelos Angelopoulos et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995450656",
+      "matched_title": "Tackling Faults in the Industry 4.0 Era—A Survey of Machine-Learning Solutions a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Angelos Angelopoulos",
+        "Emmanouel T. Michailidis",
+        "Νικόλαος Νομικός"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s20010109"
+    },
+    {
+      "raw_citation": "(Suranga Seneviratne et al., 2017)",
+      "cited_author": "Suranga Seneviratne et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2740884108",
+      "matched_title": "A Survey of Wearable Devices and Challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Suranga Seneviratne",
+        "Yining Hu",
+        "Tham Nguyen"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2017.2731979"
+    },
+    {
+      "raw_citation": "(Abdul et al., 2022)",
+      "cited_author": "Abdul et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4313178214",
+      "matched_title": "Mel Frequency Cepstral Coefficient and its Applications: A Review",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zrar Kh. Abdul",
+        "Abdulbasit K. Al‐Talabani"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3223444"
+    },
+    {
+      "raw_citation": "(Christian Rathgeb et al., 2011)",
+      "cited_author": "Christian Rathgeb et al.",
+      "cited_year": 2011,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2129905915",
+      "matched_title": "A survey on biometric cryptosystems and cancelable biometrics",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Christian Rathgeb",
+        "Andreas Uhl"
+      ],
+      "matched_doi": "https://doi.org/10.1186/1687-417x-2011-3"
+    },
+    {
+      "raw_citation": "(Yuankai Zhou et al., 2021)",
+      "cited_author": "Yuankai Zhou et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3129964628",
+      "matched_title": "Triboelectric nanogenerator based self-powered sensor for artificial intelligenc",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yuankai Zhou",
+        "Maoliang Shen",
+        "Xin Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.nanoen.2021.105887"
+    },
+    {
+      "raw_citation": "(Rubén Tolosana et al., 2020)",
+      "cited_author": "Rubén Tolosana et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3038930935",
+      "matched_title": "Deepfakes and beyond: A Survey of face manipulation and fake detection",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Rubén Tolosana",
+        "Rubén Vera-Rodríguez",
+        "Julián Fiérrez"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2020.06.014"
+    },
+    {
+      "raw_citation": "(Zhibo Zhang et al., 2022)",
+      "cited_author": "Zhibo Zhang et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4295854586",
+      "matched_title": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zhibo Zhang",
+        "Hussam Al Hamadi",
+        "Ernesto Damiani"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3204051"
+    },
+    {
+      "raw_citation": "(Jia Zheng Lim et al., 2020)",
+      "cited_author": "Jia Zheng Lim et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3020487153",
+      "matched_title": "Emotion Recognition Using Eye-Tracking: Taxonomy, Review and Current Challenges",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Jia Zheng Lim",
+        "James Mountstephens",
+        "Jason Teo"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s20082384"
+    }
+  ]
+}

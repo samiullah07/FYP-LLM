@@ -1,0 +1,169 @@
+{
+  "run_id": "20260403_095518",
+  "timestamp": "2026-04-03T09:55:18.923128",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Pin Shen Teh et al., 2013)",
+      "cited_author": "Pin Shen Teh et al.",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2045011071",
+      "matched_title": "A Survey of Keystroke Dynamics Biometrics",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Pin Shen Teh",
+        "Andrew Beng Jin Teoh",
+        "Shigang Yue"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2013/408280"
+    },
+    {
+      "raw_citation": "(Arun Ross et al., 2006)",
+      "cited_author": "Arun Ross et al.",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1585588639",
+      "matched_title": "Handbook of Multibiometrics",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Arun Ross",
+        "Karthik Nandakumar",
+        "Anil K. Jain"
+      ],
+      "matched_doi": "https://doi.org/10.1007/0-387-33123-9"
+    },
+    {
+      "raw_citation": "(Arafat Rahman et al., 2022)",
+      "cited_author": "Arafat Rahman et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3174506283",
+      "matched_title": "Multimodal EEG and Keystroke Dynamics Based Biometric System Using Machine Learn",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Arafat Rahman",
+        "Muhammad E. H. Chowdhury",
+        "Amith Khandakar"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3092840"
+    },
+    {
+      "raw_citation": "(Berman et al., 2019)",
+      "cited_author": "Berman et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2929803724",
+      "matched_title": "A Survey of Deep Learning Methods for Cyber Security",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Daniel S. Berman",
+        "Anna L. Buczak",
+        "Jeffrey S. Chavis"
+      ],
+      "matched_doi": "https://doi.org/10.3390/info10040122"
+    },
+    {
+      "raw_citation": "(Rubén Tolosana et al., 2020)",
+      "cited_author": "Rubén Tolosana et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3038930935",
+      "matched_title": "Deepfakes and beyond: A Survey of face manipulation and fake detection",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Rubén Tolosana",
+        "Rubén Vera-Rodríguez",
+        "Julián Fiérrez"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2020.06.014"
+    },
+    {
+      "raw_citation": "(Naeem Syed et al., 2022)",
+      "cited_author": "Naeem Syed et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4285205927",
+      "matched_title": "Zero Trust Architecture (ZTA): A Comprehensive Survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Naeem Syed",
+        "Syed Wajid Ali Shah",
+        "Arash Shaghaghi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3174679"
+    },
+    {
+      "raw_citation": "(Mohamed Amine Ferrag et al., 2019)",
+      "cited_author": "Mohamed Amine Ferrag et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2914768460",
+      "matched_title": "Authentication and Authorization for Mobile IoT Devices Using Biofeatures: Recen",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Mohamed Amine Ferrag",
+        "Λέανδρος Μαγλαράς",
+        "Abdelouahid Derhab"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2019/5452870"
+    },
+    {
+      "raw_citation": "(Ane Alberdi et al., 2015)",
+      "cited_author": "Ane Alberdi et al.",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2184481998",
+      "matched_title": "Towards an automatic early stress recognition system for office environments bas",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Ane Alberdi",
+        "Asier Aztiria",
+        "Adrian Basarab"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jbi.2015.11.007"
+    },
+    {
+      "raw_citation": "(Zhibo Zhang et al., 2022)",
+      "cited_author": "Zhibo Zhang et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4295854586",
+      "matched_title": "Explainable Artificial Intelligence Applications in Cyber Security: State-of-the",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zhibo Zhang",
+        "Hussam Al Hamadi",
+        "Ernesto Damiani"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3204051"
+    }
+  ]
+}

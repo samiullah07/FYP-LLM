@@ -1,0 +1,186 @@
+{
+  "run_id": "20260408_140411",
+  "timestamp": "2026-04-08T14:04:11.734561",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Zhang et al., 2023)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Huang et al., 2023)",
+      "cited_author": "Huang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Tonmoy et al., 2024)",
+      "cited_author": "Tonmoy et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390602555",
+      "matched_title": "A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "S. M Towhidul Islam Tonmoy",
+        "S M Mehedi Zaman",
+        "Vinija Jain"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2401.01313"
+    },
+    {
+      "raw_citation": "(Zhang, 2023)",
+      "cited_author": "Zhang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2025)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412158322",
+      "matched_title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Model",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1162/coli.a.16"
+    },
+    {
+      "raw_citation": "(Williams et al., 1996)",
+      "cited_author": "Williams et al.",
+      "cited_year": 1996,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2095047429",
+      "matched_title": "The specificity of autobiographical memory and imageability of the future",
+      "matched_year": 1996,
+      "matched_authors": [
+        "James Williams",
+        "Nick C. Ellis",
+        "Claire Tyers"
+      ],
+      "matched_doi": "https://doi.org/10.3758/bf03197278"
+    },
+    {
+      "raw_citation": "(Burgess et al., 2006)",
+      "cited_author": "Burgess et al.",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2161907647",
+      "matched_title": "The case for the development and use of “ecologically valid” measures of executi",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Paul W. Burgess",
+        "Nick Alderman",
+        "CATRIN FORBES"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s1355617706060310"
+    },
+    {
+      "raw_citation": "(Nakamura et al., 2007)",
+      "cited_author": "Nakamura et al.",
+      "cited_year": 2007,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2145308745",
+      "matched_title": "Orbitofrontal volume deficit in schizophrenia and thought disorder",
+      "matched_year": 2007,
+      "matched_authors": [
+        "Mihoko Nakamura",
+        "Paul G. Nestor",
+        "James J. Levitt"
+      ],
+      "matched_doi": "https://doi.org/10.1093/brain/awm265"
+    },
+    {
+      "raw_citation": "(Kiser et al., 2024)",
+      "cited_author": "Kiser et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4396591723",
+      "matched_title": "Large language models to help appeal denied radiotherapy services",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Kendall Kiser",
+        "Michael R. Waters",
+        "Jocelyn Reckford"
+      ],
+      "matched_doi": "https://doi.org/10.1101/2024.04.30.24306634"
+    },
+    {
+      "raw_citation": "(Treleaven, 2014)",
+      "cited_author": "Treleaven",
+      "cited_year": 2014,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2117332520",
+      "matched_title": "Social media analytics: a survey of techniques, tools and platforms",
+      "matched_year": 2014,
+      "matched_authors": [
+        "Bogdan Batrinca",
+        "Philip Treleaven"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00146-014-0549-4"
+    }
+  ]
+}

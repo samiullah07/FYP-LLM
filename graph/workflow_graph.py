@@ -1,104 +1,73 @@
 # graph/workflow_graph.py
-"""
-Experimental Multi-Agent Workflow (LangGraph).
-
-Pipeline:
-    planner → search → summariser → verifier → assembler
-
-This is the EXPERIMENTAL system compared against the baseline
-single-LLM system in your evaluation.
-
-Key improvements over baseline:
-    1. Planner decomposes topic into focused sub-queries
-    2. Search retrieves papers per sub-query (wider coverage)
-    3. Summariser writes review with strict citation instructions
-    4. Verifier checks every citation against OpenAlex metadata
-    5. Assembler removes/rephrases hallucinated citations
-
-State flows through all nodes as a shared ReviewState TypedDict.
-Each node reads from state, does its job, writes results back.
-
-Prompt version used: configs/prompts.PROMPT_VERSION
-"""
-
 import sys
 import json
+import time
 from pathlib import Path
 from datetime import datetime
+from typing import TypedDict
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 
-from agents.planner_agent   import plan_topic
-from agents.search_agent    import retrieve_papers
+from agents.planner_agent    import plan_topic
+from agents.search_agent     import retrieve_papers
 from agents.summariser_agent import write_literature_review
-from agents.verifier_agent  import verify_review
-from agents.assembler_agent import assemble_final_review, save_assembler_log
-from src.models  import Paper, Citation
-from src.config  import settings
-from configs.prompts import PROMPT_VERSION
+from agents.verifier_agent   import verify_review
+from agents.assembler_agent  import assemble_final_review, save_assembler_log
+from src.models              import Paper, Citation
+from src.config              import settings
+from configs.prompts         import PROMPT_VERSION
+
+# MAB — optional, does not break pipeline if missing
+try:
+    from src.mab_selector import bandit
+    MAB_AVAILABLE = True
+except Exception:
+    MAB_AVAILABLE = False
 
 
 # ---------------------------------------------------------------------------
-# Shared State Definition
-# ALL agents read and write to this single state dict
+# State Definition
 # ---------------------------------------------------------------------------
-
 class ReviewState(TypedDict):
-    # Input
-    topic: str
-
-    # Planner output
-    sub_queries: list[str]
-
-    # Search output
-    papers: list[Paper]
-
-    # Summariser output
-    draft_review: str
-    papers_used: list[Paper]
-
-    # Verifier output
-    total_citations: int
-    valid_citations: int
-    partial_citations: int
-    hallucinated_citations: int
-    hallucination_rate: float
-    citation_details: list[Citation]
-
-    # Assembler output
-    final_review: str
-    verified_refs: list[str]
-    hallucinated_refs: list[str]
-    changes: dict
-
-    # Run metadata
-    run_id: str
-    prompt_version: str
-    retry_count: int
-    latency_seconds: float
-    token_estimate: int
-
+    topic:                   str
+    sub_queries:             list[str]
+    papers:                  list[Paper]
+    draft_review:            str
+    papers_used:             list[Paper]
+    total_citations:         int
+    valid_citations:         int
+    partial_citations:       int
+    hallucinated_citations:  int
+    hallucination_rate:      float
+    citation_details:        list[Citation]
+    final_review:            str
+    verified_refs:           list[str]
+    hallucinated_refs:       list[str]
+    changes:                 dict
+    run_id:                  str
+    prompt_version:          str
+    retry_count:             int
+    latency_seconds:         float
+    token_estimate:          int
+    selected_model:          str
+    topic_type:              str
+    mab_policy:              dict
 
 
 # ---------------------------------------------------------------------------
 # Node 1: Planner
 # ---------------------------------------------------------------------------
-
 def planner_node(state: ReviewState) -> ReviewState:
-    """
-    Decompose the research topic into 3-5 focused sub-queries.
-
-    Input  : state["topic"]
-    Output : state["sub_queries"]
-    """
-    print("\n[Graph] ── Node 1: Planner ──────────────────────────────")
-    topic = state["topic"]
-    sub_queries = plan_topic(topic)
+    print("\n[Graph] ── Node 1: Planner ──────────────────────────")
+    topic = state.get("topic", "")
+    if not topic:
+        print("[Graph] WARNING: topic is empty in planner_node")
+        return state
+    sub_queries          = plan_topic(topic)
     state["sub_queries"] = sub_queries
     return state
 
@@ -106,17 +75,10 @@ def planner_node(state: ReviewState) -> ReviewState:
 # ---------------------------------------------------------------------------
 # Node 2: Search
 # ---------------------------------------------------------------------------
-
 def search_node(state: ReviewState) -> ReviewState:
-    """
-    Retrieve papers from OpenAlex for each sub-query.
-
-    Input  : state["sub_queries"]
-    Output : state["papers"]
-    """
-    print("\n[Graph] ── Node 2: Search ───────────────────────────────")
-    sub_queries = state["sub_queries"]
-    papers = retrieve_papers(sub_queries)
+    print("\n[Graph] ── Node 2: Search ───────────────────────────")
+    sub_queries    = state.get("sub_queries", [])
+    papers         = retrieve_papers(sub_queries)
     state["papers"] = papers
     return state
 
@@ -124,17 +86,10 @@ def search_node(state: ReviewState) -> ReviewState:
 # ---------------------------------------------------------------------------
 # Node 3: Summariser
 # ---------------------------------------------------------------------------
-
 def summariser_node(state: ReviewState) -> ReviewState:
-    """
-    Write a full literature review draft from retrieved papers.
-
-    Input  : state["papers"], state["topic"]
-    Output : state["draft_review"], state["papers_used"]
-    """
-    print("\n[Graph] ── Node 3: Summariser ───────────────────────────")
-    papers = state["papers"]
-    topic  = state["topic"]
+    print("\n[Graph] ── Node 3: Summariser ───────────────────────")
+    papers                = state.get("papers", [])
+    topic                 = state.get("topic", "")
     review_text, papers_used = write_literature_review(papers, topic)
     state["draft_review"] = review_text
     state["papers_used"]  = papers_used
@@ -144,20 +99,12 @@ def summariser_node(state: ReviewState) -> ReviewState:
 # ---------------------------------------------------------------------------
 # Node 4: Verifier
 # ---------------------------------------------------------------------------
-
 def verifier_node(state: ReviewState) -> ReviewState:
-    """
-    Verify all citations in the draft review against OpenAlex.
-
-    Input  : state["draft_review"], state["papers"]
-    Output : state["total_citations"], state["valid_citations"],
-             state["partial_citations"], state["hallucinated_citations"],
-             state["hallucination_rate"], state["citation_details"]
-    """
-    print("\n[Graph] ── Node 4: Verifier ─────────────────────────────")
-    review_text = state["draft_review"]
-    papers      = state["papers"]
-    result      = verify_review(review_text, papers)
+    print("\n[Graph] ── Node 4: Verifier ─────────────────────────")
+    review_text = state.get("draft_review", "")
+    papers      = state.get("papers", [])
+    run_id      = state.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
+    result      = verify_review(review_text, papers, run_id=run_id)
 
     state["total_citations"]        = result["total"]
     state["valid_citations"]        = result["valid"]
@@ -166,28 +113,36 @@ def verifier_node(state: ReviewState) -> ReviewState:
     state["hallucination_rate"]     = result["hallucination_rate"]
     state["citation_details"]       = result["citations"]
 
+    # Update MAB with reward after verifier runs
+    if MAB_AVAILABLE:
+        try:
+            model      = state.get("selected_model", settings.llm_model)
+            topic_type = state.get("topic_type",     "moderate")
+            bandit.update(
+                model              = model,
+                topic_type         = topic_type,
+                hallucination_rate = result["hallucination_rate"],
+            )
+            state["mab_policy"] = bandit.get_policy_summary()
+            print(
+                f"[MAB] Updated: model={model}, "
+                f"reward={1 - result['hallucination_rate']:.3f}"
+            )
+        except Exception as e:
+            print(f"[MAB] Update failed: {e}")
+
     return state
 
 
 # ---------------------------------------------------------------------------
 # Node 5: Assembler
 # ---------------------------------------------------------------------------
-
 def assembler_node(state: ReviewState) -> ReviewState:
-    """
-    Produce the final clean review by removing/rephrasing
-    hallucinated citations flagged by the Verifier.
-
-    Input  : state["draft_review"], state["citation_details"],
-             state["topic"]
-    Output : state["final_review"], state["verified_refs"],
-             state["hallucinated_refs"], state["changes"]
-    """
-    print("\n[Graph] ── Node 5: Assembler ────────────────────────────")
+    print("\n[Graph] ── Node 5: Assembler ────────────────────────")
     result = assemble_final_review(
-        topic        = state["topic"],
-        draft_review = state["draft_review"],
-        citations    = state["citation_details"],
+        topic        = state.get("topic", ""),
+        draft_review = state.get("draft_review", ""),
+        citations    = state.get("citation_details", []),
     )
 
     state["final_review"]      = result["final_review"]
@@ -195,37 +150,36 @@ def assembler_node(state: ReviewState) -> ReviewState:
     state["hallucinated_refs"] = result["hallucinated_refs"]
     state["changes"]           = result["changes"]
 
-    # Save structured assembler log
     run_id  = state.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
     log_dir = settings.data_dir / "eval" / "logs"
-    save_assembler_log(result, state["topic"], log_dir, run_id)
+    save_assembler_log(result, state.get("topic", ""), log_dir, run_id)
 
     return state
 
-# 2. Add routing function after verifier
+
+# ---------------------------------------------------------------------------
+# Conditional retry after verifier
+# ---------------------------------------------------------------------------
 def should_retry(state: ReviewState) -> str:
-    """
-    Route: if hallucination rate > 30% and retry < 1, go back to summariser.
-    Otherwise proceed to assembler.
-    This implements the self-correcting agentic behaviour.
-    """
     hall_rate   = state.get("hallucination_rate", 0)
     retry_count = state.get("retry_count", 0)
 
     if hall_rate > 0.30 and retry_count < 1:
         print(
-            f"\n[Graph] ⚠️  High hallucination rate ({hall_rate:.1%}). "
-            f"Retrying summariser (attempt {retry_count + 1})..."
+            f"\n[Graph] ⚠️  Hallucination rate {hall_rate:.1%} > 30%. "
+            f"Retrying summariser..."
         )
         state["retry_count"] = retry_count + 1
         return "retry"
 
-    print(f"\n[Graph] ✅ Hallucination rate acceptable ({hall_rate:.1%}). Proceeding.")
+    print(f"\n[Graph] ✅ Hallucination rate {hall_rate:.1%}. Proceeding.")
     return "continue"
-# ---------------------------------------------------------------------------
-# Build and compile the LangGraph workflow
-# ---------------------------------------------------------------------------
 
+
+# ---------------------------------------------------------------------------
+# Build workflow — NO MAB node in graph
+# MAB selection happens BEFORE graph.invoke() in run_workflow()
+# ---------------------------------------------------------------------------
 def build_workflow():
     graph = StateGraph(ReviewState)
 
@@ -240,67 +194,98 @@ def build_workflow():
     graph.add_edge("search",     "summariser")
     graph.add_edge("summariser", "verifier")
 
-    # CONDITIONAL EDGE: retry or continue
     graph.add_conditional_edges(
         "verifier",
         should_retry,
-        {
-            "retry":    "summariser",  # go back to rewrite
-            "continue": "assembler",   # proceed to final
-        },
+        {"retry": "summariser", "continue": "assembler"},
     )
 
     graph.add_edge("assembler", END)
     return graph.compile()
 
+
 # ---------------------------------------------------------------------------
 # Run workflow
 # ---------------------------------------------------------------------------
-
 def run_workflow(topic: str) -> ReviewState:
-    import time
+    """
+    Run full 5-agent pipeline.
+    MAB model selection happens HERE before graph starts.
+    """
     workflow = build_workflow()
     run_id   = datetime.now().strftime("%Y%m%d_%H%M%S")
     start    = time.time()
 
+    # MAB selects model BEFORE graph invocation
+    selected_model = settings.llm_model
+    topic_type     = "moderate"
+
+    if MAB_AVAILABLE:
+        try:
+            selected_model, topic_type = bandit.select_model(topic)
+            settings.llm_model = selected_model
+            print(f"\n[MAB] Selected model : {selected_model}")
+            print(f"[MAB] Topic type     : {topic_type}")
+        except Exception as e:
+            print(f"[MAB] Selection error: {e} — using default")
+
+    # Build initial state with ALL keys pre-populated
     initial_state: ReviewState = {
-        "topic":                  topic,
-        "sub_queries":            [],
-        "papers":                 [],
-        "draft_review":           "",
-        "papers_used":            [],
-        "total_citations":        0,
-        "valid_citations":        0,
-        "partial_citations":      0,
-        "hallucinated_citations": 0,
-        "hallucination_rate":     0.0,
-        "citation_details":       [],
-        "final_review":           "",
-        "verified_refs":          [],
-        "hallucinated_refs":      [],
-        "changes":                {},
-        "run_id":                 run_id,
-        "prompt_version":         PROMPT_VERSION,
-        "retry_count":            0,        # NEW
-        "latency_seconds":        0.0,      # NEW
-        "token_estimate":         0,        # NEW
+        "topic":                   topic,
+        "sub_queries":             [],
+        "papers":                  [],
+        "draft_review":            "",
+        "papers_used":             [],
+        "total_citations":         0,
+        "valid_citations":         0,
+        "partial_citations":       0,
+        "hallucinated_citations":  0,
+        "hallucination_rate":      0.0,
+        "citation_details":        [],
+        "final_review":            "",
+        "verified_refs":           [],
+        "hallucinated_refs":       [],
+        "changes":                 {},
+        "run_id":                  run_id,
+        "prompt_version":          PROMPT_VERSION,
+        "retry_count":             0,
+        "latency_seconds":         0.0,
+        "token_estimate":          0,
+        "selected_model":          selected_model,
+        "topic_type":              topic_type,
+        "mab_policy":              {},
     }
+
+    print("\n" + "=" * 60)
+    print(f"[Workflow] Run ID      : {run_id}")
+    print(f"[Workflow] Model       : {selected_model}")
+    print(f"[Workflow] Topic type  : {topic_type}")
+    print(f"[Workflow] Topic       : {topic[:55]}")
+    print("=" * 60)
 
     final_state = workflow.invoke(initial_state)
 
     # Track latency
     latency = round(time.time() - start, 2)
     final_state["latency_seconds"] = latency
-
-    # Estimate tokens (rough: 1 token ≈ 4 chars)
     total_text = (
         final_state.get("draft_review", "") +
         final_state.get("final_review", "")
     )
     final_state["token_estimate"] = len(total_text) // 4
 
-    print(f"\n  Latency           : {latency}s")
-    print(f"  Token estimate    : ~{final_state['token_estimate']:,}")
-    print(f"  Retry count       : {final_state.get('retry_count', 0)}")
+    print("\n" + "=" * 60)
+    print("[Workflow] PIPELINE COMPLETE")
+    print("=" * 60)
+    print(f"  Sub-queries         : {len(final_state.get('sub_queries', []))}")
+    print(f"  Papers retrieved    : {len(final_state.get('papers', []))}")
+    print(f"  Total citations     : {final_state.get('total_citations', 0)}")
+    print(f"  Valid               : {final_state.get('valid_citations', 0)}")
+    print(f"  Hallucinated        : {final_state.get('hallucinated_citations', 0)}")
+    print(f"  Hallucination Rate  : {final_state.get('hallucination_rate', 0):.1%}")
+    print(f"  Final review length : {len(final_state.get('final_review', ''))} chars")
+    print(f"  Latency             : {latency}s")
+    print(f"  Model used          : {final_state.get('selected_model', 'N/A')}")
+    print("=" * 60)
 
     return final_state

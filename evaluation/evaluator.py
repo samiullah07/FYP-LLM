@@ -1,31 +1,21 @@
-# evaluation/evaluator.py
 """
-Evaluation Runner for the Literature Review Agent System.
+Evaluation Module — runs Experimental vs Baseline side-by-side.
 
-Responsibility:
-    Run BOTH pipelines on the same topic(s) and compare:
-        - Experimental : multi-agent (planner → search → summarise → verify)
-        - Baseline     : single-LLM  (search → write → measure)
+Output:
+    data/eval/eval_results_<timestamp>.csv
+    data/eval/eval_results_<timestamp>.json
 
-    Metrics compared:
-        - Total citations found
-        - Valid citations
-        - Partial citations
-        - Hallucinated citations
-        - Hallucination rate (%)
-        - Review length (chars)
-        - Papers retrieved
-
-    Outputs:
-        - Console comparison table
-        - CSV file saved to data/eval/results.csv
-        - Both review texts saved to data/eval/
+Run via:
+    uv run test_evaluation.py
 """
 
 import sys
 import csv
+import json
+import time
 from pathlib import Path
 from datetime import datetime
+from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -33,264 +23,193 @@ if str(ROOT) not in sys.path:
 
 from graph.workflow_graph import run_workflow
 from graph.baseline_graph import run_baseline
-from src.config import settings
+
+EVAL_DIR = ROOT / "data" / "eval"
+EVAL_DIR.mkdir(parents=True, exist_ok=True)
+
+DEFAULT_TOPICS = [
+    "Agentic AI for reliable academic literature review and hallucination mitigation",
+    "Retrieval-augmented generation for reducing LLM hallucinations",
+    "Multi-agent systems for automated scientific paper summarisation",
+    "Transformer-based models for citation verification in academic texts",
+    "Self-correcting language model agents for knowledge-intensive tasks",
+]
 
 
-# ---------------------------------------------------------------------------
-# Output directory
-# ---------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
+# Core runner
+# ─────────────────────────────────────────────────────────────────────────────
 
-EVAL_DIR = settings.data_dir / "eval"
+def evaluate_topic(topic: str) -> dict[str, Any]:
+    """Run both pipelines on one topic and return merged metrics."""
+    result: dict[str, Any] = {
+        "topic":     topic,
+        "timestamp": datetime.now().isoformat(),
+    }
+
+    # ── Experimental pipeline ─────────────────────────────────────────────
+    print(f"    → Experimental pipeline ...")
+    t0 = time.time()
+    try:
+        exp = run_workflow(topic)
+        exp_lat = round(time.time() - t0, 2)
+        result.update({
+            "exp_papers":             len(exp.get("papers", [])),
+            "exp_sub_queries":        len(exp.get("sub_queries", [])),
+            "exp_citations_total":    exp.get("total_citations", 0),
+            "exp_citations_valid":    exp.get("valid_citations", 0),
+            "exp_citations_halluc":   exp.get("hallucinated_citations", 0),
+            "exp_hallucination_rate": exp.get("hallucination_rate", 0.0),
+            "exp_review_length":      len(exp.get("draft_review", "")),
+            "exp_latency_s":          exp_lat,
+            "exp_selected_model":     exp.get("selected_model", "N/A"),
+            "exp_topic_type":         exp.get("topic_type", "N/A"),
+            "exp_error":              "",
+        })
+    except Exception as exc:
+        exp_lat = round(time.time() - t0, 2)
+        print(f"    [!] Experimental ERROR: {exc}")
+        result.update({
+            "exp_papers": 0, "exp_sub_queries": 0,
+            "exp_citations_total": 0, "exp_citations_valid": 0,
+            "exp_citations_halluc": 0, "exp_hallucination_rate": 0.0,
+            "exp_review_length": 0, "exp_latency_s": exp_lat,
+            "exp_selected_model": "N/A", "exp_topic_type": "N/A",
+            "exp_error": str(exc),
+        })
+
+    # ── Baseline pipeline ─────────────────────────────────────────────────
+    print(f"    → Baseline pipeline ...")
+    t0 = time.time()
+    try:
+        base = run_baseline(topic)
+        base_lat = round(time.time() - t0, 2)
+        result.update({
+            "base_citations_total":    base.get("total_citations", 0),
+            "base_citations_valid":    base.get("valid_citations", 0),
+            "base_citations_halluc":   base.get("hallucinated_citations", 0),
+            "base_hallucination_rate": base.get("hallucination_rate", 0.0),
+            "base_review_length":      len(base.get("draft_review", "")),
+            "base_latency_s":          base_lat,
+            "base_error":              "",
+        })
+    except Exception as exc:
+        base_lat = round(time.time() - t0, 2)
+        print(f"    [!] Baseline ERROR: {exc}")
+        result.update({
+            "base_citations_total": 0, "base_citations_valid": 0,
+            "base_citations_halluc": 0, "base_hallucination_rate": 0.0,
+            "base_review_length": 0, "base_latency_s": base_lat,
+            "base_error": str(exc),
+        })
+
+    # ── Derived comparison metrics ────────────────────────────────────────
+    bh = result.get("base_hallucination_rate", 0.0)
+    eh = result.get("exp_hallucination_rate", 0.0)
+    result["hallucination_reduction_pct"] = round((bh - eh) * 100, 1) if bh > 0 else 0.0
+    result["latency_overhead_s"] = round(
+        result.get("exp_latency_s", 0) - result.get("base_latency_s", 0), 2
+    )
+
+    _print_topic_result(result)
+    return result
 
 
-def _ensure_eval_dir() -> None:
-    """Create the eval output directory if it does not exist."""
-    EVAL_DIR.mkdir(parents=True, exist_ok=True)
-
-
-# ---------------------------------------------------------------------------
-# Save review text to file
-# ---------------------------------------------------------------------------
-
-def _save_review(text: str, filename: str) -> Path:
+def run_evaluation(
+    topics: list[str] | None = None,
+    save: bool = True,
+) -> list[dict[str, Any]]:
     """
-    Save a review text string to a .txt file in data/eval/.
+    Run full evaluation over a list of topics.
 
-    Parameters
-    ----------
-    text     : str   - review text to save
-    filename : str   - filename without path
+    Args:
+        topics: List of research topics. Defaults to DEFAULT_TOPICS.
+        save:   Whether to persist results to CSV + JSON.
 
-    Returns
-    -------
-    Path : path to saved file
+    Returns:
+        List of per-topic result dicts.
     """
-    _ensure_eval_dir()
-    out_path = EVAL_DIR / filename
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(text)
-    print(f"[Evaluator] Review saved to: {out_path}")
-    return out_path
-
-
-# ---------------------------------------------------------------------------
-# Save metrics to CSV
-# ---------------------------------------------------------------------------
-
-def _save_metrics_csv(rows: list[dict], filename: str = "results.csv") -> Path:
-    """
-    Save evaluation metrics rows to a CSV file.
-
-    Parameters
-    ----------
-    rows     : list of dicts, one per (topic, system) run
-    filename : output CSV filename
-
-    Returns
-    -------
-    Path : path to saved CSV
-    """
-    _ensure_eval_dir()
-    out_path = EVAL_DIR / filename
-
-    if not rows:
-        print("[Evaluator] No rows to save.")
-        return out_path
-
-    fieldnames = list(rows[0].keys())
-
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    print(f"[Evaluator] Metrics CSV saved to: {out_path}")
-    return out_path
-
-
-# ---------------------------------------------------------------------------
-# Print comparison table to console
-# ---------------------------------------------------------------------------
-
-def _print_comparison_table(
-    topic: str,
-    baseline_state: dict,
-    experimental_state: dict,
-) -> None:
-    """
-    Print a side-by-side comparison table of both systems.
-    """
-    b = baseline_state
-    e = experimental_state
+    topics = topics or DEFAULT_TOPICS
+    results: list[dict[str, Any]] = []
 
     print("\n" + "=" * 70)
-    print("EVALUATION COMPARISON TABLE")
+    print("EVALUATION RUNNER  —  Experimental vs Baseline")
+    print(f"Topics : {len(topics)}")
     print("=" * 70)
-    print(f"Topic: {topic[:65]}")
-    print("-" * 70)
-    print(f"{'Metric':<30} {'Baseline':>15} {'Experimental':>15}")
-    print("-" * 70)
-
-    metrics = [
-        ("Papers Retrieved",
-         len(b["papers"]),
-         len(e["papers"])),
-
-        ("Sub-queries Used",
-         1,
-         len(e["sub_queries"])),
-
-        ("Review Length (chars)",
-         len(b["review_text"]),
-         len(e["draft_review"])),
-
-        ("Total Citations",
-         b["total_citations"],
-         e["total_citations"]),
-
-        ("Valid Citations",
-         b["valid_citations"],
-         e["valid_citations"]),
-
-        ("Partial Citations",
-         b["partial_citations"],
-         e["partial_citations"]),
-
-        ("Hallucinated Citations",
-         b["hallucinated_citations"],
-         e["hallucinated_citations"]),
-
-        ("Hallucination Rate (%)",
-         f"{b['hallucination_rate']:.1%}",
-         f"{e['hallucination_rate']:.1%}"),
-    ]
-
-    for label, b_val, e_val in metrics:
-        print(f"  {label:<28} {str(b_val):>15} {str(e_val):>15}")
-
-    print("-" * 70)
-
-    # Highlight winner for hallucination rate
-    b_rate = b["hallucination_rate"]
-    e_rate = e["hallucination_rate"]
-
-    if e_rate < b_rate:
-        diff = b_rate - e_rate
-        print(f"\n  ✓ Experimental system reduced hallucination rate by {diff:.1%}")
-    elif e_rate == b_rate:
-        print(f"\n  = Both systems achieved the same hallucination rate")
-    else:
-        diff = e_rate - b_rate
-        print(f"\n  ✗ Baseline had lower hallucination rate by {diff:.1%}")
-
-    print("=" * 70)
-
-
-# ---------------------------------------------------------------------------
-# Main evaluation function
-# ---------------------------------------------------------------------------
-
-def run_evaluation(topics: list[str]) -> list[dict]:
-    """
-    Run both pipelines on each topic and compare results.
-
-    Parameters
-    ----------
-    topics : list[str]
-        List of research topic strings to evaluate.
-
-    Returns
-    -------
-    list[dict]
-        All metric rows (one per topic per system) for CSV export.
-    """
-    all_rows: list[dict] = []
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     for i, topic in enumerate(topics, 1):
-        print("\n" + "#" * 70)
-        print(f"# EXPERIMENT {i}/{len(topics)}")
-        print(f"# Topic: {topic[:60]}")
-        print("#" * 70)
+        print(f"\n[{i}/{len(topics)}] {topic[:65]}...")
+        result = evaluate_topic(topic)
+        results.append(result)
 
-        # --- Run Baseline ---
-        print("\n>>> RUNNING BASELINE SYSTEM <<<")
-        baseline_state = run_baseline(topic)
+    _print_summary(results)
 
-        # --- Run Experimental ---
-        print("\n>>> RUNNING EXPERIMENTAL SYSTEM <<<")
-        experimental_state = run_workflow(topic)
+    if save and results:
+        _save_results(results)
 
-        # --- Print comparison table ---
-        _print_comparison_table(topic, baseline_state, experimental_state)
+    return results
 
-        # --- Save review texts ---
-        safe_topic = topic[:40].replace(" ", "_").replace("/", "-")
-        _save_review(
-            baseline_state["review_text"],
-            f"baseline_{i}_{safe_topic}_{timestamp}.txt",
-        )
-        _save_review(
-            experimental_state["draft_review"],
-            f"experimental_{i}_{safe_topic}_{timestamp}.txt",
-        )
 
-        # --- Build CSV rows ---
-        base_row = {
-            "timestamp":            timestamp,
-            "experiment":           i,
-            "topic":                topic,
-            "system":               "baseline",
-            "papers_retrieved":     len(baseline_state["papers"]),
-            "sub_queries_used":     1,
-            "review_length_chars":  len(baseline_state["review_text"]),
-            "total_citations":      baseline_state["total_citations"],
-            "valid_citations":      baseline_state["valid_citations"],
-            "partial_citations":    baseline_state["partial_citations"],
-            "hallucinated":         baseline_state["hallucinated_citations"],
-            "hallucination_rate":   baseline_state["hallucination_rate"],
-        }
+# ─────────────────────────────────────────────────────────────────────────────
+# Pretty-print helpers
+# ─────────────────────────────────────────────────────────────────────────────
 
-        exp_row = {
-            "timestamp":            timestamp,
-            "experiment":           i,
-            "topic":                topic,
-            "system":               "experimental",
-            "papers_retrieved":     len(experimental_state["papers"]),
-            "sub_queries_used":     len(experimental_state["sub_queries"]),
-            "review_length_chars":  len(experimental_state["draft_review"]),
-            "total_citations":      experimental_state["total_citations"],
-            "valid_citations":      experimental_state["valid_citations"],
-            "partial_citations":    experimental_state["partial_citations"],
-            "hallucinated":         experimental_state["hallucinated_citations"],
-            "hallucination_rate":   experimental_state["hallucination_rate"],
-        }
+def _print_topic_result(r: dict) -> None:
+    bh        = r.get("base_hallucination_rate", 0.0)
+    eh        = r.get("exp_hallucination_rate",  0.0)
+    reduction = r.get("hallucination_reduction_pct", 0.0)
+    print(
+        f"\n    {'Metric':<30} {'Baseline':>10} {'Experimental':>14}\n"
+        f"    {'─'*56}\n"
+        f"    {'Hallucination Rate':<30} {bh:>9.1%} {eh:>13.1%}\n"
+        f"    {'Citations (total)':<30} "
+        f"{r.get('base_citations_total', 0):>10} "
+        f"{r.get('exp_citations_total',  0):>14}\n"
+        f"    {'Latency (s)':<30} "
+        f"{r.get('base_latency_s', 0):>10.1f} "
+        f"{r.get('exp_latency_s',  0):>14.1f}\n"
+        f"    {'─'*56}\n"
+        f"    Hallucination reduction : {reduction:+.1f} pp"
+    )
 
-        all_rows.append(base_row)
-        all_rows.append(exp_row)
 
-    # --- Save all metrics to CSV ---
-    _save_metrics_csv(all_rows, f"results_{timestamp}.csv")
+def _print_summary(results: list[dict]) -> None:
+    n = len(results)
+    if n == 0:
+        print("\n  [!] No results to summarise.")
+        return
 
-    # --- Print overall summary ---
+    avg_base = sum(r.get("base_hallucination_rate",      0) for r in results) / n
+    avg_exp  = sum(r.get("exp_hallucination_rate",       0) for r in results) / n
+    avg_red  = sum(r.get("hallucination_reduction_pct",  0) for r in results) / n
+    avg_lat  = sum(r.get("exp_latency_s",                0) for r in results) / n
+
     print("\n" + "=" * 70)
     print("OVERALL EVALUATION SUMMARY")
     print("=" * 70)
-
-    base_rows = [r for r in all_rows if r["system"] == "baseline"]
-    exp_rows  = [r for r in all_rows if r["system"] == "experimental"]
-
-    avg_base_rate = sum(r["hallucination_rate"] for r in base_rows) / len(base_rows)
-    avg_exp_rate  = sum(r["hallucination_rate"] for r in exp_rows)  / len(exp_rows)
-
-    print(f"  Topics evaluated          : {len(topics)}")
-    print(f"  Avg baseline hall. rate   : {avg_base_rate:.1%}")
-    print(f"  Avg experimental hall. rate: {avg_exp_rate:.1%}")
-
-    if avg_exp_rate < avg_base_rate:
-        improvement = ((avg_base_rate - avg_exp_rate) / avg_base_rate * 100
-                       if avg_base_rate > 0 else 0)
-        print(f"  Improvement               : {improvement:.1f}% reduction in hallucination")
+    print(f"  Topics evaluated               : {n}")
+    print(f"  Avg baseline hallucination     : {avg_base:.1%}")
+    print(f"  Avg experimental hallucination : {avg_exp:.1%}")
+    print(f"  Avg hallucination reduction    : {avg_red:+.1f} percentage points")
+    print(f"  Avg experimental latency       : {avg_lat:.1f}s")
     print("=" * 70)
 
-    return all_rows
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Persistence
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _save_results(results: list[dict]) -> None:
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    csv_path = EVAL_DIR / f"eval_results_{ts}.csv"
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=results[0].keys())
+        writer.writeheader()
+        writer.writerows(results)
+    print(f"\n  [Eval] CSV  saved → {csv_path.name}")
+
+    json_path = EVAL_DIR / f"eval_results_{ts}.json"
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    print(f"  [Eval] JSON saved → {json_path.name}")

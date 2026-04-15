@@ -1,0 +1,30 @@
+{
+  "run_id": "20260403_094623",
+  "topic": "Deep learning model training and optimisation using Jetson Nano.",
+  "prompt_version": "1.0",
+  "final_review": "The training and optimisation of deep learning models on edge devices, such as the Jetson Nano, have gained significant attention in recent years (Gutierrez-Torre et al., 2021; Merenda et al., 2020). This is due to the increasing demand for real-time processing and analysis of data in various applications, including computer vision and IoT devices (Saponara et al., 2020; Vittorio et al., 2020). The use of edge devices for deep learning model training and optimisation offers several advantages, including reduced latency, improved security, and increased efficiency (Gutierrez-Torre et al., 2021; Merenda et al., 2020).\n\nOne of the key challenges in training and optimising deep learning models on edge devices is the limited computational resources and memory available (Shuvo et al., 2022; Matsubara et al., 2022). To address this challenge, various techniques have been proposed, including model pruning, knowledge distillation, and early exiting (Matsubara et al., 2022; Shuvo et al., 2022). Additionally, the use of hardware accelerators, such as GPUs and TPUs, can significantly improve the performance of deep learning models on edge devices (Briley et al., 2024; Tuan et al., 2024).\n\nThe application of deep learning models on edge devices has been explored in various domains, including object detection, image classification, and video analysis (Hussain, 2023; Hussain, 2024). The YOLO family of object detection algorithms has been widely used in various applications, including real-time object detection and tracking (Hussain, 2023; Hussain, 2024). \n\nHowever, there are still several challenges and research gaps in the area of deep learning model training and optimisation on edge devices. For example, the limited availability of large-scale datasets for edge devices can make it difficult to train and optimise deep learning models (Zhang et al., 2022; Sadeeq et al., 2021). Additionally, the lack of standardisation in edge devices and deep learning frameworks can make it challenging to develop and deploy deep learning models on edge devices (Merenda et al., 2020; Shuvo et al., 2022).\n\nIn conclusion, the training and optimisation of deep learning models on edge devices, such as the Jetson Nano, is a rapidly evolving field with significant potential for real-time processing and analysis of data. While there are several challenges and research gaps in this area, the use of techniques such as model pruning, knowledge distillation, and early exiting, as well as the application of YOLO algorithms, can achieve high accuracy and efficiency on edge devices (Hussain, 2023; Matsubara et al., 2022). Further research is needed to address the challenges and research gaps in this area and to develop more efficient and effective deep learning models for edge devices.\n\nReferences:\nAlberto Gutierrez-Torre, K. B., & Shuja-ur-Rehman Baig (2021). Automatic Distributed Deep Learning Using Resource-Constrained Edge Devices. https://doi.org/10.1109/jiot.2021.3098973\nMassimo Merenda, C. P., & Demetrio Iero (2020). Edge Machine Learning for AI-Enabled IoT Devices: A Review. https://doi.org/10.3390/s20092533\nMuhammad Hussain (2023). YOLO-v1 to YOLO-v8, the Rise of YOLO and Its Complementary Nature toward Digital Manufacturing and Industrial Defect Detection. https://doi.org/10.3390/machines11070677\nMuhammad Hussain (2024). YOLOv1 to v8: Unveiling Each Variant–A Comprehensive Review of YOLO. https://doi.org/10.1109/access.2024.3378568\nMd Maruf Hossain Shuvo, S. K. I., & Jianlin Cheng (2022). Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge Devices: A Review. https://doi.org/10.1109/jproc.2022.3226481\nYoshitomo Matsubara, M. L., & Francesco Restuccia (2022). Split Computing and Early Exiting for Deep Learning Applications: Survey and Research Challenges. https://doi.org/10.1145/3527155\nTuan Muhammad Naeem Bin Tuan Rashid, L. M. F., & Mohd Adib Haji Omar (2024). 3D Bounding Box Estimation Using Deep Learning and Geometry Based on Yolov7 Output on Single-Board Computer. https://doi.org/10.14445/23488379/ijeee-v11i5p108\nAustin Alexander Briley, & Fatemeh Afghah (2024). Hardware Acceleration for Real-Time Wildfire Detection Onboard Drone Networks. https://doi.org/10.1109/infocomwkshps61880.2024.10620877\nBing Zhang, Y. W., & Boya Zhao (2022). Progress and Challenges in Intelligent Remote Sensing Satellite Systems. https://doi.org/10.1109/jstars.2022.3148139\nMohammed Mohammed Sadeeq, N. M. A., & Subhi R. M. Zeebaree (2021). IoT and Cloud Computing Issues, Challenges and Opportunities: A Review. https://doi.org/10.48161/qaj.v1n2a36\nSergio Saponara, A. E., & Alessio Gagliardi (2020). Real-time video fire/smoke detection based on CNN in antifire surveillance systems. https://doi.org/10.1007/s11554-020-01044-0\nVittorio Mazzia, A. K., & Francesco Salvetti (2020). Real-Time Apple Detection System Using Embedded Systems With Hardware Accelerators: An Edge AI Application. https://doi.org/10.1109/access.2020.2964608",
+  "changes": {
+    "draft_word_count": 710,
+    "final_word_count": 675,
+    "words_removed": 35,
+    "hallucinated_count": 0,
+    "hallucinated_refs": [],
+    "likely_removed_refs": [],
+    "review_shortened_by": "35 words"
+  },
+  "verified_refs": [
+    "(Gutierrez-Torre et al., 2021)",
+    "(Merenda et al., 2020)",
+    "(Saponara et al., 2020)",
+    "(Vittorio et al., 2020)",
+    "(Shuvo et al., 2022)",
+    "(Matsubara et al., 2022)",
+    "(Briley et al., 2024)",
+    "(Tuan et al., 2024)",
+    "(Hussain, 2023)",
+    "(Hussain, 2024)",
+    "(Zhang et al., 2022)",
+    "(Sadeeq et al., 2021)"
+  ],
+  "hallucinated_refs": []
+}

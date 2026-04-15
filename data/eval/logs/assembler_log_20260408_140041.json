@@ -1,0 +1,33 @@
+{
+  "run_id": "20260408_140041",
+  "topic": "Agentic AI mitigates LLM hallucinations in academic literature reviews.",
+  "prompt_version": "1.0",
+  "final_review": "The integration of Agentic AI in academic literature reviews has been proposed as a potential solution to mitigate the issue of Large Language Models (LLMs) hallucinations (Barredo Arrieta et al., 2019). LLMs have been increasingly used in various applications, including education (Zawacki‐Richter et al., 2019) and healthcare (Sallam, 2023; Alowais et al., 2023). However, the lack of explainability and transparency in LLMs has raised concerns about their reliability (Barredo Arrieta et al., 2019). The use of Agentic AI, which refers to AI systems that can act autonomously and make decisions, may help to address these concerns (Clark, 2013).\n\nRecent studies have explored the applications of LLMs in academic research, including their potential benefits and concerns (AlZaabi et al., 2023; Dwivedi et al., 2023). For example, LLMs have been shown to be effective in generating text and answering questions (Singhal et al., 2023), but they can also produce hallucinations, which are false or misleading information (Roumeliotis et al., 2023). The use of Agentic AI may help to mitigate this issue by providing more transparency and explainability in the decision-making process (Wang et al., 2024).\n\nThe use of LLMs in education has also been explored, with some studies suggesting that they can be useful tools for teaching and learning (Grassini, 2023; Zawacki‐Richter et al., 2019). However, others have raised concerns about the potential negative impacts of LLMs on traditional assessments (Rudolph et al., 2023). The use of Agentic AI may help to address these concerns by providing more autonomy and agency in the learning process (Feuerriegel et al., 2023).\n\nIn terms of the methodology for conducting literature reviews, the PRISMA 2020 guidelines provide a useful framework for ensuring transparency and reproducibility (Page et al., 2021). The use of LLMs and Agentic AI may require new methodologies and approaches to be developed (Zhao et al., 2023). For example, the use of surveys and reviews may be useful for understanding the applications and limitations of LLMs and Agentic AI (Wang et al., 2024; AlZaabi et al., 2023).\n\nIn conclusion, the use of Agentic AI has the potential to mitigate the issue of LLM hallucinations in academic literature reviews. However, further research is needed to fully understand the benefits and limitations of Agentic AI and LLMs in various applications. As noted by Dwivedi et al. (2023), the use of LLMs and Agentic AI requires a multidisciplinary approach, involving experts from various fields, including education, healthcare, and computer science.\n\nReferences:\nAlZaabi, A., Alamri, A. A. H., & Albalushi, H. (2023). ChatGPT applications in Academic Research: A Review of Benefits, Concerns, and Recommendations. https://doi.org/10.1101/2023.08.17.553688\nAlowais, S. A., Alghamdi, S. S., & Alsuhebany, N. (2023). Revolutionizing healthcare: the role of artificial intelligence in clinical practice. https://doi.org/10.1186/s12909-023-04698-z\nBarredo Arrieta, A., Díaz-Rodríguez, N., & Del Ser, J. (2019). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. https://doi.org/10.1016/j.inffus.2019.12.012\nClark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. https://doi.org/10.1017/s0140525x12000477\nDwivedi, Y. K., Kshetri, N., & Hughes, L. (2023). Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy. https://doi.org/10.1016/j.ijinfomgt.2023.102642\nFeuerriegel, S., Hartmann, J., & Janiesch, C. (2023). Generative AI. https://doi.org/10.1007/s12599-023-00834-7\nGrassini, S. (2023). Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings. https://doi.org/10.3390/educsci13070692\nPage, M. J., Moher, D., & Bossuyt, P. M. (2021). PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. https://doi.org/10.1136/bmj.n160\nRoumeliotis, K. I., & Tselikas, N. D. (2023). ChatGPT and Open-AI Models: A Preliminary Review. https://doi.org/10.3390/fi15060192\nRudolph, J., Tan, S., & Tan, S. (2023). ChatGPT: Bullshit spewer or the end of traditional assessments in higher education? https://doi.org/10.37074/jalt.2023.6.1.9\nSallam, M. (2023). ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns. https://doi.org/10.3390/healthcare11060887\nSinghal, K., Azizi, S., & Tu, T. (2023). Large language models encode clinical knowledge. https://doi.org/10.1038/s41586-023-06291-2\nWang, L., Ma, C., & Feng, X. (2024). A survey on large language model based autonomous agents. https://doi.org/10.1007/s11704-024-40231-1\nZawacki‐Richter, O., Marín, V. I., & Bond, M. (2019). Systematic review of research on artificial intelligence applications in higher education – where are the educators? https://doi.org/10.1186/s41239-019-0171-0\nZhao, W. X., Zhou, K., & Li, J. (2023). A Survey of Large Language Models. https://doi.org/10.48550/arxiv.2303.18223",
+  "changes": {
+    "draft_word_count": 711,
+    "final_word_count": 710,
+    "words_removed": 1,
+    "hallucinated_count": 0,
+    "hallucinated_refs": [],
+    "likely_removed_refs": [],
+    "review_shortened_by": "1 words"
+  },
+  "verified_refs": [
+    "(Barredo Arrieta et al., 2019)",
+    "(Zawacki‐Richter et al., 2019)",
+    "(Sallam, 2023)",
+    "(Alowais et al., 2023)",
+    "(Clark, 2013)",
+    "(AlZaabi et al., 2023)",
+    "(Dwivedi et al., 2023)",
+    "(Singhal et al., 2023)",
+    "(Roumeliotis et al., 2023)",
+    "(Wang et al., 2024)",
+    "(Grassini, 2023)",
+    "(Rudolph et al., 2023)",
+    "(Feuerriegel et al., 2023)",
+    "(Page et al., 2021)",
+    "(Zhao et al., 2023)"
+  ],
+  "hallucinated_refs": []
+}

@@ -1,0 +1,163 @@
+{
+  "run_id": "20260410_112129",
+  "timestamp": "2026-04-10T11:21:45.844593",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Radford et al., 2021)",
+      "cited_author": "Radford et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gupta et al., 2023)",
+      "cited_author": "Gupta et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4389518708",
+      "matched_title": "Towards Reliable Misinformation Mitigation: Generalization, Uncertainty, and GPT",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Kellin Pelrine",
+        "Anne Imouza",
+        "Camille Thibault"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.395"
+    },
+    {
+      "raw_citation": "(Thorne et al., 2018)",
+      "cited_author": "Thorne et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2789566302",
+      "matched_title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification",
+      "matched_year": 2018,
+      "matched_authors": [
+        "James Thorne",
+        "Andreas Vlachos",
+        "Christos Christodoulopoulos"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n18-1074"
+    },
+    {
+      "raw_citation": "(Riedel, 2016)",
+      "cited_author": "Riedel",
+      "cited_year": 2016,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Goodfellow et al., 2014)",
+      "cited_author": "Goodfellow et al.",
+      "cited_year": 2014,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(LeCun et al., 2015)",
+      "cited_author": "LeCun et al.",
+      "cited_year": 2015,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Bengio et al., 2012)",
+      "cited_author": "Bengio et al.",
+      "cited_year": 2012,
+      "status": "HALLUCINATED",
+      "confidence": 0.0,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Brown et al., 2020)",
+      "cited_author": "Brown et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Kim, 2017)",
+      "cited_author": "Kim",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2612997195",
+      "matched_title": "T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Ming-Wei Shih",
+        "Sangho Lee",
+        "Taesoo Kim"
+      ],
+      "matched_doi": "https://doi.org/10.14722/ndss.2017.23193"
+    },
+    {
+      "raw_citation": "(Chen, 2019)",
+      "cited_author": "Chen",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2971220558",
+      "matched_title": "Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional N",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Chen Zhang",
+        "Qiuchi Li",
+        "Dawei Song"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1464"
+    }
+  ]
+}

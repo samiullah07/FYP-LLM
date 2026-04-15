@@ -1,0 +1,125 @@
+{
+  "run_id": "20260409_104245",
+  "timestamp": "2026-04-09T10:43:49.032123",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Lloyd, 2024)",
+      "cited_author": "Lloyd",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401431795",
+      "matched_title": "What is it like to be a bot? The world according to GPT-4",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Dan Lloyd"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fpsyg.2024.1292675"
+    },
+    {
+      "raw_citation": "(Author et al., 2023)",
+      "cited_author": "Author et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gordon et al., 2019)",
+      "cited_author": "Gordon et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2921762243",
+      "matched_title": "Keeping track of ‘alternative facts’: The neural correlates of processing misinf",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Andrew Gordon",
+        "Susanne Quadflieg",
+        "J.C. Brooks"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.neuroimage.2019.03.014"
+    },
+    {
+      "raw_citation": "(Tan et al., 2024)",
+      "cited_author": "Tan et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Deng et al., 2024)",
+      "cited_author": "Deng et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399425467",
+      "matched_title": "AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Zehang Deng",
+        "Yongjian Guo",
+        "Changzhou Han"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2406.02630"
+    },
+    {
+      "raw_citation": "(Naser, 2025)",
+      "cited_author": "Naser",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412609529",
+      "matched_title": "A Guide to Machine Learning Epistemic Ignorance, Hidden Paradoxes, and Other Ten",
+      "matched_year": 2025,
+      "matched_authors": [
+        "M.Z. Naser"
+      ],
+      "matched_doi": "https://doi.org/10.1002/widm.70038"
+    },
+    {
+      "raw_citation": "(Mohammadzadeh et al., 2025)",
+      "cited_author": "Mohammadzadeh et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412945738",
+      "matched_title": "Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Trainin",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Shahrad Mohammadzadeh",
+        "Juan David Guerra",
+        "Marco Bonizzato"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2025.acl-long.276"
+    }
+  ]
+}

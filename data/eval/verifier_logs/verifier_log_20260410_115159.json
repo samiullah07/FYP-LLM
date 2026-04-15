@@ -1,0 +1,218 @@
+{
+  "run_id": "20260410_115159",
+  "timestamp": "2026-04-10T11:52:12.319210",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(McKeown, 2012)",
+      "cited_author": "McKeown",
+      "cited_year": 2012,
+      "status": "HALLUCINATED",
+      "confidence": 0.55,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2322045417",
+      "matched_title": "SRSD in Practice: Creating a Professional Development Experience for Teachers to",
+      "matched_year": 2014,
+      "matched_authors": [
+        "Debra McKeown",
+        "Erin FitzPatrick",
+        "Karin Sandmel"
+      ],
+      "matched_doi": "https://doi.org/10.17988/0198-7429-40.1.15"
+    },
+    {
+      "raw_citation": "(Goldstein et al., 2010)",
+      "cited_author": "Goldstein et al.",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W99547844",
+      "matched_title": "The US Fire Learning Network: Springing a Rigidity Trap through Multiscalar Coll",
+      "matched_year": 2010,
+      "matched_authors": [
+        "W. H. Butler",
+        "Bruce Evan Goldstein"
+      ],
+      "matched_doi": "https://doi.org/10.5751/es-03437-150321"
+    },
+    {
+      "raw_citation": "(Georgeff, 1995)",
+      "cited_author": "Georgeff",
+      "cited_year": 1995,
+      "status": "HALLUCINATED",
+      "confidence": 0.0,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Wooldridge, 2000)",
+      "cited_author": "Wooldridge",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2734688726",
+      "matched_title": "Automated Negotiation: Prospects, Methods and Challenges",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Nicholas R. Jennings",
+        "Peyman Faratin",
+        "Alessio Lomuscio"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Kurdi et al., 2020)",
+      "cited_author": "Kurdi et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.55,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4206904520",
+      "matched_title": "Does BLE technology contribute towards improving marketing strategies, customers",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Haitham M. Alzoubi",
+        "Muhammad Turki Alshurideh",
+        "Barween Al Kurdi"
+      ],
+      "matched_doi": "https://doi.org/10.5267/j.ijdns.2021.12.009"
+    },
+    {
+      "raw_citation": "(Al-Samarraie et al., 2019)",
+      "cited_author": "Al-Samarraie et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2980891379",
+      "matched_title": "Factors affecting student dropout in MOOCs: a cause and effect decision‐making m",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Hanan Aldowah",
+        "Hosam Al‐Samarraie",
+        "Ahmed Ibrahim Alzahrani"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12528-019-09241-y"
+    },
+    {
+      "raw_citation": "(Blomqvist, 2021)",
+      "cited_author": "Blomqvist",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3010336026",
+      "matched_title": "Knowledge Graphs",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Aidan Hogan",
+        "Eva Blomqvist",
+        "Michael Cochez"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3447772"
+    },
+    {
+      "raw_citation": "(Sarker et al., 2020)",
+      "cited_author": "Sarker et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.55,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Wang et al., 2020)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3007940623",
+      "matched_title": "Pathological findings of COVID-19 associated with acute respiratory distress syn",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Zhe Xu",
+        "Lei Shi",
+        "Yijin Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s2213-2600(20)30076-x"
+    },
+    {
+      "raw_citation": "(Wang, 2020)",
+      "cited_author": "Wang",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3007940623",
+      "matched_title": "Pathological findings of COVID-19 associated with acute respiratory distress syn",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Zhe Xu",
+        "Lei Shi",
+        "Yijin Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s2213-2600(20)30076-x"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Floridi et al., 2018)",
+      "cited_author": "Floridi et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2902634493",
+      "matched_title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Prin",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Luciano Floridi",
+        "Josh Cowls",
+        "Monica Beltrametti"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11023-018-9482-5"
+    }
+  ]
+}

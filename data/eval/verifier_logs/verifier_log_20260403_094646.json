@@ -1,0 +1,218 @@
+{
+  "run_id": "20260403_094646",
+  "timestamp": "2026-04-03T09:46:46.821592",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Gutierrez-Torre et al., 2021)",
+      "cited_author": "Gutierrez-Torre et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3186043501",
+      "matched_title": "Automatic Distributed Deep Learning Using Resource-Constrained Edge Devices",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Alberto Gutierrez-Torre",
+        "Kiyana Bahadori",
+        "Shuja-ur-Rehman Baig"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jiot.2021.3098973"
+    },
+    {
+      "raw_citation": "(Merenda et al., 2020)",
+      "cited_author": "Merenda et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3023935494",
+      "matched_title": "Edge Machine Learning for AI-Enabled IoT Devices: A Review",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Massimo Merenda",
+        "Carlo Porcaro",
+        "Demetrio Iero"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s20092533"
+    },
+    {
+      "raw_citation": "(Saponara et al., 2020)",
+      "cited_author": "Saponara et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3100742769",
+      "matched_title": "Real-time video fire/smoke detection based on CNN in antifire surveillance syste",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Sergio Saponara",
+        "Abdussalam Elhanashi",
+        "Alessio Gagliardi"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11554-020-01044-0"
+    },
+    {
+      "raw_citation": "(Vittorio et al., 2020)",
+      "cited_author": "Vittorio et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000086329",
+      "matched_title": "Real-Time Apple Detection System Using Embedded Systems With Hardware Accelerato",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Vittorio Mazzia",
+        "Aleem Khaliq",
+        "Francesco Salvetti"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2964608"
+    },
+    {
+      "raw_citation": "(Shuvo et al., 2022)",
+      "cited_author": "Shuvo et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4312910656",
+      "matched_title": "Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge D",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Md Maruf Hossain Shuvo",
+        "Syed K. Islam",
+        "Jianlin Cheng"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jproc.2022.3226481"
+    },
+    {
+      "raw_citation": "(Matsubara et al., 2022)",
+      "cited_author": "Matsubara et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3134255974",
+      "matched_title": "Split Computing and Early Exiting for Deep Learning Applications: Survey and Res",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yoshitomo Matsubara",
+        "Marco Levorato",
+        "Francesco Restuccia"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3527155"
+    },
+    {
+      "raw_citation": "(Briley et al., 2024)",
+      "cited_author": "Briley et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401539189",
+      "matched_title": "Hardware Acceleration for Real-Time Wildfire Detection Onboard Drone Networks",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Austin Alexander Briley",
+        "Fatemeh Afghah"
+      ],
+      "matched_doi": "https://doi.org/10.1109/infocomwkshps61880.2024.10620877"
+    },
+    {
+      "raw_citation": "(Tuan et al., 2024)",
+      "cited_author": "Tuan et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399511301",
+      "matched_title": "3D Bounding Box Estimation Using Deep Learning and Geometry Based on Yolov7 Outp",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Tuan Muhammad Naeem Bin Tuan Rashid",
+        "Lokman Mohd Fadzil",
+        "Mohd Adib Haji Omar"
+      ],
+      "matched_doi": "https://doi.org/10.14445/23488379/ijeee-v11i5p108"
+    },
+    {
+      "raw_citation": "(Hussain, 2023)",
+      "cited_author": "Hussain",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4382059335",
+      "matched_title": "YOLO-v1 to YOLO-v8, the Rise of YOLO and Its Complementary Nature toward Digital",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Hussain"
+      ],
+      "matched_doi": "https://doi.org/10.3390/machines11070677"
+    },
+    {
+      "raw_citation": "(Hussain, 2024)",
+      "cited_author": "Hussain",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392939809",
+      "matched_title": "YOLOv1 to v8: Unveiling Each Variant–A Comprehensive Review of YOLO",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Muhammad Hussain"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2024.3378568"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2022)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4210692941",
+      "matched_title": "Progress and Challenges in Intelligent Remote Sensing Satellite Systems",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Bing Zhang",
+        "Yuanfeng Wu",
+        "Boya Zhao"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jstars.2022.3148139"
+    },
+    {
+      "raw_citation": "(Sadeeq et al., 2021)",
+      "cited_author": "Sadeeq et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3138269143",
+      "matched_title": "IoT and Cloud Computing Issues, Challenges and Opportunities: A Review",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Mohammed Mohammed Sadeeq",
+        "Nasiba M. Abdulkareem",
+        "Subhi R. M. Zeebaree"
+      ],
+      "matched_doi": "https://doi.org/10.48161/qaj.v1n2a36"
+    }
+  ]
+}

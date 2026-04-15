@@ -1,0 +1,135 @@
+{
+  "run_id": "20260409_104417",
+  "timestamp": "2026-04-09T10:44:48.538950",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Radford et al., 2019)",
+      "cited_author": "Radford et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Devlin et al., 2019)",
+      "cited_author": "Devlin et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963341956",
+      "matched_title": "",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jacob Devlin",
+        "Ming‐Wei Chang",
+        "Kenton Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1423"
+    },
+    {
+      "raw_citation": "(Holtzman et al., 2020)",
+      "cited_author": "Holtzman et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3020712669",
+      "matched_title": "Experience Grounds Language",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yonatan Bisk",
+        "Ari Holtzman",
+        "Jesse Thomason"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.emnlp-main.703"
+    },
+    {
+      "raw_citation": "(International Institute of Digital Ethics, 2023)",
+      "cited_author": "International Institute of Digital Ethics",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Stoyanov et al., 2019)",
+      "cited_author": "Stoyanov et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963548348",
+      "matched_title": "Knowledge-Augmented Language Model and Its Application to Unsupervised Named-Ent",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Angli Liu",
+        "Jingfei Du",
+        "Veselin Stoyanov"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1117"
+    },
+    {
+      "raw_citation": "(Liu, 2020)",
+      "cited_author": "Liu",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3091178218",
+      "matched_title": "Reply to comments on “Investigation of the resonance of nonwetting droplets in c",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Chao Zeng",
+        "Wen Deng",
+        "Jing Fan"
+      ],
+      "matched_doi": "https://doi.org/10.1190/geo2020-0561-reply.1"
+    },
+    {
+      "raw_citation": "(Thorne, 2020)",
+      "cited_author": "Thorne",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Carvalho et al., 2020)",
+      "cited_author": "Carvalho et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.0,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "run_id": "20260409_110130",
+  "timestamp": "2026-04-09T11:01:30.923722",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Perkins, 2023)",
+      "cited_author": "Perkins",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4321605350",
+      "matched_title": "Academic Integrity considerations of AI Large Language Models in the post-pandem",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Mike Perkins"
+      ],
+      "matched_doi": "https://doi.org/10.53761/1.20.02.07"
+    },
+    {
+      "raw_citation": "(Wang, 2023)",
+      "cited_author": "Wang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323848232",
+      "matched_title": "<scp>ChatGPT</scp> and a new academic reality: <scp>Artificial Intelligence‐writ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Brady Lund",
+        "Ting Wang",
+        "Nishith Reddy Mannuru"
+      ],
+      "matched_doi": "https://doi.org/10.1002/asi.24750"
+    },
+    {
+      "raw_citation": "(Wherton, 2017)",
+      "cited_author": "Wherton",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2765304416",
+      "matched_title": "Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Aban",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Trisha Greenhalgh",
+        "Joseph Wherton",
+        "Chrysanthi Papoutsi"
+      ],
+      "matched_doi": "https://doi.org/10.2196/jmir.8775"
+    },
+    {
+      "raw_citation": "(Calandra, 2021)",
+      "cited_author": "Calandra",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3148271110",
+      "matched_title": "The role of artificial intelligence in healthcare: a structured literature revie",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Silvana Secinaro",
+        "Davide Calandra",
+        "Aurelio Secinaro"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12911-021-01488-9"
+    },
+    {
+      "raw_citation": "(Altman, 2017)",
+      "cited_author": "Altman",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2683672249",
+      "matched_title": "The COMET Handbook: version 1.0",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Paula Williamson",
+        "Douglas G. Altman",
+        "Heather Bagley"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13063-017-1978-4"
+    },
+    {
+      "raw_citation": "(Watanobe, 2023)",
+      "cited_author": "Watanobe",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381982883",
+      "matched_title": "ChatGPT for Education and Research: Opportunities, Threats, and Strategies",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Md. Mostafizer Rahman",
+        "Yutaka Watanobe"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app13095783"
+    },
+    {
+      "raw_citation": "(Chu, 2021)",
+      "cited_author": "Chu",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3156614709",
+      "matched_title": "A Review of Artificial Intelligence (AI) in Education from 2010 to 2020",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Xuesong Zhai",
+        "Xiaoyan Chu",
+        "Ching Sing Chai"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2021/8812542"
+    }
+  ]
+}

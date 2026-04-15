@@ -1,0 +1,325 @@
+{
+  "run_id": "20260409_105540",
+  "timestamp": "2026-04-09T10:56:21.766297",
+  "total": 20,
+  "entries": [
+    {
+      "raw_citation": "(Müller and Zhang, 2023)",
+      "cited_author": "Müller and Zhang",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.0,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Holtzman et al., 2020)",
+      "cited_author": "Holtzman et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3020712669",
+      "matched_title": "Experience Grounds Language",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yonatan Bisk",
+        "Ari Holtzman",
+        "Jesse Thomason"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.emnlp-main.703"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2020)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3126738306",
+      "matched_title": "comment on Zhang et al. 2020",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Zhang Hankui"
+      ],
+      "matched_doi": "https://doi.org/10.5194/essd-2020-182-rc1"
+    },
+    {
+      "raw_citation": "(Kumar et al., 2020)",
+      "cited_author": "Kumar et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.6,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4390654522",
+      "matched_title": "Occurrence of Andreimyrme substriolata (Chen, 1957) and Odontomutilla fletcheri ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "JOSHUA B. TERINE",
+        "Dipanwita Das",
+        "Puthuvayi Girish Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.61186/jibs.10.1.81"
+    },
+    {
+      "raw_citation": "(Bolukbasi et al., 2019)",
+      "cited_author": "Bolukbasi et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2908665600",
+      "matched_title": "Robust Text Classifier on Test-Time Budgets",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Md Rizwan Parvez",
+        "Tolga Bolukbasi",
+        "Kai-Wei Chang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1108"
+    },
+    {
+      "raw_citation": "(Vo and Lee, 2022)",
+      "cited_author": "Vo and Lee",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3162090017",
+      "matched_title": "FNet: Mixing Tokens with Fourier Transforms",
+      "matched_year": 2022,
+      "matched_authors": [
+        "James Lee-Thorp",
+        "Joshua Ainslie",
+        "Ilya Eckstein"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.naacl-main.319"
+    },
+    {
+      "raw_citation": "(Wang et al., 2021)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3175362188",
+      "matched_title": "ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Tra",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yuanmeng Yan",
+        "Rumei Li",
+        "Sirui Wang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.acl-long.393"
+    },
+    {
+      "raw_citation": "(Jelinek et al., 2019)",
+      "cited_author": "Jelinek et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Papineni et al., 2019)",
+      "cited_author": "Papineni et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Novikova et al., 2019)",
+      "cited_author": "Novikova et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2962855015",
+      "matched_title": "Detecting cognitive impairments by agreeing on interpretations of linguistic fea",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Zining Zhu",
+        "Jekaterina Novikova",
+        "Frank Rudzicz"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1146"
+    },
+    {
+      "raw_citation": "(Lin and Hovy, 2019)",
+      "cited_author": "Lin and Hovy",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Denkowski and Lavie, 2019)",
+      "cited_author": "Denkowski and Lavie",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(See et al., 2019)",
+      "cited_author": "See et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Li et al., 2020)",
+      "cited_author": "Li et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Vosoughi et al., 2019)",
+      "cited_author": "Vosoughi et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gao et al., 2022)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4285225959",
+      "matched_title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sidney Black",
+        "Stella Biderman",
+        "Eric Hallahan"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.bigscience-1.9"
+    },
+    {
+      "raw_citation": "(Shaar et al., 2022)",
+      "cited_author": "Shaar et al.",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Chen et al., 2022)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4313413499",
+      "matched_title": "Correction: Chen et al. The Chemerin/CMKLR1 Axis Is Involved in the Recruitment ",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yanqing Chen",
+        "Zhen Liu",
+        "Ping Gong"
+      ],
+      "matched_doi": "https://doi.org/10.3390/ijms24010506"
+    },
+    {
+      "raw_citation": "(Xu et al., 2022)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Kim et al., 2022)",
+      "cited_author": "Kim et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4224313754",
+      "matched_title": "DiffCSE: Difference-based Contrastive Learning for Sentence Embeddings",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yung-Sung Chuang",
+        "Rumen Dangovski",
+        "Hongyin Luo"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.naacl-main.311"
+    }
+  ]
+}

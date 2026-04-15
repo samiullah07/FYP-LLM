@@ -1,0 +1,247 @@
+{
+  "run_id": "20260409_101611",
+  "timestamp": "2026-04-09T10:16:48.347812",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Li et al., 2023)",
+      "cited_author": "Li et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Bender et al., 2021)",
+      "cited_author": "Bender et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zellers et al., 2019)",
+      "cited_author": "Zellers et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2941034821",
+      "matched_title": "Identifying and categorizing stakeholders for protected area expansion around a ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Lelani Mannetti",
+        "Thomas Göttert",
+        "Ulrich Zeller"
+      ],
+      "matched_doi": "https://doi.org/10.5751/es-10790-240205"
+    },
+    {
+      "raw_citation": "(Hancock et al., 2019)",
+      "cited_author": "Hancock et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2943763601",
+      "matched_title": "Erratum: K. J. DAVID &amp;amp; D. L. HANCOCK (2019) TAXONOMIC NOTES ON GENUS COE",
+      "matched_year": 2019,
+      "matched_authors": [
+        "K. J. DAVID",
+        "D. L. Hancock"
+      ],
+      "matched_doi": "https://doi.org/10.11646/zootaxa.4590.3.6"
+    },
+    {
+      "raw_citation": "(Lin et al., 2022)",
+      "cited_author": "Lin et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4385565879",
+      "matched_title": "Few-shot Learning with Multilingual Generative Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Xi Victoria Lin",
+        "Todor Mihaylov",
+        "Mikel Artetxe"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.emnlp-main.616"
+    },
+    {
+      "raw_citation": "(Thomson et al., 2020)",
+      "cited_author": "Thomson et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.312,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Xu et al., 2021)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhou et al., 2020)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3098605233",
+      "matched_title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Zhangyin Feng",
+        "Daya Guo",
+        "Duyu Tang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.139"
+    },
+    {
+      "raw_citation": "(Logan et al., 2019)",
+      "cited_author": "Logan et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2970986510",
+      "matched_title": "Knowledge Enhanced Contextual Word Representations",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Matthew E. Peters",
+        "Mark E Neumann",
+        "Robert Logan"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1005"
+    },
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Sukhbaatar et al., 2019)",
+      "cited_author": "Sukhbaatar et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.262,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Laird et al., 2017)",
+      "cited_author": "Laird et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2620942530",
+      "matched_title": "White Mica as a Hyperspectral Tool in Exploration for the Sunrise Dam and Kanown",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Rui Wang",
+        "Thomas Cudahy",
+        "Carsten Laukamp"
+      ],
+      "matched_doi": "https://doi.org/10.5382/econgeo.2017.4505"
+    },
+    {
+      "raw_citation": "(Chen et al., 2024)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4392894456",
+      "matched_title": "Tartarothyasira gen. nov., a replacement name for Tartarothyas Oliver &amp; Chen",
+      "matched_year": 2024,
+      "matched_authors": [
+        "P. Graham Oliver",
+        "Chong Chen"
+      ],
+      "matched_doi": "https://doi.org/10.61733/jconch/1407"
+    },
+    {
+      "raw_citation": "(Wang et al., 2025)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2025,
+      "status": "HALLUCINATED",
+      "confidence": 0.4,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Kumar et al., 2026)",
+      "cited_author": "Kumar et al.",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W7140086813",
+      "matched_title": "Galathea balasubramaniani Sureandiran, Divya, Naeem, Sundaramanickam & Kumar, 20",
+      "matched_year": 2026,
+      "matched_authors": [
+        "B. Sureandiran",
+        "P. R. Divya",
+        "U. P. Mohammed Naeem"
+      ],
+      "matched_doi": "https://doi.org/10.5281/zenodo.19174323"
+    }
+  ]
+}

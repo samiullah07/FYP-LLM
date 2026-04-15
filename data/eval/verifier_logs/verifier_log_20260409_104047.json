@@ -1,0 +1,185 @@
+{
+  "run_id": "20260409_104047",
+  "timestamp": "2026-04-09T10:41:35.730923",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Jürgen Rudolph et al., 2023)",
+      "cited_author": "Jürgen Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Wayne Xin Zhao et al., 2023)",
+      "cited_author": "Wayne Xin Zhao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Simone Grassini, 2023)",
+      "cited_author": "Simone Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Enkelejda Kasneci et al., 2023)",
+      "cited_author": "Enkelejda Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Alejandro Barredo Arrieta et al., 2019)",
+      "cited_author": "Alejandro Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Stefan Feuerriegel et al., 2023)",
+      "cited_author": "Stefan Feuerriegel et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Weiss et al., 2016)",
+      "cited_author": "Weiss et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2395579298",
+      "matched_title": "A survey of transfer learning",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Karl R. Weiss",
+        "Taghi M. Khoshgoftaar",
+        "Dingding Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-016-0043-6"
+    },
+    {
+      "raw_citation": "(Olaf Zawacki‐Richter et al., 2019)",
+      "cited_author": "Olaf Zawacki‐Richter et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Hoeting et al., 1999)",
+      "cited_author": "Hoeting et al.",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1603903339",
+      "matched_title": "Bayesian model averaging: a tutorial (with comments by M. Clyde, David Draper an",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Jennifer A. Hoeting",
+        "David Madigan",
+        "Adrian E. Raftery"
+      ],
+      "matched_doi": "https://doi.org/10.1214/ss/1009212519"
+    }
+  ]
+}

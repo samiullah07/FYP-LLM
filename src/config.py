@@ -10,9 +10,7 @@ class Settings(BaseSettings):
     # LLM
     openai_api_key: str = ""
     groq_api_key: str = ""                     # <-- add this
-    llm_model: str = "llama-3.3-70b-versatile" # <-- Groq model
-
-    # APIs
+    llm_model: str = "llama-3.3-70b-versatile"    # APIs
     openalex_base_url: str = "https://api.openalex.org"
     semantic_scholar_base_url: str = "https://api.semanticscholar.org/graph/v1"
 

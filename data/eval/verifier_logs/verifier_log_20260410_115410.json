@@ -1,0 +1,218 @@
+{
+  "run_id": "20260410_115410",
+  "timestamp": "2026-04-10T11:54:29.991055",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Zhang, 2023)",
+      "cited_author": "Zhang",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385774833",
+      "matched_title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' A",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yang Liu",
+        "Yuanshun Yao",
+        "Jean-François Ton"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2308.05374"
+    },
+    {
+      "raw_citation": "(Asaf Gilboa et al., 2009)",
+      "cited_author": "Asaf Gilboa et al.",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2017195551",
+      "matched_title": "Ventromedial Prefrontal Cortex Lesions Produce Early Functional Alterations duri",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Asaf Gilboa",
+        "Claude Alain",
+        "Yu He"
+      ],
+      "matched_doi": "https://doi.org/10.1523/jneurosci.5210-08.2009"
+    },
+    {
+      "raw_citation": "(Scoboria et al., 2013)",
+      "cited_author": "Scoboria et al.",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2131499562",
+      "matched_title": "The role of belief in occurrence within autobiographical memory.",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Alan Scoboria",
+        "Dennis L. Jackson",
+        "Jennifer M. Talarico"
+      ],
+      "matched_doi": "https://doi.org/10.1037/a0034110"
+    },
+    {
+      "raw_citation": "(Vipula Rawte et al., 2023)",
+      "cited_author": "Vipula Rawte et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389524379",
+      "matched_title": "The Troubling Emergence of Hallucination in Large Language Models - An Extensive",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vipula Rawte",
+        "Swagata Chakraborty",
+        "Agnibh Pathak"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.155"
+    },
+    {
+      "raw_citation": "(Peiqi Sui et al., 2024)",
+      "cited_author": "Peiqi Sui et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402671036",
+      "matched_title": "Confabulation: The Surprising Value of Large Language Model Hallucinations",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Peiqi Sui",
+        "Eamon Duede",
+        "Sophie Wu"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.acl-long.770"
+    },
+    {
+      "raw_citation": "(Tyler Bradshaw et al., 2025)",
+      "cited_author": "Tyler Bradshaw et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406443601",
+      "matched_title": "Large Language Models and Large Multimodal Models in Medical Imaging: A Primer f",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Tyler Bradshaw",
+        "Xin Tie",
+        "Joshua Warner"
+      ],
+      "matched_doi": "https://doi.org/10.2967/jnumed.124.268072"
+    },
+    {
+      "raw_citation": "(Tao Tu et al., 2025)",
+      "cited_author": "Tao Tu et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409283601",
+      "matched_title": "Towards conversational diagnostic artificial intelligence",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Tao Tu",
+        "Mike Schaekermann",
+        "Anil Palepu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-025-08866-7"
+    },
+    {
+      "raw_citation": "(Edisa Lozić et al., 2023)",
+      "cited_author": "Edisa Lozić et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387616550",
+      "matched_title": "Fluent but Not Factual: A Comparative Analysis of ChatGPT and Other AI Chatbots’",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Edisa Lozić",
+        "Benjamin Štular"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15100336"
+    },
+    {
+      "raw_citation": "(Léonard Boussioux et al., 2024)",
+      "cited_author": "Léonard Boussioux et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401533174",
+      "matched_title": "The Crowdless Future? Generative AI and Creative Problem-Solving",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Léonard Boussioux",
+        "Jacqueline N. Lane",
+        "Miaomiao Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1287/orsc.2023.18430"
+    },
+    {
+      "raw_citation": "(Thomas Yu Chow Tam et al., 2024)",
+      "cited_author": "Thomas Yu Chow Tam et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402909345",
+      "matched_title": "A framework for human evaluation of large language models in healthcare derived ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Thomas Yu Chow Tam",
+        "Sonish Sivarajkumar",
+        "Sumit Kapoor"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-024-01258-7"
+    },
+    {
+      "raw_citation": "(Gerhard Werner, 2010)",
+      "cited_author": "Gerhard Werner",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2063804532",
+      "matched_title": "Fractals in the nervous system: conceptual implications for theoretical neurosci",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Gerhard Werner"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fphys.2010.00015"
+    },
+    {
+      "raw_citation": "(Andy Clark, 2013)",
+      "cited_author": "Andy Clark",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2153791616",
+      "matched_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive s",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andy Clark"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s0140525x12000477"
+    }
+  ]
+}

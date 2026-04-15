@@ -1,0 +1,127 @@
+{
+  "run_id": "20260410_112103",
+  "timestamp": "2026-04-10T11:21:18.191997",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Gordon et al., 2019)",
+      "cited_author": "Gordon et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2921762243",
+      "matched_title": "Keeping track of ‘alternative facts’: The neural correlates of processing misinf",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Andrew Gordon",
+        "Susanne Quadflieg",
+        "J.C. Brooks"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.neuroimage.2019.03.014"
+    },
+    {
+      "raw_citation": "(Cosentino et al., 2024)",
+      "cited_author": "Cosentino et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399554422",
+      "matched_title": "Towards a Personal Health Large Language Model",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Justin Cosentino",
+        "Anastasiya Belyaeva",
+        "Xin Liu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2406.06474"
+    },
+    {
+      "raw_citation": "(Tan et al., 2024)",
+      "cited_author": "Tan et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Piat, 2023)",
+      "cited_author": "Piat",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392149890",
+      "matched_title": "Intégration de connaissances expertes dans des modèles neuronaux profonds pour l",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Guilhem Piat"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Deng et al., 2024)",
+      "cited_author": "Deng et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399425467",
+      "matched_title": "AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Zehang Deng",
+        "Yongjian Guo",
+        "Changzhou Han"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2406.02630"
+    },
+    {
+      "raw_citation": "(Yu et al., 2024)",
+      "cited_author": "Yu et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

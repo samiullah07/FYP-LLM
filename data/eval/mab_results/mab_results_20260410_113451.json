@@ -1,0 +1,90 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "topic": "Agentic AI for reliable academic literature review",
+      "topic_difficulty": "niche",
+      "selected_model": "gemma2-9b-it",
+      "mab_policy": "explore",
+      "hallucination_rate": 0.064,
+      "reward": 0.936,
+      "latency_s": 15.94,
+      "papers_retrieved": 19,
+      "citations_total": 5,
+      "timestamp": "2026-04-10T11:34:51.618531"
+    },
+    {
+      "run": 2,
+      "topic": "Retrieval-augmented generation to reduce LLM hallucinations",
+      "topic_difficulty": "moderate",
+      "selected_model": "llama-3.3-70b-versatile",
+      "mab_policy": "explore",
+      "hallucination_rate": 0.13,
+      "reward": 0.87,
+      "latency_s": 12.56,
+      "papers_retrieved": 22,
+      "citations_total": 10,
+      "timestamp": "2026-04-10T11:34:51.618544"
+    },
+    {
+      "run": 3,
+      "topic": "Multi-agent systems for scientific paper summarisation",
+      "topic_difficulty": "moderate",
+      "selected_model": "llama-3.1-8b-instant",
+      "mab_policy": "exploit",
+      "hallucination_rate": 0.217,
+      "reward": 0.783,
+      "latency_s": 9.95,
+      "papers_retrieved": 20,
+      "citations_total": 6,
+      "timestamp": "2026-04-10T11:34:51.618549"
+    },
+    {
+      "run": 4,
+      "topic": "Transformer models for citation verification",
+      "topic_difficulty": "well_covered",
+      "selected_model": "llama-3.1-8b-instant",
+      "mab_policy": "exploit",
+      "hallucination_rate": 0.184,
+      "reward": 0.816,
+      "latency_s": 16.42,
+      "papers_retrieved": 25,
+      "citations_total": 10,
+      "timestamp": "2026-04-10T11:34:51.618554"
+    },
+    {
+      "run": 5,
+      "topic": "Self-correcting agents for knowledge-intensive NLP tasks",
+      "topic_difficulty": "niche",
+      "selected_model": "llama-3.3-70b-versatile",
+      "mab_policy": "exploit",
+      "hallucination_rate": 0.011,
+      "reward": 0.989,
+      "latency_s": 15.62,
+      "papers_retrieved": 23,
+      "citations_total": 10,
+      "timestamp": "2026-04-10T11:34:51.618558"
+    }
+  ],
+  "bandit_state": {
+    "policy": "UCB1",
+    "total_rounds": 5,
+    "arms": {
+      "llama-3.3-70b-versatile": {
+        "pulls": 2,
+        "total_reward": 1.859,
+        "avg_reward": 0.929
+      },
+      "llama-3.1-8b-instant": {
+        "pulls": 2,
+        "total_reward": 1.599,
+        "avg_reward": 0.799
+      },
+      "gemma2-9b-it": {
+        "pulls": 1,
+        "total_reward": 0.936,
+        "avg_reward": 0.936
+      }
+    }
+  }
+}
