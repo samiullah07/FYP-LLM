@@ -1,5 +1,0 @@
-timestamp,experiment,topic,system,papers_retrieved,sub_queries_used,review_length_chars,total_citations,valid_citations,partial_citations,hallucinated,hallucination_rate
-20260329_034223,1,Agentic AI for reliable academic literature review and hallucination mitigation,baseline,15,1,2643,8,8,0,0,0.0
-20260329_034223,1,Agentic AI for reliable academic literature review and hallucination mitigation,experimental,18,5,3713,10,7,0,3,0.3
-20260329_034223,2,Retrieval augmented generation for reducing hallucinations in large language models,baseline,15,1,2957,7,6,1,0,0.0
-20260329_034223,2,Retrieval augmented generation for reducing hallucinations in large language models,experimental,20,5,3281,7,7,0,0,0.0

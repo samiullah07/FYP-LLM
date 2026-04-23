@@ -1,6 +1,0 @@
-run,topic,topic_difficulty,selected_model,mab_policy,hallucination_rate,reward,latency_s,papers_retrieved,citations_total,timestamp
-1,Agentic AI for reliable academic literature review,niche,gemma2-9b-it,explore,0.064,0.936,15.94,19,5,2026-04-10T11:34:51.618531
-2,Retrieval-augmented generation to reduce LLM hallucinations,moderate,llama-3.3-70b-versatile,explore,0.13,0.87,12.56,22,10,2026-04-10T11:34:51.618544
-3,Multi-agent systems for scientific paper summarisation,moderate,llama-3.1-8b-instant,exploit,0.217,0.783,9.95,20,6,2026-04-10T11:34:51.618549
-4,Transformer models for citation verification,well_covered,llama-3.1-8b-instant,exploit,0.184,0.816,16.42,25,10,2026-04-10T11:34:51.618554
-5,Self-correcting agents for knowledge-intensive NLP tasks,niche,llama-3.3-70b-versatile,exploit,0.011,0.989,15.62,23,10,2026-04-10T11:34:51.618558

@@ -1,0 +1,33 @@
+{
+  "run_id": "20260418_150503",
+  "topic": "Hallucination detection in large language models (LLMs) for scholarly writing, focusing on citation verification and fact-checking.",
+  "prompt_version": "1.0",
+  "final_review": "The integration of large language models (LLMs) in scholarly writing has sparked intense debate, with a particular focus on hallucination detection, citation verification, and fact-checking (Meyer et al., 2023; Rudolph et al., 2023). Hallucinations in LLMs refer to the generation of inaccurate or fabricated information, which can have severe consequences in academic and professional settings (Zhang et al., 2023). Recent studies have highlighted the need for effective methods to detect hallucinations in LLMs, with semantic entropy being proposed as a potential solution (Farquhar et al., 2024).\n\nThe use of LLMs in education has been explored in various studies, with some authors arguing that these models can enhance learning experiences and improve student outcomes (Sallam, 2023; Walter, 2024). However, others have raised concerns about the potential for LLMs to facilitate academic dishonesty and undermine the integrity of academic work (Cotton et al., 2023; Rudolph et al., 2023). The importance of prompt engineering and critical thinking in mitigating these risks has been emphasized by several authors (Meskó, 2023; Yoshija, 2024).\n\nIn terms of citation verification and fact-checking, LLMs have been found to be prone to generating inaccurate or fabricated references (Bhattacharyya et al., 2023). This has significant implications for the validity and reliability of research findings, and highlights the need for rigorous fact-checking and verification procedures (Roumeliotis et al., 2023; Rahman et al., 2023). The technical capabilities of LLMs have been documented in recent reports (Wijegunarathna et al., 2023), and the challenges associated with ensuring the accuracy and reliability of these models remain a pressing concern (Feuerriegel et al., 2023; Yan et al., 2023).\n\nDespite the challenges, many authors agree that LLMs have the potential to revolutionize scholarly writing and education, and that their benefits can be harnessed through careful design and implementation (Meyer et al., 2023; Rudolph et al., 2023). Further research is needed to address the research gaps and contradictions in the existing literature, and to develop effective strategies for mitigating the risks associated with LLMs (Zhang et al., 2023; Farquhar et al., 2024).\n\nReferences:\nBhattacharyya, M., Miller, V. M., & Bhattacharyya, D. (2023). High Rates of Fabricated and Inaccurate References in ChatGPT-Generated Medical Content. https://doi.org/10.7759/cureus.39238\nCotton, D., Cotton, P. A., & Shipway, J. R. (2023). Chatting and cheating: Ensuring academic integrity in the era of ChatGPT. https://doi.org/10.1080/14703297.2023.2190148\nFarquhar, S., Kossen, J., & Kuhn, L. (2024). Detecting hallucinations in large language models using semantic entropy. https://doi.org/10.1038/s41586-024-07421-0\nFeuerriegel, S., Hartmann, J., & Janiesch, C. (2023). Generative AI. https://doi.org/10.1007/s12599-023-00834-7\nMeyer, J. G., Urbanowicz, R. J., & Martin, P. (2023). ChatGPT and large language models in academia: opportunities and challenges. https://doi.org/10.1186/s13040-023-00339-9\nMeskó, B. (2023). The role of prompt engineering in mitigating the risks of large language models. \nRahman, M. M., & Watanobe, Y. (2023). ChatGPT for Education and Research: Opportunities, Threats, and Strategies. https://doi.org/10.3390/app13095783\nRoumeliotis, K. I., & Tselikas, N. D. (2023). ChatGPT and Open-AI Models: A Preliminary Review. https://doi.org/10.3390/fi15060192\nRudolph, J., Tan, S., & Tan, S. (2023). ChatGPT: Bullshit spewer or the end of traditional assessments in higher education? https://doi.org/10.37074/jalt.2023.6.1.9\nSallam, M. (2023). ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns. https://doi.org/10.3390/healthcare11060887\nWalter, Y. (2024). Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education. https://doi.org/10.1186/s41239-024-00448-3\nWijegunarathna, K., Stock, K., & Jones, C. B. (2023). GPT-4 Technical Report. https://doi.org/10.4230/lipics.cosit.2024.11\nYan, L., Sha, L., & Zhao, L. (2023). Practical and ethical challenges of large language models in education: A systematic scoping review. https://doi.org/10.1111/bjet.13370\nYoshija, K. (2024). Critical thinking in the age of AI: mitigating the risks of large language models.\nZhang, Y., Li, Y., & Cui, L. (2023). Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models. https://doi.org/10.48550/arxiv.2309.01219",
+  "changes": {
+    "draft_word_count": 626,
+    "final_word_count": 621,
+    "words_removed": 5,
+    "hallucinated_count": 0,
+    "hallucinated_refs": [],
+    "likely_removed_refs": [],
+    "review_shortened_by": "5 words"
+  },
+  "verified_refs": [
+    "(Meyer et al., 2023)",
+    "(Rudolph et al., 2023)",
+    "(Zhang et al., 2023)",
+    "(Bhattacharyya et al., 2023)",
+    "(Farquhar et al., 2024)",
+    "(Sallam, 2023)",
+    "(Walter, 2024)",
+    "(Cotton et al., 2023)",
+    "(Meskó, 2023)",
+    "(Yoshija, 2024)",
+    "(Roumeliotis et al., 2023)",
+    "(Rahman et al., 2023)",
+    "(Wijegunarathna et al., 2023)",
+    "(Feuerriegel et al., 2023)",
+    "(Yan et al., 2023)"
+  ],
+  "hallucinated_refs": []
+}

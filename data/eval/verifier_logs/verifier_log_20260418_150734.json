@@ -1,0 +1,273 @@
+{
+  "run_id": "20260418_150734",
+  "timestamp": "2026-04-18T15:07:34.827350",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Wayne Xin Zhao et al., 2023)",
+      "cited_author": "Wayne Xin Zhao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Stefan Feuerriegel et al., 2023)",
+      "cited_author": "Stefan Feuerriegel et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Alowais et al., 2023)",
+      "cited_author": "Alowais et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Jürgen Rudolph et al., 2023)",
+      "cited_author": "Jürgen Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Pawan Budhwar et al., 2023)",
+      "cited_author": "Pawan Budhwar et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383913712",
+      "matched_title": "Human resource management in the age of generative artificial intelligence: Pers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pawan Budhwar",
+        "Soumyadeb Chowdhury",
+        "Geoffrey Wood"
+      ],
+      "matched_doi": "https://doi.org/10.1111/1748-8583.12524"
+    },
+    {
+      "raw_citation": "(Roumeliotis et al., 2023)",
+      "cited_author": "Roumeliotis et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378574344",
+      "matched_title": "ChatGPT and Open-AI Models: A Preliminary Review",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Konstantinos I. Roumeliotis",
+        "Nikolaos D. Tselikas"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15060192"
+    },
+    {
+      "raw_citation": "(Yunfan Gao et al., 2023)",
+      "cited_author": "Yunfan Gao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    },
+    {
+      "raw_citation": "(Muhammad Usman Hadi et al., 2023)",
+      "cited_author": "Muhammad Usman Hadi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Qasem Al Tashi et al., 2023)",
+      "cited_author": "Qasem Al Tashi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Tareq Rasul et al., 2023)",
+      "cited_author": "Tareq Rasul et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4376139682",
+      "matched_title": "The role of ChatGPT in higher education: Benefits, challenges, and future resear",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tareq Rasul",
+        "Sumesh Nair",
+        "Diane Robyn Kalendra"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.29"
+    },
+    {
+      "raw_citation": "(Simone Grassini, 2023)",
+      "cited_author": "Simone Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Shubo Tian et al., 2023)",
+      "cited_author": "Shubo Tian et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381587418",
+      "matched_title": "Opportunities and challenges for ChatGPT and large language models in biomedicin",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shubo Tian",
+        "Qiao Jin",
+        "Lana Yeganova"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbad493"
+    },
+    {
+      "raw_citation": "(Caleb Ziems et al., 2023)",
+      "cited_author": "Caleb Ziems et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389636360",
+      "matched_title": "Can Large Language Models Transform Computational Social Science?",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Caleb Ziems",
+        "William A. Held",
+        "Omar Ahmed Shaikh"
+      ],
+      "matched_doi": "https://doi.org/10.1162/coli_a_00502"
+    },
+    {
+      "raw_citation": "(Leonardo Banh et al., 2023)",
+      "cited_author": "Leonardo Banh et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389359039",
+      "matched_title": "Generative artificial intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Leonardo Banh",
+        "Gero Strobel"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12525-023-00680-1"
+    }
+  ]
+}

@@ -1,4 +1,0 @@
-topic,timestamp,exp_papers,exp_sub_queries,exp_citations_total,exp_citations_valid,exp_citations_halluc,exp_hallucination_rate,exp_review_length,exp_latency_s,exp_selected_model,exp_topic_type,exp_error,base_citations_total,base_citations_valid,base_citations_halluc,base_hallucination_rate,base_review_length,base_latency_s,base_error,hallucination_reduction_pct,latency_overhead_s
-Agentic AI for reliable academic literature review and hallucination mitigation,2026-04-10T11:50:16.939436,18,5,5,5,0,0.0,3942,18.9,llama-3.1-8b-instant,moderate,,15,13,2,0.133,0,24.0,,13.3,-5.1
-Retrieval-augmented generation for reducing LLM hallucinations,2026-04-10T11:50:59.841626,19,5,12,12,0,0.0,5486,20.07,llama-3.3-70b-versatile,moderate,,15,15,0,0.0,0,6.03,,0.0,14.04
-Multi-agent systems for automated scientific paper summarisation,2026-04-10T11:51:25.944629,15,6,1,1,0,0.0,6078,28.3,llama-3.1-8b-instant,moderate,,12,8,4,0.333,0,18.08,,33.3,10.22

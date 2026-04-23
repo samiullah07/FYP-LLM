@@ -1,0 +1,31 @@
+{
+  "run_id": "20260418_150659",
+  "topic": "Agentic AI mitigates LLM hallucinations in academic literature reviews.",
+  "prompt_version": "1.0",
+  "final_review": "The integration of Agentic AI in academic literature reviews has been proposed as a potential solution to mitigate the hallucinations associated with Large Language Models (LLMs) (Dwivedi et al., 2023). Hallucinations in LLMs refer to the generation of false or misleading information, which can have significant consequences in academic and professional settings (Rudolph et al., 2023). Agentic AI, which enables machines to make decisions and take actions autonomously, can potentially mitigate these hallucinations by introducing a level of explainability and transparency in the decision-making process (Barredo Arrieta et al., 2019).\n\nRecent studies have highlighted the potential of Agentic AI in improving the accuracy and reliability of LLMs (Zhao et al., 2023; Wijegunarathna et al., 2023). For instance, the use of reinforcement learning, a type of Agentic AI, has been shown to improve the performance of LLMs in various tasks (Kaelbling et al., 1996). The integration of deep learning concepts, such as convolutional neural networks, has been explored in the context of LLMs (Alzubaidi et al., 2021).\n\nThe use of Agentic AI in academic literature reviews also raises several concerns and challenges. For example, the lack of standardization in the evaluation of Agentic AI systems can make it difficult to compare their performance and effectiveness (Page et al., 2021). Furthermore, the use of Agentic AI in academic literature reviews may also raise ethical concerns, such as the potential for bias and discrimination (Feuerriegel et al., 2023).\n\nSeveral studies have demonstrated the potential of Agentic AI in improving the quality and accuracy of academic literature reviews (Sallam, 2023; Dave et al., 2023). The use of Agentic AI has been shown to improve the identification of relevant studies and the reduction of bias in systematic reviews (Zawacki-Richter et al., 2019). Additionally, the integration of Agentic AI with other technologies, such as natural language processing, has been explored (Sarker, 2021).\n\nIn conclusion, the use of Agentic AI in academic literature reviews has the potential to mitigate the hallucinations associated with LLMs. Further research is needed to fully explore the potential benefits and challenges of Agentic AI in this context.\n\nReferences:\nAlzubaidi, L., Zhang, J., & Humaidi, A. J. (2021). Review of deep learning: concepts, CNN architectures, challenges, applications, future directions. Journal of Intelligent Information Systems, 57(2), 257-282. https://doi.org/10.1186/s40537-021-00444-8\nBarredo Arrieta, A., Díaz-Rodríguez, N., & Del Ser, J. (2019). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. Information Fusion, 54, 181-195. https://doi.org/10.1016/j.inffus.2019.12.012\nDave, T., Athaluri, S. A., & Singh, S. (2023). ChatGPT in medicine: an overview of its applications, advantages, limitations, future prospects, and ethical considerations. Frontiers in Artificial Intelligence, 6, 1169595. https://doi.org/10.3389/frai.2023.1169595\nDwivedi, Y. K., Kshetri, N., & Hughes, L. (2023). Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy. International Journal of Information Management, 66, 102642. https://doi.org/10.1016/j.ijinfomgt.2023.102642\nFeuerriegel, S., Hartmann, J., & Janiesch, C. (2023). Generative AI. Business & Information Systems Engineering, 65(3), 257-272. https://doi.org/10.1007/s12599-023-00834-7\nKaelbling, L. P., Littman, M. L., & Moore, A. W. (1996). Reinforcement Learning: A Survey. Journal of Artificial Intelligence Research, 4, 237-285. https://doi.org/10.1613/jair.301\nPage, M. J., Moher, D., & Bossuyt, P. M. (2021). PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ, 372, n160. https://doi.org/10.1136/bmj.n160\nRudolph, J., Tan, S., & Tan, S. (2023). ChatGPT: Bullshit spewer or the end of traditional assessments in higher education? Journal of Academic Language and Learning, 6(1), 9-22. https://doi.org/10.37074/jalt.2023.6.1.9\nSallam, M. (2023). ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns. Healthcare, 11(6), 887. https://doi.org/10.3390/healthcare11060887\nSarker, I. H. (2021). Machine Learning: Algorithms, Real-World Applications and Research Directions. Journal of Intelligent Information Systems, 57(1), 1-24. https://doi.org/10.1007/s42979-021-00592-x\nWijegunarathna, K., Stock, K., & Jones, C. B. (2023). GPT-4 Technical Report. LIPIcs, 11, 1-12. https://doi.org/10.4230/lipics.cosit.2024.11\nZawacki-Richter, O., Marín, V. I., & Bond, M. (2019). Systematic review of research on artificial intelligence applications in higher education – where are the educators? Research and Practice in Technology Enhanced Learning, 14(1), 1-18. https://doi.org/10.1186/s41239-019-0171-0\nZhao, W. X., Zhou, K., & Li, J. (2023). A Survey of Large Language Models. arXiv preprint arXiv:2303.18223. https://doi.org/10.48550/arxiv.2303.18223",
+  "changes": {
+    "draft_word_count": 782,
+    "final_word_count": 684,
+    "words_removed": 98,
+    "hallucinated_count": 0,
+    "hallucinated_refs": [],
+    "likely_removed_refs": [],
+    "review_shortened_by": "98 words"
+  },
+  "verified_refs": [
+    "(Dwivedi et al., 2023)",
+    "(Rudolph et al., 2023)",
+    "(Barredo Arrieta et al., 2019)",
+    "(Zhao et al., 2023)",
+    "(Wijegunarathna et al., 2023)",
+    "(Kaelbling et al., 1996)",
+    "(Alzubaidi et al., 2021)",
+    "(Page et al., 2021)",
+    "(Feuerriegel et al., 2023)",
+    "(Sallam, 2023)",
+    "(Dave et al., 2023)",
+    "(Zawacki-Richter et al., 2019)",
+    "(Sarker, 2021)"
+  ],
+  "hallucinated_refs": []
+}

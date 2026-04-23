@@ -1,9 +1,0 @@
-Statistical Report
-Generated: 2026-03-30 00:32:07.806625
-
-Baseline hallucination rate   : 0.0%
-Experimental hallucination rate: 0.0%
-Improvement                   : +0.0%
-z-score                       : 0.0
-p-value                       : 1.0
-Significant                   : False

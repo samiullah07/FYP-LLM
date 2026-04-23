@@ -1,0 +1,33 @@
+{
+  "run_id": "20260418_152016",
+  "topic": "Smith, J., & Carter, L. (2023). Neural reasoning in autonomous agents. Journal of Artificial Systems, 14(2), 101–119. https://doi.org/10.1234/jas.2023.0142\nAhmed, R., Zhou, T., & Patel, M. (2024). Benchmarking citation fidelity in language models. International Review of AI Research, 9(1), 55–73. https://doi.org/10.5678/irai.2024.0915\nThompson, E. (2022). Multi-agent retrieval pipelines under uncertainty. Proceedings of the Global NLP Summit, 233–245.\nNguyen, H., & Silva, D. (2025). Hallucination-aware reference generation. Transactions on Computational Intelligence, 7(4), 411–430. https://doi.org/10.9999/tci.2025.7741\nBrown, K. (2021). Probabilistic trust scoring for document evidence. Machine Knowledge Quarterly, 3(3), 77–96.",
+  "prompt_version": "1.0",
+  "final_review": "The field of artificial intelligence (AI) has experienced significant growth in recent years, with various applications in diverse domains (Venkatasubramanian, 2018; Dwivedi et al., 2019). One of the key areas of research in AI is explainable artificial intelligence (XAI), which aims to provide insights into the decision-making processes of AI models (Arrieta et al., 2019; Ali et al., 2023). XAI is crucial for establishing trust in AI systems, particularly in high-stakes applications such as healthcare (Markus et al., 2020). According to Arrieta et al. (2019), there are various methods for explaining black box models, including feature importance and partial dependence plots.\n\nThe importance of XAI is further emphasized by Arrieta et al. (2019), who highlight the need for responsible AI development. Moreover, Ali et al. (2023) discuss the current state of XAI and identify areas that require further research to attain trustworthy AI. In contrast, some researchers argue that the focus on XAI may divert attention from other important aspects of AI development, such as data quality and model robustness (Cuomo et al., 2022). However, most researchers agree that XAI is essential for ensuring the reliability and transparency of AI systems (Dwivedi et al., 2019; Markus et al., 2020).\n\nAnother area of research that is closely related to XAI is scientific machine learning, which involves the use of physics-informed neural networks to improve the accuracy and reliability of AI models (Cuomo et al., 2022). This approach has shown promising results in various applications, including materials science and chemical engineering (Venkatasubramanian, 2018; Aykol et al., 2019). Furthermore, researchers have explored the use of advanced AI models in various domains, including natural language processing (Zhu et al., 2020).\n\nDespite the progress made in AI research, there are still several challenges and open problems that need to be addressed. For example, the development of federated learning algorithms that can handle non-IID data distributions is an active area of research (Kairouz et al., 2020). Additionally, the application of AI in healthcare raises important questions about data privacy and security (Markus et al., 2020).\n\nIn conclusion, the field of AI is rapidly evolving, with various applications in diverse domains. XAI is a critical area of research that aims to provide insights into the decision-making processes of AI models. While there are still several challenges and open problems that need to be addressed, the progress made in AI research has the potential to transform various industries and improve human life.\n\nReferences:\nAli, S., Abuhmed, T., & El–Sappagh, S. (2023). Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence. https://doi.org/10.1016/j.inffus.2023.101805\nArrieta, A. B., Díaz-Rodríguez, N., & Del Ser, J. (2019). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI. https://doi.org/10.1016/j.inffus.2019.12.012\nAykol, M., Hummelshøj, J. S., & Anapolsky, A. (2019). The Materials Research Platform: Defining the Requirements from User Stories. https://doi.org/10.1016/j.matt.2019.10.024\nCuomo, S., Di Cola, V. S., & Giampaolo, F. (2022). Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next. https://doi.org/10.1007/s10915-022-01939-z\nDwivedi, Y. K., Hughes, L., & Ismagilova, E. (2019). Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy. https://doi.org/10.1016/j.ijinfomgt.2019.08.002\nKairouz, P., McMahan, H. B., & Avent, B. (2020). Advances and Open Problems in Federated Learning. https://doi.org/10.1561/2200000083\nMarkus, A. F., Kors, J. A., & Rijnbeek, P. R. (2020). The role of explainability in creating trustworthy artificial intelligence for health care: A comprehensive survey of the terminology, design choices, and evaluation strategies. https://doi.org/10.1016/j.jbi.2020.103655\nVenkatasubramanian, V. (2018). The promise of artificial intelligence in chemical engineering: Is it here, finally? https://doi.org/10.1002/aic.16489\nZhu, X., Nakov, P., & Zhao, J. (2020). Proceedings of the 28th International Conference on Computational Linguistics. https://doi.org/10.18653/v1/2020.coling-main",
+  "changes": {
+    "draft_word_count": 741,
+    "final_word_count": 609,
+    "words_removed": 132,
+    "hallucinated_count": 1,
+    "hallucinated_refs": [
+      "(Su et al., 2009)"
+    ],
+    "likely_removed_refs": [
+      "(Su et al., 2009)"
+    ],
+    "review_shortened_by": "132 words"
+  },
+  "verified_refs": [
+    "(Venkatasubramanian, 2018)",
+    "(Dwivedi et al., 2019)",
+    "(Arrieta et al., 2019)",
+    "(Ali et al., 2023)",
+    "(Markus et al., 2020)",
+    "(Cuomo et al., 2022)",
+    "(Aykol et al., 2019)",
+    "(Zhu et al., 2020)",
+    "(Kairouz et al., 2020)"
+  ],
+  "hallucinated_refs": [
+    "(Su et al., 2009)"
+  ]
+}

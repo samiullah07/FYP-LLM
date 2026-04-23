@@ -1,6 +1,0 @@
-topic,timestamp,exp_papers,exp_sub_queries,exp_citations_total,exp_citations_valid,exp_citations_halluc,exp_hallucination_rate,exp_review_length,exp_latency_s,exp_selected_model,exp_topic_type,exp_error,base_citations_total,base_citations_valid,base_citations_halluc,base_hallucination_rate,base_review_length,base_latency_s,base_error,hallucination_reduction_pct,latency_overhead_s
-Agentic AI for reliable academic literature review,2026-04-10T11:35:06.003074,16,6,10,9,1,0.005,2978,10.23,llama-3.3-70b-versatile,niche,,8,4,4,0.542,2404,4.46,,53.7,5.77
-Retrieval-augmented generation to reduce LLM hallucinations,2026-04-10T11:35:06.003094,15,6,6,5,1,0.005,3659,13.05,llama-3.3-70b-versatile,moderate,,8,5,3,0.477,2025,4.27,,47.2,8.78
-Multi-agent systems for scientific paper summarisation,2026-04-10T11:35:06.003105,17,6,8,7,1,0.05,3369,15.59,llama-3.1-8b-instant,moderate,,6,4,2,0.485,1959,6.54,,43.5,9.05
-Transformer models for citation verification,2026-04-10T11:35:06.003114,20,5,9,7,2,0.137,2888,11.8,llama-3.1-8b-instant,well_covered,,6,4,2,0.415,2547,3.86,,27.8,7.94
-Self-correcting agents for knowledge-intensive NLP tasks,2026-04-10T11:35:06.003124,19,6,9,8,1,0.022,3982,8.79,llama-3.3-70b-versatile,niche,,6,4,2,0.488,1996,6.73,,46.6,2.06
