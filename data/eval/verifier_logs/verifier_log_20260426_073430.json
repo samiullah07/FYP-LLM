@@ -1,0 +1,273 @@
+{
+  "run_id": "20260426_073430",
+  "timestamp": "2026-04-26T07:34:30.532666",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Budhwar et al., 2023)",
+      "cited_author": "Budhwar et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383913712",
+      "matched_title": "Human resource management in the age of generative artificial intelligence: Pers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pawan Budhwar",
+        "Soumyadeb Chowdhury",
+        "Geoffrey Wood"
+      ],
+      "matched_doi": "https://doi.org/10.1111/1748-8583.12524"
+    },
+    {
+      "raw_citation": "(Rahwan et al., 2019)",
+      "cited_author": "Rahwan et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4211017739",
+      "matched_title": "Machine behaviour",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Iyad Rahwan",
+        "Manuel Cebrián",
+        "Nick Obradovich"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-019-1138-y"
+    },
+    {
+      "raw_citation": "(Kshetri et al., 2022)",
+      "cited_author": "Kshetri et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.812,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Wankhade et al., 2022)",
+      "cited_author": "Wankhade et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4210827551",
+      "matched_title": "A survey on sentiment analysis methods, applications, and challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Mayur Wankhade",
+        "Annavarapu Chandra Sekhara Rao",
+        "Chaitanya Kulkarni"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-022-10144-1"
+    },
+    {
+      "raw_citation": "(Purvis et al., 2018)",
+      "cited_author": "Purvis et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2888940799",
+      "matched_title": "Three pillars of sustainability: in search of conceptual origins",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Ben Purvis",
+        "Yong Mao",
+        "Darren Robinson"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11625-018-0627-5"
+    },
+    {
+      "raw_citation": "(Lezoche et al., 2020)",
+      "cited_author": "Lezoche et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995946162",
+      "matched_title": "Agri-food 4.0: A survey of the supply chains and technologies for the future agr",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Mario Lezoche",
+        "Jorge E. Hernández",
+        "M. M. E. Alemany"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.compind.2020.103187"
+    },
+    {
+      "raw_citation": "(Najjar et al., 2023)",
+      "cited_author": "Najjar et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386222752",
+      "matched_title": "Redefining Radiology: A Review of Artificial Intelligence Integration in Medical",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Reabal Najjar"
+      ],
+      "matched_doi": "https://doi.org/10.3390/diagnostics13172760"
+    },
+    {
+      "raw_citation": "(Scott et al., 2005)",
+      "cited_author": "Scott et al.",
+      "cited_year": 2005,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W99160316",
+      "matched_title": "The Globalization of Higher Education",
+      "matched_year": 2005,
+      "matched_authors": [
+        "Peter Scott",
+        "Jean-Franois Ricci",
+        "Martina Trucco"
+      ],
+      "matched_doi": "https://doi.org/10.4324/9780203984581-13"
+    },
+    {
+      "raw_citation": "(Kamel Boulos et al., 2011)",
+      "cited_author": "Kamel Boulos et al.",
+      "cited_year": 2011,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2122803056",
+      "matched_title": "Crowdsourcing, citizen sensing and sensor web technologies for public and enviro",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Maged N. Kamel Boulos",
+        "Bernd Resch",
+        "David N. Crowley"
+      ],
+      "matched_doi": "https://doi.org/10.1186/1476-072x-10-67"
+    },
+    {
+      "raw_citation": "(Cavanillas et al., 2016)",
+      "cited_author": "Cavanillas et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2739028090",
+      "matched_title": "New Horizons for a Data-Driven Economy",
+      "matched_year": 2016,
+      "matched_authors": [
+        "José María Cavanillas",
+        "Edward Curry",
+        "Wolfgang Wahlster"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-319-21569-3"
+    },
+    {
+      "raw_citation": "(Resch et al., 2011)",
+      "cited_author": "Resch et al.",
+      "cited_year": 2011,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2122803056",
+      "matched_title": "Crowdsourcing, citizen sensing and sensor web technologies for public and enviro",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Maged N. Kamel Boulos",
+        "Bernd Resch",
+        "David N. Crowley"
+      ],
+      "matched_doi": "https://doi.org/10.1186/1476-072x-10-67"
+    },
+    {
+      "raw_citation": "(Jeacle et al., 2011)",
+      "cited_author": "Jeacle et al.",
+      "cited_year": 2011,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1993865695",
+      "matched_title": "In TripAdvisor we trust: Rankings, calculative regimes and abstract systems",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Ingrid Jeacle",
+        "Chris Carter"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.aos.2011.04.002"
+    },
+    {
+      "raw_citation": "(Guven et al., 2021)",
+      "cited_author": "Guven et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4200382705",
+      "matched_title": "Women in infrastructure",
+      "matched_year": 2021,
+      "matched_authors": [
+        "OECD",
+        "Pinar Guven",
+        "Sigita Strumskyte"
+      ],
+      "matched_doi": "https://doi.org/10.1787/9eab66a8-en"
+    },
+    {
+      "raw_citation": "(Horstmann et al., 2019)",
+      "cited_author": "Horstmann et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1826300967",
+      "matched_title": "Research on Humanities and Social Sciences",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Horstmann, Wolfram",
+        "Meier Zu Verl, Christian"
+      ],
+      "matched_doi": "https://doi.org/10.7176/rhss"
+    }
+  ]
+}

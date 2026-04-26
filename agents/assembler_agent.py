@@ -16,7 +16,7 @@ Responsibility:
 
     This directly addresses the IPR feedback:
         "how verifier feedback is fed back to which agent"
-    Answer: verifier output → assembler → final clean review.
+    Answer: verifier output -> assembler -> final clean review.
 
     The assembler uses the frozen prompt from configs/prompts.py
     to ensure fair, symmetric, reproducible output.

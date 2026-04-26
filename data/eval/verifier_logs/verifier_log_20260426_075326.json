@@ -1,0 +1,274 @@
+{
+  "run_id": "20260426_075326",
+  "timestamp": "2026-04-26T07:53:45.874725",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Olaf Zawacki‐Richter et al., 2019)",
+      "cited_author": "Olaf Zawacki‐Richter et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Alejandro Barredo Arrieta et al., 2019)",
+      "cited_author": "Alejandro Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2019)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2969625533",
+      "matched_title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challen",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Elvira Ismagilova"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+    },
+    {
+      "raw_citation": "(Enkelejda Kasneci et al., 2023)",
+      "cited_author": "Enkelejda Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Jürgen Rudolph et al., 2023)",
+      "cited_author": "Jürgen Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Simone Grassini, 2023)",
+      "cited_author": "Simone Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Jain et al., 1999)",
+      "cited_author": "Jain et al.",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1992419399",
+      "matched_title": "Data clustering",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Anil K. Jain",
+        "M. Narasimha Murty",
+        "Patrick J. Flynn"
+      ],
+      "matched_doi": "https://doi.org/10.1145/331499.331504"
+    },
+    {
+      "raw_citation": "(Laith Alzubaidi et al., 2021)",
+      "cited_author": "Laith Alzubaidi et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Christian Janiesch et al., 2021)",
+      "cited_author": "Christian Janiesch et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3153990350",
+      "matched_title": "Machine learning and deep learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Christian Janiesch",
+        "Patrick Zschech",
+        "Kai Heinrich"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12525-021-00475-2"
+    },
+    {
+      "raw_citation": "(Turney et al., 2010)",
+      "cited_author": "Turney et al.",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1662133657",
+      "matched_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Peter D. Turney",
+        "Patrick Pantel"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.2934"
+    },
+    {
+      "raw_citation": "(Leslie Pack Kaelbling et al., 1996)",
+      "cited_author": "Leslie Pack Kaelbling et al.",
+      "cited_year": 1996,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2107726111",
+      "matched_title": "Reinforcement Learning: A Survey",
+      "matched_year": 1996,
+      "matched_authors": [
+        "Leslie Pack Kaelbling",
+        "Michael L. Littman",
+        "Andrew Moore"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.301"
+    },
+    {
+      "raw_citation": "(Stefan Feuerriegel et al., 2023)",
+      "cited_author": "Stefan Feuerriegel et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Alowais et al., 2023)",
+      "cited_author": "Alowais et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    }
+  ]
+}

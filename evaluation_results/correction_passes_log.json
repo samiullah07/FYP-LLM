@@ -1,0 +1,155 @@
+[
+  {
+    "run_id": "20260425_233849",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.091,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-25T23:39:06.629501"
+  },
+  {
+    "run_id": "20260425_235050",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.1,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-25T23:51:06.266589"
+  },
+  {
+    "run_id": "20260426_001506",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.167,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T00:15:27.039094"
+  },
+  {
+    "run_id": "20260426_001530",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.143,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T00:15:47.705925"
+  },
+  {
+    "run_id": "20260426_001551",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.273,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T00:16:16.115241"
+  },
+  {
+    "run_id": "20260426_001644",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.071,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T00:17:08.032620"
+  },
+  {
+    "run_id": "20260426_001712",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.091,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T00:17:35.123232"
+  },
+  {
+    "run_id": "20260426_073624",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.182,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:36:48.090584"
+  },
+  {
+    "run_id": "20260426_073651",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.333,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:37:14.612529"
+  },
+  {
+    "run_id": "20260426_073717",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.083,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:37:40.205173"
+  },
+  {
+    "run_id": "20260426_073743",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.077,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:38:05.861922"
+  },
+  {
+    "run_id": "20260426_073809",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.071,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:38:29.452090"
+  },
+  {
+    "run_id": "20260426_075409",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.2,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:54:33.720027"
+  },
+  {
+    "run_id": "20260426_075456",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.25,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:55:20.260629"
+  },
+  {
+    "run_id": "20260426_075523",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.077,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:55:44.627221"
+  },
+  {
+    "run_id": "20260426_075548",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.111,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T07:56:10.544702"
+  },
+  {
+    "run_id": "20260426_132335",
+    "pass_number": 1,
+    "h_rate_before": null,
+    "h_rate_after": 0.071,
+    "claims_removed": 0,
+    "claims_rewritten": 0,
+    "timestamp": "2026-04-26T13:24:00.934257"
+  }
+]

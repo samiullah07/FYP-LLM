@@ -1,0 +1,133 @@
+{
+  "run_timestamp": "2026-04-26T13:25:37.969707",
+  "mode": "dry-run",
+  "models": [
+    "llama-3.3-70b-versatile",
+    "llama3-8b-8192",
+    "llama3-groq-8b-8192-tool-use-preview"
+  ],
+  "topic_types": [
+    "dynamic",
+    "dynamic",
+    "dynamic"
+  ],
+  "results": [
+    {
+      "model": "llama-3.3-70b-versatile",
+      "topic": "Parallel Universes and Customer Service Quality",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 12,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 32.9,
+      "cost_usd": 0.00307,
+      "tokens": 3840,
+      "timestamp": "2026-04-26T13:23:33.142840"
+    },
+    {
+      "model": "llama3-8b-8192",
+      "topic": "Parallel Universes and Customer Service Quality",
+      "topic_type": "dynamic",
+      "hall_pct": 7.1,
+      "valid": 13,
+      "partial": 0,
+      "hall_count": 1,
+      "latency_sec": 28.0,
+      "cost_usd": 0.00358,
+      "tokens": 4480,
+      "timestamp": "2026-04-26T13:24:01.186079"
+    },
+    {
+      "model": "llama3-groq-8b-8192-tool-use-preview",
+      "topic": "Parallel Universes and Customer Service Quality",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 18.6,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:24:19.836695"
+    },
+    {
+      "model": "llama-3.3-70b-versatile",
+      "topic": "Smart Refrigerators and Emotional Intelligence",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 17.6,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:24:37.476782"
+    },
+    {
+      "model": "llama3-8b-8192",
+      "topic": "Smart Refrigerators and Emotional Intelligence",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 20.1,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:24:57.545666"
+    },
+    {
+      "model": "llama3-groq-8b-8192-tool-use-preview",
+      "topic": "Smart Refrigerators and Emotional Intelligence",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 4.1,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:25:01.599776"
+    },
+    {
+      "model": "llama-3.3-70b-versatile",
+      "topic": "Why Do Socks Disappear? A Data Science Study",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 4.3,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:25:05.851639"
+    },
+    {
+      "model": "llama3-8b-8192",
+      "topic": "Why Do Socks Disappear? A Data Science Study",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 25.7,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:25:31.517056"
+    },
+    {
+      "model": "llama3-groq-8b-8192-tool-use-preview",
+      "topic": "Why Do Socks Disappear? A Data Science Study",
+      "topic_type": "dynamic",
+      "hall_pct": 0.0,
+      "valid": 0,
+      "partial": 0,
+      "hall_count": 0,
+      "latency_sec": 6.4,
+      "cost_usd": 0.0024,
+      "tokens": 3000,
+      "timestamp": "2026-04-26T13:25:37.965035"
+    }
+  ]
+}

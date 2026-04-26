@@ -1,0 +1,15 @@
+{
+  "models": [
+    "llama-3.3-70b-versatile",
+    "llama3-8b-8192",
+    "llama3-groq-8b-8192-tool-use-preview"
+  ],
+  "topics": [
+    "Agentic AI for reliable academic literature review and hallucination mitigation",
+    "Transformer architecture improvements in large language models 2020-2024",
+    "Quantum computing applications in cryptography post-2022"
+  ],
+  "topic_types": ["moderate", "well-covered", "niche"],
+  "runs_per_cell": 1,
+  "groq_cost_per_token_usd": 0.0000008
+}

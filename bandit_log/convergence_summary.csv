@@ -1,0 +1,10 @@
+topic,model,pulls,mean_reward,ucb1_score,converged_to
+moderate,llama-3.3-70b-versatile,1,0.95,3.0462941479364103,YES
+moderate,llama3-8b-8192,1,0.72,2.81629414793641,
+moderate,llama3-groq-8b-8192-tool-use-preview,1,0.78,2.8762941479364104,
+niche,llama-3.3-70b-versatile,1,0.96,3.05629414793641,YES
+niche,llama3-8b-8192,1,0.75,2.84629414793641,
+niche,llama3-groq-8b-8192-tool-use-preview,1,0.79,2.88629414793641,
+well-covered,llama-3.3-70b-versatile,1,0.86,2.95629414793641,YES
+well-covered,llama3-8b-8192,1,0.79,2.88629414793641,
+well-covered,llama3-groq-8b-8192-tool-use-preview,1,0.72,2.81629414793641,

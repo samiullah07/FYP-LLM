@@ -11,6 +11,11 @@ Input:
 
 Output:
     List[Paper]: deduplicated list of Paper objects from OpenAlex
+
+Knowledge Source Note: The original project brief specified Microsoft Academic Graph (MAG),
+retired by Microsoft in January 2022. This agent uses OpenAlex (openalex.org) as its
+open-access successor with equivalent or broader coverage across all disciplines
+(Culbert et al., 2025, doi:10.1162/qss_a_00323).
 """
 
 import sys
@@ -74,6 +79,52 @@ def retrieve_papers(sub_queries: list[str]) -> list[Paper]:
 
     print(f"\n[SearchAgent] Final unique paper count: {len(all_papers)}")
     return all_papers
+
+
+class SearchAgent:
+    """
+    Search Agent for the Literature Review Pipeline.
+
+    Responsibility:
+        Given a list of sub-queries from the Planner Agent, search OpenAlex
+        for relevant academic papers and return a deduplicated list of papers.
+    """
+
+    def __init__(self):
+        """Initialize SearchAgent and verify OpenAlex connectivity."""
+        try:
+            self.verify_openalex_connection()
+        except Exception:
+            pass
+
+    def verify_openalex_connection(self) -> bool:
+        """Ping OpenAlex API to confirm connectivity at startup.
+
+        Returns True if connection succeeds, False otherwise.
+        A failed connection prints a warning but does not crash
+        the agent — the pipeline continues with a degraded state.
+        """
+        import urllib.request
+        from datetime import datetime
+        url = "https://api.openalex.org/works?search=test&per_page=1"
+        try:
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "FYP-LLM/1.0 (MSc project)"})
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                if resp.status == 200:
+                    print(
+                        f"[SearchAgent] OpenAlex connection OK "
+                        f"({datetime.now().strftime('%H:%M:%S')})"
+                    )
+                    return True
+                print(f"[SearchAgent] OpenAlex returned HTTP {resp.status}")
+                return False
+        except Exception as e:
+            print(f"[SearchAgent] WARNING: OpenAlex unreachable: {e}")
+            print("[SearchAgent] Fallback: https://openalex.org/api-docs")
+            return False
+
+
 def print_papers(papers: list[Paper]) -> None:
     """
     Helper to print a summary of retrieved papers.

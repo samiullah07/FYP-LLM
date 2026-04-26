@@ -1,0 +1,227 @@
+[
+  {
+    "timestamp": "2026-04-25T22:42:03.500096",
+    "n_hallucinated": 1,
+    "n_total": 25,
+    "hallucination_rate_pct": 4.0,
+    "wilson_ci_lower_pct": 0.71,
+    "wilson_ci_upper_pct": 19.54,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T22:42:03.503113",
+    "n_hallucinated": 5,
+    "n_total": 20,
+    "hallucination_rate_pct": 25.0,
+    "wilson_ci_lower_pct": 11.19,
+    "wilson_ci_upper_pct": 46.87,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T22:42:03.528726",
+    "n_hallucinated": 0,
+    "n_total": 10,
+    "hallucination_rate_pct": 0.0,
+    "wilson_ci_lower_pct": 0.0,
+    "wilson_ci_upper_pct": 27.75,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T22:42:03.549317",
+    "n_hallucinated": 2,
+    "n_total": 30,
+    "hallucination_rate_pct": 6.67,
+    "wilson_ci_lower_pct": 1.85,
+    "wilson_ci_upper_pct": 21.32,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T22:42:03.577002",
+    "n_hallucinated": 10,
+    "n_total": 100,
+    "hallucination_rate_pct": 10.0,
+    "wilson_ci_lower_pct": 5.52,
+    "wilson_ci_upper_pct": 17.44,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:00:26.223160",
+    "n_hallucinated": 1,
+    "n_total": 25,
+    "hallucination_rate_pct": 4.0,
+    "wilson_ci_lower_pct": 0.71,
+    "wilson_ci_upper_pct": 19.54,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:00:26.252685",
+    "n_hallucinated": 5,
+    "n_total": 20,
+    "hallucination_rate_pct": 25.0,
+    "wilson_ci_lower_pct": 11.19,
+    "wilson_ci_upper_pct": 46.87,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:00:26.274669",
+    "n_hallucinated": 0,
+    "n_total": 10,
+    "hallucination_rate_pct": 0.0,
+    "wilson_ci_lower_pct": 0.0,
+    "wilson_ci_upper_pct": 27.75,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:00:26.296414",
+    "n_hallucinated": 2,
+    "n_total": 30,
+    "hallucination_rate_pct": 6.67,
+    "wilson_ci_lower_pct": 1.85,
+    "wilson_ci_upper_pct": 21.32,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:00:26.315225",
+    "n_hallucinated": 10,
+    "n_total": 100,
+    "hallucination_rate_pct": 10.0,
+    "wilson_ci_lower_pct": 5.52,
+    "wilson_ci_upper_pct": 17.44,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:08:22.659705",
+    "n_hallucinated": 1,
+    "n_total": 25,
+    "hallucination_rate_pct": 4.0,
+    "wilson_ci_lower_pct": 0.71,
+    "wilson_ci_upper_pct": 19.54,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:08:22.679340",
+    "n_hallucinated": 5,
+    "n_total": 20,
+    "hallucination_rate_pct": 25.0,
+    "wilson_ci_lower_pct": 11.19,
+    "wilson_ci_upper_pct": 46.87,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:08:22.700728",
+    "n_hallucinated": 0,
+    "n_total": 10,
+    "hallucination_rate_pct": 0.0,
+    "wilson_ci_lower_pct": 0.0,
+    "wilson_ci_upper_pct": 27.75,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:08:22.722657",
+    "n_hallucinated": 2,
+    "n_total": 30,
+    "hallucination_rate_pct": 6.67,
+    "wilson_ci_lower_pct": 1.85,
+    "wilson_ci_upper_pct": 21.32,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:08:22.794165",
+    "n_hallucinated": 10,
+    "n_total": 100,
+    "hallucination_rate_pct": 10.0,
+    "wilson_ci_lower_pct": 5.52,
+    "wilson_ci_upper_pct": 17.44,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:12:01.983612",
+    "n_hallucinated": 1,
+    "n_total": 25,
+    "hallucination_rate_pct": 4.0,
+    "wilson_ci_lower_pct": 0.71,
+    "wilson_ci_upper_pct": 19.54,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:02.013995",
+    "n_hallucinated": 5,
+    "n_total": 20,
+    "hallucination_rate_pct": 25.0,
+    "wilson_ci_lower_pct": 11.19,
+    "wilson_ci_upper_pct": 46.87,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:02.087446",
+    "n_hallucinated": 0,
+    "n_total": 10,
+    "hallucination_rate_pct": 0.0,
+    "wilson_ci_lower_pct": 0.0,
+    "wilson_ci_upper_pct": 27.75,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:02.113815",
+    "n_hallucinated": 2,
+    "n_total": 30,
+    "hallucination_rate_pct": 6.67,
+    "wilson_ci_lower_pct": 1.85,
+    "wilson_ci_upper_pct": 21.32,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:12:02.141123",
+    "n_hallucinated": 10,
+    "n_total": 100,
+    "hallucination_rate_pct": 10.0,
+    "wilson_ci_lower_pct": 5.52,
+    "wilson_ci_upper_pct": 17.44,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:12:10.865741",
+    "n_hallucinated": 1,
+    "n_total": 25,
+    "hallucination_rate_pct": 4.0,
+    "wilson_ci_lower_pct": 0.71,
+    "wilson_ci_upper_pct": 19.54,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:10.884485",
+    "n_hallucinated": 5,
+    "n_total": 20,
+    "hallucination_rate_pct": 25.0,
+    "wilson_ci_lower_pct": 11.19,
+    "wilson_ci_upper_pct": 46.87,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:10.906412",
+    "n_hallucinated": 0,
+    "n_total": 10,
+    "hallucination_rate_pct": 0.0,
+    "wilson_ci_lower_pct": 0.0,
+    "wilson_ci_upper_pct": 27.75,
+    "warning": "Wide interval \u2014 n < 30"
+  },
+  {
+    "timestamp": "2026-04-25T23:12:10.925445",
+    "n_hallucinated": 2,
+    "n_total": 30,
+    "hallucination_rate_pct": 6.67,
+    "wilson_ci_lower_pct": 1.85,
+    "wilson_ci_upper_pct": 21.32,
+    "warning": ""
+  },
+  {
+    "timestamp": "2026-04-25T23:12:10.945610",
+    "n_hallucinated": 10,
+    "n_total": 100,
+    "hallucination_rate_pct": 10.0,
+    "wilson_ci_lower_pct": 5.52,
+    "wilson_ci_upper_pct": 17.44,
+    "warning": ""
+  }
+]

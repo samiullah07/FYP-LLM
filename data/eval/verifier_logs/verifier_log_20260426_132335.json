@@ -1,0 +1,243 @@
+{
+  "run_id": "20260426_132335",
+  "timestamp": "2026-04-26T13:23:57.679555",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2022)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4313310852",
+      "matched_title": "Metaverse marketing: How the metaverse will shape the future of consumer researc",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Yichuan Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1002/mar.21767"
+    },
+    {
+      "raw_citation": "(Park and Kim, 2022)",
+      "cited_author": "Park and Kim",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Slater and Sánchez-Vives, 2016)",
+      "cited_author": "Slater and Sánchez-Vives",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2562199918",
+      "matched_title": "Enhancing Our Lives with Immersive Virtual Reality",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Mel Slater",
+        "María V. Sánchez-Vives"
+      ],
+      "matched_doi": "https://doi.org/10.3389/frobt.2016.00074"
+    },
+    {
+      "raw_citation": "(Ramadan, 2023)",
+      "cited_author": "Ramadan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327744573",
+      "matched_title": "Marketing in the metaverse era: toward an integrative channel approach",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Zahy Ramadan"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10055-023-00783-2"
+    },
+    {
+      "raw_citation": "(Jenkins, 2006)",
+      "cited_author": "Jenkins",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112957339",
+      "matched_title": "Confronting the Challenges of Participatory Culture: Media Education for the 21s",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Henry Jenkins"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Hjarvard, 2008)",
+      "cited_author": "Hjarvard",
+      "cited_year": 2008,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2100212414",
+      "matched_title": "The Mediatization of Society",
+      "matched_year": 2008,
+      "matched_authors": [
+        "Stig Hjarvard"
+      ],
+      "matched_doi": "https://doi.org/10.1515/nor-2017-0181"
+    },
+    {
+      "raw_citation": "(Haruna et al., 2017)",
+      "cited_author": "Haruna et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2774180115",
+      "matched_title": "Context-Aware Recommender System: A Review of Recent Developmental Process and F",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Khalid Haruna",
+        "Maizatul Akmar Ismail",
+        "Suhendroyono Suhendroyono"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app7121211"
+    },
+    {
+      "raw_citation": "(Liang et al., 2024)",
+      "cited_author": "Liang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401070271",
+      "matched_title": "Generative AI-Driven Semantic Communication Networks: Architecture, Technologies",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Chengsi Liang",
+        "Hongyang Du",
+        "Yao Sun"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tccn.2024.3435524"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Benkler, 2006)",
+      "cited_author": "Benkler",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2535163083",
+      "matched_title": "The wealth of networks: how social production transforms markets and freedom",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Benkler, Yochai"
+      ],
+      "matched_doi": "https://doi.org/10.5860/choice.44-0999"
+    },
+    {
+      "raw_citation": "(Surroca et al., 2009)",
+      "cited_author": "Surroca et al.",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2493849050",
+      "matched_title": "Corporate responsibility and financial performance: the role of intangible resou",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Jordi Surroca",
+        "Josep A. Tribó",
+        "Sandra Waddock"
+      ],
+      "matched_doi": "https://doi.org/10.1002/smj.820"
+    },
+    {
+      "raw_citation": "(Hu et al., 2014)",
+      "cited_author": "Hu et al.",
+      "cited_year": 2014,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Belk et al., 2003)",
+      "cited_author": "Belk et al.",
+      "cited_year": 2003,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2115430170",
+      "matched_title": "The Fire of Desire: A Multisited Inquiry into Consumer Passion",
+      "matched_year": 2003,
+      "matched_authors": [
+        "Russell W. Belk",
+        "Gülız Ger",
+        "Søren Askegaard"
+      ],
+      "matched_doi": "https://doi.org/10.1086/378613"
+    },
+    {
+      "raw_citation": "(Romer, 1993)",
+      "cited_author": "Romer",
+      "cited_year": 1993,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2138656784",
+      "matched_title": "New Goods, Old Theory, and the Welfare Costs of Trade Restrictions",
+      "matched_year": 1993,
+      "matched_authors": [
+        "Paul Romer"
+      ],
+      "matched_doi": "https://doi.org/10.3386/w4452"
+    }
+  ]
+}

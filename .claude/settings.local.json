@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(findstr *)",
+      "Bash(git checkout *)",
+      "Bash(streamlit run *)",
+      "Bash(curl *)"
+    ]
+  }
+}

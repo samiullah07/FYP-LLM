@@ -1,6 +1,7 @@
-# graph/workflow_graph.py
+import sys; sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import sys
 import json
+import os
 import time
 from pathlib import Path
 from datetime import datetime
@@ -30,6 +31,12 @@ except Exception:
 
 
 # ---------------------------------------------------------------------------
+# NEW: Global constant for multi-pass correction
+# ---------------------------------------------------------------------------
+MAX_CORRECTION_PASSES = 2
+
+
+# ---------------------------------------------------------------------------
 # State Definition
 # ---------------------------------------------------------------------------
 class ReviewState(TypedDict):
@@ -56,13 +63,14 @@ class ReviewState(TypedDict):
     selected_model:          str
     topic_type:              str
     mab_policy:              dict
+    passes_completed:        int  # ADDED for multi-pass correction
 
 
 # ---------------------------------------------------------------------------
 # Node 1: Planner
 # ---------------------------------------------------------------------------
 def planner_node(state: ReviewState) -> ReviewState:
-    print("\n[Graph] ── Node 1: Planner ──────────────────────────")
+    print("\n[Graph] -- Node 1: Planner --------------------------")
     topic = state.get("topic", "")
     if not topic:
         print("[Graph] WARNING: topic is empty in planner_node")
@@ -76,7 +84,7 @@ def planner_node(state: ReviewState) -> ReviewState:
 # Node 2: Search
 # ---------------------------------------------------------------------------
 def search_node(state: ReviewState) -> ReviewState:
-    print("\n[Graph] ── Node 2: Search ───────────────────────────")
+    print("\n[Graph] -- Node 2: Search ---------------------------")
     sub_queries    = state.get("sub_queries", [])
     papers         = retrieve_papers(sub_queries)
     state["papers"] = papers
@@ -87,7 +95,7 @@ def search_node(state: ReviewState) -> ReviewState:
 # Node 3: Summariser
 # ---------------------------------------------------------------------------
 def summariser_node(state: ReviewState) -> ReviewState:
-    print("\n[Graph] ── Node 3: Summariser ───────────────────────")
+    print("\n[Graph] -- Node 3: Summariser -----------------------")
     papers                = state.get("papers", [])
     topic                 = state.get("topic", "")
     review_text, papers_used = write_literature_review(papers, topic)
@@ -100,7 +108,7 @@ def summariser_node(state: ReviewState) -> ReviewState:
 # Node 4: Verifier
 # ---------------------------------------------------------------------------
 def verifier_node(state: ReviewState) -> ReviewState:
-    print("\n[Graph] ── Node 4: Verifier ─────────────────────────")
+    print("\n[Graph] -- Node 4: Verifier -------------------------")
     review_text = state.get("draft_review", "")
     papers      = state.get("papers", [])
     run_id      = state.get("run_id", datetime.now().strftime("%Y%m%d_%H%M%S"))
@@ -138,7 +146,7 @@ def verifier_node(state: ReviewState) -> ReviewState:
 # Node 5: Assembler
 # ---------------------------------------------------------------------------
 def assembler_node(state: ReviewState) -> ReviewState:
-    print("\n[Graph] ── Node 5: Assembler ────────────────────────")
+    print("\n[Graph] -- Node 5: Assembler ------------------------")
     result = assemble_final_review(
         topic        = state.get("topic", ""),
         draft_review = state.get("draft_review", ""),
@@ -154,26 +162,49 @@ def assembler_node(state: ReviewState) -> ReviewState:
     log_dir = settings.data_dir / "eval" / "logs"
     save_assembler_log(result, state.get("topic", ""), log_dir, run_id)
 
+    # Gap 5 integration - log correction pass
+    state["passes_completed"] = state.get("passes_completed", 0) + 1
+    _log_correction_pass(state)
+    print("[Assembler] Correction pass", state.get("passes_completed",0), "logged")
     return state
 
 
 # ---------------------------------------------------------------------------
-# Conditional retry after verifier
+# NEW: Conditional routing after verifier
 # ---------------------------------------------------------------------------
-def should_retry(state: ReviewState) -> str:
-    hall_rate   = state.get("hallucination_rate", 0)
-    retry_count = state.get("retry_count", 0)
+def route_after_verifier(state: dict) -> str:
+    """Conditional edge: retry assembler or end."""
+    hall_count = state.get("hallucinated_citations", 0)
+    passes = state.get("passes_completed", 0)
+    if hall_count > 0 and passes < MAX_CORRECTION_PASSES:
+        return "assembler"
+    return END
 
-    if hall_rate > 0.30 and retry_count < 1:
-        print(
-            f"\n[Graph] ⚠️  Hallucination rate {hall_rate:.1%} > 30%. "
-            f"Retrying summariser..."
-        )
-        state["retry_count"] = retry_count + 1
-        return "retry"
 
-    print(f"\n[Graph] ✅ Hallucination rate {hall_rate:.1%}. Proceeding.")
-    return "continue"
+# ---------------------------------------------------------------------------
+# NEW: Helper to log correction passes
+# ---------------------------------------------------------------------------
+def _log_correction_pass(state: dict) -> None:
+    """Append per-pass stats to correction_passes_log.json."""
+    entry = {
+        "run_id":          state.get("run_id", "unknown"),
+        "pass_number":     state.get("passes_completed", 1),
+        "h_rate_before":   state.get("h_rate_before_assembly", None),
+        "h_rate_after":    state.get("hallucination_rate", None),
+        "claims_removed":  state.get("claims_removed", 0),
+        "claims_rewritten":state.get("claims_rewritten", 0),
+        "timestamp":       datetime.now().isoformat(),
+    }
+    os.makedirs("evaluation_results", exist_ok=True)
+    log_path = os.path.join("evaluation_results", "correction_passes_log.json")
+    try:
+        with open(log_path, "r", encoding="utf-8") as f:
+            logs = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        logs = []
+    logs.append(entry)
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(logs, f, indent=2)
 
 
 # ---------------------------------------------------------------------------
@@ -194,10 +225,11 @@ def build_workflow():
     graph.add_edge("search",     "summariser")
     graph.add_edge("summariser", "verifier")
 
+    # ADDITION 6: Replace verifier->assembler with conditional edge
     graph.add_conditional_edges(
         "verifier",
-        should_retry,
-        {"retry": "summariser", "continue": "assembler"},
+        route_after_verifier,
+        {"assembler": "assembler", END: END}
     )
 
     graph.add_edge("assembler", END)
@@ -254,6 +286,7 @@ def run_workflow(topic: str) -> ReviewState:
         "selected_model":          selected_model,
         "topic_type":              topic_type,
         "mab_policy":              {},
+        "passes_completed":        0,
     }
 
     print("\n" + "=" * 60)

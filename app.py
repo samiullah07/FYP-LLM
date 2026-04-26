@@ -14,6 +14,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+import html
 
 from app_styles import CSS
 from src.document_reader import load_input, extract_topic_from_document
@@ -461,6 +462,39 @@ def run_experimental_pipeline(topic: str):
 
         st.session_state.pipeline_state = final_state
         st.session_state.pipeline_ran = True
+
+        # Save topic to dynamic ablation history
+        import json, os
+        _hist_path = os.path.join(
+            r"C:\Users\BEST LAPTOP\Desktop\FYP-LLM",
+            "evaluation_results", "topic_history.json"
+        )
+        os.makedirs(os.path.dirname(_hist_path), exist_ok=True)
+        try:
+            with open(_hist_path, "r", encoding="utf-8") as _f:
+                _hist = json.load(_f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            _hist = []
+
+        # Add this topic if not already in history
+        _topic_entry = {
+            "topic": topic,
+            "timestamp": __import__('datetime').datetime.now().isoformat(),
+            "hall_pct": final_state.get("hallucination_rate", 0) * 100
+                        if isinstance(final_state.get("hallucination_rate"), float)
+                        else final_state.get("hallucination_rate", 0),
+            "valid": final_state.get("valid_citations", 0),
+            "hallucinated": final_state.get("hallucinated_citations", 0),
+            "total": final_state.get("total_citations", 0),
+            "latency": final_state.get("latency_seconds", 0),
+            "model": final_state.get("selected_model", "unknown"),
+            "papers": final_state.get("papers_retrieved", 0),
+        }
+        # Avoid duplicates
+        if not any(h.get("topic") == topic for h in _hist):
+            _hist.append(_topic_entry)
+            with open(_hist_path, "w", encoding="utf-8") as _f:
+                json.dump(_hist, _f, indent=2)
         st.session_state.run_history.append(
             {
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -607,21 +641,24 @@ def render_system_results(state: dict, system: str):
                 valid = getattr(cit, "valid", None)
                 reason = getattr(cit, "error_reason", None)
 
-                if valid is True and not reason:
+                safe_raw = html.escape(str(raw)) if raw else ""
+                safe_reason = html.escape(str(reason)) if reason else ""
+
+                if valid is True and not safe_reason:
                     badge = '<span class="badge-valid">Valid</span>'
-                elif valid is True and reason:
+                elif valid is True and safe_reason:
                     badge = '<span class="badge-partial">Partial</span>'
                 else:
                     badge = '<span class="badge-hallucinated">Hallucinated</span>'
 
                 reason_html = ""
-                if reason:
-                    reason_html = f"<span class='soft-text' style='font-size:.74rem; text-align:right;'>{reason}</span>"
+                if safe_reason:
+                    reason_html = f"<span class='soft-text' style='font-size:.74rem; text-align:right;'>{safe_reason}</span>"
 
                 st.markdown(
                     f"""
                     <div class="citation-row">
-                        <div style="color:#dce7fb; line-height:1.6;">{raw}</div>
+                        <div style="color:#dce7fb; line-height:1.6;">{safe_raw}</div>
                         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
                             {badge}
                             {reason_html}
@@ -833,8 +870,21 @@ def render_results():
 # ---------------------------------------------------------------------------
 def page_evaluation() -> None:
     """Evaluation page — shows eval results, MAB results, and ablation study."""
-    st.markdown("## Evaluation Results")
-    st.markdown("Compare the **Experimental** multi-agent pipeline against the **Baseline** single-LLM pipeline.")
+    # Hero header
+    st.markdown(f"""
+    <div style="background: linear-gradient(135deg, #1a2b5e 0%, #2d3748 100%);
+                padding: 1.5rem 2rem; border-radius: 12px; margin-bottom: 1.5rem;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <h1 style="color:#eef4ff; margin:0 0 0.5rem 0; font-size:1.8rem;">
+            📊 Evaluation Dashboard
+        </h1>
+        <p style="color:#94a3b8; margin:0; font-size:0.9rem; line-height:1.5;">
+            Real-time results from the agentic pipeline evaluation.
+            Compare <strong style="color:#5ee7df;">Experimental</strong> vs
+            <strong style="color:#fb7185;">Baseline</strong> performance.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     ROOT     = Path(__file__).resolve().parent
     EVAL_DIR = ROOT / "data" / "eval"
@@ -844,13 +894,213 @@ def page_evaluation() -> None:
     for d in (EVAL_DIR, MAB_DIR, ABL_DIR):
         d.mkdir(parents=True, exist_ok=True)
 
-    # ── How to generate results ───────────────────────────────────────────
-    with st.expander("How to generate evaluation data", expanded=False):
-        st.markdown("""
-        **Option A — Instant sample data (no API calls):**
-        
-        Run the evaluation script to generate sample results without API calls.
-        """)
+    # ── Load real evaluation data ──────────────────
+    import glob as _glob
+    from collections import Counter as _Counter
+    _ROOT = r"C:\Users\BEST LAPTOP\Desktop\FYP-LLM"
+
+    def _load_json(rel):
+        import json, os
+        try:
+            with open(os.path.join(_ROOT, rel), encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return []
+
+    def _load_csv(rel):
+        import csv, os
+        try:
+            with open(os.path.join(_ROOT, rel), encoding="utf-8") as f:
+                return list(csv.DictReader(f))
+        except:
+            return []
+
+    _tax  = _load_json("evaluation_results/error_taxonomy_log.json")
+    _wc   = _load_json("evaluation_results/wilson_ci_log.json")
+    _cp   = _load_json("evaluation_results/correction_passes_log.json")
+    _ab   = _load_csv("evaluation_results/ablation_raw.csv")
+    _hist = _load_json("evaluation_results/topic_history.json")
+    _vfiles = sorted(_glob.glob(_ROOT + "/data/eval/verifier_logs/*.json"))
+    _runs = [_load_json(f.replace(_ROOT + "/", "")) for f in _vfiles]
+
+    # Summary metrics with visual cards
+    _tc = sum(r.get("total",0) for r in _runs)
+    _tv = sum(r.get("valid",0) for r in _runs)
+    _th = sum(r.get("hallucinated",0) for r in _runs)
+    _tr = round(_th / _tc * 100, 1) if _tc else 0
+
+    st.markdown("### 📊 Pipeline Performance Summary")
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        metric_card(len(_runs), "Pipeline Runs", "blue")
+    with c2:
+        metric_card(_tc, "Citations Checked", "teal")
+    with c3:
+        metric_card(_th, "Hallucinated", "red" if _th > 0 else "green")
+    with c4:
+        metric_card(f"{_tr}%", "Overall Hall. Rate", "red" if _tr > 10 else "orange" if _tr > 0 else "green")
+
+    st.divider()
+
+    # Wilson CI
+    if _wc:
+        st.markdown("### 📈 Wilson Score Confidence Intervals")
+        st.markdown(
+            "<div style='color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;'>"
+            "95% Wilson score CIs on hallucination rates per pipeline run.</div>",
+            unsafe_allow_html=True
+        )
+        real = [e for e in _wc if e.get("n_total",0) not in [25,20,10,30,100]]
+        for e in (real[-5:] if real else _wc[-5:]):
+            rate = e.get('hallucination_rate_pct',0)
+            color = "green" if rate < 10 else "orange" if rate < 20 else "red"
+            st.markdown(
+                f"<div style='padding:10px; background:rgba(30,58,138,0.3); "
+                f"border-left:4px solid {color}; border-radius:6px; margin-bottom:8px;'>"
+                f"<span style='color:#eef4ff; font-weight:600;'>{e.get('timestamp','')[:16]}</span>  |  "
+                f"<span style='color:{color}; font-weight:700;'>{e.get('n_hallucinated','?')}/{e.get('n_total','?')} hallucinated</span>  |  "
+                f"Rate: <span style='color:{color}; font-weight:700;'>{rate}%</span>  |  "
+                f"CI: [{e.get('wilson_ci_lower_pct','?')}%, {e.get('wilson_ci_upper_pct','?')}%]"
+                f"{'<span style=\"color:#fbbf24;\">  | ⚠ ' + e.get('warning','') + '</span>' if e.get('warning') else ''}"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+
+    # Error taxonomy
+    if _tax:
+        st.markdown("### 🏷 Error Taxonomy Breakdown")
+        st.markdown(
+            "<div style='color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;'>"
+            "Distribution of citation error types across all verifier runs.</div>",
+            unsafe_allow_html=True
+        )
+        cnts = _Counter(e.get("error_type","?") for e in _tax)
+        for etype, count in cnts.most_common():
+            pct = round(count / len(_tax) * 100, 1)
+            color = ("#22c55e" if etype == "VALID" else
+                     "#ef4444" if etype == "FABRICATED_PAPER" else
+                     "#f97316" if etype == "WRONG_AUTHOR" else
+                     "#3b82f6")
+            icon = ("✅" if etype == "VALID" else
+                    "❌" if etype == "FABRICATED_PAPER" else
+                    "⚠️" if etype == "WRONG_AUTHOR" else "ℹ️")
+            st.markdown(
+                f"<div style='display:flex; justify-content:space-between; "
+                f"align-items:center; margin:8px 0; padding:8px 12px; "
+                f"background:rgba(30,41,59,0.5); border-radius:8px;'>"
+                f"<span>{icon} <strong style='color:#eef4ff;'>{etype}</strong></span>"
+                f"<span style='color:{color}; font-weight:700;'>{count} ({pct}%)</span>"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+            st.progress(count / len(_tax), color)
+
+    # Correction passes
+    if _cp:
+        st.markdown("### 🔄 Self-Correction Passes")
+        st.markdown(
+            "<div style='color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;'>"
+            "Shows how hallucination rates decrease after each correction pass.</div>",
+            unsafe_allow_html=True
+        )
+        for e in _cp[-5:]:
+            bef = e.get("h_rate_before")
+            aft = e.get("h_rate_after")
+            bs = f"{float(bef)*100:.1f}%" if bef not in [None,"?"] else "N/A"
+            af = f"{float(aft)*100:.1f}%" if aft not in [None,"?"] else "N/A"
+            bef_val = float(bef) if bef not in [None,"?"] else 0
+            color = "green" if bef_val < 0.1 else "orange" if bef_val < 0.2 else "red"
+            st.markdown(
+                f"<div style='padding:10px; margin:6px 0; background:rgba(30,41,59,0.6); "
+                f"border-left:4px solid {color}; border-radius:6px;'>"
+                f"<strong style='color:#eef4ff;'>{str(e.get('run_id','?'))[:14]}</strong> | "
+                f"Pass {e.get('pass_number','?')} | "
+                f"Before: <span style='color:{color}; font-weight:700;'>{bs}</span> → "
+                f"After: <span style='color:green; font-weight:700;'>{af}</span> | "
+                f"Removed: <span style='color:#fbbf24;'>{e.get('claims_removed',0)} claims</span>"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+
+    # Ablation study
+    if _ab:
+        st.markdown("### 🧪 Ablation Study Results")
+        st.markdown(
+            "<div style='color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;'>"
+            "Live runs use actual UI topics. Dry-run shows placeholder data.</div>",
+            unsafe_allow_html=True
+        )
+        real_ab = [r for r in _ab if r.get("latency_sec") not in ["45.2","12.1","14.8"]]
+        show_ab = real_ab if real_ab else _ab
+        st.caption(f"{'📊 Live data' if real_ab else '🎮 Dry-run'} — {len(show_ab)} rows")
+
+        for row in show_ab:
+            try:
+                hall = float(row.get('hall_pct',0))
+                color = "green" if hall == 0 else "orange" if hall < 15 else "red"
+                icon = "✅" if hall == 0 else "⚠️" if hall < 15 else "❌"
+            except:
+                color = "grey"
+                icon = "❓"
+            st.markdown(
+                f"<div style='padding:8px 12px; margin:4px 0; background:rgba(30,41,59,0.6); "
+                f"border-left:4px solid {color}; border-radius:6px; display:flex; "
+                f"justify-content:space-between; align-items:center;'>"
+                f"<span>{icon} <code style='color:#eef4ff;'>{row.get('model','?')[:28]}</code></span>"
+                f"<span style='color:#94a3b8;'>{row.get('topic_type','?')}</span>"
+                f"<span style='color:{color}; font-weight:700;'>Hall: {row.get('hall_pct','-')}%</span>"
+                f"<span style='color:#5ee7df;'>Valid: {row.get('valid','-')}</span>"
+                f"<span style='color:#94a3b8;'>{row.get('latency_sec','-')}s</span>"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+
+    # Topic history
+    if _hist:
+        st.markdown("### 📚 Your Topic History")
+        st.markdown(
+            "<div style='color:#94a3b8; font-size:0.85rem; margin-bottom:1rem;'>"
+            f"{len(_hist)} topics run so far. Use these for dynamic ablation.</div>",
+            unsafe_allow_html=True
+        )
+        for h in reversed(_hist[-8:]):
+            hall = h.get('hall_pct', 0)
+            try:
+                color = "green" if float(hall) == 0 else "orange" if float(hall) < 15 else "red"
+                icon = "✅" if float(hall) == 0 else "⚠️" if float(hall) < 15 else "❌"
+            except:
+                color = "grey"
+                icon = "❓"
+            ts = h.get('timestamp','')[:16]
+            topic_str = h.get('topic', '?')[:55] if h.get('topic') else '?'
+            st.markdown(
+                f"<div style='padding:10px 14px; margin:6px 0; background:rgba(30,41,59,0.6); "
+                f"border-left:4px solid {color}; border-radius:6px;'>"
+                f"<div style='display:flex; justify-content:space-between; align-items:center;'>"
+                f"<span style='color:#94a3b8; font-size:0.8rem;'>{ts}</span>"
+                f"<span style='color:{color}; font-weight:700;'>{icon} Hall: {hall}%</span>"
+                f"</div>"
+                f"<div style='color:#eef4ff; margin-top:6px; font-size:0.9rem;'>"
+                f"`{topic_str}`</div>"
+                f"<div style='display:flex; gap:12px; margin-top:8px; font-size:0.8rem;'>"
+                f"<span style='color:#5ee7df;'>✅ Valid: {h.get('valid','?')}</span>"
+                f"<span style='color:#fb7185;'>📉 Model: {h.get('model','?')[:20]}</span>"
+                f"</div></div>",
+                unsafe_allow_html=True
+            )
+        st.markdown(
+            "<div style='margin-top:1rem; padding:12px; background:rgba(34,197,94,0.1); "
+            "border:1px solid rgba(34,197,94,0.3); border-radius:8px;'>"
+            "💡 <strong style='color:#22c55e;'>Tip:</strong> "
+            "<span style='color:#94a3b8;'>Run ablation on YOUR topics with:</span><br>"
+            "<code style='background:rgba(0,0,0,0.3); padding:4px 8px; border-radius:4px; color:#eef4ff;'>"
+            "python tools/run_ablation.py --dynamic</code></div>",
+            unsafe_allow_html=True
+        )
+
+    if not any([_runs, _tax, _wc, _ab]):
+        st.info("No evaluation data yet. Go to Run Experiment and run a topic first.")
+    # ── End evaluation data block ──────────────────
 
 
 # ---------------------------------------------------------------------------

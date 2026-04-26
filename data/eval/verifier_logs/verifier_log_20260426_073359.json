@@ -1,0 +1,250 @@
+{
+  "run_id": "20260426_073359",
+  "timestamp": "2026-04-26T07:34:21.531450",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Bankins et al., 2023)",
+      "cited_author": "Bankins et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385484319",
+      "matched_title": "A multilevel review of artificial intelligence in organizations: Implications fo",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sarah Bankins",
+        "Anna Carmella Ocampo",
+        "Mauricio Marrone"
+      ],
+      "matched_doi": "https://doi.org/10.1002/job.2735"
+    },
+    {
+      "raw_citation": "(Amina Adadi, 2021)",
+      "cited_author": "Amina Adadi",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126220825",
+      "matched_title": "A survey on data‐efficient algorithms in big data era",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Amina Adadi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00419-9"
+    },
+    {
+      "raw_citation": "(Krzysztof Walczak and Wojciech Cellary, 2023)",
+      "cited_author": "Krzysztof Walczak and Wojciech Cellary",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385070262",
+      "matched_title": "Challenges for higher education in the era of widespread access to generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Krzysztof Walczak",
+        "Wojciech Cellary"
+      ],
+      "matched_doi": "https://doi.org/10.18559/ebr.2023.2.743"
+    },
+    {
+      "raw_citation": "(Pawan Budhwar et al., 2023)",
+      "cited_author": "Pawan Budhwar et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383913712",
+      "matched_title": "Human resource management in the age of generative artificial intelligence: Pers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pawan Budhwar",
+        "Soumyadeb Chowdhury",
+        "Geoffrey Wood"
+      ],
+      "matched_doi": "https://doi.org/10.1111/1748-8583.12524"
+    },
+    {
+      "raw_citation": "(Soumyadeb Chowdhury et al., 2022)",
+      "cited_author": "Soumyadeb Chowdhury et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4293229829",
+      "matched_title": "Unlocking the value of artificial intelligence in human resource management thro",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Soumyadeb Chowdhury",
+        "Prasanta Kumar Dey",
+        "Sian Joel-Edgar"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.hrmr.2022.100899"
+    },
+    {
+      "raw_citation": "(Eric Behar, 2025)",
+      "cited_author": "Eric Behar",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W7123387074",
+      "matched_title": "Temporal graph-based recommender systems for recruitment",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Eric Behar"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2019)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2969625533",
+      "matched_title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challen",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Elvira Ismagilova"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+    },
+    {
+      "raw_citation": "(Mayur Wankhade et al., 2022)",
+      "cited_author": "Mayur Wankhade et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4210827551",
+      "matched_title": "A survey on sentiment analysis methods, applications, and challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Mayur Wankhade",
+        "Annavarapu Chandra Sekhara Rao",
+        "Chaitanya Kulkarni"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-022-10144-1"
+    },
+    {
+      "raw_citation": "(Violeta Sima et al., 2020)",
+      "cited_author": "Violeta Sima et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3024362711",
+      "matched_title": "Influences of the Industry 4.0 Revolution on the Human Capital Development and C",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Violeta Sima",
+        "Ileana Georgiana Gheorghe",
+        "J. Subić"
+      ],
+      "matched_doi": "https://doi.org/10.3390/su12104035"
+    },
+    {
+      "raw_citation": "(OECD, 2010)",
+      "cited_author": "OECD",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.95,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206912211",
+      "matched_title": "OECD Social, Employment and Migration Working Papers",
+      "matched_year": 2010,
+      "matched_authors": [
+        "OECD",
+        "OECD"
+      ],
+      "matched_doi": "https://doi.org/10.1787/1815199x"
+    },
+    {
+      "raw_citation": "(Manski, 2000)",
+      "cited_author": "Manski",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2107295826",
+      "matched_title": "Economic Analysis of Social Interactions",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Charles F. Manski"
+      ],
+      "matched_doi": "https://doi.org/10.1257/jep.14.3.115"
+    },
+    {
+      "raw_citation": "(Michael Batty et al., 2012)",
+      "cited_author": "Michael Batty et al.",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1969085745",
+      "matched_title": "Smart cities of the future",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Michael Batty",
+        "Kay W. Axhausen",
+        "Fosca Giannotti"
+      ],
+      "matched_doi": "https://doi.org/10.1140/epjst/e2012-01703-3"
+    },
+    {
+      "raw_citation": "(Sabel and Jonathan Zeitlin, 2008)",
+      "cited_author": "Sabel and Jonathan Zeitlin",
+      "cited_year": 2008,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2161575102",
+      "matched_title": "Learning from Difference: The New Architecture of Experimentalist Governance in ",
+      "matched_year": 2008,
+      "matched_authors": [
+        "Charles F. Sabel",
+        "Jonathan Zeitlin"
+      ],
+      "matched_doi": "https://doi.org/10.1111/j.1468-0386.2008.00415.x"
+    }
+  ]
+}

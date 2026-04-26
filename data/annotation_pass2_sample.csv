@@ -1,0 +1,11 @@
+claim_id,claim_text,label
+C001,"The Planner agent decomposes the query into sub-topics.",SUPPORTED
+C002,"OpenAlex contains over 200 million scholarly works.",SUPPORTED
+C003,"The system uses GPT-4 as its primary language model.",PARTIALLY_SUPPORTED
+C004,"LangGraph enables cyclic agent workflows.",SUPPORTED
+C005,"FAISS is used for semantic vector search.",SUPPORTED
+C006,"The Verifier checks every sentence in the review.",UNSUPPORTED
+C007,"Hallucination rate was 4% on the 70B model.",SUPPORTED
+C008,"The pipeline runs entirely offline without API calls.",UNSUPPORTED
+C009,"Sentence-BERT provides local embeddings.",SUPPORTED
+C010,"The Assembler rewrites flagged claims after verification.",SUPPORTED

@@ -1,0 +1,162 @@
+{
+  "run_id": "20260426_075548",
+  "timestamp": "2026-04-26T07:56:07.584015",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Fernández‐Caramés, 2019)",
+      "cited_author": "Fernández‐Caramés",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995835799",
+      "matched_title": "From Pre-Quantum to Post-Quantum IoT Security: A Survey on Quantum-Resistant Cry",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jiot.2019.2958788"
+    },
+    {
+      "raw_citation": "(Fraga‐Lamas, 2020)",
+      "cited_author": "Fraga‐Lamas",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000833961",
+      "matched_title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant t",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés",
+        "Paula Fraga‐Lamas"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2968985"
+    },
+    {
+      "raw_citation": "(Alagic et al., 2022)",
+      "cited_author": "Alagic et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4226075590",
+      "matched_title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardi",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gorjan Alagic",
+        "Daniel Apon",
+        "David A. Cooper"
+      ],
+      "matched_doi": "https://doi.org/10.6028/nist.ir.8413"
+    },
+    {
+      "raw_citation": "(Lo et al., 2004)",
+      "cited_author": "Lo et al.",
+      "cited_year": 2004,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Habib et al., 2022)",
+      "cited_author": "Habib et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4309737257",
+      "matched_title": "Blockchain Technology: Benefits, Challenges, Applications, and Integration of Bl",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gousia Habib",
+        "Sparsh Sharma",
+        "Sara Ibrahim"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi14110341"
+    },
+    {
+      "raw_citation": "(Jiang et al., 2021)",
+      "cited_author": "Jiang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126686235",
+      "matched_title": "The Road Towards 6G: A Comprehensive Survey",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Wei Jiang",
+        "Bin Han",
+        "Mohammad Asif Habibi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3057679"
+    },
+    {
+      "raw_citation": "(Alwis et al., 2021)",
+      "cited_author": "Alwis et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3144404977",
+      "matched_title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Fut",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Chamitha de Alwis",
+        "Anshuman Kalla",
+        "Quoc‐Viet Pham"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3071496"
+    },
+    {
+      "raw_citation": "(Tariq et al., 2023)",
+      "cited_author": "Tariq et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366590727",
+      "matched_title": "A Critical Cybersecurity Analysis and Future Research Directions for the Interne",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Usman Tariq",
+        "Irfan Ahmed",
+        "Ali Kashif Bashir"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s23084117"
+    },
+    {
+      "raw_citation": "(Kumar et al., 2019)",
+      "cited_author": "Kumar et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2911981000",
+      "matched_title": "Smart Grid Metering Networks: A Survey on Security, Privacy and Open Research Is",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Pardeep Kumar",
+        "Yun Lin",
+        "Guangdong Bai"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2019.2899354"
+    }
+  ]
+}

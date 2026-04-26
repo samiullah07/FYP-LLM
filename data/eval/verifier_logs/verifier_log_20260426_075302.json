@@ -1,0 +1,256 @@
+{
+  "run_id": "20260426_075302",
+  "timestamp": "2026-04-26T07:53:21.873007",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Kasneci et al., 2023)",
+      "cited_author": "Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Barredo Arrieta et al., 2019)",
+      "cited_author": "Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Chen et al., 2020)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3017131514",
+      "matched_title": "Artificial Intelligence in Education: A Review",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Lijia Chen",
+        "Pingping Chen",
+        "Zhijian Lin"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2988510"
+    },
+    {
+      "raw_citation": "(Vinuesa et al., 2020)",
+      "cited_author": "Vinuesa et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000603264",
+      "matched_title": "The role of artificial intelligence in achieving the Sustainable Development Goa",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Ricardo Vinuesa",
+        "Hossein Azizpour",
+        "Iolanda Leite"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-019-14108-y"
+    },
+    {
+      "raw_citation": "(Jain et al., 1999)",
+      "cited_author": "Jain et al.",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1992419399",
+      "matched_title": "Data clustering",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Anil K. Jain",
+        "M. Narasimha Murty",
+        "Patrick J. Flynn"
+      ],
+      "matched_doi": "https://doi.org/10.1145/331499.331504"
+    },
+    {
+      "raw_citation": "(Miotto et al., 2017)",
+      "cited_author": "Miotto et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2610332124",
+      "matched_title": "Deep learning for healthcare: review, opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Riccardo Miotto",
+        "Fei Wang",
+        "Shuang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbx044"
+    },
+    {
+      "raw_citation": "(Alzubaidi et al., 2021)",
+      "cited_author": "Alzubaidi et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Rudolph et al., 2023)",
+      "cited_author": "Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Grassini, 2023)",
+      "cited_author": "Grassini",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383818129",
+      "matched_title": "Shaping the Future of Education: Exploring the Potential and Consequences of AI ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simone Grassini"
+      ],
+      "matched_doi": "https://doi.org/10.3390/educsci13070692"
+    },
+    {
+      "raw_citation": "(Page et al., 2021)",
+      "cited_author": "Page et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3123893780",
+      "matched_title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for repo",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Matthew J. Page",
+        "David Moher",
+        "Patrick M. Bossuyt"
+      ],
+      "matched_doi": "https://doi.org/10.1136/bmj.n160"
+    },
+    {
+      "raw_citation": "(Selvaraju et al., 2019)",
+      "cited_author": "Selvaraju et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2616247523",
+      "matched_title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Ramprasaath R. Selvaraju",
+        "Michael Cogswell",
+        "Abhishek Das"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-019-01228-7"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Park and Kim, 2022)",
+      "cited_author": "Park and Kim",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    }
+  ]
+}

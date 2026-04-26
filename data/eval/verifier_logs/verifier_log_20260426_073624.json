@@ -1,0 +1,196 @@
+{
+  "run_id": "20260426_073624",
+  "timestamp": "2026-04-26T07:36:45.370610",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Gu et al., 2023)",
+      "cited_author": "Gu et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gao et al., 2023)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    },
+    {
+      "raw_citation": "(Bran et al., 2024)",
+      "cited_author": "Bran et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4396723768",
+      "matched_title": "Augmenting large language models with chemistry tools",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Andres M. Bran",
+        "Sam Cox",
+        "Oliver Schilter"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42256-024-00832-8"
+    },
+    {
+      "raw_citation": "(Van Veen et al., 2024)",
+      "cited_author": "Van Veen et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392193048",
+      "matched_title": "Adapted large language models can outperform medical experts in clinical text su",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Dave Van Veen",
+        "Cara Van Uden",
+        "Louis Blankemeier"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-024-02855-5"
+    },
+    {
+      "raw_citation": "(Heid et al., 2023)",
+      "cited_author": "Heid et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390221451",
+      "matched_title": "Chemprop: A Machine Learning Package for Chemical Property Prediction",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Esther Heid",
+        "Kevin P. Greenman",
+        "Yunsie Chung"
+      ],
+      "matched_doi": "https://doi.org/10.1021/acs.jcim.3c01250"
+    },
+    {
+      "raw_citation": "(Holter et al., 2018)",
+      "cited_author": "Holter et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(Zhao et al., 2024)",
+      "cited_author": "Zhao et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390490761",
+      "matched_title": "Explainability for Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyan Zhao",
+        "Hanjie Chen",
+        "Fan Yang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3639372"
+    },
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390490761",
+      "matched_title": "Explainability for Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyan Zhao",
+        "Hanjie Chen",
+        "Fan Yang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3639372"
+    },
+    {
+      "raw_citation": "(Wang et al., 2022)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206693420",
+      "matched_title": "Medical image segmentation using deep learning: A survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Risheng Wang",
+        "Tao Lei",
+        "Ruixia Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1049/ipr2.12419"
+    },
+    {
+      "raw_citation": "(Xu et al., 2024)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Yang et al., 2024)",
+      "cited_author": "Yang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390490761",
+      "matched_title": "Explainability for Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyan Zhao",
+        "Hanjie Chen",
+        "Fan Yang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3639372"
+    }
+  ]
+}

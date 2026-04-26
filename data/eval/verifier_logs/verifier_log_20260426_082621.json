@@ -1,0 +1,25 @@
+{
+  "run_id": "20260426_082621",
+  "timestamp": "2026-04-26T08:26:37.551734",
+  "total": 1,
+  "entries": [
+    {
+      "raw_citation": "(Seyedali Mirjalili et al., 2014)",
+      "cited_author": "Seyedali Mirjalili et al.",
+      "cited_year": 2014,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2061438946",
+      "matched_title": "Grey Wolf Optimizer",
+      "matched_year": 2014,
+      "matched_authors": [
+        "Seyedali Mirjalili",
+        "Seyed Mohammad Mirjalili",
+        "Andrew Lewis"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.advengsoft.2013.12.007"
+    }
+  ]
+}

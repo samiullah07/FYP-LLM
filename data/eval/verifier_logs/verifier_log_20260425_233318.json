@@ -1,0 +1,237 @@
+{
+  "run_id": "20260425_233318",
+  "timestamp": "2026-04-25T23:33:33.079246",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Alowais et al., 2023)",
+      "cited_author": "Alowais et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Zabir Al Nazi et al., 2024)",
+      "cited_author": "Zabir Al Nazi et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401386758",
+      "matched_title": "Large Language Models in Healthcare and Medical Domain: A Review",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Zabir Al Nazi",
+        "Wei Peng"
+      ],
+      "matched_doi": "https://doi.org/10.3390/informatics11030057"
+    },
+    {
+      "raw_citation": "(Malik Sallam, 2023)",
+      "cited_author": "Malik Sallam",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327946446",
+      "matched_title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Malik Sallam"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare11060887"
+    },
+    {
+      "raw_citation": "(Lixiang Yan et al., 2023)",
+      "cited_author": "Lixiang Yan et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385632485",
+      "matched_title": "Practical and ethical challenges of large language models in education: A system",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Lixiang Yan",
+        "Lele Sha",
+        "Linxuan Zhao"
+      ],
+      "matched_doi": "https://doi.org/10.1111/bjet.13370"
+    },
+    {
+      "raw_citation": "(Sébastien Bubeck et al., 2023)",
+      "cited_author": "Sébastien Bubeck et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360836968",
+      "matched_title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sébastien Bubeck",
+        "Varun Chandrasekaran",
+        "Ronen Eldan"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.12712"
+    },
+    {
+      "raw_citation": "(Connor Shorten et al., 2021)",
+      "cited_author": "Connor Shorten et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Joon Sung Park et al., 2023)",
+      "cited_author": "Joon Sung Park et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387835442",
+      "matched_title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Joon Sung Park",
+        "Joseph O’Brien",
+        "Carrie J. Cai"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3586183.3606763"
+    },
+    {
+      "raw_citation": "(Boiko et al., 2023)",
+      "cited_author": "Boiko et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389991792",
+      "matched_title": "Autonomous chemical research with large language models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Daniil A. Boiko",
+        "Robert MacKnight",
+        "Ben Kline"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06792-0"
+    },
+    {
+      "raw_citation": "(Sangmin Park et al., 2022)",
+      "cited_author": "Sangmin Park et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Jürgen Rudolph et al., 2023)",
+      "cited_author": "Jürgen Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Oludare Isaac Abiodun et al., 2019)",
+      "cited_author": "Oludare Isaac Abiodun et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2979040987",
+      "matched_title": "Comprehensive Review of Artificial Neural Network Applications to Pattern Recogn",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Oludare Isaac Abiodun",
+        "Muhammad Ubale Kiru",
+        "Aman Jantan"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2019.2945545"
+    },
+    {
+      "raw_citation": "(Stefan Feuerriegel et al., 2023)",
+      "cited_author": "Stefan Feuerriegel et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    }
+  ]
+}

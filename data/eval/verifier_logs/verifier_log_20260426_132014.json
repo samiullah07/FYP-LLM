@@ -1,0 +1,265 @@
+{
+  "run_id": "20260426_132014",
+  "timestamp": "2026-04-26T13:20:17.127488",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Krizhevsky et al., 2019)",
+      "cited_author": "Krizhevsky et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Lewandowsky and Ecker, 2017)",
+      "cited_author": "Lewandowsky and Ecker",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2760944227",
+      "matched_title": "Beyond misinformation: Understanding and coping with the “post-truth” era.",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Stephan Lewandowsky",
+        "Ullrich K. H. Ecker",
+        "John Cook"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jarmac.2017.07.008"
+    },
+    {
+      "raw_citation": "(Gan and Zhang, 2019)",
+      "cited_author": "Gan and Zhang",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2931122162",
+      "matched_title": "An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Imp",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Yu Gan",
+        "Yanqi Zhang",
+        "Dailun Cheng"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3297858.3304013"
+    },
+    {
+      "raw_citation": "(Liszkowski and Carpenter, 2008)",
+      "cited_author": "Liszkowski and Carpenter",
+      "cited_year": 2008,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2117783821",
+      "matched_title": "Twelve-month-olds communicate helpfully and appropriately for knowledgeable and ",
+      "matched_year": 2008,
+      "matched_authors": [
+        "Ulf Liszkowski",
+        "Malinda Carpenter",
+        "Michael Tomasello"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.cognition.2008.06.013"
+    },
+    {
+      "raw_citation": "(Van Berkum and Hagoort, 1999)",
+      "cited_author": "Van Berkum and Hagoort",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2120932277",
+      "matched_title": "Semantic Integration in Sentences and Discourse: Evidence from the N400",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Jos J. A. Van Berkum",
+        "Peter Hagoort",
+        "Colin Brown"
+      ],
+      "matched_doi": "https://doi.org/10.1162/089892999563724"
+    },
+    {
+      "raw_citation": "(Zhang, 2003)",
+      "cited_author": "Zhang",
+      "cited_year": 2003,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2105453432",
+      "matched_title": "Human thermal sensation and comfort in transient and non-uniform thermal environ",
+      "matched_year": 2003,
+      "matched_authors": [
+        "H. Zhang"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Birchler and Yao, 2010)",
+      "cited_author": "Birchler and Yao",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206651119",
+      "matched_title": "Heterosis",
+      "matched_year": 2010,
+      "matched_authors": [
+        "James A. Birchler",
+        "Hong Yao",
+        "Sivanandan Chudalayandi"
+      ],
+      "matched_doi": "https://doi.org/10.1105/tpc.110.076133"
+    },
+    {
+      "raw_citation": "(Marques and Martins, 2019)",
+      "cited_author": "Marques and Martins",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2919990920",
+      "matched_title": "Increasing impacts of land use on biodiversity and carbon sequestration driven b",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alexandra Marques",
+        "Inês S. Martins",
+        "Thomas Kästner"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41559-019-0824-3"
+    },
+    {
+      "raw_citation": "(Saul, 2018)",
+      "cited_author": "Saul",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2888448279",
+      "matched_title": "Dogwhistles, Political Manipulation, and Philosophy of Language",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Jennifer Saul"
+      ],
+      "matched_doi": "https://doi.org/10.1093/oso/9780198738831.003.0013"
+    },
+    {
+      "raw_citation": "(Schleier-Smith and Sreekanti, 2021)",
+      "cited_author": "Schleier-Smith and Sreekanti",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3158207578",
+      "matched_title": "What serverless computing is and should become",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Johann Schleier-Smith",
+        "Vikram Sreekanti",
+        "Anurag Khandelwal"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3406011"
+    },
+    {
+      "raw_citation": "(Alario and Ferrand, 2004)",
+      "cited_author": "Alario and Ferrand",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2058102612",
+      "matched_title": "Predictors of picture naming speed",
+      "matched_year": 2004,
+      "matched_authors": [
+        "F.‐Xavier Alario",
+        "Ludovic Ferrand",
+        "Marina Laganaro"
+      ],
+      "matched_doi": "https://doi.org/10.3758/bf03195559"
+    },
+    {
+      "raw_citation": "(Cornell and Wieman, 2002)",
+      "cited_author": "Cornell and Wieman",
+      "cited_year": 2002,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2092159648",
+      "matched_title": "Nobel Lecture: Bose-Einstein condensation in a dilute gas, the first 70 years an",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Eric Cornell",
+        "Carl Wieman"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.74.875"
+    },
+    {
+      "raw_citation": "(Harman, 2009)",
+      "cited_author": "Harman",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2165673991",
+      "matched_title": "Prince of Networks: Bruno Latour and Metaphysics",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Graham Harman"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Drizin and Leo, 2004)",
+      "cited_author": "Drizin and Leo",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126061582",
+      "matched_title": "The Problem of False Confessions in the Post-DNA World",
+      "matched_year": 2004,
+      "matched_authors": [
+        "Steven A. Drizin",
+        "Richard A. Leo"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Bird and Lambon Ralph, 2000)",
+      "cited_author": "Bird and Lambon Ralph",
+      "cited_year": 2000,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1991248487",
+      "matched_title": "The Rise and Fall of Frequency and Imageability: Noun and Verb Production in Sem",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Helen Bird",
+        "Matthew A. Lambon Ralph",
+        "Karalyn Patterson"
+      ],
+      "matched_doi": "https://doi.org/10.1006/brln.2000.2293"
+    }
+  ]
+}

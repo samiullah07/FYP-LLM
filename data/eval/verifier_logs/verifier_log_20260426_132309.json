@@ -1,0 +1,212 @@
+{
+  "run_id": "20260426_132309",
+  "timestamp": "2026-04-26T13:23:32.845438",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Young‐Gab Kim, 2022)",
+      "cited_author": "Young‐Gab Kim",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Simon Elias Bibri, 2022)",
+      "cited_author": "Simon Elias Bibri",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4285004952",
+      "matched_title": "The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges fo",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zaheer Allam",
+        "Ayyoob Sharifi",
+        "Simon Elias Bibri"
+      ],
+      "matched_doi": "https://doi.org/10.3390/smartcities5030040"
+    },
+    {
+      "raw_citation": "(Sánchez-Vives, 2016)",
+      "cited_author": "Sánchez-Vives",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2562199918",
+      "matched_title": "Enhancing Our Lives with Immersive Virtual Reality",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Mel Slater",
+        "María V. Sánchez-Vives"
+      ],
+      "matched_doi": "https://doi.org/10.3389/frobt.2016.00074"
+    },
+    {
+      "raw_citation": "(Yichuan Wang, 2022)",
+      "cited_author": "Yichuan Wang",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4313310852",
+      "matched_title": "Metaverse marketing: How the metaverse will shape the future of consumer researc",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Laurie Hughes",
+        "Yichuan Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1002/mar.21767"
+    },
+    {
+      "raw_citation": "(Kaya Kuru, 2023)",
+      "cited_author": "Kaya Kuru",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4368232273",
+      "matched_title": "MetaOmniCity: Toward Immersive Urban Metaverse Cyberspaces Using Smart City Digi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Kaya Kuru"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2023.3272890"
+    },
+    {
+      "raw_citation": "(Melko, 2021)",
+      "cited_author": "Melko",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3128080705",
+      "matched_title": "Commercial applications of quantum computing",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Francesco Bova",
+        "Avi Goldfarb",
+        "Roger G. Melko"
+      ],
+      "matched_doi": "https://doi.org/10.1140/epjqt/s40507-021-00091-1"
+    },
+    {
+      "raw_citation": "(Catherine Higham, 2024)",
+      "cited_author": "Catherine Higham",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2988060416",
+      "matched_title": "Global trends in climate change litigation: 2023 snapshot",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Setzer, Joana",
+        "Higham, Catherine"
+      ],
+      "matched_doi": "https://doi.org/10.1163/9789004322714_cclc_2023-0148-0702"
+    },
+    {
+      "raw_citation": "(Sandra Waddock, 2009)",
+      "cited_author": "Sandra Waddock",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2493849050",
+      "matched_title": "Corporate responsibility and financial performance: the role of intangible resou",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Jordi Surroca",
+        "Josep A. Tribó",
+        "Sandra Waddock"
+      ],
+      "matched_doi": "https://doi.org/10.1002/smj.820"
+    },
+    {
+      "raw_citation": "(Ringle, 2024)",
+      "cited_author": "Ringle",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393987165",
+      "matched_title": "Same model, same data, but different outcomes: Evaluating the impact of method c",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Marko Sarstedt",
+        "Susanne Adler",
+        "Christian M. Ringle"
+      ],
+      "matched_doi": "https://doi.org/10.1111/jpim.12738"
+    },
+    {
+      "raw_citation": "(Henry Jenkins, 2006)",
+      "cited_author": "Henry Jenkins",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112957339",
+      "matched_title": "Confronting the Challenges of Participatory Culture: Media Education for the 21s",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Henry Jenkins"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Jonathan Gray, 2010)",
+      "cited_author": "Jonathan Gray",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1528579282",
+      "matched_title": "Show sold separately: promos, spoilers, and other media paratexts",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Gray, Jonathan (Jonathan Alan)"
+      ],
+      "matched_doi": "https://doi.org/10.5860/choice.47-5462"
+    },
+    {
+      "raw_citation": "(Benkler, 2006)",
+      "cited_author": "Benkler",
+      "cited_year": 2006,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2535163083",
+      "matched_title": "The wealth of networks: how social production transforms markets and freedom",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Benkler, Yochai"
+      ],
+      "matched_doi": "https://doi.org/10.5860/choice.44-0999"
+    }
+  ]
+}

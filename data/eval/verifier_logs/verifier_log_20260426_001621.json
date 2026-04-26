@@ -1,0 +1,165 @@
+{
+  "run_id": "20260426_001621",
+  "timestamp": "2026-04-26T00:16:39.807322",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Gorjan Alagic et al., 2022)",
+      "cited_author": "Gorjan Alagic et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4226075590",
+      "matched_title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardi",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gorjan Alagic",
+        "Daniel Apon",
+        "David A. Cooper"
+      ],
+      "matched_doi": "https://doi.org/10.6028/nist.ir.8413"
+    },
+    {
+      "raw_citation": "(Fernández‐Caramés, 2019)",
+      "cited_author": "Fernández‐Caramés",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995835799",
+      "matched_title": "From Pre-Quantum to Post-Quantum IoT Security: A Survey on Quantum-Resistant Cry",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jiot.2019.2958788"
+    },
+    {
+      "raw_citation": "(Fernández‐Caramés and Paula Fraga‐Lamas, 2020)",
+      "cited_author": "Fernández‐Caramés and Paula Fraga‐Lamas",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000833961",
+      "matched_title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant t",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés",
+        "Paula Fraga‐Lamas"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2968985"
+    },
+    {
+      "raw_citation": "(Hoi‐Kwong Lo et al., 2004)",
+      "cited_author": "Hoi‐Kwong Lo et al.",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2018263239",
+      "matched_title": "Efficient Quantum Key Distribution Scheme and a Proof of Its Unconditional Secur",
+      "matched_year": 2004,
+      "matched_authors": [
+        "Hoi‐Kwong Lo",
+        "H. F. Chau",
+        "M. Ardehali"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00145-004-0142-y"
+    },
+    {
+      "raw_citation": "(Verheul, 2001)",
+      "cited_author": "Verheul",
+      "cited_year": 2001,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2286477783",
+      "matched_title": "Selecting Cryptographic Key Sizes",
+      "matched_year": 2001,
+      "matched_authors": [
+        "Arjen K. Lenstra",
+        "Eric R. Verheul"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00145-001-0009-4"
+    },
+    {
+      "raw_citation": "(Gousia Habib et al., 2022)",
+      "cited_author": "Gousia Habib et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4309737257",
+      "matched_title": "Blockchain Technology: Benefits, Challenges, Applications, and Integration of Bl",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gousia Habib",
+        "Sparsh Sharma",
+        "Sara Ibrahim"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi14110341"
+    },
+    {
+      "raw_citation": "(Wei Jiang et al., 2021)",
+      "cited_author": "Wei Jiang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126686235",
+      "matched_title": "The Road Towards 6G: A Comprehensive Survey",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Wei Jiang",
+        "Bin Han",
+        "Mohammad Asif Habibi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3057679"
+    },
+    {
+      "raw_citation": "(Chamitha de Alwis et al., 2021)",
+      "cited_author": "Chamitha de Alwis et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3144404977",
+      "matched_title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Fut",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Chamitha de Alwis",
+        "Anshuman Kalla",
+        "Quoc‐Viet Pham"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3071496"
+    },
+    {
+      "raw_citation": "(Noor‐A‐Rahim et al., 2022)",
+      "cited_author": "Noor‐A‐Rahim et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3112379500",
+      "matched_title": "6G for Vehicle-to-Everything (V2X) Communications: Enabling Technologies, Challe",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Md. Noor‐A‐Rahim",
+        "Zilong Liu",
+        "Haeyoung Lee"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jproc.2022.3173031"
+    }
+  ]
+}

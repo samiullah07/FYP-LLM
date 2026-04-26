@@ -1,0 +1,251 @@
+{
+  "run_id": "20260426_001644",
+  "timestamp": "2026-04-26T00:17:04.725158",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Lenstra et al., 2001)",
+      "cited_author": "Lenstra et al.",
+      "cited_year": 2001,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2286477783",
+      "matched_title": "Selecting Cryptographic Key Sizes",
+      "matched_year": 2001,
+      "matched_authors": [
+        "Arjen K. Lenstra",
+        "Eric R. Verheul"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00145-001-0009-4"
+    },
+    {
+      "raw_citation": "(Fernández‐Caramés et al., 2020)",
+      "cited_author": "Fernández‐Caramés et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000833961",
+      "matched_title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant t",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés",
+        "Paula Fraga‐Lamas"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2968985"
+    },
+    {
+      "raw_citation": "(Lo et al., 2004)",
+      "cited_author": "Lo et al.",
+      "cited_year": 2004,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Aji et al., 2021)",
+      "cited_author": "Aji et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3213885077",
+      "matched_title": "A Survey of Quantum Key Distribution (QKD) Network Simulation Platforms",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Aravind Aji",
+        "Kurunandan Jain",
+        "Prabhakar Krishnan"
+      ],
+      "matched_doi": "https://doi.org/10.1109/gcat52182.2021.9587708"
+    },
+    {
+      "raw_citation": "(Dang et al., 2019)",
+      "cited_author": "Dang et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3003308444",
+      "matched_title": "Implementing and Benchmarking Three Lattice-Based Post-Quantum Cryptography Algo",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Viet B. Dang",
+        "Farnoud Farahmand",
+        "Michał Andrzejczak"
+      ],
+      "matched_doi": "https://doi.org/10.1109/icfpt47387.2019.00032"
+    },
+    {
+      "raw_citation": "(Alagic et al., 2022)",
+      "cited_author": "Alagic et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4226075590",
+      "matched_title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardi",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gorjan Alagic",
+        "Daniel Apon",
+        "David A. Cooper"
+      ],
+      "matched_doi": "https://doi.org/10.6028/nist.ir.8413"
+    },
+    {
+      "raw_citation": "(Kumar et al., 2020)",
+      "cited_author": "Kumar et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3036521249",
+      "matched_title": "Post-Quantum Secure Boot",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Vinay Kumar",
+        "Naina Gupta",
+        "Anupam Chattopadhyay"
+      ],
+      "matched_doi": "https://doi.org/10.23919/date48585.2020.9116252"
+    },
+    {
+      "raw_citation": "(Jiang et al., 2021)",
+      "cited_author": "Jiang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126686235",
+      "matched_title": "The Road Towards 6G: A Comprehensive Survey",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Wei Jiang",
+        "Bin Han",
+        "Mohammad Asif Habibi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3057679"
+    },
+    {
+      "raw_citation": "(Alwis et al., 2021)",
+      "cited_author": "Alwis et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3144404977",
+      "matched_title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Fut",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Chamitha de Alwis",
+        "Anshuman Kalla",
+        "Quoc‐Viet Pham"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3071496"
+    },
+    {
+      "raw_citation": "(Wang et al., 2023)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322576964",
+      "matched_title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Cheng‐Xiang Wang",
+        "Xiaohu You",
+        "Xiqi Gao"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2023.3249835"
+    },
+    {
+      "raw_citation": "(Hassija et al., 2023)",
+      "cited_author": "Hassija et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386142022",
+      "matched_title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vikas Hassija",
+        "Vinay Chamola",
+        "Atmesh Mahapatra"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12559-023-10179-8"
+    },
+    {
+      "raw_citation": "(Gisin et al., 2002)",
+      "cited_author": "Gisin et al.",
+      "cited_year": 2002,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3038067977",
+      "matched_title": "Quantum cryptography",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Nicolas Gisin",
+        "G. Ribordy",
+        "Wolfgang Tittel"
+      ],
+      "matched_doi": "https://doi.org/10.1103/revmodphys.74.145"
+    },
+    {
+      "raw_citation": "(Preskill, 2018)",
+      "cited_author": "Preskill",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2781738013",
+      "matched_title": "Quantum Computing in the NISQ era and beyond",
+      "matched_year": 2018,
+      "matched_authors": [
+        "John Preskill"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2018-08-06-79"
+    },
+    {
+      "raw_citation": "(Farooq et al., 2023)",
+      "cited_author": "Farooq et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4379793423",
+      "matched_title": "Resilience Optimization of Post-Quantum Cryptography Key Encapsulation Algorithm",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sana Farooq",
+        "Ayesha Altaf",
+        "Faiza Iqbal"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s23125379"
+    }
+  ]
+}

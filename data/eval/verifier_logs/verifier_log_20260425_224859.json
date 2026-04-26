@@ -1,0 +1,178 @@
+{
+  "run_id": "20260425_224859",
+  "timestamp": "2026-04-25T22:49:22.334928",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Gu et al., 2023)",
+      "cited_author": "Gu et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gao et al., 2023)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    },
+    {
+      "raw_citation": "(Bran et al., 2024)",
+      "cited_author": "Bran et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4396723768",
+      "matched_title": "Augmenting large language models with chemistry tools",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Andres M. Bran",
+        "Sam Cox",
+        "Oliver Schilter"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42256-024-00832-8"
+    },
+    {
+      "raw_citation": "(Dave Van Veen et al., 2024)",
+      "cited_author": "Dave Van Veen et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392193048",
+      "matched_title": "Adapted large language models can outperform medical experts in clinical text su",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Dave Van Veen",
+        "Cara Van Uden",
+        "Louis Blankemeier"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-024-02855-5"
+    },
+    {
+      "raw_citation": "(Singhal et al., 2025)",
+      "cited_author": "Singhal et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406152279",
+      "matched_title": "Toward expert-level medical question answering with large language models",
+      "matched_year": 2025,
+      "matched_authors": [
+        "K. K. Singhal",
+        "Tao Tu",
+        "Juraj Gottweis"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-024-03423-7"
+    },
+    {
+      "raw_citation": "(Holter et al., 2018)",
+      "cited_author": "Holter et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(Xu et al., 2024)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhao et al., 2024)",
+      "cited_author": "Zhao et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390490761",
+      "matched_title": "Explainability for Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyan Zhao",
+        "Hanjie Chen",
+        "Fan Yang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3639372"
+    },
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390490761",
+      "matched_title": "Explainability for Large Language Models: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Haiyan Zhao",
+        "Hanjie Chen",
+        "Fan Yang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3639372"
+    },
+    {
+      "raw_citation": "(Hollmann et al., 2025)",
+      "cited_author": "Hollmann et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406170795",
+      "matched_title": "Accurate predictions on small data with a tabular foundation model",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Noah Hollmann",
+        "Samuel Müller",
+        "Lennart Purucker"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-08328-6"
+    }
+  ]
+}

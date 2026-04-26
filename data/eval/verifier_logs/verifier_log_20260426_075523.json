@@ -1,0 +1,230 @@
+{
+  "run_id": "20260426_075523",
+  "timestamp": "2026-04-26T07:55:41.134847",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Juels and Wattenberg, 1999)",
+      "cited_author": "Juels and Wattenberg",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2032551902",
+      "matched_title": "A fuzzy commitment scheme",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Ari Juels",
+        "Martin Wattenberg"
+      ],
+      "matched_doi": "https://doi.org/10.1145/319709.319714"
+    },
+    {
+      "raw_citation": "(Lenstra and Verheul, 2001)",
+      "cited_author": "Lenstra and Verheul",
+      "cited_year": 2001,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2286477783",
+      "matched_title": "Selecting Cryptographic Key Sizes",
+      "matched_year": 2001,
+      "matched_authors": [
+        "Arjen K. Lenstra",
+        "Eric R. Verheul"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00145-001-0009-4"
+    },
+    {
+      "raw_citation": "(Lo et al., 2004)",
+      "cited_author": "Lo et al.",
+      "cited_year": 2004,
+      "status": "HALLUCINATED",
+      "confidence": 0.35,
+      "error_type": "FABRICATED_PAPER",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Fernández-Caramés and Fraga-Lamas, 2020)",
+      "cited_author": "Fernández-Caramés and Fraga-Lamas",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3000833961",
+      "matched_title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant t",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Tiago M. Fernández‐Caramés",
+        "Paula Fraga‐Lamas"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2968985"
+    },
+    {
+      "raw_citation": "(Alagic et al., 2022)",
+      "cited_author": "Alagic et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4226075590",
+      "matched_title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardi",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gorjan Alagic",
+        "Daniel Apon",
+        "David A. Cooper"
+      ],
+      "matched_doi": "https://doi.org/10.6028/nist.ir.8413"
+    },
+    {
+      "raw_citation": "(Hoi-Kwong Lo et al., 2004)",
+      "cited_author": "Hoi-Kwong Lo et al.",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2018263239",
+      "matched_title": "Efficient Quantum Key Distribution Scheme and a Proof of Its Unconditional Secur",
+      "matched_year": 2004,
+      "matched_authors": [
+        "Hoi‐Kwong Lo",
+        "H. F. Chau",
+        "M. Ardehali"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00145-004-0142-y"
+    },
+    {
+      "raw_citation": "(Vaishnavi and Pillai, 2021)",
+      "cited_author": "Vaishnavi and Pillai",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3186126346",
+      "matched_title": "Cybersecurity in the Quantum Era-A Study of Perceived Risks in Conventional Cryp",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Anshika Vaishnavi",
+        "Samaya Pillai"
+      ],
+      "matched_doi": "https://doi.org/10.1088/1742-6596/1964/4/042002"
+    },
+    {
+      "raw_citation": "(Shekhawat and Gupta, 2024)",
+      "cited_author": "Shekhawat and Gupta",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393152886",
+      "matched_title": "A survey on lattice‐based security and authentication schemes for smart‐grid net",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Hema Shekhawat",
+        "Daya Gupta"
+      ],
+      "matched_doi": "https://doi.org/10.1002/cpe.8080"
+    },
+    {
+      "raw_citation": "(Habib et al., 2022)",
+      "cited_author": "Habib et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4309737257",
+      "matched_title": "Blockchain Technology: Benefits, Challenges, Applications, and Integration of Bl",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Gousia Habib",
+        "Sparsh Sharma",
+        "Sara Ibrahim"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi14110341"
+    },
+    {
+      "raw_citation": "(Yaga et al., 2018)",
+      "cited_author": "Yaga et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2892520153",
+      "matched_title": "Blockchain technology overview",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Dylan Yaga",
+        "Peter Mell",
+        "Nik Roby"
+      ],
+      "matched_doi": "https://doi.org/10.6028/nist.ir.8202"
+    },
+    {
+      "raw_citation": "(Jiang et al., 2021)",
+      "cited_author": "Jiang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126686235",
+      "matched_title": "The Road Towards 6G: A Comprehensive Survey",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Wei Jiang",
+        "Bin Han",
+        "Mohammad Asif Habibi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3057679"
+    },
+    {
+      "raw_citation": "(Alwis et al., 2021)",
+      "cited_author": "Alwis et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3144404977",
+      "matched_title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Fut",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Chamitha de Alwis",
+        "Anshuman Kalla",
+        "Quoc‐Viet Pham"
+      ],
+      "matched_doi": "https://doi.org/10.1109/ojcoms.2021.3071496"
+    },
+    {
+      "raw_citation": "(Preskill, 2018)",
+      "cited_author": "Preskill",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2781738013",
+      "matched_title": "Quantum Computing in the NISQ era and beyond",
+      "matched_year": 2018,
+      "matched_authors": [
+        "John Preskill"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2018-08-06-79"
+    }
+  ]
+}

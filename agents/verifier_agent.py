@@ -66,11 +66,11 @@ def _normalise_text(text: str) -> str:
     Lowercase, remove punctuation, strip accents for robust matching.
 
     Examples:
-        "Küchemann et al." → "kuchemann et al"
-        "Zawacki‐Richter"  → "zawacki richter"
-        "Smith, J."        → "smith j"
+        "Küchemann et al." -> "kuchemann et al"
+        "Zawacki‐Richter"  -> "zawacki richter"
+        "Smith, J."        -> "smith j"
     """
-    # Decompose accented characters (e.g. é → e + combining accent)
+    # Decompose accented characters (e.g. é -> e + combining accent)
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if unicodedata.category(c) != "Mn")
     # Lowercase
@@ -97,10 +97,10 @@ def _author_words(author_str: str) -> list[str]:
     Extract significant words from a citation author string.
 
     Examples:
-        "Dwivedi et al."   → ["dwivedi"]
-        "Smith and Jones"  → ["smith", "jones"]
-        "Chen, X."         → ["chen"]
-        "Zawacki-Richter"  → ["zawacki", "richter"]
+        "Dwivedi et al."   -> ["dwivedi"]
+        "Smith and Jones"  -> ["smith", "jones"]
+        "Chen, X."         -> ["chen"]
+        "Zawacki-Richter"  -> ["zawacki", "richter"]
     """
     clean = _normalise_text(author_str)
     noise = {"et", "al", "and", "or", "the", "van", "de", "von", "der"}
@@ -492,7 +492,7 @@ def _save_verification_log(
             ensure_ascii=False,
         )
 
-    print(f"[VerifierAgent] Log saved → {out_path}")
+    print(f"[VerifierAgent] Log saved -> {out_path}")
     return out_path
 
 
@@ -589,7 +589,7 @@ def verify_review(
         # --- If confidence too low, try OpenAlex live lookup ---
         if confidence < 0.45:
             print(
-                f"  → Low local confidence ({confidence:.2f}). "
+                f"  -> Low local confidence ({confidence:.2f}). "
                 f"Searching OpenAlex..."
             )
             oa_paper, oa_confidence = _match_via_openalex(author, year)
@@ -618,21 +618,21 @@ def verify_review(
         if status == "VALID":
             valid_count += 1
             print(
-                f"  → VALID ✓  "
+                f"  -> VALID OK  "
                 f"(conf: {confidence:.2f}, src: {source}) "
                 f"— '{(matched_paper.title or '')[:55]}...'"
             )
         elif status == "PARTIAL":
             partial_count += 1
             print(
-                f"  → PARTIAL ⚠ "
+                f"  -> PARTIAL ! "
                 f"(conf: {confidence:.2f}, {error_type}, src: {source}) "
                 f"— '{(matched_paper.title or '')[:50]}...'"
             )
         else:
             hallucinated_count += 1
             print(
-                f"  → HALLUCINATED ✗ "
+                f"  -> HALLUCINATED ✗ "
                 f"(conf: {confidence:.2f}, {error_type})"
             )
 
@@ -669,7 +669,57 @@ def verify_review(
     # ----------------------------------------------------------------
     # Step 4: Save structured JSON log
     # ----------------------------------------------------------------
+        # Gap 3 integration — write error taxonomy log
+    import os as _os, json as _json
+    from datetime import datetime as _dt
+    _tax_path = _os.path.join('evaluation_results', 'error_taxonomy_log.json')
+    _os.makedirs('evaluation_results', exist_ok=True)
+    try:
+        with open(_tax_path, 'r', encoding='utf-8') as _tf:
+            _tax_logs = _json.load(_tf)
+    except (FileNotFoundError, _json.JSONDecodeError):
+        _tax_logs = []
+    for _le in logs:
+        _tax_logs.append({
+            'timestamp':    _dt.now().isoformat(),
+            'run_id':       run_id,
+            'claim_text':   _le.get('raw_citation', ''),
+            'doi_or_title': _le.get('matched_title') or _le.get('cited_author', ''),
+            'error_type':   _le.get('error_type') or 'VALID',
+            'details': {
+                'confidence': _le.get('confidence', 0),
+                'source':     _le.get('match_source', 'local'),
+                'status':     _le.get('status', ''),
+            },
+            'topic':  str(run_id),
+            'model':  'pipeline',
+        })
+    with open(_tax_path, 'w', encoding='utf-8') as _tf:
+        _json.dump(_tax_logs, _tf, indent=2)
+    print(f'[VerifierAgent] Taxonomy logged {len(logs)} entries')
+    
     _save_verification_log(logs, run_id)
+    # Gap 3 integration — write error taxonomy log
+    import os as _os, json as _json
+    from datetime import datetime as _dt
+    _tax_path = _os.path.join('evaluation_results', 'error_taxonomy_log.json')
+    _os.makedirs('evaluation_results', exist_ok=True)
+    try:
+        with open(_tax_path, 'r', encoding='utf-8') as _tf:
+            _tax_logs = _json.load(_tf)
+    except (FileNotFoundError, _json.JSONDecodeError):
+        _tax_logs = []
+    for _le in logs:
+        _tax_logs.append({
+            'timestamp':    _dt.now().isoformat(),
+            'run_id':       run_id,
+            'claim_text':   _le.get('raw_citation', ''),
+            'doi_or_title': _le.get('matched_title') or _le.get('cited_author', ''),
+            'error_type':   ''
+        })
+    with open(_tax_path, 'w', encoding='utf-8') as _tf:
+        _json.dump(_tax_logs, _tf, indent=2)
+
 
     # ----------------------------------------------------------------
     # Step 5: Print summary

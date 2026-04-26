@@ -1,0 +1,37 @@
+{
+  "agreement_pct": 80.0,
+  "cohen_kappa": 0.5652,
+  "n_claims": 10,
+  "n_disagreements": 2,
+  "confusion_matrix": {
+    "SUPPORTED": {
+      "SUPPORTED": 7,
+      "PARTIALLY_SUPPORTED": 0,
+      "UNSUPPORTED": 0
+    },
+    "PARTIALLY_SUPPORTED": {
+      "SUPPORTED": 0,
+      "PARTIALLY_SUPPORTED": 0,
+      "UNSUPPORTED": 1
+    },
+    "UNSUPPORTED": {
+      "SUPPORTED": 0,
+      "PARTIALLY_SUPPORTED": 1,
+      "UNSUPPORTED": 1
+    }
+  },
+  "disagreements": [
+    {
+      "claim_id": "C003",
+      "claim_text": "The system uses GPT-4 as its primary language model.",
+      "pass1_label": "UNSUPPORTED",
+      "pass2_label": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "claim_id": "C006",
+      "claim_text": "The Verifier checks every sentence in the review.",
+      "pass1_label": "PARTIALLY_SUPPORTED",
+      "pass2_label": "UNSUPPORTED"
+    }
+  ]
+}

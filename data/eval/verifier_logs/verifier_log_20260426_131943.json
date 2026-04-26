@@ -1,0 +1,198 @@
+{
+  "run_id": "20260426_131943",
+  "timestamp": "2026-04-26T13:20:05.078107",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Lipschutz, 2015)",
+      "cited_author": "Lipschutz",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2140761798",
+      "matched_title": "Practicing Energy, or Energy Consumption as Social Practice",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Ronnie D. Lipschutz"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Lisle, 2022)",
+      "cited_author": "Lisle",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4306405491",
+      "matched_title": "The Stubborn Habits of Migration",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Debbie Lisle"
+      ],
+      "matched_doi": "https://doi.org/10.4324/9781003321842-3"
+    },
+    {
+      "raw_citation": "(Ackerman, 2015)",
+      "cited_author": "Ackerman",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W921714456",
+      "matched_title": "Consumer Perceptions of Sustainability in the Cruise Industry",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Lindsay Marie Ackerman"
+      ],
+      "matched_doi": "https://doi.org/10.25148/etd.fi15032119"
+    },
+    {
+      "raw_citation": "(Senbekov et al., 2020)",
+      "cited_author": "Senbekov et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111333805",
+      "matched_title": "The Recent Progress and Applications of Digital Technologies in Healthcare: A Re",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Maksut Senbekov",
+        "Timur Saliev",
+        "Zhanar Bukeyeva"
+      ],
+      "matched_doi": "https://doi.org/10.1155/2020/8830200"
+    },
+    {
+      "raw_citation": "(Wang et al., 2023)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385448491",
+      "matched_title": "Artificial intelligence enhanced sensors - enabling technologies to next-generat",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Chan Wang",
+        "Tianyiyi He",
+        "Hong Zhou"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s42234-023-00118-1"
+    },
+    {
+      "raw_citation": "(Shajari et al., 2023)",
+      "cited_author": "Shajari et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389203612",
+      "matched_title": "The Emergence of AI-Based Wearable Sensors for Digital Health Technology: A Revi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shaghayegh Shajari",
+        "Kirankumar Kuruvinashetti",
+        "Amin Komeili"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s23239498"
+    },
+    {
+      "raw_citation": "(Davenport et al., 2019)",
+      "cited_author": "Davenport et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2979906316",
+      "matched_title": "How artificial intelligence will change the future of marketing",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Thomas H. Davenport",
+        "Abhijit Guha",
+        "Dhruv Grewal"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11747-019-00696-0"
+    },
+    {
+      "raw_citation": "(Radford, 2017)",
+      "cited_author": "Radford",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2616446878",
+      "matched_title": "Data ex Machina: Introduction to Big Data",
+      "matched_year": 2017,
+      "matched_authors": [
+        "David Lazer",
+        "Jason Pilny Radford"
+      ],
+      "matched_doi": "https://doi.org/10.1146/annurev-soc-060116-053457"
+    },
+    {
+      "raw_citation": "(Seneviratne et al., 2017)",
+      "cited_author": "Seneviratne et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2740884108",
+      "matched_title": "A Survey of Wearable Devices and Challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Suranga Seneviratne",
+        "Yining Hu",
+        "Tham Nguyen"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2017.2731979"
+    },
+    {
+      "raw_citation": "(Oteros‐Rozas et al., 2015)",
+      "cited_author": "Oteros‐Rozas et al.",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2176106134",
+      "matched_title": "Participatory scenario planning in place-based social-ecological research: insig",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Elisa Oteros‐Rozas",
+        "Berta Martín‐López",
+        "Tim M. Daw"
+      ],
+      "matched_doi": "https://doi.org/10.5751/es-07985-200432"
+    },
+    {
+      "raw_citation": "(Berg et al., 2017)",
+      "cited_author": "Berg et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2625796101",
+      "matched_title": "Qualitative Assessment of Verbal Fluency Performance in Frontotemporal Dementia",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Esther van den Berg",
+        "Lize C. Jiskoot",
+        "Mariëlle J.H. Grosveld"
+      ],
+      "matched_doi": "https://doi.org/10.1159/000477538"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "run_id": "20260425_235007",
+  "timestamp": "2026-04-25T23:50:23.057056",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Louise Dalton et al., 2020)",
+      "cited_author": "Louise Dalton et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3013988728",
+      "matched_title": "Protecting the psychological health of children through effective communication ",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Louise Dalton",
+        "Elizabeth Rapa",
+        "Alan Stein"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s2352-4642(20)30097-3"
+    },
+    {
+      "raw_citation": "(Junying Zhou et al., 2020)",
+      "cited_author": "Junying Zhou et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3022380838",
+      "matched_title": "Mental Health Response to the COVID-19 Outbreak in China",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Junying Zhou",
+        "Liu Liu",
+        "Pei Xue"
+      ],
+      "matched_doi": "https://doi.org/10.1176/appi.ajp.2020.20030304"
+    },
+    {
+      "raw_citation": "(Kathleen Kara Fitzpatrick et al., 2017)",
+      "cited_author": "Kathleen Kara Fitzpatrick et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2623779865",
+      "matched_title": "Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depressio",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Kathleen Kara Fitzpatrick",
+        "Alison Darcy",
+        "Molly Vierhile"
+      ],
+      "matched_doi": "https://doi.org/10.2196/mental.7785"
+    },
+    {
+      "raw_citation": "(Hirokazu Yoshikawa et al., 2020)",
+      "cited_author": "Hirokazu Yoshikawa et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3025237790",
+      "matched_title": "Effects of the Global Coronavirus Disease-2019 Pandemic on Early Childhood Devel",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Hirokazu Yoshikawa",
+        "Alice J. Wuermli",
+        "Pia Rebello Britto"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jpeds.2020.05.020"
+    },
+    {
+      "raw_citation": "(Clark et al., 2018)",
+      "cited_author": "Clark et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2800968232",
+      "matched_title": "HEADS4: Social Media Screening in Adolescent Primary Care",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Danielle L. Clark",
+        "Jean L. Raphael",
+        "Amy L. McGuire"
+      ],
+      "matched_doi": "https://doi.org/10.1542/peds.2017-3655"
+    },
+    {
+      "raw_citation": "(Kadir Demirci et al., 2015)",
+      "cited_author": "Kadir Demirci et al.",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1776190173",
+      "matched_title": "Relationship of smartphone use severity with sleep quality, depression, and anxi",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Kadir Demirci",
+        "Mehmet Akgönül",
+        "Abdullah Akpınar"
+      ],
+      "matched_doi": "https://doi.org/10.1556/2006.4.2015.010"
+    },
+    {
+      "raw_citation": "(Holmes et al., 2020)",
+      "cited_author": "Holmes et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3015197879",
+      "matched_title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for acti",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Emily A. Holmes",
+        "Rory C. O’Connor",
+        "V. Hugh Perry"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s2215-0366(20)30168-1"
+    },
+    {
+      "raw_citation": "(Benchimol et al., 2015)",
+      "cited_author": "Benchimol et al.",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2163278718",
+      "matched_title": "The REporting of studies Conducted using Observational Routinely-collected healt",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Eric I. Benchimol",
+        "Liam Smeeth",
+        "Astrid Guttmann"
+      ],
+      "matched_doi": "https://doi.org/10.1371/journal.pmed.1001885"
+    },
+    {
+      "raw_citation": "(Cryan et al., 2019)",
+      "cited_author": "Cryan et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970686316",
+      "matched_title": "The Microbiota-Gut-Brain Axis",
+      "matched_year": 2019,
+      "matched_authors": [
+        "John F. Cryan",
+        "Kenneth J. O’Riordan",
+        "Caitlin S.M. Cowan"
+      ],
+      "matched_doi": "https://doi.org/10.1152/physrev.00018.2018"
+    },
+    {
+      "raw_citation": "(Changwon Son et al., 2020)",
+      "cited_author": "Changwon Son et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3049547760",
+      "matched_title": "Effects of COVID-19 on College Students’ Mental Health in the United States: Int",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Changwon Son",
+        "Sudeep Hegde",
+        "Alec Smith"
+      ],
+      "matched_doi": "https://doi.org/10.2196/21279"
+    },
+    {
+      "raw_citation": "(Wiederhold, 2020)",
+      "cited_author": "Wiederhold",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3036646185",
+      "matched_title": "Connecting Through Technology During the Coronavirus Disease 2019 Pandemic: Avoi",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Brenda K. Wiederhold"
+      ],
+      "matched_doi": "https://doi.org/10.1089/cyber.2020.29188.bkw"
+    }
+  ]
+}

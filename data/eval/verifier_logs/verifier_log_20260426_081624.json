@@ -1,0 +1,131 @@
+{
+  "run_id": "20260426_081624",
+  "timestamp": "2026-04-26T08:16:43.926617",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Barredo Arrieta et al., 2019)",
+      "cited_author": "Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Sajid Ali et al., 2023)",
+      "cited_author": "Sajid Ali et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366262984",
+      "matched_title": "Explainable Artificial Intelligence (XAI): What we know and what is left to atta",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sajid Ali",
+        "Tamer Abuhmed",
+        "Shaker El–Sappagh"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2023.101805"
+    },
+    {
+      "raw_citation": "(Guidotti et al., 2019)",
+      "cited_author": "Guidotti et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2962772482",
+      "matched_title": "A survey of methods for explaining black box models",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Riccardo Guidotti",
+        "Anna Monreale",
+        "Salvatore Ruggieri"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3236009"
+    },
+    {
+      "raw_citation": "(Guan, 2020)",
+      "cited_author": "Guan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2958089299",
+      "matched_title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Erico Tjoa",
+        "Cuntai Guan"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tnnls.2020.3027314"
+    },
+    {
+      "raw_citation": "(Markus et al., 2020)",
+      "cited_author": "Markus et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3046238651",
+      "matched_title": "The role of explainability in creating trustworthy artificial intelligence for h",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Aniek F. Markus",
+        "Jan A. Kors",
+        "Peter R. Rijnbeek"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jbi.2020.103655"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Brendan McMahan, 2020)",
+      "cited_author": "Brendan McMahan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995022099",
+      "matched_title": "Advances and Open Problems in Federated Learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Peter Kairouz",
+        "H. Brendan McMahan"
+      ],
+      "matched_doi": "https://doi.org/10.1561/2200000083"
+    }
+  ]
+}

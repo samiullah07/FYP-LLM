@@ -1,0 +1,137 @@
+[
+  {
+    "timestamp": "2026-04-25T23:12:11.151426",
+    "pull_num": 1,
+    "topic": "niche",
+    "model": "llama-3.3-70b-versatile",
+    "hallucination_rate": 0.04,
+    "reward": 0.96,
+    "n_i_before_pull": 0,
+    "N_total": 1,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.152697",
+    "pull_num": 2,
+    "topic": "niche",
+    "model": "llama3-8b-8192",
+    "hallucination_rate": 0.25,
+    "reward": 0.75,
+    "n_i_before_pull": 0,
+    "N_total": 2,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.96,
+      "llama3-8b-8192": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.154723",
+    "pull_num": 3,
+    "topic": "niche",
+    "model": "llama3-groq-8b-8192-tool-use-preview",
+    "hallucination_rate": 0.21,
+    "reward": 0.79,
+    "n_i_before_pull": 0,
+    "N_total": 3,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama3-8b-8192": 0.75,
+      "llama-3.3-70b-versatile": 0.96,
+      "llama3-groq-8b-8192-tool-use-preview": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.156337",
+    "pull_num": 4,
+    "topic": "moderate",
+    "model": "llama-3.3-70b-versatile",
+    "hallucination_rate": 0.05,
+    "reward": 0.95,
+    "n_i_before_pull": 0,
+    "N_total": 4,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.158221",
+    "pull_num": 5,
+    "topic": "moderate",
+    "model": "llama3-8b-8192",
+    "hallucination_rate": 0.28,
+    "reward": 0.72,
+    "n_i_before_pull": 0,
+    "N_total": 5,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.95,
+      "llama3-8b-8192": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.159721",
+    "pull_num": 6,
+    "topic": "moderate",
+    "model": "llama3-groq-8b-8192-tool-use-preview",
+    "hallucination_rate": 0.22,
+    "reward": 0.78,
+    "n_i_before_pull": 0,
+    "N_total": 6,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama3-8b-8192": 0.72,
+      "llama-3.3-70b-versatile": 0.95,
+      "llama3-groq-8b-8192-tool-use-preview": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.161912",
+    "pull_num": 7,
+    "topic": "well-covered",
+    "model": "llama-3.3-70b-versatile",
+    "hallucination_rate": 0.14,
+    "reward": 0.86,
+    "n_i_before_pull": 0,
+    "N_total": 7,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.163874",
+    "pull_num": 8,
+    "topic": "well-covered",
+    "model": "llama3-8b-8192",
+    "hallucination_rate": 0.21,
+    "reward": 0.79,
+    "n_i_before_pull": 0,
+    "N_total": 8,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama-3.3-70b-versatile": 0.86,
+      "llama3-8b-8192": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-04-25T23:12:11.166310",
+    "pull_num": 9,
+    "topic": "well-covered",
+    "model": "llama3-groq-8b-8192-tool-use-preview",
+    "hallucination_rate": 0.28,
+    "reward": 0.72,
+    "n_i_before_pull": 0,
+    "N_total": 9,
+    "ucb1_score": "inf",
+    "mean_rewards_snapshot": {
+      "llama3-8b-8192": 0.79,
+      "llama-3.3-70b-versatile": 0.86,
+      "llama3-groq-8b-8192-tool-use-preview": 0.0
+    }
+  }
+]
