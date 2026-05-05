@@ -1,0 +1,221 @@
+{
+  "run_id": "20260504_055733",
+  "timestamp": "2026-05-04T05:57:34.304732",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Zhang and Li, 2023)",
+      "cited_author": "Zhang and Li",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389519153",
+      "matched_title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Graham Mcdougal",
+        "Caron",
+        "Shashank Srivastava"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.findings-emnlp"
+    },
+    {
+      "raw_citation": "(Huang and Yu, 2023)",
+      "cited_author": "Huang and Yu",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Alghamdi, 2023)",
+      "cited_author": "Alghamdi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Kamel Boulos, 2023)",
+      "cited_author": "Kamel Boulos",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386141641",
+      "matched_title": "Generative AI in Medicine and Healthcare: Promises, Opportunities and Challenges",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Peng Zhang",
+        "Maged N. Kamel Boulos"
+      ],
+      "matched_doi": "https://doi.org/10.3390/fi15090286"
+    },
+    {
+      "raw_citation": "(Lei Wang and Chen Ma, 2024)",
+      "cited_author": "Lei Wang and Chen Ma",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Firoj Alam and Shaden Shaar, 2021)",
+      "cited_author": "Firoj Alam and Shaden Shaar",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3101118213",
+      "matched_title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Firoj Alam",
+        "Shaden Shaar",
+        "Fahim Dalvi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp"
+    },
+    {
+      "raw_citation": "(Graham Mcdougal and Caron, 2023)",
+      "cited_author": "Graham Mcdougal and Caron",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389519153",
+      "matched_title": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Graham Mcdougal",
+        "Caron",
+        "Shashank Srivastava"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.findings-emnlp"
+    },
+    {
+      "raw_citation": "(Shubo Tian and Qiao Jin, 2023)",
+      "cited_author": "Shubo Tian and Qiao Jin",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381587418",
+      "matched_title": "Opportunities and challenges for ChatGPT and large language models in biomedicin",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shubo Tian",
+        "Qiao Jin",
+        "Lana Yeganova"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbad493"
+    },
+    {
+      "raw_citation": "(Stefan Feuerriegel and Jochen Hartmann, 2023)",
+      "cited_author": "Stefan Feuerriegel and Jochen Hartmann",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Jingfeng Yang and Hongye Jin, 2024)",
+      "cited_author": "Jingfeng Yang and Hongye Jin",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392240262",
+      "matched_title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jingfeng Yang",
+        "Hongye Jin",
+        "Ruixiang Tang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3649506"
+    },
+    {
+      "raw_citation": "(Sangmin Park and Young‐Gab Kim, 2022)",
+      "cited_author": "Sangmin Park and Young‐Gab Kim",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Lei Huang and Weijiang Yu, 2023)",
+      "cited_author": "Lei Huang and Weijiang Yu",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388585881",
+      "matched_title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challe",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Lei Huang",
+        "Weijiang Yu",
+        "Weitao Ma"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2311.05232"
+    }
+  ]
+}

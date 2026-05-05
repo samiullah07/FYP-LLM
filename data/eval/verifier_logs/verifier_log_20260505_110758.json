@@ -1,0 +1,207 @@
+{
+  "run_id": "20260505_110758",
+  "timestamp": "2026-05-05T11:08:10.821565",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Devlin et al., 2019)",
+      "cited_author": "Devlin et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963341956",
+      "matched_title": "",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jacob Devlin",
+        "Ming‐Wei Chang",
+        "Kenton Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1423"
+    },
+    {
+      "raw_citation": "(Yang et al., 2020)",
+      "cited_author": "Yang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Bertin et al., 2020)",
+      "cited_author": "Bertin et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3029980344",
+      "matched_title": "Modelling Storm Waves in the Nearshore Area Using Spectral Models",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Marc Pézérat",
+        "Kévin Martins",
+        "Xavier Bertin"
+      ],
+      "matched_doi": "https://doi.org/10.2112/si95-240.1"
+    },
+    {
+      "raw_citation": "(Bajaj et al., 2020)",
+      "cited_author": "Bajaj et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Xu et al., 2020)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Guo et al., 2020)",
+      "cited_author": "Guo et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "Year off by 1",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3198035652",
+      "matched_title": "nnFormer: Interleaved Transformer for Volumetric Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Hong-Yu Zhou",
+        "Jiansen Guo",
+        "Yinghao Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2109.03201"
+    },
+    {
+      "raw_citation": "(Yang et al., 2019)",
+      "cited_author": "Yang et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "Year off by 1",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Zaheer et al., 2020)",
+      "cited_author": "Zaheer et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4225787819",
+      "matched_title": "The ‘15-Minute City’ concept can shape a net-zero urban future",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zaheer Allam",
+        "Simon Elias Bibri",
+        "Didier Chabaud"
+      ],
+      "matched_doi": "https://doi.org/10.1057/s41599-022-01145-0"
+    },
+    {
+      "raw_citation": "(He et al., 2020)",
+      "cited_author": "He et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Huang et al., 2020)",
+      "cited_author": "Huang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Zou et al., 2020)",
+      "cited_author": "Zou et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "WRONG_AUTHOR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3204614423",
+      "matched_title": "UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris Metaxas"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87199-4_6"
+    }
+  ]
+}

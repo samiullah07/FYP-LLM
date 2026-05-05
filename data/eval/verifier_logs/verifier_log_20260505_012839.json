@@ -1,0 +1,238 @@
+{
+  "run_id": "20260505_012839",
+  "timestamp": "2026-05-05T01:28:49.576776",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Kotthoff, 2019)",
+      "cited_author": "Kotthoff",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    },
+    {
+      "raw_citation": "(Negi, 2021)",
+      "cited_author": "Negi",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176153696",
+      "matched_title": "Bao: Making Learned Query Optimization Practical",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Ryan Marcus",
+        "Parimarjan Negi",
+        "Hongzi Mao"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3448016.3452838"
+    },
+    {
+      "raw_citation": "(Külahçı, 2023)",
+      "cited_author": "Külahçı",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388817142",
+      "matched_title": "Active learning for data streams: a survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Davide Cacciarelli",
+        "Murat Külahçı"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10994-023-06454-2"
+    },
+    {
+      "raw_citation": "(Barto, 2018)",
+      "cited_author": "Barto",
+      "cited_year": 2018,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Auer et al., 2002)",
+      "cited_author": "Auer et al.",
+      "cited_year": 2002,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Thompson, 1933)",
+      "cited_author": "Thompson",
+      "cited_year": 1933,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2039522160",
+      "matched_title": "ON THE LIKELIHOOD THAT ONE UNKNOWN PROBABILITY EXCEEDS ANOTHER IN VIEW OF THE EV",
+      "matched_year": 1933,
+      "matched_authors": [
+        "W. R THOMPSON"
+      ],
+      "matched_doi": "https://doi.org/10.1093/biomet/25.3-4.285"
+    },
+    {
+      "raw_citation": "(Wang, 2024)",
+      "cited_author": "Wang",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394927283",
+      "matched_title": "Automated machine learning: past, present and future",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mitra Baratchi",
+        "Can Wang",
+        "Steffen Limmer"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10726-1"
+    },
+    {
+      "raw_citation": "(Ameen, 2022)",
+      "cited_author": "Ameen",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3096215947",
+      "matched_title": "Methods for Pruning Deep Neural Networks",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sunil Vadera",
+        "Salem Ameen"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3182659"
+    },
+    {
+      "raw_citation": "(Li et al., 2010)",
+      "cited_author": "Li et al.",
+      "cited_year": 2010,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Cappe, 2011)",
+      "cited_author": "Cappe",
+      "cited_year": 2011,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2626272679",
+      "matched_title": "Analysis and Evidence for Good Public Policy: The Demand and Supply Equation",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Mel Cappe"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gressling, 2020)",
+      "cited_author": "Gressling",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4211173503",
+      "matched_title": "84 Automated machine learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Thorsten Gressling"
+      ],
+      "matched_doi": "https://doi.org/10.1515/9783110629453-084"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2022)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3013557734",
+      "matched_title": "Deep Learning for Edge Computing Applications: A State-of-the-Art Survey",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Fangxin Wang",
+        "Miao Zhang",
+        "Xiangxiang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2982411"
+    },
+    {
+      "raw_citation": "(Cacciarelli, 2023)",
+      "cited_author": "Cacciarelli",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388817142",
+      "matched_title": "Active learning for data streams: a survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Davide Cacciarelli",
+        "Murat Külahçı"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10994-023-06454-2"
+    },
+    {
+      "raw_citation": "(Chong, 2023)",
+      "cited_author": "Chong",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385327868",
+      "matched_title": "Advances of machine learning in materials science: Ideas and techniques",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sue Sin Chong",
+        "Yi Sheng Ng",
+        "Hui‐Qiong Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11467-023-1325-z"
+    }
+  ]
+}

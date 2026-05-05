@@ -28,6 +28,7 @@ from groq import Groq
 
 from src.config import settings
 from src.models import Paper
+from configs.prompts import SUMMARISER_SYSTEM_PROMPT, SUMMARISE_ACROSS_PAPERS_PROMPT
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -165,25 +166,22 @@ def write_literature_review(
         for i, p in enumerate(papers_used)
     )
 
-    prompt = (
-        f"You are an expert academic writer.\n\n"
-        f"Topic: {topic}\n\n"
-        f"Using ONLY the papers listed below, write a literature review "
-        f"section of 400-500 words with AT LEAST 8-10 inline citations.\n\n"
-        f"STRICT REQUIREMENTS:\n"
-        f"1. Use in-text citations in Harvard format: (Author et al., Year)\n"
-        f"2. EVERY factual claim MUST have a citation from the list below\n"
-        f"3. Include AT LEAST 8 different citations throughout the review\n"
-        f"4. Group papers thematically\n"
-        f"5. Identify agreements, contradictions, and research gaps\n"
-        f"6. End with a full reference list in Harvard format\n"
-        f"7. Do NOT cite papers not in the list below\n"
-        f"8. Do NOT invent authors, years, titles, or venues\n"
-        f"9. Write in formal academic English\n\n"
-        f"Available papers (cite ONLY from this list):\n"
-        f"{paper_list_str}"
+    from configs.prompts import SUMMARISE_ACROSS_PAPERS_PROMPT
+
+    # Build the formatted papers string for the prompt placeholder
+    formatted_papers = "\n".join(
+        f"- {p.title} ({p.year or 'N/A'}) by {', '.join(p.authors[:2]) if p.authors else 'Unknown'}"
+        for p in papers_used
     )
 
+    prompt = SUMMARISE_ACROSS_PAPERS_PROMPT.format(
+        papers=formatted_papers,
+        topic=topic,
+        min_citations=8,
+        max_words=500,
+    )
+
+    usage = {"prompt_tokens": 0, "completion_tokens": 0}
     try:
         response = client.chat.completions.create(
             model=settings.llm_model,
@@ -203,11 +201,39 @@ def write_literature_review(
             temperature=0.2,  # LOW temperature = strict, factual output
         )
         review_text = response.choices[0].message.content.strip()
+        # Extract token usage from Groq response
+        usage = {
+            "prompt_tokens": getattr(response, "usage_metadata", {}).get("prompt_tokens", 0),
+            "completion_tokens": getattr(response, "usage_metadata", {}).get("completion_tokens", 0),
+        }
     except Exception as e:
         print(f"[SummariserAgent] ERROR: {e}")
         review_text = ""
 
-    print(f"[SummariserAgent] Literature review written ({len(review_text)} chars)")
-    print(f"[SummariserAgent] Papers used: {len(papers_used)}")
+    # Post-generation: enforce word limit
+    words = review_text.split()
+    original_word_count = len(words)
 
-    return review_text, papers_used
+    if original_word_count > 550:
+        # Truncate to ~500 words while keeping complete sentences
+        truncated = " ".join(words[:500])
+        # Try to find last complete sentence
+        last_period = max(truncated.rfind("."), truncated.rfind("!"), truncated.rfind("?"))
+        if last_period > 0:
+            review_text = truncated[:last_period + 1]
+        else:
+            review_text = truncated
+        print(f"[SummariserAgent] TRUNCATED: {original_word_count} -> {len(review_text.split())} words")
+
+    print(f"[SummariserAgent] Literature review written ({len(review_text)} chars, {len(review_text.split())} words)")
+    print(f"[SummariserAgent] Papers used: {len(papers_used)}")
+    print(f"[SummariserAgent] Token usage — prompt: {usage['prompt_tokens']}, completion: {usage['completion_tokens']}")
+    print(f"[SummariserAgent] Original word count: {original_word_count}")
+
+    return {
+        "review_text": review_text,
+        "papers_used": papers_used,
+        "usage": usage,
+        "original_word_count": original_word_count,
+        "final_word_count": len(review_text.split()),
+    }

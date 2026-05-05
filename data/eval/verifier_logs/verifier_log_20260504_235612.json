@@ -1,0 +1,235 @@
+{
+  "run_id": "20260504_235612",
+  "timestamp": "2026-05-04T23:56:35.620849",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Hutter et al., 2019)",
+      "cited_author": "Hutter et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    },
+    {
+      "raw_citation": "(François-Lavet et al., 2018)",
+      "cited_author": "François-Lavet et al.",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3100366369",
+      "matched_title": "An Introduction to Deep Reinforcement Learning",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Vincent François-Lavet",
+        "Peter Henderson",
+        "Riashat Islam"
+      ],
+      "matched_doi": "https://doi.org/10.1561/2200000071"
+    },
+    {
+      "raw_citation": "(Ribeiro et al., 2018)",
+      "cited_author": "Ribeiro et al.",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2788403449",
+      "matched_title": "Anchors: High-Precision Model-Agnostic Explanations",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Marco Túlio Ribeiro",
+        "Sameer Singh",
+        "Carlos Guestrin"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v32i1.11491"
+    },
+    {
+      "raw_citation": "(Sivamayilvelan et al., 2023)",
+      "cited_author": "Sivamayilvelan et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4319084034",
+      "matched_title": "A Systematic Study on Reinforcement Learning Based Applications",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Keerthana Sivamayilvelan",
+        "Elakkiya Rajasekar",
+        "Belqasem Aljafari"
+      ],
+      "matched_doi": "https://doi.org/10.3390/en16031512"
+    },
+    {
+      "raw_citation": "(Baratchi et al., 2024)",
+      "cited_author": "Baratchi et al.",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394927283",
+      "matched_title": "Automated machine learning: past, present and future",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mitra Baratchi",
+        "Can Wang",
+        "Steffen Limmer"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10726-1"
+    },
+    {
+      "raw_citation": "(Caton et al., 2023)",
+      "cited_author": "Caton et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092541244",
+      "matched_title": "Fairness in Machine Learning: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Caton",
+        "Christian Haas"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3616865"
+    },
+    {
+      "raw_citation": "(Shorten et al., 2021)",
+      "cited_author": "Shorten et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Pryzant et al., 2023)",
+      "cited_author": "Pryzant et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389520756",
+      "matched_title": "Automatic Prompt Optimization with “Gradient Descent” and Beam Search",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Reid Pryzant",
+        "Dan Iter",
+        "Jerry Li"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.494"
+    },
+    {
+      "raw_citation": "(Cacciarelli et al., 2023)",
+      "cited_author": "Cacciarelli et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388817142",
+      "matched_title": "Active learning for data streams: a survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Davide Cacciarelli",
+        "Murat Külahçı"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10994-023-06454-2"
+    },
+    {
+      "raw_citation": "(Guidotti et al., 2019)",
+      "cited_author": "Guidotti et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2962772482",
+      "matched_title": "A survey of methods for explaining black box models",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Riccardo Guidotti",
+        "Anna Monreale",
+        "Salvatore Ruggieri"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3236009"
+    },
+    {
+      "raw_citation": "(Ji et al., 2024)",
+      "cited_author": "Ji et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.3,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zha et al., 2023)",
+      "cited_author": "Zha et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327993492",
+      "matched_title": "Data-centric Artificial Intelligence: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Daochen Zha",
+        "Zaid Pervaiz Bhat",
+        "Kwei-Herng Lai"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.10158"
+    },
+    {
+      "raw_citation": "(Zhou et al., 2017)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2576683119",
+      "matched_title": "Machine learning on big data: Opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Lina Zhou",
+        "Shimei Pan",
+        "Jianwu Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.neucom.2017.01.026"
+    }
+  ]
+}

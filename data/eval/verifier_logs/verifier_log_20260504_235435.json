@@ -1,0 +1,276 @@
+{
+  "run_id": "20260504_235435",
+  "timestamp": "2026-05-04T23:54:58.559375",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Nadkarni and Ohno-Machado, 2011)",
+      "cited_author": "Nadkarni and Ohno-Machado",
+      "cited_year": 2011,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2169818249",
+      "matched_title": "Natural language processing: an introduction",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Prakash M. Nadkarni",
+        "Lucila Ohno‐Machado",
+        "Wendy W. Chapman"
+      ],
+      "matched_doi": "https://doi.org/10.1136/amiajnl-2011-000464"
+    },
+    {
+      "raw_citation": "(Reichenbach and Rossi, 2018)",
+      "cited_author": "Reichenbach and Rossi",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2793831793",
+      "matched_title": "A review of statistically-based landslide susceptibility models",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Paola Reichenbach",
+        "Mauro Rossi",
+        "Bruce D. Malamud"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.earscirev.2018.03.001"
+    },
+    {
+      "raw_citation": "(Ghil and Allen, 2002)",
+      "cited_author": "Ghil and Allen",
+      "cited_year": 2002,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2166361350",
+      "matched_title": "ADVANCED SPECTRAL METHODS FOR CLIMATIC TIME SERIES",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Michael Ghil",
+        "M. R. Allen",
+        "Michael D. Dettinger"
+      ],
+      "matched_doi": "https://doi.org/10.1029/2000rg000092"
+    },
+    {
+      "raw_citation": "(Liberati et al., 2009)",
+      "cited_author": "Liberati et al.",
+      "cited_year": 2009,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3022903699",
+      "matched_title": "The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studi",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Alessandro Liberati",
+        "Douglas G. Altman",
+        "Jennifer Tetzlaff"
+      ],
+      "matched_doi": "https://doi.org/10.1371/journal.pmed.1000100"
+    },
+    {
+      "raw_citation": "(Page and Moher, 2021)",
+      "cited_author": "Page and Moher",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3123893780",
+      "matched_title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for repo",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Matthew J. Page",
+        "David Moher",
+        "Patrick M. Bossuyt"
+      ],
+      "matched_doi": "https://doi.org/10.1136/bmj.n160"
+    },
+    {
+      "raw_citation": "(Rethlefsen and Kirtley, 2021)",
+      "cited_author": "Rethlefsen and Kirtley",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3123497531",
+      "matched_title": "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Melissa L. Rethlefsen",
+        "Shona Kirtley",
+        "Siw Waffenschmidt"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13643-020-01542-z"
+    },
+    {
+      "raw_citation": "(Greenhalgh and Wherton, 2017)",
+      "cited_author": "Greenhalgh and Wherton",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2765304416",
+      "matched_title": "Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Aban",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Trisha Greenhalgh",
+        "Joseph Wherton",
+        "Chrysanthi Papoutsi"
+      ],
+      "matched_doi": "https://doi.org/10.2196/jmir.8775"
+    },
+    {
+      "raw_citation": "(Díaz-Uriarte and Álvarez de Andrés, 2006)",
+      "cited_author": "Díaz-Uriarte and Álvarez de Andrés",
+      "cited_year": 2006,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1520812622",
+      "matched_title": "Gene selection and classification of microarray data using random forest",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Ramón Díaz‐Uriarte",
+        "Sara Álvarez de Andrés"
+      ],
+      "matched_doi": "https://doi.org/10.1186/1471-2105-7-3"
+    },
+    {
+      "raw_citation": "(Verma and Pant, 2021)",
+      "cited_author": "Verma and Pant",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3148921802",
+      "matched_title": "A Comprehensive Review on NSGA-II for Multi-Objective Combinatorial Optimization",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Shanu Verma",
+        "Millie Pant",
+        "Václav Snåšel"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3070634"
+    },
+    {
+      "raw_citation": "(Tricco and Lillie, 2018)",
+      "cited_author": "Tricco and Lillie",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2891378911",
+      "matched_title": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Andrea C. Tricco",
+        "Erin Lillie",
+        "Wasifa Zarin"
+      ],
+      "matched_doi": "https://doi.org/10.7326/m18-0850"
+    },
+    {
+      "raw_citation": "(Ouzzani and Hammady, 2016)",
+      "cited_author": "Ouzzani and Hammady",
+      "cited_year": 2016,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2560438049",
+      "matched_title": "Rayyan—a web and mobile app for systematic reviews",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Mourad Ouzzani",
+        "Hossam M. Hammady",
+        "Zbys Fedorowicz"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13643-016-0384-4"
+    },
+    {
+      "raw_citation": "(Chan and Tetzlaff, 2013)",
+      "cited_author": "Chan and Tetzlaff",
+      "cited_year": 2013,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2171811563",
+      "matched_title": "SPIRIT 2013 explanation and elaboration: guidance for protocols of clinical tria",
+      "matched_year": 2013,
+      "matched_authors": [
+        "A.-W. Chan",
+        "Jennifer Tetzlaff",
+        "Peter C Gøtzsche"
+      ],
+      "matched_doi": "https://doi.org/10.1136/bmj.e7586"
+    },
+    {
+      "raw_citation": "(Siegel and Waldman, 2002)",
+      "cited_author": "Siegel and Waldman",
+      "cited_year": 2002,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3125283871",
+      "matched_title": "Assessing the impact of organizational practices on the relative productivity of",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Donald S. Siegel",
+        "David A. Waldman",
+        "Albert N. Link"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s0048-7333(01)00196-2"
+    },
+    {
+      "raw_citation": "(Gordon and Rothman, 2017)",
+      "cited_author": "Gordon and Rothman",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2133151341",
+      "matched_title": "The HITRAN2016 molecular spectroscopic database",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Iouli E. Gordon",
+        "Laurence S. Rothman",
+        "C. Hill"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jqsrt.2017.06.038"
+    }
+  ]
+}

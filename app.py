@@ -149,9 +149,8 @@ def render_sidebar():
             "LLM Model",
             [
                 "llama-3.3-70b-versatile",
-                "meta-llama/llama-4-maverick-17b-128e-instruct",
-                "meta-llama/llama-4-scout-17b-16e-instruct",
                 "llama-3.1-8b-instant",
+                "llama3-groq-8b-8192-tool-use-preview"
             ],
             index=0,
         )
@@ -579,7 +578,7 @@ def render_system_results(state: dict, system: str):
     if is_exp:
         ca, cb = st.columns(2)
         with ca:
-            metric_card(len(state.get("subqueries", [])), "Sub-queries Used", "teal")
+            metric_card(len(state.get("sub_queries", [])), "Sub-queries Used", "teal")
         with cb:
             changes = state.get("changes", {})
             metric_card(changes.get("words_removed", 0), "Words Removed", "orange")
@@ -671,9 +670,9 @@ def render_system_results(state: dict, system: str):
             st.info("No citation details available.")
         section_close()
 
-        if is_exp and state.get("subqueries"):
+        if is_exp and state.get("sub_queries"):
             section_open("Sub-queries Generated")
-            for i, q in enumerate(state.get("subqueries", []), 1):
+            for i, q in enumerate(state.get("sub_queries", []), 1):
                 st.markdown(f'<div class="subquery-pill"><b>{i}.</b> {q}</div>', unsafe_allow_html=True)
             section_close()
 
@@ -692,7 +691,7 @@ def render_comparison(base: dict, exp: dict):
     with c3:
         metric_card(f"{diff:.1%}", "Improvement", "green" if diff > 0 else "red" if diff < 0 else "blue")
     with c4:
-        metric_card(len(exp.get("subqueries", [])), "Sub-queries Used", "teal")
+        metric_card(len(exp.get("sub_queries", [])), "Sub-queries Used", "teal")
 
     section_open("Detailed Comparison Table")
     df = pd.DataFrame(
@@ -719,7 +718,7 @@ def render_comparison(base: dict, exp: dict):
             ],
             "Experimental": [
                 len(exp.get("papers", [])),
-                len(exp.get("subqueries", [])),
+                len(exp.get("sub_queries", [])),
                 len(exp.get("final_review") or exp.get("draft_review", "")),
                 exp.get("total_citations", 0),
                 exp.get("valid_citations", 0),

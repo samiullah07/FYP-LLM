@@ -1,0 +1,151 @@
+{
+  "run_id": "20260505_065024",
+  "timestamp": "2026-05-05T11:00:29.233987",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Zhao et al., 2023)",
+      "cited_author": "Zhao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Hassija et al., 2023)",
+      "cited_author": "Hassija et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386142022",
+      "matched_title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vikas Hassija",
+        "Vinay Chamola",
+        "Atmesh Mahapatra"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12559-023-10179-8"
+    },
+    {
+      "raw_citation": "(Díaz-Rodríguez et al., 2023)",
+      "cited_author": "Díaz-Rodríguez et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381848566",
+      "matched_title": "Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser",
+        "Mark Coeckelbergh"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2023.101896"
+    },
+    {
+      "raw_citation": "(Rudolph et al., 2023)",
+      "cited_author": "Rudolph et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Ahmed et al., 2023)",
+      "cited_author": "Ahmed et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366091323",
+      "matched_title": "Deep learning modelling techniques: current progress, applications, advantages, ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shams Forruque Ahmed",
+        "Md. Sakib Bin Alam",
+        "Maruf Hassan"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-023-10466-8"
+    }
+  ]
+}

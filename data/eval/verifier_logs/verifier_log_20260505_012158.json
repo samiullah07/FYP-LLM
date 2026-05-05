@@ -1,0 +1,222 @@
+{
+  "run_id": "20260505_012158",
+  "timestamp": "2026-05-05T01:22:20.711151",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Kirk and Vidgen, 2023)",
+      "cited_author": "Kirk and Vidgen",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323929307",
+      "matched_title": "Personalisation within bounds: A risk taxonomy and policy framework for the alig",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hannah Rose Kirk",
+        "Bertie Vidgen",
+        "Paul Röttger"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.05453"
+    },
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Zawacki‐Richter and Marín, 2019)",
+      "cited_author": "Zawacki‐Richter and Marín",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Gilson and Safranek, 2023)",
+      "cited_author": "Gilson and Safranek",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4319460874",
+      "matched_title": "How Does ChatGPT Perform on the United States Medical Licensing Examination (USM",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Aidan Gilson",
+        "Conrad Safranek",
+        "Thomas Huang"
+      ],
+      "matched_doi": "https://doi.org/10.2196/45312"
+    },
+    {
+      "raw_citation": "(Wijegunarathna and Stock, 2023)",
+      "cited_author": "Wijegunarathna and Stock",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Zhao and Zhou, 2023)",
+      "cited_author": "Zhao and Zhou",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Atkins and Francis, 2017)",
+      "cited_author": "Atkins and Francis",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2674995983",
+      "matched_title": "A guide to using the Theoretical Domains Framework of behaviour change to invest",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Lou Atkins",
+        "Jill Francis",
+        "Rafat Islam"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13012-017-0605-9"
+    },
+    {
+      "raw_citation": "(Järvelä and Zhao, 2025)",
+      "cited_author": "Järvelä and Zhao",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406227623",
+      "matched_title": "Hybrid intelligence: Human– <scp>AI</scp> coevolution and learning",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Sanna Järvelä",
+        "Guoying Zhao",
+        "Andy Nguyen"
+      ],
+      "matched_doi": "https://doi.org/10.1111/bjet.13560"
+    },
+    {
+      "raw_citation": "(Wang and Ma, 2024)",
+      "cited_author": "Wang and Ma",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Park and Kim, 2022)",
+      "cited_author": "Park and Kim",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Weiss and Khoshgoftaar, 2016)",
+      "cited_author": "Weiss and Khoshgoftaar",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2395579298",
+      "matched_title": "A survey of transfer learning",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Karl R. Weiss",
+        "Taghi M. Khoshgoftaar",
+        "Dingding Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-016-0043-6"
+    },
+    {
+      "raw_citation": "(Zhu and Nakov, 2020)",
+      "cited_author": "Zhu and Nakov",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4365799947",
+      "matched_title": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaodan Zhu",
+        "Preslav Nakov",
+        "Jun Zhao"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.coling-main"
+    }
+  ]
+}

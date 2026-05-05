@@ -1,0 +1,234 @@
+{
+  "run_id": "20260505_015825",
+  "timestamp": "2026-05-05T01:58:31.317327",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Parmar et al., 2018)",
+      "cited_author": "Parmar et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2896060389",
+      "matched_title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Mia Xu Chen",
+        "Orhan Fırat",
+        "Ankur Bapna"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p18-1008"
+    },
+    {
+      "raw_citation": "(Madry et al., 2020)",
+      "cited_author": "Madry et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Wijegunarathna and Stock, 2023)",
+      "cited_author": "Wijegunarathna and Stock",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Zhao and Zhou, 2023)",
+      "cited_author": "Zhao and Zhou",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Rudolph and Tan, 2023)",
+      "cited_author": "Rudolph and Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(De Angelis and Baglivo, 2023)",
+      "cited_author": "De Angelis and Baglivo",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366989525",
+      "matched_title": "ChatGPT and the rise of large language models: the new AI-driven infodemic threa",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Luigi De Angelis",
+        "Francesco Baglivo",
+        "Guglielmo Arzilli"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fpubh.2023.1166120"
+    },
+    {
+      "raw_citation": "(Xu and Zhu, 2023)",
+      "cited_author": "Xu and Zhu",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Wang and Ma, 2024)",
+      "cited_author": "Wang and Ma",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Dettmers and Pagnoni, 2023)",
+      "cited_author": "Dettmers and Pagnoni",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378509449",
+      "matched_title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tim Dettmers",
+        "Artidoro Pagnoni",
+        "Ari Holtzman"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2305.14314"
+    },
+    {
+      "raw_citation": "(DeepSeek-AI, 2025)",
+      "cited_author": "DeepSeek-AI",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406779522",
+      "matched_title": "Can Open Large Language Models Catch Vulnerabilities?",
+      "matched_year": 2025,
+      "matched_authors": [
+        "DeepSeek-AI"
+      ],
+      "matched_doi": "https://doi.org/10.4230/oasics.icpec.2025.4"
+    },
+    {
+      "raw_citation": "(Feuerriegel and Hartmann, 2023)",
+      "cited_author": "Feuerriegel and Hartmann",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386693657",
+      "matched_title": "Generative AI",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Stefan Feuerriegel",
+        "Jochen Hartmann",
+        "Christian Janiesch"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12599-023-00834-7"
+    },
+    {
+      "raw_citation": "(Marín and Zawacki-Richter, 2019)",
+      "cited_author": "Marín and Zawacki-Richter",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Fama and French, 2004)",
+      "cited_author": "Fama and French",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2131055507",
+      "matched_title": "The Capital Asset Pricing Model: Theory and Evidence",
+      "matched_year": 2004,
+      "matched_authors": [
+        "Eugene F. Fama",
+        "Kenneth R. French"
+      ],
+      "matched_doi": "https://doi.org/10.1257/0895330042162430"
+    }
+  ]
+}

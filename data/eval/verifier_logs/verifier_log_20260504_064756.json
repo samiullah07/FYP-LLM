@@ -1,0 +1,275 @@
+{
+  "run_id": "20260504_064756",
+  "timestamp": "2026-05-04T06:48:15.276849",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Charat Thongprayoon, 2024)",
+      "cited_author": "Charat Thongprayoon",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392597393",
+      "matched_title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrol",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jing Miao",
+        "Charat Thongprayoon",
+        "Supawadee Suppadungsuk"
+      ],
+      "matched_doi": "https://doi.org/10.3390/medicina60030445"
+    },
+    {
+      "raw_citation": "(Weizhe Yuan, 2022)",
+      "cited_author": "Weizhe Yuan",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Khoshgoftaar, 2021)",
+      "cited_author": "Khoshgoftaar",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Alghamdi, 2023)",
+      "cited_author": "Alghamdi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Shekoofeh Azizi, 2023)",
+      "cited_author": "Shekoofeh Azizi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Liu, 2017)",
+      "cited_author": "Liu",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2606974598",
+      "matched_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Abigail See",
+        "Peter J. Liu",
+        "Christopher D. Manning"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p17-1099"
+    },
+    {
+      "raw_citation": "(Thomas Kipf, 2018)",
+      "cited_author": "Thomas Kipf",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2604314403",
+      "matched_title": "Modeling Relational Data with Graph Convolutional Networks",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Michael Schlichtkrull",
+        "Thomas Kipf",
+        "Peter Bloem"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-319-93417-4_38"
+    },
+    {
+      "raw_citation": "(Jan Born, 2013)",
+      "cited_author": "Jan Born",
+      "cited_year": 2013,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2102656701",
+      "matched_title": "About Sleep's Role in Memory",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Björn Rasch",
+        "Jan Born"
+      ],
+      "matched_doi": "https://doi.org/10.1152/physrev.00032.2012"
+    },
+    {
+      "raw_citation": "(Nan Ding, 2018)",
+      "cited_author": "Nan Ding",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2886641317",
+      "matched_title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Piyush Sharma",
+        "Nan Ding",
+        "Sebastian Goodman"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p18-1238"
+    },
+    {
+      "raw_citation": "(Kristin, 2023)",
+      "cited_author": "Kristin",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Chen Ma, 2024)",
+      "cited_author": "Chen Ma",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Young‐Gab Kim, 2022)",
+      "cited_author": "Young‐Gab Kim",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(William Chan, 2022)",
+      "cited_author": "William Chan",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3212516020",
+      "matched_title": "Palette: Image-to-Image Diffusion Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Chitwan Saharia",
+        "William Chan",
+        "Huiwen Chang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3528233.3530757"
+    },
+    {
+      "raw_citation": "(Shaden Shaar, 2021)",
+      "cited_author": "Shaden Shaar",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3101118213",
+      "matched_title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Firoj Alam",
+        "Shaden Shaar",
+        "Fahim Dalvi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp"
+    },
+    {
+      "raw_citation": "(Yuke Zhu, 2017)",
+      "cited_author": "Yuke Zhu",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2277195237",
+      "matched_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Ann",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Ranjay Krishna",
+        "Yuke Zhu",
+        "Oliver Groth"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-016-0981-7"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "run_id": "20260505_021505",
+  "timestamp": "2026-05-05T02:15:26.805712",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Wang et al., 2024)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Tan, 2023)",
+      "cited_author": "Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Chamola, 2023)",
+      "cited_author": "Chamola",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386142022",
+      "matched_title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vikas Hassija",
+        "Vinay Chamola",
+        "Atmesh Mahapatra"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12559-023-10179-8"
+    },
+    {
+      "raw_citation": "(Seßler, 2023)",
+      "cited_author": "Seßler",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    }
+  ]
+}

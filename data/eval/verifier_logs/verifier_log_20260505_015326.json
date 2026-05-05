@@ -1,0 +1,115 @@
+{
+  "run_id": "20260505_015326",
+  "timestamp": "2026-05-05T01:53:48.801596",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Hutter and Kotthoff, 2019)",
+      "cited_author": "Hutter and Kotthoff",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    },
+    {
+      "raw_citation": "(François-Lavet and Henderson, 2018)",
+      "cited_author": "François-Lavet and Henderson",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3100366369",
+      "matched_title": "An Introduction to Deep Reinforcement Learning",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Vincent François-Lavet",
+        "Peter Henderson",
+        "Riashat Islam"
+      ],
+      "matched_doi": "https://doi.org/10.1561/2200000071"
+    },
+    {
+      "raw_citation": "(Sivamayilvelan and Rajasekar, 2023)",
+      "cited_author": "Sivamayilvelan and Rajasekar",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4319084034",
+      "matched_title": "A Systematic Study on Reinforcement Learning Based Applications",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Keerthana Sivamayilvelan",
+        "Elakkiya Rajasekar",
+        "Belqasem Aljafari"
+      ],
+      "matched_doi": "https://doi.org/10.3390/en16031512"
+    },
+    {
+      "raw_citation": "(Réda and Kaufmann, 2019)",
+      "cited_author": "Réda and Kaufmann",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2997578645",
+      "matched_title": "Machine learning applications in drug development",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Clémence Réda",
+        "Emilie Kaufmann",
+        "Andrée Delahaye‐Duriez"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.csbj.2019.12.006"
+    },
+    {
+      "raw_citation": "(Pryzant and Iter, 2023)",
+      "cited_author": "Pryzant and Iter",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389520756",
+      "matched_title": "Automatic Prompt Optimization with “Gradient Descent” and Beam Search",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Reid Pryzant",
+        "Dan Iter",
+        "Jerry Li"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.494"
+    },
+    {
+      "raw_citation": "(Zha and Bhat, 2023)",
+      "cited_author": "Zha and Bhat",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327993492",
+      "matched_title": "Data-centric Artificial Intelligence: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Daochen Zha",
+        "Zaid Pervaiz Bhat",
+        "Kwei-Herng Lai"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.10158"
+    }
+  ]
+}

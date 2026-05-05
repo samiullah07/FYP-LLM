@@ -1,0 +1,113 @@
+{
+  "run_id": "20260505_012811",
+  "timestamp": "2026-05-05T01:28:31.558881",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Frank Hutter et al., 2019)",
+      "cited_author": "Frank Hutter et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    },
+    {
+      "raw_citation": "(Lars Kotthoff, 2019)",
+      "cited_author": "Lars Kotthoff",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    },
+    {
+      "raw_citation": "(Simon Caton et al., 2023)",
+      "cited_author": "Simon Caton et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092541244",
+      "matched_title": "Fairness in Machine Learning: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Caton",
+        "Christian Haas"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3616865"
+    },
+    {
+      "raw_citation": "(Mitra Baratchi et al., 2024)",
+      "cited_author": "Mitra Baratchi et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394927283",
+      "matched_title": "Automated machine learning: past, present and future",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mitra Baratchi",
+        "Can Wang",
+        "Steffen Limmer"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10726-1"
+    },
+    {
+      "raw_citation": "(Eva Zangerle et al., 2022)",
+      "cited_author": "Eva Zangerle et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4292092796",
+      "matched_title": "Evaluating Recommender Systems: Survey and Framework",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Eva Zangerle",
+        "Christine Bauer"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3556536"
+    },
+    {
+      "raw_citation": "(Christian Wirth et al., 2017)",
+      "cited_author": "Christian Wirth et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2785324569",
+      "matched_title": "A survey of preference-based reinforcement learning methods",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Christian Wirth",
+        "Riad Akrour",
+        "Gerhard Neumann"
+      ],
+      "matched_doi": "https://doi.org/10.5445/ir/1000118270"
+    }
+  ]
+}

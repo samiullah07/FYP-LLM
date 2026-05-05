@@ -1,11 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python *)",
-      "Bash(findstr *)",
-      "Bash(git checkout *)",
-      "Bash(streamlit run *)",
-      "Bash(curl *)"
+      "PowerShell(python C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py --mode experimental --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\")",
+      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py\" --mode experimental --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\")",
+      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py\" --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\" --verbose --streamlit > \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\temp_experimental_output.txt\")",
+      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\apply_mab_fix.py\")",
+      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\test_force_model.py\")"
     ]
   }
 }

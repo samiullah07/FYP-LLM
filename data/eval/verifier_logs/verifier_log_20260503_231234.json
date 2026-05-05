@@ -1,0 +1,130 @@
+{
+  "run_id": "20260503_231234",
+  "timestamp": "2026-05-03T23:12:57.244593",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Karan Singhal et al., 2023)",
+      "cited_author": "Karan Singhal et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Wan Zhang et al., 2025)",
+      "cited_author": "Wan Zhang et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408145721",
+      "matched_title": "Hallucination Mitigation for Retrieval-Augmented Large Language Models: A Review",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Wan Zhang",
+        "Jing Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/math13050856"
+    },
+    {
+      "raw_citation": "(Towhidul Islam Tonmoy et al., 2024)",
+      "cited_author": "Towhidul Islam Tonmoy et al.",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390602555",
+      "matched_title": "A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "S. M Towhidul Islam Tonmoy",
+        "S M Mehedi Zaman",
+        "Vinija Jain"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2401.01313"
+    },
+    {
+      "raw_citation": "(Yue Zhang et al., 2023)",
+      "cited_author": "Yue Zhang et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Yoshija Walter, 2024)",
+      "cited_author": "Yoshija Walter",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392773210",
+      "matched_title": "Embracing the future of Artificial Intelligence in the classroom: the relevance ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Yoshija Walter"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-024-00448-3"
+    },
+    {
+      "raw_citation": "(Feiteng Fang et al., 2024)",
+      "cited_author": "Feiteng Fang et al.",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402671700",
+      "matched_title": "Enhancing Noise Robustness of Retrieval-Augmented Language Models with Adaptive ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Feiteng Fang",
+        "Yuelin Bai",
+        "Shiwen Ni"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.acl-long.540"
+    }
+  ]
+}

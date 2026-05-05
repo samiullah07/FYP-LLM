@@ -19,39 +19,19 @@ from datetime import datetime
 from src.config import settings
 
 # Available models (arms)
-# ONLY currently active Groq models (April 2026)
+# ONLY currently active Groq models (May 2026)
 MODELS = [
     {
-        "name":               "llama-3.3-70b-versatile",
-        "size_b":             70,
-        "cost_per_1m_input":  0.59,
-        "cost_per_1m_output": 0.79,
-        "description":        "LLM — best quality, lowest hallucination",
-        "tier":               "LLM",
-    },
-    {
-        "name":               "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "size_b":             17,
-        "cost_per_1m_input":  0.20,
-        "cost_per_1m_output": 0.60,
-        "description":        "SLM — high quality, fast",
-        "tier":               "SLM",
-    },
-    {
-        "name":               "meta-llama/llama-4-scout-17b-16e-instruct",
-        "size_b":             17,
-        "cost_per_1m_input":  0.11,
-        "cost_per_1m_output": 0.34,
-        "description":        "SLM — balanced speed and quality",
-        "tier":               "SLM",
-    },
-    {
         "name":               "llama-3.1-8b-instant",
-        "size_b":             8,
-        "cost_per_1m_input":  0.05,
-        "cost_per_1m_output": 0.08,
-        "description":        "SLM — fastest, cheapest",
-        "tier":               "SLM",
+        "params":             8,
+        "description":        "Fast, cheap, higher hallucination rate",
+        "cost_per_1k_tokens": 0.00005,
+    },
+    {
+        "name":               "llama-3.3-70b-versatile",
+        "params":             70,
+        "description":        "Best citation fidelity, slower, more expensive",
+        "cost_per_1k_tokens": 0.00059,
     },
 ]
 # Topic context categories (states)
@@ -79,12 +59,12 @@ class UCB1BanditSelector:
     def __init__(self):
         # counts[topic_type][model] = number of times selected
         self.counts  = {
-            t: {m: 0 for m in MODELS}
+            t: {m["name"]: 0 for m in MODELS}
             for t in TOPIC_TYPES
         }
         # values[topic_type][model] = average reward
         self.values  = {
-            t: {m: 0.0 for m in MODELS}
+            t: {m["name"]: 0.0 for m in MODELS}
             for t in TOPIC_TYPES
         }
         # history for logging
@@ -136,7 +116,7 @@ class UCB1BanditSelector:
         else:
             return "moderate"
 
-    def select_model(self, topic: str) -> tuple[str, str]:
+    def select_model(self, topic: str, force_model: str = None) -> tuple[str, str]:
         """
         Select the best model for a given topic using UCB1.
 
@@ -148,25 +128,30 @@ class UCB1BanditSelector:
         -------
         tuple[str, str] : (selected_model, topic_type)
         """
+        # User explicitly selected a model from UI -> respect it
+        if force_model and force_model != "dynamic":
+            topic_type = self.classify_topic(topic)
+            return force_model, topic_type
+
         topic_type   = self.classify_topic(topic)
         total_counts = sum(self.counts[topic_type].values())
 
         # If any model has never been tried, try it first (exploration)
         for model in MODELS:
-            if self.counts[topic_type][model] == 0:
+            if self.counts[topic_type][model["name"]] == 0:
                 print(
-                    f"[MAB] Exploring untried model: {model} "
+                    f"[MAB] Exploring untried model: {model['name']} "
                     f"for topic type: {topic_type}"
                 )
-                return model, topic_type
+                return model["name"], topic_type
 
         # UCB1 score for each model
         ucb_scores = {}
         for model in MODELS:
-            n_i          = self.counts[topic_type][model]
-            mean_reward  = self.values[topic_type][model]
+            n_i          = self.counts[topic_type][model["name"]]
+            mean_reward  = self.values[topic_type][model["name"]]
             exploration  = math.sqrt(2 * math.log(total_counts) / n_i)
-            ucb_scores[model] = mean_reward + exploration
+            ucb_scores[model["name"]] = mean_reward + exploration
 
         selected = max(ucb_scores, key=lambda m: ucb_scores[m])
 
@@ -238,12 +223,12 @@ class UCB1BanditSelector:
         for topic_type in TOPIC_TYPES:
             best_model = max(
                 MODELS,
-                key=lambda m: self.values[topic_type][m],
+                key=lambda m: self.values[topic_type][m["name"]],
             )
             summary[topic_type] = {
-                "preferred_model":  best_model,
-                "avg_rewards":      dict(self.values[topic_type]),
-                "pull_counts":      dict(self.counts[topic_type]),
+                "preferred_model":  best_model["name"],
+                "avg_rewards":      {m["name"]: w for m, w in self.values[topic_type].items()},
+                "pull_counts":      {m["name"]: c for m, c in self.counts[topic_type].items()},
             }
         return summary
 

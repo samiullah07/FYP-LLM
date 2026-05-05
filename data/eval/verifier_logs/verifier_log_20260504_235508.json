@@ -1,0 +1,237 @@
+{
+  "run_id": "20260504_235508",
+  "timestamp": "2026-05-04T23:55:08.545279",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Qureshi et al., 2023)",
+      "cited_author": "Qureshi et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Rudolph et al., 2023)",
+      "cited_author": "Rudolph et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366989878",
+      "matched_title": "War of the chatbots: Bard, Bing Chat, ChatGPT, Ernie and beyond. The new AI gold",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Shannon Tan",
+        "Samson Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.23"
+    },
+    {
+      "raw_citation": "(Hadi et al., 2023)",
+      "cited_author": "Hadi et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Teufel et al., 2002)",
+      "cited_author": "Teufel et al.",
+      "cited_year": 2002,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2442495973",
+      "matched_title": "Summarizing Scientific Articles: Experiments with Relevance and Rhetorical Statu",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Simone Teufel",
+        "Marc Moens"
+      ],
+      "matched_doi": "https://doi.org/10.1162/089120102762671936"
+    },
+    {
+      "raw_citation": "(Ward et al., 2007)",
+      "cited_author": "Ward et al.",
+      "cited_year": 2007,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2048859524",
+      "matched_title": "A systematic review and economic evaluation of statins for the prevention of cor",
+      "matched_year": 2007,
+      "matched_authors": [
+        "Sue Ward",
+        "M Lloyd Jones",
+        "Abdullah Pandor"
+      ],
+      "matched_doi": "https://doi.org/10.3310/hta11140"
+    },
+    {
+      "raw_citation": "(Reichenbach et al., 2018)",
+      "cited_author": "Reichenbach et al.",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2793831793",
+      "matched_title": "A review of statistically-based landslide susceptibility models",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Paola Reichenbach",
+        "Mauro Rossi",
+        "Bruce D. Malamud"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.earscirev.2018.03.001"
+    },
+    {
+      "raw_citation": "(Bibri et al., 2023)",
+      "cited_author": "Bibri et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387767134",
+      "matched_title": "Smarter eco-cities and their leading-edge artificial intelligence of things solu",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Elias Bibri",
+        "John Krogstie",
+        "Amin Kaboli"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ese.2023.100330"
+    },
+    {
+      "raw_citation": "(Boutaba et al., 2018)",
+      "cited_author": "Boutaba et al.",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2809684781",
+      "matched_title": "A comprehensive survey on machine learning for networking: evolution, applicatio",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Raouf Boutaba",
+        "Mohammad A. Salahuddin",
+        "Noura Limam"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13174-018-0087-2"
+    },
+    {
+      "raw_citation": "(EFSA, 2010)",
+      "cited_author": "EFSA",
+      "cited_year": 2010,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2179263580",
+      "matched_title": "Application of systematic review methodology to food and feed safety assessments",
+      "matched_year": 2010,
+      "matched_authors": [
+        "EFSA Guidance for those carrying out systematic reviews European Food Safety Authority"
+      ],
+      "matched_doi": "https://doi.org/10.2903/j.efsa.2010.1637"
+    },
+    {
+      "raw_citation": "(Shorten et al., 2021)",
+      "cited_author": "Shorten et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3121263745",
+      "matched_title": "Deep Learning applications for COVID-19",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-020-00392-9"
+    },
+    {
+      "raw_citation": "(Ratnasingham et al., 2013)",
+      "cited_author": "Ratnasingham et al.",
+      "cited_year": 2013,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2072022921",
+      "matched_title": "A DNA-Based Registry for All Animal Species: The Barcode Index Number (BIN) Syst",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Sujeevan Ratnasingham",
+        "Paul D. N. Hebert"
+      ],
+      "matched_doi": "https://doi.org/10.1371/journal.pone.0066213"
+    },
+    {
+      "raw_citation": "(Katsaliaki et al., 2021)",
+      "cited_author": "Katsaliaki et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3118822426",
+      "matched_title": "Supply chain disruptions and resilience: a major review and future research agen",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Korina Katsaliaki",
+        "Panagiota Galetsi⁠",
+        "Sameer Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10479-020-03912-1"
+    }
+  ]
+}

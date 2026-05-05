@@ -1,0 +1,341 @@
+{
+  "run_id": "20260504_062607",
+  "timestamp": "2026-05-04T06:26:15.288707",
+  "total": 19,
+  "entries": [
+    {
+      "raw_citation": "(Lampert et al., 2009)",
+      "cited_author": "Lampert et al.",
+      "cited_year": 2009,
+      "status": "HALLUCINATED",
+      "confidence": 0.225,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Fei-Fei et al., 2006)",
+      "cited_author": "Fei-Fei et al.",
+      "cited_year": 2006,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2076395812",
+      "matched_title": "Zircon U-Pb and Hf isotope constraints on the Mesozoic tectonics and crustal evo",
+      "matched_year": 2006,
+      "matched_authors": [
+        "Mei‐Fei Chu",
+        "Sun‐Lin Chung",
+        "Biao Song"
+      ],
+      "matched_doi": "https://doi.org/10.1130/g22725.1"
+    },
+    {
+      "raw_citation": "(Chen et al., 2020)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2988937804",
+      "matched_title": "DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Gener",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yizhe Zhang",
+        "Siqi Sun",
+        "Michel Galley"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.acl-demos.30"
+    },
+    {
+      "raw_citation": "(Kaixiang Lin, 2023)",
+      "cited_author": "Kaixiang Lin",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383112908",
+      "matched_title": "Transfer Learning in Deep Reinforcement Learning: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Zhuangdi Zhu",
+        "Kaixiang Lin",
+        "Anil K. Jain"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tpami.2023.3292075"
+    },
+    {
+      "raw_citation": "(Vinyals et al., 2016)",
+      "cited_author": "Vinyals et al.",
+      "cited_year": 2016,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963208801",
+      "matched_title": "Multilingual Language Processing From Bytes",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Dan Gillick",
+        "Cliff Brunk",
+        "Oriol Vinyals"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n16-1155"
+    },
+    {
+      "raw_citation": "(Shafiq et al., 2022)",
+      "cited_author": "Shafiq et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4295122555",
+      "matched_title": "Deep Residual Learning for Image Recognition: A Survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Muhammad Shafiq",
+        "Zhaoquan Gu"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app12188972"
+    },
+    {
+      "raw_citation": "(Cao et al., 2023)",
+      "cited_author": "Cao et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323706279",
+      "matched_title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative A",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yihan Cao",
+        "Siyu Li",
+        "Yixin Liu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.04226"
+    },
+    {
+      "raw_citation": "(Wang et al., 2022)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206693420",
+      "matched_title": "Medical image segmentation using deep learning: A survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Risheng Wang",
+        "Tao Lei",
+        "Ruixia Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1049/ipr2.12419"
+    },
+    {
+      "raw_citation": "(Chauveau et al., 2023)",
+      "cited_author": "Chauveau et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387046394",
+      "matched_title": "Segment Anything by Meta as a foundation model for image segmentation: a new era",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Bertrand Chauveau",
+        "Pierre Merville"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.pathol.2023.09.003"
+    },
+    {
+      "raw_citation": "(Qiao et al., 2023)",
+      "cited_author": "Qiao et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385569771",
+      "matched_title": "Reasoning with Language Model Prompting: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuofei Qiao",
+        "Yixin Ou",
+        "Ningyu Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.acl-long.294"
+    },
+    {
+      "raw_citation": "(Zhou et al., 2024)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393234852",
+      "matched_title": "Cross-modal learning with multi-modal model for video action recognition based o",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Qingguo Zhou",
+        "Yufeng Hou",
+        "Rui Zhou"
+      ],
+      "matched_doi": "https://doi.org/10.1080/09540091.2024.2325474"
+    },
+    {
+      "raw_citation": "(Kirk et al., 2023)",
+      "cited_author": "Kirk et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4315487473",
+      "matched_title": "A Survey of Zero-shot Generalisation in Deep Reinforcement Learning",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Robert Kirk",
+        "Amy Zhang",
+        "Edward Grefenstette"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.1.14174"
+    },
+    {
+      "raw_citation": "(Chi et al., 2021)",
+      "cited_author": "Chi et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3171975879",
+      "matched_title": "InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Zewen Chi",
+        "Li Dong",
+        "Furu Wei"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.naacl-main.280"
+    },
+    {
+      "raw_citation": "(Gasparetto et al., 2022)",
+      "cited_author": "Gasparetto et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4212926655",
+      "matched_title": "A Survey on Text Classification Algorithms: From Text to Predictions",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Andrea Gasparetto",
+        "Matteo Marcuzzo",
+        "Alessandro Zangari"
+      ],
+      "matched_doi": "https://doi.org/10.3390/info13020083"
+    },
+    {
+      "raw_citation": "(Ahmedt-Aristizabal et al., 2021)",
+      "cited_author": "Ahmedt-Aristizabal et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3165031368",
+      "matched_title": "Graph-Based Deep Learning for Medical Diagnosis and Analysis: Past, Present and ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "David Ahmedt‐Aristizabal",
+        "Mohammad Ali Armin",
+        "Simon Denman"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s21144758"
+    },
+    {
+      "raw_citation": "(Geirhos et al., 2018)",
+      "cited_author": "Geirhos et al.",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2888339491",
+      "matched_title": "Generalisation in humans and deep neural networks",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Robert Geirhos",
+        "Carlos R. Medina Temme",
+        "Jonas Rauber"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Alexanderson et al., 2023)",
+      "cited_author": "Alexanderson et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4377010269",
+      "matched_title": "Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Alexanderson",
+        "Rajmund Nagy",
+        "Jonas Beskow"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3592458"
+    },
+    {
+      "raw_citation": "(Cerezo et al., 2021)",
+      "cited_author": "Cerezo et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111162498",
+      "matched_title": "Variational quantum algorithms",
+      "matched_year": 2021,
+      "matched_authors": [
+        "M. Cerezo",
+        "Andrew Arrasmith",
+        "Ryan Babbush"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00348-9"
+    },
+    {
+      "raw_citation": "(Koch et al., 2022)",
+      "cited_author": "Koch et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4286001073",
+      "matched_title": "Quantum Optimal Control in Quantum Technologies. Strategic Report on Current Sta",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Christiane P. Koch"
+      ],
+      "matched_doi": "https://doi.org/10.1140/epjqt/s40507-022-00138-x"
+    }
+  ]
+}

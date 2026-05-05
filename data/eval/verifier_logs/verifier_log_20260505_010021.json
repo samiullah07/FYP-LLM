@@ -1,0 +1,202 @@
+{
+  "run_id": "20260505_010021",
+  "timestamp": "2026-05-05T01:00:39.285474",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Rieke and Hancox, 2020)",
+      "cited_author": "Rieke and Hancox",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3012501605",
+      "matched_title": "The future of digital health with federated learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Nicola Rieke",
+        "Jonny Hancox",
+        "Wenqi Li"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-020-00323-1"
+    },
+    {
+      "raw_citation": "(Xu and Glicksberg, 2020)",
+      "cited_author": "Xu and Glicksberg",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3100779497",
+      "matched_title": "Federated Learning for Healthcare Informatics",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Jie Xu",
+        "Benjamin S. Glicksberg",
+        "Chang Su"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s41666-020-00082-4"
+    },
+    {
+      "raw_citation": "(Kairouz and McMahan, 2020)",
+      "cited_author": "Kairouz and McMahan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2995022099",
+      "matched_title": "Advances and Open Problems in Federated Learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Peter Kairouz",
+        "H. Brendan McMahan"
+      ],
+      "matched_doi": "https://doi.org/10.1561/2200000083"
+    },
+    {
+      "raw_citation": "(Kumar and Khan, 2020)",
+      "cited_author": "Kumar and Khan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3163893137",
+      "matched_title": "Blockchain-Federated-Learning and Deep Learning Models for COVID-19 Detection Us",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Rajesh Kumar",
+        "Abdullah Aman Khan",
+        "Zhang, Sinmin"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jsen.2021.3076767"
+    },
+    {
+      "raw_citation": "(Durga and Poovammal, 2022)",
+      "cited_author": "Durga and Poovammal",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4283016633",
+      "matched_title": "FLED-Block: Federated Learning Ensembled Deep Learning Blockchain Model for COVI",
+      "matched_year": 2022,
+      "matched_authors": [
+        "R. Durga",
+        "E. Poovammal"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fpubh.2022.892499"
+    },
+    {
+      "raw_citation": "(Alam and Rahmani, 2023)",
+      "cited_author": "Alam and Rahmani",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4316468938",
+      "matched_title": "FedSepsis: A Federated Multi-Modal Deep Learning-Based Internet of Medical Thing",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Mahbub Ul Alam",
+        "Rahim Rahmani"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s23020970"
+    },
+    {
+      "raw_citation": "(Miotto and Wang, 2017)",
+      "cited_author": "Miotto and Wang",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2610332124",
+      "matched_title": "Deep learning for healthcare: review, opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Riccardo Miotto",
+        "Fei Wang",
+        "Shuang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbx044"
+    },
+    {
+      "raw_citation": "(Rani and Kumar, 2025)",
+      "cited_author": "Rani and Kumar",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412751296",
+      "matched_title": "Machine Learning-Powered Smart Healthcare Systems in the Era of Big Data: Applic",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Sita Rani",
+        "Raman Kumar",
+        "Raman Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.3390/diagnostics15151914"
+    },
+    {
+      "raw_citation": "(Lambin and Leijenaar, 2017)",
+      "cited_author": "Lambin and Leijenaar",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2763355946",
+      "matched_title": "Radiomics: the bridge between medical imaging and personalized medicine",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Philippe Lambin",
+        "Ralph T. H. Leijenaar",
+        "Timo M. Deist"
+      ],
+      "matched_doi": "https://doi.org/10.1038/nrclinonc.2017.141"
+    },
+    {
+      "raw_citation": "(Arrieta and Díaz-Rodríguez, 2019)",
+      "cited_author": "Arrieta and Díaz-Rodríguez",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Al‐Fuqaha and Guizani, 2015)",
+      "cited_author": "Al‐Fuqaha and Guizani",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2134295053",
+      "matched_title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applicatio",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Ala Al‐Fuqaha",
+        "Mohsen Guizani",
+        "Mehdi Mohammadi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2015.2444095"
+    }
+  ]
+}

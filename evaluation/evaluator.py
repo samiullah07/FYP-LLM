@@ -27,6 +27,19 @@ from graph.baseline_graph import run_baseline
 EVAL_DIR = ROOT / "data" / "eval"
 EVAL_DIR.mkdir(parents=True, exist_ok=True)
 
+
+def _get_hallucinated_count_from_log(run_id: str) -> int:
+    """Count HALLUCINATED citations from the verifier log file for the given run."""
+    log_path = ROOT / "data" / "eval" / "verifier_logs" / f"verifier_log_{run_id}.json"
+    if not log_path.exists():
+        return 0
+    try:
+        with open(log_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return sum(1 for entry in data.get("entries", []) if entry.get("status") == "HALLUCINATED")
+    except Exception:
+        return 0
+
 DEFAULT_TOPICS = [
     "Agentic AI for reliable academic literature review and hallucination mitigation",
     "Retrieval-augmented generation for reducing LLM hallucinations",
@@ -58,7 +71,7 @@ def evaluate_topic(topic: str) -> dict[str, Any]:
             "exp_sub_queries":        len(exp.get("sub_queries", [])),
             "exp_citations_total":    exp.get("total_citations", 0),
             "exp_citations_valid":    exp.get("valid_citations", 0),
-            "exp_citations_halluc":   exp.get("hallucinated_citations", 0),
+            "exp_citations_halluc":   _get_hallucinated_count_from_log(exp.get("run_id", "")),
             "exp_hallucination_rate": exp.get("hallucination_rate", 0.0),
             "exp_review_length":      len(exp.get("draft_review", "")),
             "exp_latency_s":          exp_lat,

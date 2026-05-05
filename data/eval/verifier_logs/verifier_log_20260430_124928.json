@@ -1,0 +1,216 @@
+{
+  "run_id": "20260430_124928",
+  "timestamp": "2026-04-30T12:49:50.692096",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Lars Malmqvist, 2025)",
+      "cited_author": "Lars Malmqvist",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4413240600",
+      "matched_title": "Sycophancy in Large Language Models: Causes and Mitigations",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Lars Malmqvist"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-031-92611-2_5"
+    },
+    {
+      "raw_citation": "(Nayeon Lee et al., 2022)",
+      "cited_author": "Nayeon Lee et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4281679115",
+      "matched_title": "Factuality Enhanced Language Models for Open-Ended Text Generation",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Nayeon Lee",
+        "Ping, Wei",
+        "Peng Xu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2206.04624"
+    },
+    {
+      "raw_citation": "(Yuheng Zha et al., 2023)",
+      "cited_author": "Yuheng Zha et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385572448",
+      "matched_title": "AlignScore: Evaluating Factual Consistency with A Unified Alignment Function",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yuheng Zha",
+        "Yichi Yang",
+        "Ruichen Li"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.acl-long.634"
+    },
+    {
+      "raw_citation": "(Elena Vulpescu et al., 2024)",
+      "cited_author": "Elena Vulpescu et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4400475983",
+      "matched_title": "Optimized Fine-Tuning of Large Language Model for Better Topic Categorization wi",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Elena Vulpescu",
+        "Mihai Beldean"
+      ],
+      "matched_doi": "https://doi.org/10.21203/rs.3.rs-4697966/v1"
+    },
+    {
+      "raw_citation": "(Margarida Campos et al., 2024)",
+      "cited_author": "Margarida Campos et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4404609187",
+      "matched_title": "Conformal Prediction for Natural Language Processing: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Margarida Campos",
+        "António Farinhas",
+        "Chrysoula Zerva"
+      ],
+      "matched_doi": "https://doi.org/10.1162/tacl_a_00715"
+    },
+    {
+      "raw_citation": "(Jean‐Christophe Bélisle‐Pipon, 2024)",
+      "cited_author": "Jean‐Christophe Bélisle‐Pipon",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4405021649",
+      "matched_title": "Why we need to be careful with LLMs in medicine",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jean‐Christophe Bélisle‐Pipon"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fmed.2024.1495582"
+    },
+    {
+      "raw_citation": "(Karan Singhal et al., 2022)",
+      "cited_author": "Karan Singhal et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4313197536",
+      "matched_title": "Large Language Models Encode Clinical Knowledge",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2212.13138"
+    },
+    {
+      "raw_citation": "(Pradosh Kumar Sarangi et al., 2023)",
+      "cited_author": "Pradosh Kumar Sarangi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390051895",
+      "matched_title": "Assessing ChatGPT's Proficiency in Simplifying Radiological Reports for Healthca",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Pradosh Kumar Sarangi",
+        "Amrita Lumbani",
+        "M. Sarthak Swarup"
+      ],
+      "matched_doi": "https://doi.org/10.7759/cureus.50881"
+    },
+    {
+      "raw_citation": "(Yasutaka Yanagita et al., 2023)",
+      "cited_author": "Yasutaka Yanagita et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387305434",
+      "matched_title": "Accuracy of ChatGPT on Medical Questions in the National Medical Licensing Exami",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yasutaka Yanagita",
+        "Daiki Yokokawa",
+        "Shun Uchida"
+      ],
+      "matched_doi": "https://doi.org/10.2196/48023"
+    },
+    {
+      "raw_citation": "(Malik Sallam, 2023)",
+      "cited_author": "Malik Sallam",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327946446",
+      "matched_title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Malik Sallam"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare11060887"
+    },
+    {
+      "raw_citation": "(Wayne Xin Zhao et al., 2023)",
+      "cited_author": "Wayne Xin Zhao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    }
+  ]
+}

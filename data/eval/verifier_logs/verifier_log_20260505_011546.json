@@ -1,0 +1,248 @@
+{
+  "run_id": "20260505_011546",
+  "timestamp": "2026-05-05T01:16:07.953924",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Radford et al., 2021)",
+      "cited_author": "Radford et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3135367836",
+      "matched_title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Alec Radford",
+        "Jong Wook Kim",
+        "Chris Hallacy"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2103.00020"
+    },
+    {
+      "raw_citation": "(Zhou et al., 2022)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3198377975",
+      "matched_title": "Learning to Prompt for Vision-Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kaiyang Zhou",
+        "Jingkang Yang",
+        "Chen Change Loy"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-022-01653-1"
+    },
+    {
+      "raw_citation": "(Jia et al., 2021)",
+      "cited_author": "Jia et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3126337491",
+      "matched_title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Su",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Chao Jia",
+        "Yinfei Yang",
+        "Ye Xia"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2102.05918"
+    },
+    {
+      "raw_citation": "(Schuhmann et al., 2022)",
+      "cited_author": "Schuhmann et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4306820534",
+      "matched_title": "LAION-5B: An open large-scale dataset for training next generation image-text mo",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Christoph Schuhmann",
+        "Romain Beaumont",
+        "Richard Vencu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2210.08402"
+    },
+    {
+      "raw_citation": "(Alzubaidi et al., 2021)",
+      "cited_author": "Alzubaidi et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Cherti et al., 2023)",
+      "cited_author": "Cherti et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386065512",
+      "matched_title": "Reproducible Scaling Laws for Contrastive Language-Image Learning",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Mehdi Cherti",
+        "Romain Beaumont",
+        "Ross Wightman"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.00276"
+    },
+    {
+      "raw_citation": "(Singhal et al., 2023)",
+      "cited_author": "Singhal et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Li et al., 2022)",
+      "cited_author": "Li et al.",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Xu et al., 2023)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Shorten et al., 2021)",
+      "cited_author": "Shorten et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Shorten et al., 2019)",
+      "cited_author": "Shorten et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2954996726",
+      "matched_title": "A survey on Image Data Augmentation for Deep Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-019-0197-0"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Coelho, 2023)",
+      "cited_author": "Coelho",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389885061",
+      "matched_title": "How Artificial Intelligence Is Shaping Medical Imaging Technology: A Survey of I",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Luís Coelho"
+      ],
+      "matched_doi": "https://doi.org/10.3390/bioengineering10121435"
+    },
+    {
+      "raw_citation": "(Krishna et al., 2017)",
+      "cited_author": "Krishna et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2277195237",
+      "matched_title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Ann",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Ranjay Krishna",
+        "Yuke Zhu",
+        "Oliver Groth"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-016-0981-7"
+    }
+  ]
+}

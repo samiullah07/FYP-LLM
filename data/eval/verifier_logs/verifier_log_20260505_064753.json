@@ -1,0 +1,167 @@
+{
+  "run_id": "20260505_064753",
+  "timestamp": "2026-05-05T06:48:13.963013",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Zhao and Zhou, 2023)",
+      "cited_author": "Zhao and Zhou",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Rudolph and Tan, 2023)",
+      "cited_author": "Rudolph and Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Dwivedi and Kshetri, 2023)",
+      "cited_author": "Dwivedi and Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Ganaie and Hu, 2022)",
+      "cited_author": "Ganaie and Hu",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3149839747",
+      "matched_title": "Ensemble deep learning: A review",
+      "matched_year": 2022,
+      "matched_authors": [
+        "M. A. Ganaie",
+        "Minghui Hu",
+        "A. K. Malik"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.engappai.2022.105151"
+    },
+    {
+      "raw_citation": "(Park and Kim, 2022)",
+      "cited_author": "Park and Kim",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    },
+    {
+      "raw_citation": "(Wang and Ma, 2024)",
+      "cited_author": "Wang and Ma",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393065402",
+      "matched_title": "A survey on large language model based autonomous agents",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Lei Wang",
+        "Chen Ma",
+        "Xueyang Feng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11704-024-40231-1"
+    },
+    {
+      "raw_citation": "(Shafiq and Gu, 2022)",
+      "cited_author": "Shafiq and Gu",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4295122555",
+      "matched_title": "Deep Residual Learning for Image Recognition: A Survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Muhammad Shafiq",
+        "Zhaoquan Gu"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app12188972"
+    },
+    {
+      "raw_citation": "(Zawacki‐Richter and Marín, 2019)",
+      "cited_author": "Zawacki‐Richter and Marín",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    }
+  ]
+}

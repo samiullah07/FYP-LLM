@@ -1,0 +1,255 @@
+{
+  "run_id": "20260504_055518",
+  "timestamp": "2026-05-04T05:55:38.117905",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Rieke et al., 2020)",
+      "cited_author": "Rieke et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3012501605",
+      "matched_title": "The future of digital health with federated learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Nicola Rieke",
+        "Jonny Hancox",
+        "Wenqi Li"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-020-00323-1"
+    },
+    {
+      "raw_citation": "(Xu et al., 2020)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.3,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Torkzadehmahani et al., 2022)",
+      "cited_author": "Torkzadehmahani et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3043950946",
+      "matched_title": "Privacy-Preserving Artificial Intelligence Techniques in Biomedicine",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Reihaneh Torkzadehmahani",
+        "Reza Nasirigerdeh",
+        "David B. Blumenthal"
+      ],
+      "matched_doi": "https://doi.org/10.1055/s-0041-1740630"
+    },
+    {
+      "raw_citation": "(Kaissis et al., 2020)",
+      "cited_author": "Kaissis et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3033511014",
+      "matched_title": "Secure, privacy-preserving and federated machine learning in medical imaging",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Georgios Kaissis",
+        "Marcus R. Makowski",
+        "Daniel Rückert"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42256-020-0186-1"
+    },
+    {
+      "raw_citation": "(Lambin et al., 2017)",
+      "cited_author": "Lambin et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2763355946",
+      "matched_title": "Radiomics: the bridge between medical imaging and personalized medicine",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Philippe Lambin",
+        "Ralph T. H. Leijenaar",
+        "Timo M. Deist"
+      ],
+      "matched_doi": "https://doi.org/10.1038/nrclinonc.2017.141"
+    },
+    {
+      "raw_citation": "(Castiglioni et al., 2021)",
+      "cited_author": "Castiglioni et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3135096391",
+      "matched_title": "AI applications to medical images: From machine learning to deep learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Isabella Castiglioni",
+        "Leonardo Rundo",
+        "Marina Codari"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ejmp.2021.02.006"
+    },
+    {
+      "raw_citation": "(Al‐Fuqaha et al., 2015)",
+      "cited_author": "Al‐Fuqaha et al.",
+      "cited_year": 2015,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2134295053",
+      "matched_title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applicatio",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Ala Al‐Fuqaha",
+        "Mohsen Guizani",
+        "Mehdi Mohammadi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/comst.2015.2444095"
+    },
+    {
+      "raw_citation": "(Boobalan et al., 2022)",
+      "cited_author": "Boobalan et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3121002773",
+      "matched_title": "Fusion of Federated Learning and Industrial Internet of Things: A survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Parimala Boobalan",
+        "Swarna Priya Ramu",
+        "Quoc‐Viet Pham"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.comnet.2022.109048"
+    },
+    {
+      "raw_citation": "(Sirohi et al., 2023)",
+      "cited_author": "Sirohi et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323980169",
+      "matched_title": "Federated learning for 6G-enabled secure communication systems: a comprehensive ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Deepika Sirohi",
+        "Neeraj Kumar",
+        "Prashant Singh Rana"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-023-10417-3"
+    },
+    {
+      "raw_citation": "(Wang et al., 2025)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408240347",
+      "matched_title": "Privacy-preserving heterogeneous multi-modal sensor data fusion via federated le",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Jing Wang",
+        "Mohammad Tabrez Quasim",
+        "Bo Yi"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2025.103084"
+    },
+    {
+      "raw_citation": "(Barredo Arrieta et al., 2019)",
+      "cited_author": "Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Chamani Shiranthika et al., 2023)",
+      "cited_author": "Chamani Shiranthika et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4378976270",
+      "matched_title": "Decentralized Learning in Healthcare: A Review of Emerging Techniques",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Chamani Shiranthika",
+        "Parvaneh Saeedi",
+        "Ivan V. Bajić"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2023.3281832"
+    },
+    {
+      "raw_citation": "(Miotto et al., 2017)",
+      "cited_author": "Miotto et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2610332124",
+      "matched_title": "Deep learning for healthcare: review, opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Riccardo Miotto",
+        "Fei Wang",
+        "Shuang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbx044"
+    },
+    {
+      "raw_citation": "(Tiwari et al., 2025)",
+      "cited_author": "Tiwari et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4410939981",
+      "matched_title": "Current AI technologies in cancer diagnostics and treatment",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ashutosh Tiwari",
+        "Soumya Nandan Mishra",
+        "Tsung‐Rong Kuo"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12943-025-02369-9"
+    }
+  ]
+}

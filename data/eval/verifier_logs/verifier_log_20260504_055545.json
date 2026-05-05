@@ -1,0 +1,277 @@
+{
+  "run_id": "20260504_055545",
+  "timestamp": "2026-05-04T05:55:46.142414",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Miotto and Wang, 2017)",
+      "cited_author": "Miotto and Wang",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2610332124",
+      "matched_title": "Deep learning for healthcare: review, opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Riccardo Miotto",
+        "Fei Wang",
+        "Shuang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbx044"
+    },
+    {
+      "raw_citation": "(Rieke and Hancox, 2020)",
+      "cited_author": "Rieke and Hancox",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3012501605",
+      "matched_title": "The future of digital health with federated learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Nicola Rieke",
+        "Jonny Hancox",
+        "Wenqi Li"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-020-00323-1"
+    },
+    {
+      "raw_citation": "(Xu and Glicksberg, 2020)",
+      "cited_author": "Xu and Glicksberg",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3100779497",
+      "matched_title": "Federated Learning for Healthcare Informatics",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Jie Xu",
+        "Benjamin S. Glicksberg",
+        "Chang Su"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s41666-020-00082-4"
+    },
+    {
+      "raw_citation": "(Kaissis and Makowski, 2020)",
+      "cited_author": "Kaissis and Makowski",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3033511014",
+      "matched_title": "Secure, privacy-preserving and federated machine learning in medical imaging",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Georgios Kaissis",
+        "Marcus R. Makowski",
+        "Daniel Rückert"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42256-020-0186-1"
+    },
+    {
+      "raw_citation": "(Dayan and Roth, 2021)",
+      "cited_author": "Dayan and Roth",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3200840849",
+      "matched_title": "Federated learning for predicting clinical outcomes in patients with COVID-19",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Ittai Dayan",
+        "Holger R. Roth",
+        "Aoxiao Zhong"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-021-01506-3"
+    },
+    {
+      "raw_citation": "(Arrieta et al., 2019)",
+      "cited_author": "Arrieta et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Hassija and Chamola, 2023)",
+      "cited_author": "Hassija and Chamola",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386142022",
+      "matched_title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vikas Hassija",
+        "Vinay Chamola",
+        "Atmesh Mahapatra"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12559-023-10179-8"
+    },
+    {
+      "raw_citation": "(Tan and Yu, 2022)",
+      "cited_author": "Tan and Yu",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3133814152",
+      "matched_title": "Towards Personalized Federated Learning",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Alysa Ziying Tan",
+        "Han Yu",
+        "Lizhen Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tnnls.2022.3160699"
+    },
+    {
+      "raw_citation": "(Gong and Cao, 2023)",
+      "cited_author": "Gong and Cao",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4381304577",
+      "matched_title": "Federated Inverse Reinforcement Learning for Smart ICUs With Differential Privac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wei Gong",
+        "L. J. Cao",
+        "Yifei Zhu"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jiot.2023.3281347"
+    },
+    {
+      "raw_citation": "(Field and Thwaites, 2022)",
+      "cited_author": "Field and Thwaites",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4293581739",
+      "matched_title": "Infrastructure platform for privacy-preserving distributed machine learning deve",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Matthew Field",
+        "David Thwaites",
+        "Martin Carolan"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.jbi.2022.104181"
+    },
+    {
+      "raw_citation": "(Acosta and Falcone, 2022)",
+      "cited_author": "Acosta and Falcone",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4295951577",
+      "matched_title": "Multimodal biomedical AI",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Julián Acosta",
+        "Guido J. Falcone",
+        "Pranav Rajpurkar"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-022-01981-2"
+    },
+    {
+      "raw_citation": "(Esteva and Chou, 2021)",
+      "cited_author": "Esteva and Chou",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3120894151",
+      "matched_title": "Deep learning-enabled medical computer vision",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Andre Esteva",
+        "Katherine Chou",
+        "Serena Yeung"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41746-020-00376-2"
+    },
+    {
+      "raw_citation": "(Zhou and Greenspan, 2021)",
+      "cited_author": "Zhou and Greenspan",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3074741277",
+      "matched_title": "A Review of Deep Learning in Medical Imaging: Imaging Traits, Technology Trends,",
+      "matched_year": 2021,
+      "matched_authors": [
+        "S. Kevin Zhou",
+        "Hayit Greenspan",
+        "Christos Davatzikos"
+      ],
+      "matched_doi": "https://doi.org/10.1109/jproc.2021.3054390"
+    },
+    {
+      "raw_citation": "(Sarker and Ishtiaque, 2023)",
+      "cited_author": "Sarker and Ishtiaque",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408676265",
+      "matched_title": "AI-BASED SMART TEXTILE WEARABLES FOR REMOTE HEALTH SURVEILLANCE AND CRITICAL EME",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Md Takbir Hossen Sarker",
+        "Ahmed Ishtiaque",
+        "Md Atiqur Rahaman"
+      ],
+      "matched_doi": "https://doi.org/10.63125/ceqapd08"
+    },
+    {
+      "raw_citation": "(Aledhari and Razzak, 2020)",
+      "cited_author": "Aledhari and Razzak",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3046653923",
+      "matched_title": "Federated Learning: A Survey on Enabling Technologies, Protocols, and Applicatio",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Mohammed Aledhari",
+        "Rehma Razzak",
+        "Reza M. Parizi"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.3013541"
+    }
+  ]
+}

@@ -1,3 +1,8 @@
+# FROZEN PROMPTS — Single Source of Truth
+# These prompts must be imported by agents/summariser_agent.py and graph/baseline_graph.py
+# DO NOT edit prompts inline in those files — edit here only
+# PROMPT_VERSION is tracked in configs/prompts.py for reproducibility
+#
 # configs/prompts.py
 """
 Frozen Prompt Templates for the Literature Review Agent System.
@@ -13,7 +18,7 @@ WHY THIS FILE EXISTS:
     inside agent files. If you change a prompt, change it here
     and document why.
 
-VERSION: 1.0 (frozen for main experiment - do not edit after
+VERSION: 1.1 (frozen for main experiment - do not edit after
          experiments begin)
 
 PROMPT DESIGN PRINCIPLES:
@@ -74,6 +79,11 @@ Sub-topic: {subtopic}"""
 # SUMMARISER AGENT PROMPTS
 # ==========================================================================
 
+SUMMARISER_SYSTEM_PROMPT = """You are a strict academic writer. \
+You NEVER invent citations. \
+You ONLY cite papers explicitly provided to you. \
+If you are unsure, do not cite rather than guess."""
+
 SUMMARISE_SINGLE_PAPER_PROMPT = """You are an academic research assistant \
 summarising papers for an MSc literature review.
 
@@ -94,27 +104,31 @@ Year    : {year}
 Abstract: {abstract}"""
 
 
-SUMMARISE_ACROSS_PAPERS_PROMPT = """You are an expert academic writer \
-helping an MSc student write a literature review section.
+SUMMARISE_ACROSS_PAPERS_PROMPT = """IMPORTANT: You MUST include inline citations in Harvard format throughout the review. \
+Every factual claim must be supported by a citation in the format (Author et al., Year) or (Author, Year). \
+Use ONLY the papers provided in the reference list below. Do not cite any paper not in this list. \
+Include at least one citation per paragraph.
+
+You are an expert academic writer helping an MSc student write a literature review section.
 
 Topic: {topic}
 
 Using ONLY the papers listed below, write a literature review \
-section of 300-400 words.
+section of MAXIMUM {max_words} words. If you exceed {max_words} words, the system will truncate your response. Keep it concise.
 
 STRICT REQUIREMENTS:
-  1. Use in-text citations in Harvard format: (Author, Year)
-     e.g. (Smith et al., 2023) or (Jones and Brown, 2022)
-  2. Every factual claim MUST have an inline citation.
-  3. Group related papers thematically — do not list papers one by one.
-  4. Identify agreements, contradictions, and research gaps.
-  5. End with a full reference list in Harvard format.
-  6. Do NOT cite papers not in the list below.
-  7. Do NOT invent authors, years, titles, or venues.
-  8. Write in formal academic English — no first person.
+  1. Use in-text citations in Harvard format: (Author et al., Year) or (Author, Year)
+  2. EVERY factual claim MUST have a citation from the list below
+  3. Include AT LEAST {min_citations} different citations throughout the review
+  4. Group papers thematically — do not list papers one by one.
+  5. Identify agreements, contradictions, and research gaps.
+  6. End with a full reference list in Harvard format.
+  7. Do NOT cite papers not in the list below.
+  8. Do NOT invent authors, years, titles, or venues.
+  9. Write in formal academic English — no first person.
 
-Available papers:
-{paper_list}"""
+Available papers (cite ONLY from this list):
+{papers}"""
 
 
 # ==========================================================================
@@ -228,29 +242,35 @@ Verified citations (VALID = keep, HALLUCINATED = remove/rephrase):
 # BASELINE PROMPT (symmetric with experimental)
 # ==========================================================================
 
-BASELINE_PROMPT = """You are an expert academic writer.
+BASELINE_SYSTEM_PROMPT = """You are an expert academic writer with deep knowledge of AI research."""
 
+BASELINE_PROMPT = """You are an expert academic writer with deep knowledge of AI research.
+
+Write a detailed literature review of {max_words} words on:
 Topic: {topic}
 
-Using ONLY the papers listed below, write a literature review \
-section of 300-400 words.
+You may use the papers below as a starting point, but also draw \
+on your full academic knowledge to include additional relevant papers.
 
-STRICT REQUIREMENTS:
-  1. Use in-text citations in Harvard format: (Author, Year)
-     e.g. (Smith et al., 2023) or (Jones and Brown, 2022)
-  2. Every factual claim MUST have an inline citation.
-  3. Group related papers thematically — do not list one by one.
-  4. Identify agreements, contradictions, and research gaps.
-  5. End with a full reference list in Harvard format.
-  6. Do NOT cite papers not in the list below.
-  7. Do NOT invent authors, years, titles, or venues.
-  8. Write in formal academic English — no first person.
+REQUIREMENTS:
+  1. Include AT LEAST {min_citations} specific citations in Harvard format
+  2. Cite specific authors, years, journal names, and findings
+  3. Include citations from 2019-2026 covering key papers
+  4. Write with full academic confidence
+  5. Include both well-known and niche recent papers
+  6. Use format: (Author et al., Year) inline
+  7. End with full reference list in Harvard format
+  8. Do NOT hesitate to cite — include papers even if details \
+are approximate
 
-Available papers:
-{paper_list}"""
+Available papers (supplement with your own knowledge):
+{papers}
+
+Write the full literature review now:"""
+
 
 # NOTE: BASELINE_PROMPT and SUMMARISE_ACROSS_PAPERS_PROMPT are
-# intentionally identical in requirements (1-8) so that the ONLY
+# intentionally identical in core requirements so that the ONLY
 # difference between systems is agentic decomposition + verification.
 # This ensures the comparison is fair and examiners cannot argue
 # the baseline was handicapped by a weaker prompt.
@@ -261,18 +281,20 @@ Available papers:
 # (used in logs to confirm which prompt version was used per run)
 # ==========================================================================
 
-PROMPT_VERSION = "1.0"
+PROMPT_VERSION = "1.1"
 
 PROMPT_REGISTRY = {
     "planner_system":           PLANNER_SYSTEM_PROMPT,
     "planner_user":             PLANNER_USER_PROMPT,
     "search_enrichment":        SEARCH_QUERY_ENRICHMENT_PROMPT,
+    "summariser_system":        SUMMARISER_SYSTEM_PROMPT,
     "summarise_single":         SUMMARISE_SINGLE_PAPER_PROMPT,
     "summarise_across":         SUMMARISE_ACROSS_PAPERS_PROMPT,
     "verifier_extract_claims":  VERIFIER_EXTRACT_CLAIMS_PROMPT,
     "verifier_claim_check":     VERIFIER_CLAIM_CHECK_PROMPT,
     "verifier_error_type":      VERIFIER_ERROR_TYPE_PROMPT,
     "assembler":                ASSEMBLER_PROMPT,
+    "baseline_system":          BASELINE_SYSTEM_PROMPT,
     "baseline":                 BASELINE_PROMPT,
 }
 

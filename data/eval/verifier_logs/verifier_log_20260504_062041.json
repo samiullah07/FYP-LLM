@@ -1,0 +1,167 @@
+{
+  "run_id": "20260504_062041",
+  "timestamp": "2026-05-04T06:21:02.566778",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Kyu-Hwan Jung, 2023)",
+      "cited_author": "Kyu-Hwan Jung",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387029257",
+      "matched_title": "Uncover This Tech Term: Foundation Model",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Kyu-Hwan Jung"
+      ],
+      "matched_doi": "https://doi.org/10.3348/kjr.2023.0790"
+    },
+    {
+      "raw_citation": "(Pengfei Liu et al., 2022)",
+      "cited_author": "Pengfei Liu et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Laith Alzubaidi et al., 2021)",
+      "cited_author": "Laith Alzubaidi et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Karan Singhal et al., 2023)",
+      "cited_author": "Karan Singhal et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Yihan Cao et al., 2023)",
+      "cited_author": "Yihan Cao et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323706279",
+      "matched_title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative A",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yihan Cao",
+        "Siyu Li",
+        "Yixin Liu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.04226"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Risheng Wang et al., 2022)",
+      "cited_author": "Risheng Wang et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206693420",
+      "matched_title": "Medical image segmentation using deep learning: A survey",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Risheng Wang",
+        "Tao Lei",
+        "Ruixia Cui"
+      ],
+      "matched_doi": "https://doi.org/10.1049/ipr2.12419"
+    },
+    {
+      "raw_citation": "(Jun Ma et al., 2024)",
+      "cited_author": "Jun Ma et al.",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391109864",
+      "matched_title": "Segment anything in medical images",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jun Ma",
+        "Yuting He",
+        "Feifei Li"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-024-44824-z"
+    },
+    {
+      "raw_citation": "(Laith Alzubaidi et al., 2023)",
+      "cited_author": "Laith Alzubaidi et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4365504037",
+      "matched_title": "A survey on deep learning tools dealing with data scarcity: definitions, challen",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinshuai Bai",
+        "Aiman Al-Sabaawi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-023-00727-2"
+    }
+  ]
+}

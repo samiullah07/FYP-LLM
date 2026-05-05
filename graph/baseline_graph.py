@@ -37,6 +37,7 @@ from src.api_clients import search_openalex_works
 from src.config import settings
 from src.models import Paper, Citation
 from agents.verifier_agent import verify_review
+from configs.prompts import BASELINE_PROMPT
 
 
 # ---------------------------------------------------------------------------
@@ -110,26 +111,19 @@ def baseline_write_node(state: BaselineState) -> BaselineState:
         for p in papers[:15]
     )
 
-    # UPDATED PROMPT — forces LLM to cite confidently from memory
-    prompt = (
-        f"You are an expert academic writer with deep knowledge of AI research.\n\n"
-        f"Write a detailed literature review of 500-600 words on:\n"
-        f"Topic: {topic}\n\n"
-        f"You may use the papers below as a starting point, but also draw "
-        f"on your full academic knowledge to include additional relevant papers.\n\n"
-        f"REQUIREMENTS:\n"
-        f"1. Include AT LEAST 10-12 specific citations in Harvard format\n"
-        f"2. Cite specific authors, years, journal names, and findings\n"
-        f"3. Include citations from 2019-2026 covering key papers\n"
-        f"4. Write with full academic confidence\n"
-        f"5. Include both well-known and niche recent papers\n"
-        f"6. Use format: (Author et al., Year) inline\n"
-        f"7. End with full reference list in Harvard format\n"
-        f"8. Do NOT hesitate to cite — include papers even if details "
-        f"are approximate\n\n"
-        f"Available papers (supplement with your own knowledge):\n"
-        f"{paper_list_str}\n\n"
-        f"Write the full literature review now:"
+    from configs.prompts import BASELINE_PROMPT
+
+    # Build formatted papers string for the prompt placeholder
+    formatted_papers = "\n".join(
+        f"- {p.title} ({p.year or 'N/A'}) by {', '.join(p.authors[:2]) if p.authors else 'Unknown'}"
+        for p in papers[:15]
+    )
+
+    prompt = BASELINE_PROMPT.format(
+        papers=formatted_papers,
+        topic=topic,
+        min_citations=10,
+        max_words=600,
     )
 
     try:

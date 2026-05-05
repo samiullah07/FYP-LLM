@@ -1,0 +1,272 @@
+{
+  "run_id": "20260505_015357",
+  "timestamp": "2026-05-05T01:53:58.373238",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Thorsten Gressling, 2020)",
+      "cited_author": "Thorsten Gressling",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4211173503",
+      "matched_title": "84 Automated machine learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Thorsten Gressling"
+      ],
+      "matched_doi": "https://doi.org/10.1515/9783110629453-084"
+    },
+    {
+      "raw_citation": "(Lina Zhou and Shimei Pan, 2017)",
+      "cited_author": "Lina Zhou and Shimei Pan",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2576683119",
+      "matched_title": "Machine learning on big data: Opportunities and challenges",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Lina Zhou",
+        "Shimei Pan",
+        "Jianwu Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.neucom.2017.01.026"
+    },
+    {
+      "raw_citation": "(Ryan Marcus and Parimarjan Negi, 2021)",
+      "cited_author": "Ryan Marcus and Parimarjan Negi",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176153696",
+      "matched_title": "Bao: Making Learned Query Optimization Practical",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Ryan Marcus",
+        "Parimarjan Negi",
+        "Hongzi Mao"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3448016.3452838"
+    },
+    {
+      "raw_citation": "(Fangxin Wang and Miao Zhang, 2020)",
+      "cited_author": "Fangxin Wang and Miao Zhang",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3013557734",
+      "matched_title": "Deep Learning for Edge Computing Applications: A State-of-the-Art Survey",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Fangxin Wang",
+        "Miao Zhang",
+        "Xiangxiang Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2020.2982411"
+    },
+    {
+      "raw_citation": "(Sunil Vadera and Salem Ameen, 2022)",
+      "cited_author": "Sunil Vadera and Salem Ameen",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3096215947",
+      "matched_title": "Methods for Pruning Deep Neural Networks",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sunil Vadera",
+        "Salem Ameen"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2022.3182659"
+    },
+    {
+      "raw_citation": "(Lukas Fischer and Lisa Ehrlinger, 2020)",
+      "cited_author": "Lukas Fischer and Lisa Ehrlinger",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3117442988",
+      "matched_title": "AI System Engineering—Key Challenges and Lessons Learned",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Lukas Fischer",
+        "Lisa Ehrlinger",
+        "Verena Geist"
+      ],
+      "matched_doi": "https://doi.org/10.3390/make3010004"
+    },
+    {
+      "raw_citation": "(Davide Cacciarelli and Murat Külahçı, 2023)",
+      "cited_author": "Davide Cacciarelli and Murat Külahçı",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388817142",
+      "matched_title": "Active learning for data streams: a survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Davide Cacciarelli",
+        "Murat Külahçı"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10994-023-06454-2"
+    },
+    {
+      "raw_citation": "(Simon Caton and Christian Haas, 2023)",
+      "cited_author": "Simon Caton and Christian Haas",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092541244",
+      "matched_title": "Fairness in Machine Learning: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Simon Caton",
+        "Christian Haas"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3616865"
+    },
+    {
+      "raw_citation": "(Zhang and Mark Harman, 2019)",
+      "cited_author": "Zhang and Mark Harman",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2954855426",
+      "matched_title": "Machine Learning Testing: Survey, Landscapes and Horizons",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jie M. Zhang",
+        "Mark Harman",
+        "Lei Ma"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1906.10742"
+    },
+    {
+      "raw_citation": "(Eva Prašnikar and Martin Ljubič, 2024)",
+      "cited_author": "Eva Prašnikar and Martin Ljubič",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393316745",
+      "matched_title": "Machine learning heralding a new development phase in molecular dynamics simulat",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Eva Prašnikar",
+        "Martin Ljubič",
+        "Andrej Perdih"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10731-4"
+    },
+    {
+      "raw_citation": "(Mitra Baratchi and Can Wang, 2024)",
+      "cited_author": "Mitra Baratchi and Can Wang",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394927283",
+      "matched_title": "Automated machine learning: past, present and future",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mitra Baratchi",
+        "Can Wang",
+        "Steffen Limmer"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10726-1"
+    },
+    {
+      "raw_citation": "(Tanja Tornede and Alexander Tornede, 2023)",
+      "cited_author": "Tanja Tornede and Alexander Tornede",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3213776081",
+      "matched_title": "Towards Green Automated Machine Learning: Status Quo and Future Directions",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tanja Tornede",
+        "Alexander Tornede",
+        "Jonas Hanselle"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.1.14340"
+    },
+    {
+      "raw_citation": "(Sue Sin Chong and Yi Sheng Ng, 2023)",
+      "cited_author": "Sue Sin Chong and Yi Sheng Ng",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385327868",
+      "matched_title": "Advances of machine learning in materials science: Ideas and techniques",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sue Sin Chong",
+        "Yi Sheng Ng",
+        "Hui‐Qiong Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11467-023-1325-z"
+    },
+    {
+      "raw_citation": "(Huijben and Wouter Kool, 2022)",
+      "cited_author": "Huijben and Wouter Kool",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3203538342",
+      "matched_title": "A Review of the Gumbel-max Trick and its Extensions for Discrete Stochasticity i",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Iris A. M. Huijben",
+        "Wouter Kool",
+        "Max B. Paulus"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tpami.2022.3157042"
+    },
+    {
+      "raw_citation": "(Frank Hutter and Lars Kotthoff, 2019)",
+      "cited_author": "Frank Hutter and Lars Kotthoff",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4213308398",
+      "matched_title": "Automated Machine Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Frank Hutter",
+        "Lars Kotthoff",
+        "Joaquin Vanschoren"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-05318-5"
+    }
+  ]
+}

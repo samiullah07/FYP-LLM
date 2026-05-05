@@ -60,6 +60,8 @@ class ReviewState(TypedDict):
     retry_count:             int
     latency_seconds:         float
     token_estimate:          int
+    prompt_tokens:           int
+    completion_tokens:        int
     selected_model:          str
     topic_type:              str
     mab_policy:              dict
@@ -75,8 +77,12 @@ def planner_node(state: ReviewState) -> ReviewState:
     if not topic:
         print("[Graph] WARNING: topic is empty in planner_node")
         return state
-    sub_queries          = plan_topic(topic)
+    # plan_topic now returns (sub_queries, usage)
+    sub_queries, usage = plan_topic(topic)
     state["sub_queries"] = sub_queries
+    # Accumulate token usage from planner
+    state["prompt_tokens"] = state.get("prompt_tokens", 0) + usage.get("prompt_tokens", 0)
+    state["completion_tokens"] = state.get("completion_tokens", 0) + usage.get("completion_tokens", 0)
     return state
 
 
@@ -98,9 +104,25 @@ def summariser_node(state: ReviewState) -> ReviewState:
     print("\n[Graph] -- Node 3: Summariser -----------------------")
     papers                = state.get("papers", [])
     topic                 = state.get("topic", "")
-    review_text, papers_used = write_literature_review(papers, topic)
+    result = write_literature_review(papers, topic)
+    # Handle both old tuple and new dict return formats
+    if isinstance(result, dict):
+        review_text = result.get("review_text", "")
+        papers_used = result.get("papers_used", [])
+        usage = result.get("usage", {})
+        original_word_count = result.get("original_word_count", 0)
+        final_word_count = result.get("final_word_count", 0)
+    else:
+        review_text, papers_used, usage = result
+        original_word_count = 0
+        final_word_count = 0
     state["draft_review"] = review_text
     state["papers_used"]  = papers_used
+    # Accumulate token usage from summariser
+    state["prompt_tokens"] = state.get("prompt_tokens", 0) + usage.get("prompt_tokens", 0)
+    state["completion_tokens"] = state.get("completion_tokens", 0) + usage.get("completion_tokens", 0)
+    state["review_original_word_count"] = original_word_count
+    state["review_final_word_count"] = final_word_count
     return state
 
 
@@ -239,7 +261,7 @@ def build_workflow():
 # ---------------------------------------------------------------------------
 # Run workflow
 # ---------------------------------------------------------------------------
-def run_workflow(topic: str) -> ReviewState:
+def run_workflow(topic: str, force_model: str = None, enable_claim_check: bool = False) -> ReviewState:
     """
     Run full 5-agent pipeline.
     MAB model selection happens HERE before graph starts.
@@ -254,7 +276,7 @@ def run_workflow(topic: str) -> ReviewState:
 
     if MAB_AVAILABLE:
         try:
-            selected_model, topic_type = bandit.select_model(topic)
+            selected_model, topic_type = bandit.select_model(topic, force_model=force_model)
             settings.llm_model = selected_model
             print(f"\n[MAB] Selected model : {selected_model}")
             print(f"[MAB] Topic type     : {topic_type}")
@@ -287,6 +309,7 @@ def run_workflow(topic: str) -> ReviewState:
         "topic_type":              topic_type,
         "mab_policy":              {},
         "passes_completed":        0,
+        "enable_claim_check":     enable_claim_check,
     }
 
     print("\n" + "=" * 60)

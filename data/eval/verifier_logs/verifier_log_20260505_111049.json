@@ -1,0 +1,204 @@
+{
+  "run_id": "20260505_111049",
+  "timestamp": "2026-05-05T11:11:09.016146",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Saidul Islam and Hanae Elmekki, 2023)",
+      "cited_author": "Saidul Islam and Hanae Elmekki",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388923662",
+      "matched_title": "A comprehensive survey on applications of transformers for deep learning tasks",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Saidul Islam",
+        "Hanae Elmekki",
+        "Ahmed Elsebai"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.eswa.2023.122666"
+    },
+    {
+      "raw_citation": "(Pengfei Liu and Weizhe Yuan, 2022)",
+      "cited_author": "Pengfei Liu and Weizhe Yuan",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Sushant Kumar Singh and Ausif Mahmood, 2021)",
+      "cited_author": "Sushant Kumar Singh and Ausif Mahmood",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3163832451",
+      "matched_title": "The NLP Cookbook: Modern Recipes for Transformer Based Deep Learning Architectur",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Sushant Kumar Singh",
+        "Ausif Mahmood"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3077350"
+    },
+    {
+      "raw_citation": "(José Maurício and Inês Domingues, 2023)",
+      "cited_author": "José Maurício and Inês Domingues",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4367598041",
+      "matched_title": "Comparing Vision Transformers and Convolutional Neural Networks for Image Classi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "José Maurício",
+        "Inês Domingues",
+        "Jorge Bernardino"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app13095521"
+    },
+    {
+      "raw_citation": "(Marco Polignano and Valerio Basile, 2019)",
+      "cited_author": "Marco Polignano and Valerio Basile",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3127549303",
+      "matched_title": "AlBERTo: Modeling Italian Social Media Language with BERT",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Marco Polignano",
+        "Valerio Basile",
+        "Pierpaolo Basile"
+      ],
+      "matched_doi": "https://doi.org/10.4000/ijcol.472"
+    },
+    {
+      "raw_citation": "(Xiaoqi Jiao and Yichun Yin, 2020)",
+      "cited_author": "Xiaoqi Jiao and Yichun Yin",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3105966348",
+      "matched_title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaoqi Jiao",
+        "Yichun Yin",
+        "Lifeng Shang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.372"
+    },
+    {
+      "raw_citation": "(Tianyu Gao and Xingcheng Yao, 2021)",
+      "cited_author": "Tianyu Gao and Xingcheng Yao",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3156636935",
+      "matched_title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Tianyu Gao",
+        "Xingcheng Yao",
+        "Danqi Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.emnlp-main.552"
+    },
+    {
+      "raw_citation": "(Haoyi Zhou and Shanghang Zhang, 2021)",
+      "cited_author": "Haoyi Zhou and Shanghang Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3177318507",
+      "matched_title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Haoyi Zhou",
+        "Shanghang Zhang",
+        "Jieqi Peng"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v35i12.17325"
+    },
+    {
+      "raw_citation": "(Laith Alzubaidi and Jinglan Zhang, 2021)",
+      "cited_author": "Laith Alzubaidi and Jinglan Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Diksha Khurana and Aditya Koli, 2022)",
+      "cited_author": "Diksha Khurana and Aditya Koli",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2747680751",
+      "matched_title": "Natural language processing: state of the art, current trends and challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Diksha Khurana",
+        "Aditya Koli",
+        "Kiran Khatter"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11042-022-13428-4"
+    },
+    {
+      "raw_citation": "(Iveta Dirgová Ľuptáková and Martin Kubovčík, 2022)",
+      "cited_author": "Iveta Dirgová Ľuptáková and Martin Kubovčík",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4214843096",
+      "matched_title": "Wearable Sensor-Based Human Activity Recognition with Transformer Model",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Iveta Dirgová Ľuptáková",
+        "Martin Kubovčík",
+        "Jiřı́ Pospı́chal"
+      ],
+      "matched_doi": "https://doi.org/10.3390/s22051911"
+    }
+  ]
+}

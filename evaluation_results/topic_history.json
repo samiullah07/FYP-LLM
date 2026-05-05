@@ -570,5 +570,137 @@
     "latency": 21.21,
     "model": "llama-3.3-70b-versatile",
     "papers": 0
+  },
+  {
+    "topic": "What techniques reduce hallucinations in large language models?",
+    "timestamp": "2026-04-30T12:49:52.147279",
+    "hall_pct": 0.0,
+    "valid": 12,
+    "hallucinated": 0,
+    "total": 12,
+    "latency": 21.95,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Quantum error correction using topological qubits in fault-tolerant computing post 2023",
+    "timestamp": "2026-05-03T22:38:16.270149",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 14,
+    "latency": 26.48,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 17
+  },
+  {
+    "topic": "Transformer self-attention mechanisms in natural language processing",
+    "timestamp": "2026-05-03T23:07:21.575350",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 11,
+    "latency": 30.15,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 15
+  },
+  {
+    "topic": "Can Retrieval-Augmented Generation reduce hallucinations in Retrieval-Augmented Generation systems?",
+    "timestamp": "2026-05-03T23:09:29.087509",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 10,
+    "latency": 28.09,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 15
+  },
+  {
+    "topic": "Federated learning for privacy-preserving clinical decision support in hospital networks",
+    "timestamp": "2026-05-04T05:55:39.546766",
+    "hall_pct": 7.1,
+    "valid": 0,
+    "hallucinated": 1,
+    "total": 14,
+    "latency": 20.09,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 18
+  },
+  {
+    "topic": "Hallucination detection and mitigation strategies in retrieval-augmented generation systems",
+    "timestamp": "2026-05-04T05:57:27.719882",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 12,
+    "latency": 17.32,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 14
+  },
+  {
+    "topic": "Agentic AI for reliable academic literature review and hallucination mitigation",
+    "timestamp": "2026-05-04T06:00:00.562199",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 4,
+    "latency": 19.32,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 18
+  },
+  {
+    "topic": "Zero-shot learning and few-shot generalisation in vision-language foundation models",
+    "timestamp": "2026-05-04T06:06:32.294786",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 0,
+    "latency": 20.77,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 20
+  },
+  {
+    "topic": "Deterministic citation verification without large language models in automated literature review",
+    "timestamp": "2026-05-04T23:55:00.072333",
+    "hall_pct": 0.0,
+    "valid": 0,
+    "hallucinated": 0,
+    "total": 15,
+    "latency": 22.79,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 23
+  },
+  {
+    "topic": "Multi-armed bandit algorithms for adaptive model selection in NLP inference pipelines",
+    "timestamp": "2026-05-04T23:56:37.157574",
+    "hall_pct": 7.7,
+    "valid": 0,
+    "hallucinated": 1,
+    "total": 13,
+    "latency": 23.54,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 20
+  },
+  {
+    "topic": "Large language model alignment using reinforcement learning from human feedback post 2022",
+    "timestamp": "2026-05-05T01:01:41.970564",
+    "hall_pct": 0.0,
+    "valid": 14,
+    "hallucinated": 0,
+    "total": 14,
+    "latency": 17.85,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 14
+  },
+  {
+    "topic": "Self-attention mechanisms and transformer architectures in natural language processing",
+    "timestamp": "2026-05-05T11:07:53.802919",
+    "hall_pct": 28.599999999999998,
+    "valid": 4,
+    "hallucinated": 2,
+    "total": 7,
+    "latency": 23.09,
+    "model": "llama-3.1-8b-instant",
+    "papers": 0
   }
 ]

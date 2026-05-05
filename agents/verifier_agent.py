@@ -9,8 +9,9 @@ This agent verifies citations in a generated literature review against:
 For each citation produces:
     - status      : VALID / PARTIAL / HALLUCINATED
     - confidence  : 0.0 to 1.0 combining author + year + title signals
-    - error_type  : FABRICATED_PAPER / WRONG_YEAR / WRONG_AUTHOR /
-                    MISATTRIBUTION / UNKNOWN
+    - error_type  : UNKNOWN / WRONG_YEAR / WRONG_AUTHOR /
+                    MISATTRIBUTION / Year off by 1 / Title mismatch /
+                    Author partial match / Metadata incomplete
     - matched_paper: Paper object if a match was found
 
 Addresses IPR feedback:
@@ -49,9 +50,12 @@ YEAR_EXACT_TOLERANCE   = 0      # exact year only for VALID
 YEAR_PARTIAL_TOLERANCE = 1      # was 2 — only ±1 year for PARTIAL
 
 # Confidence score weights (must sum to 1.0)
-W_AUTHOR = 0.55   # was 0.40 — author match is most important signal
-W_YEAR   = 0.35   # unchanged
-W_TITLE  = 0.10   # was 0.25 — reduce title bonus impact
+# Weights calibrated via tools/calibrate_weights.py
+# on 659 real citations (F1=0.998, FPR=6.5%)
+# Original hand-tuned: 0.55 / 0.35 / 0.10
+W_AUTHOR = 0.40
+W_YEAR   = 0.30
+W_TITLE  = 0.30
 
 MAX_OPENALEX_RESULTS = 5
 LOG_DIR = settings.data_dir / "eval" / "verifier_logs"
@@ -194,10 +198,9 @@ def _compute_confidence(
     """
     Compute a confidence score (0.0 to 1.0) for a candidate paper match.
 
-    Combines three signals:
+    Combines two signals (title removed — Harvard citations have no title):
         1. Author similarity  — fuzzy match of cited author vs paper authors
         2. Year match         — exact=1.0, within tolerance=partial, else=0.0
-        3. Title bonus        — small boost if author surname in paper title
 
     Parameters
     ----------
@@ -238,19 +241,10 @@ def _compute_confidence(
     else:
         year_score = 0.0
 
-    # --- Title bonus ---
-    paper_title = _normalise_text(paper.title or "")
-    title_score = (
-        0.5 if cited_words and any(w in paper_title for w in cited_words)
-        else 0.0
-    )
-
-    # --- Weighted combination ---
-    confidence = (
-        W_AUTHOR * author_score +
-        W_YEAR   * year_score   +
-        W_TITLE  * title_score
-    )
+    # --- Weighted combination (no title — Harvard citations have no title) ---
+    weight_sum = W_AUTHOR + W_YEAR
+    confidence_raw = W_AUTHOR * author_score + W_YEAR * year_score
+    confidence = confidence_raw / weight_sum if weight_sum > 0 else confidence_raw
 
     return round(min(confidence, 1.0), 3)
 
@@ -263,23 +257,34 @@ def _determine_status(
     cited_year: int,
     paper:      Paper,
     confidence: float,
-) -> str:
+) -> tuple[str, str]:
     """
-    UPDATED: Stricter thresholds to better detect hallucinations.
+    Determine status and provide a reason for Harvard in‑text citations.
 
-    VALID       : confidence >= 0.75 AND exact year match
-    PARTIAL     : confidence >= 0.55 AND year within ±1
-    HALLUCINATED: everything else
+    Returns a tuple (status, reason) where status is one of:
+        VALID, PARTIAL, HALLUCINATED
+    and reason is a short explanation used for logging.
     """
     paper_year = paper.year or 0
     year_diff  = abs(paper_year - cited_year)
 
-    if confidence >= 0.75 and year_diff == 0:
-        return "VALID"
-    elif confidence >= 0.55 and year_diff <= 1:
-        return "PARTIAL"
-    else:
-        return "HALLUCINATED"
+    # High confidence and exact year → strong VALID
+    if confidence >= 0.80 and year_diff == 0:
+        return "VALID", "DOI and metadata fully match"
+    # Slightly lower confidence but exact year → VALID based on strong author match
+    if confidence >= 0.65 and year_diff == 0:
+        return "VALID", "Strong author match, year exact"
+    # Exact year but confidence a bit lower → PARTIAL (year correct, author variation)
+    if confidence >= 0.55 and year_diff == 0:
+        return "PARTIAL", "Author variation detected"
+    # Year off by one → PARTIAL with explicit note
+    if confidence >= 0.55 and year_diff == 1:
+        return "PARTIAL", f"Year off by {year_diff}"
+    # Lower confidence but still some signal → PARTIAL generic
+    if confidence >= 0.40:
+        return "PARTIAL", "Author variation detected"
+    # Otherwise we consider it hallucinated
+    return "HALLUCINATED", "Insufficient match or paper not found"
 # ---------------------------------------------------------------------------
 # Step 4: Classify error type
 # ---------------------------------------------------------------------------
@@ -293,30 +298,45 @@ def _classify_error_type(
     Classify error type for a citation that failed verification.
 
     Error types:
-        FABRICATED_PAPER : no matching paper found anywhere
-        WRONG_YEAR       : paper exists but year is wrong
-        WRONG_AUTHOR     : paper exists but author does not match
-        MISATTRIBUTION   : paper exists but both author and year wrong
-        UNKNOWN          : cannot determine
+        UNKNOWN              : no matching paper found in OpenAlex
+        WRONG_YEAR           : paper exists but year is wrong
+        WRONG_AUTHOR         : paper exists but author does not match
+        MISATTRIBUTION       : paper exists but both author and year wrong
+        Year off by 1        : year is off by 1 (partial match)
+        Title mismatch       : title does not match well
+        Author partial match : author partially matches
+        Metadata incomplete : cannot determine specific reason
     """
     if matched_paper is None:
-        return "FABRICATED_PAPER"
+        return "UNKNOWN"
 
     paper_year    = matched_paper.year or 0
     paper_authors = _normalise_text(" ".join(matched_paper.authors or []))
+    paper_title   = _normalise_text(matched_paper.title or "")
     cited_words   = _author_words(cited_author)
 
     year_diff    = abs(paper_year - cited_year)
     author_match = any(w in paper_authors for w in cited_words)
+    title_match  = any(w in paper_title for w in cited_words)
 
+    # Specific error types for clearly wrong cases
     if year_diff > YEAR_PARTIAL_TOLERANCE and author_match:
         return "WRONG_YEAR"
     elif not author_match and year_diff <= YEAR_PARTIAL_TOLERANCE:
         return "WRONG_AUTHOR"
     elif not author_match and year_diff > YEAR_PARTIAL_TOLERANCE:
         return "MISATTRIBUTION"
-    else:
-        return "UNKNOWN"
+
+    # For PARTIAL citations: explain WHY it is partial
+    if year_diff == 1:
+        return "Year off by 1"
+    if not title_match:
+        return "Title mismatch"
+    if not author_match:
+        return "Author partial match"
+
+    # Fallback for PARTIAL where we can't determine specific reason
+    return "Metadata incomplete"
 
 
 # ---------------------------------------------------------------------------
@@ -602,9 +622,9 @@ def verify_review(
 
         # --- Determine VALID / PARTIAL / HALLUCINATED ---
         if matched_paper and confidence >= 0.45:
-            status = _determine_status(year, matched_paper, confidence)
+            status, reason = _determine_status(year, matched_paper, confidence)
         else:
-            status        = "HALLUCINATED"
+            status, reason = "HALLUCINATED", "Insufficient match or paper not found"
             matched_paper = None
 
         # --- Classify error type (only for non-VALID) ---
@@ -632,7 +652,7 @@ def verify_review(
         else:
             hallucinated_count += 1
             print(
-                f"  -> HALLUCINATED ✗ "
+                f"  -> HALLUCINATED [X] "
                 f"(conf: {confidence:.2f}, {error_type})"
             )
 

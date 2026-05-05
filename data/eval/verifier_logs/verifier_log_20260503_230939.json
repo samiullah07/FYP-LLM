@@ -1,0 +1,220 @@
+{
+  "run_id": "20260503_230939",
+  "timestamp": "2026-05-03T23:09:39.927317",
+  "total": 12,
+  "entries": [
+    {
+      "raw_citation": "(Gao and Xiong, 2023)",
+      "cited_author": "Gao and Xiong",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389984066",
+      "matched_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yunfan Gao",
+        "Yun Xiong",
+        "Xinyu Gao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.10997"
+    },
+    {
+      "raw_citation": "(Béchard and Ayala, 2024)",
+      "cited_author": "Béchard and Ayala",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4394838812",
+      "matched_title": "Reducing hallucination in structured outputs via Retrieval-Augmented Generation",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Patrice Béchard",
+        "Orlando Marquez Ayala"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2404.08189"
+    },
+    {
+      "raw_citation": "(Lakatos and Pollner, 2025)",
+      "cited_author": "Lakatos and Pollner",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407298138",
+      "matched_title": "Investigating the Performance of Retrieval-Augmented Generation and Domain-Speci",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Róbert Lakatos",
+        "Péter Pollner",
+        "András Hajdú"
+      ],
+      "matched_doi": "https://doi.org/10.3390/make7010015"
+    },
+    {
+      "raw_citation": "(Róbert Lakatos and Péter Pollner, 2025)",
+      "cited_author": "Róbert Lakatos and Péter Pollner",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407298138",
+      "matched_title": "Investigating the Performance of Retrieval-Augmented Generation and Domain-Speci",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Róbert Lakatos",
+        "Péter Pollner",
+        "András Hajdú"
+      ],
+      "matched_doi": "https://doi.org/10.3390/make7010015"
+    },
+    {
+      "raw_citation": "(Singhal and Azizi, 2023)",
+      "cited_author": "Singhal and Azizi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Wang and Yang, 2024)",
+      "cited_author": "Wang and Yang",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392491647",
+      "matched_title": "JMLR: Joint Medical LLM and Retrieval Training for Enhancing Reasoning and Profe",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Junda Wang",
+        "Zhichao Yang",
+        "Zonghai Yao"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2402.17887"
+    },
+    {
+      "raw_citation": "(Papageorgiou and Sarlis, 2025)",
+      "cited_author": "Papageorgiou and Sarlis",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4411026510",
+      "matched_title": "Hybrid Multi-Agent GraphRAG for E-Government: Towards a Trustworthy AI Assistant",
+      "matched_year": 2025,
+      "matched_authors": [
+        "George Papageorgiou",
+        "Vangelis Sarlis",
+        "Manolis Μaragoudakis"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app15116315"
+    },
+    {
+      "raw_citation": "(Sallam, 2023)",
+      "cited_author": "Sallam",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327946446",
+      "matched_title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Malik Sallam"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare11060887"
+    },
+    {
+      "raw_citation": "(Alowais and Alghamdi, 2023)",
+      "cited_author": "Alowais and Alghamdi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386958277",
+      "matched_title": "Revolutionizing healthcare: the role of artificial intelligence in clinical prac",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shuroug A. Alowais",
+        "Sahar S. Alghamdi",
+        "Nada Alsuhebany"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s12909-023-04698-z"
+    },
+    {
+      "raw_citation": "(Wijegunarathna and Stock, 2023)",
+      "cited_author": "Wijegunarathna and Stock",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Anantha and Bethi, 2023)",
+      "cited_author": "Anantha and Bethi",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389650560",
+      "matched_title": "Context Tuning for Retrieval Augmented Generation",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Raviteja Anantha",
+        "Tharun Bethi",
+        "Danil Vodianik"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2312.05708"
+    },
+    {
+      "raw_citation": "(Brien, 2023)",
+      "cited_author": "Brien",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387835442",
+      "matched_title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Joon Sung Park",
+        "Joseph O’Brien",
+        "Carrie J. Cai"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3586183.3606763"
+    }
+  ]
+}

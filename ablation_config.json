@@ -1,15 +1,60 @@
 {
   "models": [
     "llama-3.3-70b-versatile",
-    "llama3-8b-8192",
+    "llama-3.1-8b-instant",
     "llama3-groq-8b-8192-tool-use-preview"
   ],
   "topics": [
     "Agentic AI for reliable academic literature review and hallucination mitigation",
     "Transformer architecture improvements in large language models 2020-2024",
-    "Quantum computing applications in cryptography post-2022"
+    "Quantum computing applications in cryptography post 2022",
+    "Retrieval-augmented generation for reducing hallucinations in language models",
+    "Federated learning for privacy-preserving machine learning in healthcare",
+    "Large language model evaluation benchmarks and their limitations",
+    "Graph neural networks for drug discovery and molecular property prediction",
+    "COVID-19 vaccine hesitancy and social media misinformation spread",
+    "Mental health interventions using smartphone applications systematic review",
+    "Electronic health records and clinical decision support systems",
+    "Social determinants of health and health inequalities in urban populations",
+    "Misinformation detection in online social networks using machine learning",
+    "Explainable artificial intelligence methods for medical image diagnosis",
+    "Reinforcement learning from human feedback for language model alignment",
+    "Knowledge graph embedding methods for entity and relation prediction"
   ],
-  "topic_types": ["moderate", "well-covered", "niche"],
+  "topic_types": [
+    "moderate",
+    "well-covered",
+    "niche",
+    "moderate",
+    "niche",
+    "well-covered",
+    "niche",
+    "moderate",
+    "moderate",
+    "well-covered",
+    "moderate",
+    "niche",
+    "moderate",
+    "well-covered",
+    "niche"
+  ],
+  "domains": [
+    "computer_science",
+    "computer_science",
+    "computer_science",
+    "computer_science",
+    "computer_science",
+    "computer_science",
+    "computer_science",
+    "social_science",
+    "social_science",
+    "medicine",
+    "social_science",
+    "social_science",
+    "computer_science",
+    "computer_science",
+    "computer_science"
+  ],
   "runs_per_cell": 1,
-  "groq_cost_per_token_usd": 0.0000008
+  "groq_cost_per_token_usd": 8e-07
 }

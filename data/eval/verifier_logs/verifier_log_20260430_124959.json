@@ -1,0 +1,270 @@
+{
+  "run_id": "20260430_124959",
+  "timestamp": "2026-04-30T12:49:59.898977",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Sallam, 2023)",
+      "cited_author": "Sallam",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327946446",
+      "matched_title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Revi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Malik Sallam"
+      ],
+      "matched_doi": "https://doi.org/10.3390/healthcare11060887"
+    },
+    {
+      "raw_citation": "(Gilson and Safranek, 2023)",
+      "cited_author": "Gilson and Safranek",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4319460874",
+      "matched_title": "How Does ChatGPT Perform on the United States Medical Licensing Examination (USM",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Aidan Gilson",
+        "Conrad Safranek",
+        "Thomas Huang"
+      ],
+      "matched_doi": "https://doi.org/10.2196/45312"
+    },
+    {
+      "raw_citation": "(Wijegunarathna and Stock, 2023)",
+      "cited_author": "Wijegunarathna and Stock",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Singhal and Azizi, 2023)",
+      "cited_author": "Singhal and Azizi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    },
+    {
+      "raw_citation": "(Shorten and Khoshgoftaar, 2021)",
+      "cited_author": "Shorten and Khoshgoftaar",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Zhao and Zhou, 2023)",
+      "cited_author": "Zhao and Zhou",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Rudolph and Tan, 2023)",
+      "cited_author": "Rudolph and Tan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317910584",
+      "matched_title": "ChatGPT: Bullshit spewer or the end of traditional assessments in higher educati",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jürgen Rudolph",
+        "Samson Tan",
+        "Shannon Tan"
+      ],
+      "matched_doi": "https://doi.org/10.37074/jalt.2023.6.1.9"
+    },
+    {
+      "raw_citation": "(Villemagne and Burnham, 2023)",
+      "cited_author": "Villemagne and Burnham",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4324309277",
+      "matched_title": "2023 Alzheimer's disease facts and figures",
+      "matched_year": 2023,
+      "matched_authors": [
+        "V Villemagne",
+        "S Burnham",
+        "P Bourgeat"
+      ],
+      "matched_doi": "https://doi.org/10.1002/alz.13016"
+    },
+    {
+      "raw_citation": "(Lefaucheur and Alemán, 2020)",
+      "cited_author": "Lefaucheur and Alemán",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2997901555",
+      "matched_title": "Evidence-based guidelines on the therapeutic use of repetitive transcranial magn",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Jean‐Pascal Lefaucheur",
+        "André Alemán",
+        "Chris Baeken"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.clinph.2019.11.002"
+    },
+    {
+      "raw_citation": "(Kessler and Üstün, 2004)",
+      "cited_author": "Kessler and Üstün",
+      "cited_year": 2004,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2115609473",
+      "matched_title": "The World Mental Health (WMH) Survey Initiative version of the World Health Orga",
+      "matched_year": 2004,
+      "matched_authors": [
+        "Ronald C. Kessler",
+        "T. Bedirhan Üstün"
+      ],
+      "matched_doi": "https://doi.org/10.1002/mpr.168"
+    },
+    {
+      "raw_citation": "(Andreasen and Paradiso, 1998)",
+      "cited_author": "Andreasen and Paradiso",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2126159475",
+      "matched_title": "\"Cognitive Dysmetria\" as an Integrative Theory of Schizophrenia: A Dysfunction i",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Nancy C. Andreasen",
+        "Sergio Paradiso",
+        "Daniel S. OʼLeary"
+      ],
+      "matched_doi": "https://doi.org/10.1093/oxfordjournals.schbul.a033321"
+    },
+    {
+      "raw_citation": "(Clark, 2013)",
+      "cited_author": "Clark",
+      "cited_year": 2013,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2153791616",
+      "matched_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive s",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andy Clark"
+      ],
+      "matched_doi": "https://doi.org/10.1017/s0140525x12000477"
+    },
+    {
+      "raw_citation": "(Rossi and Hallett, 2009)",
+      "cited_author": "Rossi and Hallett",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2156092714",
+      "matched_title": "Safety, ethical considerations, and application guidelines for the use of transc",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Símone Rossi",
+        "Mark Hallett",
+        "Paolo Maria Rossini"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.clinph.2009.08.016"
+    },
+    {
+      "raw_citation": "(Devlin and Skrobik, 2018)",
+      "cited_author": "Devlin and Skrobik",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2885896746",
+      "matched_title": "Clinical Practice Guidelines for the Prevention and Management of Pain, Agitatio",
+      "matched_year": 2018,
+      "matched_authors": [
+        "John W. Devlin",
+        "Yoanna Skrobik",
+        "Céline Gélinas"
+      ],
+      "matched_doi": "https://doi.org/10.1097/ccm.0000000000003299"
+    },
+    {
+      "raw_citation": "(Bélisle-Pipon, 2024)",
+      "cited_author": "Bélisle-Pipon",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 0.9,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4405021649",
+      "matched_title": "Why we need to be careful with LLMs in medicine",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jean‐Christophe Bélisle‐Pipon"
+      ],
+      "matched_doi": "https://doi.org/10.3389/fmed.2024.1495582"
+    }
+  ]
+}

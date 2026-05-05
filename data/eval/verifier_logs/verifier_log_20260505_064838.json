@@ -1,0 +1,200 @@
+{
+  "run_id": "20260505_064838",
+  "timestamp": "2026-05-05T06:49:02.862273",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Köpf et al., 2023)",
+      "cited_author": "Köpf et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4366341216",
+      "matched_title": "OpenAssistant Conversations -- Democratizing Large Language Model Alignment",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Andreas Köpf",
+        "Yannic Kilcher",
+        "Dimitri von Rütte"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2304.07327"
+    },
+    {
+      "raw_citation": "(Bai et al., 2023)",
+      "cited_author": "Bai et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387225871",
+      "matched_title": "Qwen Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jinze Bai",
+        "Shuai Bai",
+        "Yunfei Chu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.16609"
+    },
+    {
+      "raw_citation": "(Dwivedi et al., 2023)",
+      "cited_author": "Dwivedi et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Yu et al., 2023)",
+      "cited_author": "Yu et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zawacki‐Richter et al., 2019)",
+      "cited_author": "Zawacki‐Richter et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Wijegunarathna et al., 2023)",
+      "cited_author": "Wijegunarathna et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4327810158",
+      "matched_title": "GPT-4 Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wijegunarathna, Kalana",
+        "Stock, Kristin",
+        "Jones, Christopher B."
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2024.11"
+    },
+    {
+      "raw_citation": "(Zhao et al., 2023)",
+      "cited_author": "Zhao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387225871",
+      "matched_title": "Qwen Technical Report",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jinze Bai",
+        "Shuai Bai",
+        "Yunfei Chu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.16609"
+    },
+    {
+      "raw_citation": "(Hassija et al., 2023)",
+      "cited_author": "Hassija et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386142022",
+      "matched_title": "Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Vikas Hassija",
+        "Vinay Chamola",
+        "Atmesh Mahapatra"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s12559-023-10179-8"
+    },
+    {
+      "raw_citation": "(Ali et al., 2023)",
+      "cited_author": "Ali et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Zhu et al., 2020)",
+      "cited_author": "Zhu et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4365799947",
+      "matched_title": "Proceedings of the 28th International Conference on Computational Linguistics",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaodan Zhu",
+        "Preslav Nakov",
+        "Jun Zhao"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.coling-main"
+    },
+    {
+      "raw_citation": "(Park et al., 2022)",
+      "cited_author": "Park et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4206484811",
+      "matched_title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Sangmin Park",
+        "Young‐Gab Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1109/access.2021.3140175"
+    }
+  ]
+}

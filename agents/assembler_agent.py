@@ -95,23 +95,34 @@ def _count_changes(
     draft: str,
     final: str,
     hallucinated_citations: list[Citation],
+    assembler_changes: list[dict] | None = None,
 ) -> dict:
     """
-    Produce a simple change log comparing draft and final review.
+    Produce a change log comparing draft and final review.
 
     Parameters
     ----------
     draft               : original draft review text
     final               : cleaned final review text
     hallucinated_citations : list of hallucinated Citation objects
+    assembler_changes    : detailed list of sentence changes (optional)
 
     Returns
     -------
-    dict with change statistics
+    dict with change statistics including actual words removed
     """
     draft_words = len(draft.split())
     final_words = len(final.split())
-    word_diff   = draft_words - final_words
+
+    # If we have detailed assembler changes, use them for accurate word count
+    if assembler_changes:
+        words_removed = sum(
+            len(c.get("original_sentence", "").split())
+            for c in assembler_changes
+            if c.get("new_sentence") == "DROPPED"
+        )
+    else:
+        words_removed = max(0, draft_words - final_words)
 
     hallucinated_refs = [
         c.raw_reference
@@ -119,24 +130,59 @@ def _count_changes(
         if c.valid is False
     ]
 
-    removed_from_final = [
-        ref for ref in hallucinated_refs
-        if ref.split(",")[0].split("(")[-1].strip() not in final
-    ]
-
     return {
         "draft_word_count":       draft_words,
         "final_word_count":       final_words,
-        "words_removed":          max(0, word_diff),
+        "words_removed":          words_removed,
         "hallucinated_count":     len(hallucinated_refs),
         "hallucinated_refs":      hallucinated_refs,
-        "likely_removed_refs":    removed_from_final,
-        "review_shortened_by":    f"{max(0, word_diff)} words",
+        "likely_removed_refs":    hallucinated_refs,
+        "review_shortened_by":    f"{words_removed} words",
+        "sentences_dropped":      len([c for c in (assembler_changes or []) if c.get("new_sentence") == "DROPPED"]),
+        "sentences_rewritten":     len([c for c in (assembler_changes or []) if c.get("new_sentence") != "DROPPED"]),
+        "assembler_changes":       assembler_changes or [],
     }
 
 
 # ---------------------------------------------------------------------------
 # Core assembler function
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# Helper: parse sentences and find citations in each sentence
+# ---------------------------------------------------------------------------
+
+def _find_citations_in_sentence(sentence: str, citations: list[Citation]) -> list[Citation]:
+    """Find which citations are referenced in a sentence."""
+    found = []
+    sentence_lower = sentence.lower()
+    for cit in citations:
+        if cit.raw_reference.lower() in sentence_lower:
+            found.append(cit)
+    return found
+
+
+def _rewrite_with_hedge(sentence: str, citations: list[Citation]) -> str:
+    """Rewrite a sentence with hedging language for PARTIAL citations."""
+    import re
+    for cit in citations:
+        raw = cit.raw_reference
+        match = re.search(r"([A-Za-z\s&]+)\s*\((\d{4})\)", raw)
+        if match:
+            author = match.group(1).strip()
+            year = match.group(2)
+            hedge = f"There is emerging evidence from {author} ({year}) suggests that"
+            sentence = re.sub(
+                r"\(?\s*" + re.escape(author) + r".*?" + year + r"\)?",
+                hedge,
+                sentence,
+                count=1
+            )
+    return sentence
+
+
+# ---------------------------------------------------------------------------
+# Core assembler function — NOW actually uses citation statuses
 # ---------------------------------------------------------------------------
 
 def assemble_final_review(
@@ -145,12 +191,17 @@ def assemble_final_review(
     citations: list[Citation],
 ) -> dict:
     """
-    Produce the final cleaned literature review using the Assembler prompt.
+    Produce the final cleaned literature review by processing sentences
+    based on citation status.
 
     Process:
-        1. Format citation status list (VALID / PARTIAL / HALLUCINATED).
-        2. Call LLM with frozen assembler prompt.
-        3. Return final review text + change log + verified refs only.
+        1. Split draft into sentences.
+        2. For each sentence, find which citations it references.
+        3. If citation is HALLUCINATED: DROP sentence.
+        4. If citation is PARTIAL: REWRITE with hedging.
+        5. If citation is VALID: Keep unchanged.
+        6. Log all changes to assembler_changes list.
+        7. Join sentences back into final review.
 
     Parameters
     ----------
@@ -163,80 +214,86 @@ def assemble_final_review(
 
     Returns
     -------
-    dict with keys:
-        final_review     : str   — cleaned review text
-        changes          : dict  — change log statistics
-        verified_refs    : list  — only valid citation strings
-        hallucinated_refs: list  — removed citation strings
-        prompt_version   : str   — prompt version used
+    dict with final_review, changes, verified_refs, hallucinated_refs
     """
-    client = _get_groq_client()
+    import re
 
-    # Step 1: Format citation status for the prompt
-    citation_status_str = _format_citation_status(citations)
+    # Step 1: Split into sentences
+    sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', draft_review) if s.strip()]
+    if not sentences:
+        sentences = [draft_review]
 
-    print("\n[AssemblerAgent] Citation status for assembler:")
-    print(citation_status_str)
+    final_sentences = []
+    assembler_changes = []
+    words_removed = 0
 
-    # Step 2: Build the assembler prompt from frozen template
-    prompt_template = get_prompt("assembler")
-    prompt = prompt_template.format(
-        topic=topic,
-        draft_review=draft_review,
-        citation_status_list=citation_status_str,
+    print(f"\n[AssemblerAgent] Processing {len(sentences)} sentences...")
+    print(f"[AssemblerAgent] Citations to check: {len(citations)}")
+
+    for i, sent in enumerate(sentences):
+        sent_citations = _find_citations_in_sentence(sent, citations)
+
+        if not sent_citations:
+            final_sentences.append(sent)
+            continue
+
+        # Check statuses of citations in this sentence
+        has_hallucinated = any(c.valid is False and c.error_reason != "PARTIAL" for c in sent_citations)
+        has_partial = any(c.valid is True and c.error_reason for c in sent_citations)
+
+        # HALLUCINATED citations: DROP sentence entirely
+        if has_hallucinated:
+            words_removed += len(sent.split())
+            for c in sent_citations:
+                if c.valid is False:
+                    assembler_changes.append({
+                        "original_sentence": sent,
+                        "new_sentence": "DROPPED",
+                        "citation_status": c.error_reason or "HALLUCINATED",
+                        "citation": c.raw_reference,
+                    })
+            print(f"  [Assembler] DROPPED sentence {i+1} (HALLUCINATED citation)")
+            continue
+
+        # PARTIAL citations: REWRITE with hedging
+        if has_partial:
+            new_sent = _rewrite_with_hedge(sent, sent_citations)
+            words_before = len(sent.split())
+            words_after = len(new_sent.split())
+            words_removed += max(0, words_before - words_after)
+            final_sentences.append(new_sent)
+            for c in sent_citations:
+                if c.valid is True and c.error_reason:
+                    assembler_changes.append({
+                        "original_sentence": sent,
+                        "new_sentence": new_sent,
+                        "citation_status": c.error_reason,
+                        "citation": c.raw_reference,
+                    })
+            print(f"  [Assembler] REWRITTEN sentence {i+1} (PARTIAL citation)")
+            continue
+
+        # VALID citations: keep unchanged
+        final_sentences.append(sent)
+
+    final_review = " ".join(final_sentences)
+
+    # Step 2: Build change log
+    hallucinated = [c for c in citations if c.valid is False]
+    verified = [c for c in citations if c.valid is True]
+
+    changes = _count_changes(
+        draft_review, final_review, hallucinated, assembler_changes
     )
 
-    print(f"\n[AssemblerAgent] Assembling final review...")
-    print(f"[AssemblerAgent] Draft length : {len(draft_review)} chars")
-    print(f"[AssemblerAgent] Citations    : {len(citations)} total")
-
-    # Step 3: Call LLM
-    try:
-        response = client.chat.completions.create(
-            model=settings.llm_model,
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an expert academic editor. "
-                        "Follow the instructions precisely. "
-                        "Return only the final review text and "
-                        "reference list — no meta-commentary."
-                    ),
-                },
-                {
-                    "role": "user",
-                    "content": prompt,
-                },
-            ],
-            max_tokens=1500,
-            temperature=0.2,  # low temperature = precise editing
-        )
-        final_review = response.choices[0].message.content.strip()
-
-    except Exception as e:
-        print(f"[AssemblerAgent] ERROR during LLM call: {e}")
-        # Fallback: return draft as-is
-        final_review = draft_review
-
-    # Step 4: Build change log
-    hallucinated = [c for c in citations if c.valid is False]
-    changes = _count_changes(draft_review, final_review, hallucinated)
-
-    # Step 5: Separate valid and hallucinated refs
-    verified_refs = [
-        c.raw_reference
-        for c in citations
-        if c.valid is True
-    ]
-    hallucinated_refs = [
-        c.raw_reference
-        for c in citations
-        if c.valid is False
-    ]
+    # Step 3: Separate valid and hallucinated refs
+    verified_refs = [c.raw_reference for c in verified]
+    hallucinated_refs = [c.raw_reference for c in hallucinated]
 
     print(f"[AssemblerAgent] Final review length : {len(final_review)} chars")
     print(f"[AssemblerAgent] Words removed       : {changes['words_removed']}")
+    print(f"[AssemblerAgent] Sentences dropped    : {changes['sentences_dropped']}")
+    print(f"[AssemblerAgent] Sentences rewritten : {changes['sentences_rewritten']}")
     print(f"[AssemblerAgent] Verified refs kept  : {len(verified_refs)}")
     print(f"[AssemblerAgent] Hallucinated removed: {len(hallucinated_refs)}")
 
@@ -249,11 +306,6 @@ def assemble_final_review(
         "hallucinated_refs": hallucinated_refs,
         "prompt_version":    PROMPT_VERSION,
     }
-
-
-# ---------------------------------------------------------------------------
-# Helper: save assembler output to JSON log
-# ---------------------------------------------------------------------------
 
 def save_assembler_log(
     result: dict,

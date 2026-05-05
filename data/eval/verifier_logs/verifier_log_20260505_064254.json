@@ -1,0 +1,91 @@
+{
+  "run_id": "20260505_064254",
+  "timestamp": "2026-05-05T06:43:24.193453",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models, 2024)",
+      "cited_author": "Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Opportunities and Challenges, 2023)",
+      "cited_author": "Opportunities and Challenges",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Open Questions, 2023)",
+      "cited_author": "Open Questions",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Text Data Augmentation for Deep Learning, 2021)",
+      "cited_author": "Text Data Augmentation for Deep Learning",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021)",
+      "cited_author": "Retrieval-Augmented Generation Reduces Hallucination in Conversation",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Techniques and Applications, 2024)",
+      "cited_author": "Techniques and Applications",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

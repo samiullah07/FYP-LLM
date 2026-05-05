@@ -1,0 +1,269 @@
+{
+  "run_id": "20260503_220527",
+  "timestamp": "2026-05-03T22:05:28.808704",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Rajeev Acharya et al., 2023)",
+      "cited_author": "Rajeev Acharya et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4321610982",
+      "matched_title": "Suppressing quantum errors by scaling a surface code logical qubit",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Google Quantum AI",
+        "Rajeev Acharya",
+        "I. L. Aleǐner"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-022-05434-1"
+    },
+    {
+      "raw_citation": "(Evered, 2023)",
+      "cited_author": "Evered",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389373471",
+      "matched_title": "Logical quantum processor based on reconfigurable atom arrays",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dolev Bluvstein",
+        "Simon J. Evered",
+        "Alexandra A. Geim"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06927-3"
+    },
+    {
+      "raw_citation": "(Alexander, 2021)",
+      "cited_author": "Alexander",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092581746",
+      "matched_title": "Blueprint for a Scalable Photonic Fault-Tolerant Quantum Computer",
+      "matched_year": 2021,
+      "matched_authors": [
+        "J. Eli Bourassa",
+        "Rafael N. Alexander",
+        "Michael Vasmer"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2021-02-04-392"
+    },
+    {
+      "raw_citation": "(Carlos Outeiral and Martin Strahm, 2020)",
+      "cited_author": "Carlos Outeiral and Martin Strahm",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3028293372",
+      "matched_title": "The prospects of quantum computing in computational molecular biology",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Carlos Outeiral",
+        "Martin Strahm",
+        "Jiye Shi"
+      ],
+      "matched_doi": "https://doi.org/10.1002/wcms.1481"
+    },
+    {
+      "raw_citation": "(Riddhi Swaroop Gupta and Neereja Sundaresan, 2024)",
+      "cited_author": "Riddhi Swaroop Gupta and Neereja Sundaresan",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4390707737",
+      "matched_title": "Encoding a magic state with beyond break-even fidelity",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Riddhi Swaroop Gupta",
+        "Neereja Sundaresan",
+        "Thomas Alexander"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06846-3"
+    },
+    {
+      "raw_citation": "(Yoder, 2023)",
+      "cited_author": "Yoder",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4377047148",
+      "matched_title": "Demonstrating multi-round subsystem quantum error correction using matching and ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Neereja Sundaresan",
+        "Theodore J. Yoder",
+        "Young‐Seok Kim"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-023-38247-5"
+    },
+    {
+      "raw_citation": "(Karen Wintersperger and Florian Dommert, 2023)",
+      "cited_author": "Karen Wintersperger and Florian Dommert",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386206037",
+      "matched_title": "Neutral atom quantum computing hardware: performance and end-user perspective",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karen Wintersperger",
+        "Florian Dommert",
+        "Thomas Ehmer"
+      ],
+      "matched_doi": "https://doi.org/10.1140/epjqt/s40507-023-00190-1"
+    },
+    {
+      "raw_citation": "(Bin Cheng and Xiu-Hao Deng, 2023)",
+      "cited_author": "Bin Cheng and Xiu-Hao Deng",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323364009",
+      "matched_title": "Noisy intermediate-scale quantum computers",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Bin Cheng",
+        "Xiu–Hao Deng",
+        "Xiu Gu"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11467-022-1249-z"
+    },
+    {
+      "raw_citation": "(Aithal, 2023)",
+      "cited_author": "Aithal",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386600211",
+      "matched_title": "Advances and New Research Opportunities in Quantum Computing Technology by Integ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "P. S. Aithal"
+      ],
+      "matched_doi": "https://doi.org/10.47992/ijcsbe.2581.6942.0304"
+    },
+    {
+      "raw_citation": "(Ainsworth, 2025)",
+      "cited_author": "Ainsworth",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406693713",
+      "matched_title": "Scaling and networking a modular photonic quantum computer",
+      "matched_year": 2025,
+      "matched_authors": [
+        "H. Aghaee Rad",
+        "T. L. Ainsworth",
+        "Rafael N. Alexander"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-08406-9"
+    },
+    {
+      "raw_citation": "(AbuGhanem, 2025)",
+      "cited_author": "AbuGhanem",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409126690",
+      "matched_title": "IBM quantum computers: evolution, performance, and future directions",
+      "matched_year": 2025,
+      "matched_authors": [
+        "M. AbuGhanem"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11227-025-07047-7"
+    },
+    {
+      "raw_citation": "(Tobias Haug and Lorenzo Piroli, 2023)",
+      "cited_author": "Tobias Haug and Lorenzo Piroli",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386224680",
+      "matched_title": "Stabilizer entropies and nonstabilizerness monotones",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tobias Haug",
+        "Lorenzo Piroli"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2023-08-28-1092"
+    },
+    {
+      "raw_citation": "(Dylan Herman and Cody Googin, 2023)",
+      "cited_author": "Dylan Herman and Cody Googin",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383879098",
+      "matched_title": "Quantum computing for finance",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dylan Herman",
+        "Cody Googin",
+        "Xiaoyuan Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-023-00603-1"
+    },
+    {
+      "raw_citation": "(Benedikt Fauseweh, 2024)",
+      "cited_author": "Benedikt Fauseweh",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392595180",
+      "matched_title": "Quantum many-body simulations on digital quantum computers: State-of-the-art and",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Benedikt Fauseweh"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-024-46402-9"
+    },
+    {
+      "raw_citation": "(Oscar Higgott and Craig Gidney, 2025)",
+      "cited_author": "Oscar Higgott and Craig Gidney",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406617380",
+      "matched_title": "Sparse Blossom: correcting a million errors per core second with minimum-weight ",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Oscar Higgott",
+        "Craig Gidney"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2025-01-20-1600"
+    }
+  ]
+}

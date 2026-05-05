@@ -47,7 +47,7 @@ def _get_groq_client() -> Groq:
 # Core planner function
 # ---------------------------------------------------------------------------
 
-def plan_topic(topic: str) -> list[str]:
+def plan_topic(topic: str) -> tuple[list[str], dict]:
     """
     Decompose a research topic into 3-5 focused academic sub-queries.
 
@@ -98,4 +98,8 @@ def plan_topic(topic: str) -> list[str]:
     for i, q in enumerate(sub_queries, 1):
         print(f"  {i}. {q}")
 
-    return sub_queries
+    usage = {
+    "prompt_tokens": getattr(response, "usage_metadata", {}).get("prompt_tokens", 0),
+    "completion_tokens": getattr(response, "usage_metadata", {}).get("completion_tokens", 0),
+    }
+    return sub_queries, usage

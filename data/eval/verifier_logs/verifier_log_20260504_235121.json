@@ -1,0 +1,60 @@
+{
+  "run_id": "20260504_235121",
+  "timestamp": "2026-05-04T23:51:22.037286",
+  "total": 3,
+  "entries": [
+    {
+      "raw_citation": "(Zhao and Zhou, 2023)",
+      "cited_author": "Zhao and Zhou",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Zhang and Li, 2023)",
+      "cited_author": "Zhang and Li",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362515116",
+      "matched_title": "A Survey of Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Wayne Xin Zhao",
+        "Kun Zhou",
+        "Junyi Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2303.18223"
+    },
+    {
+      "raw_citation": "(Gokcimen and Daş, 2025)",
+      "cited_author": "Gokcimen and Daş",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "Title mismatch",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4408764887",
+      "matched_title": "A novel system for strengthening security in large language models against hallu",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Tunahan Gokcimen",
+        "Bihter Daş"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.aej.2025.03.030"
+    }
+  ]
+}

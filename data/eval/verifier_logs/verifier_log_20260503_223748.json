@@ -1,0 +1,256 @@
+{
+  "run_id": "20260503_223748",
+  "timestamp": "2026-05-03T22:38:14.932436",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Aleǐner, 2023)",
+      "cited_author": "Aleǐner",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4321610982",
+      "matched_title": "Suppressing quantum errors by scaling a surface code logical qubit",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Google Quantum AI",
+        "Rajeev Acharya",
+        "I. L. Aleǐner"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-022-05434-1"
+    },
+    {
+      "raw_citation": "(Abanin, 2024)",
+      "cited_author": "Abanin",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4405183524",
+      "matched_title": "Quantum error correction below the surface code threshold",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Google Quantum AI and Collaborators",
+        "Rajeev Acharya",
+        "Dmitry A. Abanin"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-08449-y"
+    },
+    {
+      "raw_citation": "(Geim, 2023)",
+      "cited_author": "Geim",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389373471",
+      "matched_title": "Logical quantum processor based on reconfigurable atom arrays",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dolev Bluvstein",
+        "Simon J. Evered",
+        "Alexandra A. Geim"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06927-3"
+    },
+    {
+      "raw_citation": "(Xiaowei Deng, 2023)",
+      "cited_author": "Xiaowei Deng",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4353055568",
+      "matched_title": "Beating the break-even point with a discrete-variable-encoded logical qubit",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Zhongchu Ni",
+        "Sai Li",
+        "Xiaowei Deng"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-05784-4"
+    },
+    {
+      "raw_citation": "(Alexander, 2025)",
+      "cited_author": "Alexander",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406693713",
+      "matched_title": "Scaling and networking a modular photonic quantum computer",
+      "matched_year": 2025,
+      "matched_authors": [
+        "H. Aghaee Rad",
+        "T. L. Ainsworth",
+        "Rafael N. Alexander"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-08406-9"
+    },
+    {
+      "raw_citation": "(Kalinowski, 2023)",
+      "cited_author": "Kalinowski",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389373471",
+      "matched_title": "Logical quantum processor based on reconfigurable atom arrays",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dolev Bluvstein",
+        "Simon J. Evered",
+        "Alexandra A. Geim"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06927-3"
+    },
+    {
+      "raw_citation": "(Hector Bombín, 2023)",
+      "cited_author": "Hector Bombín",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3122257190",
+      "matched_title": "Fusion-based quantum computation",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sara Bartolucci",
+        "Patrick M. Birchall",
+        "Hector Bombín"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-023-36493-1"
+    },
+    {
+      "raw_citation": "(Jay Gambetta, 2024)",
+      "cited_author": "Jay Gambetta",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393234688",
+      "matched_title": "High-threshold and low-overhead fault-tolerant quantum memory",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Sergey Bravyi",
+        "Andrew W. Cross",
+        "Jay Gambetta"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-07107-7"
+    },
+    {
+      "raw_citation": "(Michael Vasmer, 2021)",
+      "cited_author": "Michael Vasmer",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092581746",
+      "matched_title": "Blueprint for a Scalable Photonic Fault-Tolerant Quantum Computer",
+      "matched_year": 2021,
+      "matched_authors": [
+        "J. Eli Bourassa",
+        "Rafael N. Alexander",
+        "Michael Vasmer"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2021-02-04-392"
+    },
+    {
+      "raw_citation": "(Jiye Shi, 2020)",
+      "cited_author": "Jiye Shi",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3028293372",
+      "matched_title": "The prospects of quantum computing in computational molecular biology",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Carlos Outeiral",
+        "Martin Strahm",
+        "Jiye Shi"
+      ],
+      "matched_doi": "https://doi.org/10.1002/wcms.1481"
+    },
+    {
+      "raw_citation": "(Xiaoyuan Liu, 2023)",
+      "cited_author": "Xiaoyuan Liu",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383879098",
+      "matched_title": "Quantum computing for finance",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dylan Herman",
+        "Cody Googin",
+        "Xiaoyuan Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-023-00603-1"
+    },
+    {
+      "raw_citation": "(Lidar, 2018)",
+      "cited_author": "Lidar",
+      "cited_year": 2018,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2992146840",
+      "matched_title": "Demonstration of a Scaling Advantage for a Quantum Annealer over Simulated Annea",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Tameem Albash",
+        "Daniel A. Lidar"
+      ],
+      "matched_doi": "https://doi.org/10.1103/physrevx.8.031016"
+    },
+    {
+      "raw_citation": "(AbuGhanem, 2025)",
+      "cited_author": "AbuGhanem",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409126690",
+      "matched_title": "IBM quantum computers: evolution, performance, and future directions",
+      "matched_year": 2025,
+      "matched_authors": [
+        "M. AbuGhanem"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11227-025-07047-7"
+    },
+    {
+      "raw_citation": "(McGrew, 2023)",
+      "cited_author": "McGrew",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388900249",
+      "matched_title": "Midcircuit Operations Using the <i>omg</i> Architecture in Neutral Atom Arrays",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Joanna W. Lis",
+        "Aruku Senoo",
+        "William F. McGrew"
+      ],
+      "matched_doi": "https://doi.org/10.1103/physrevx.13.041035"
+    }
+  ]
+}

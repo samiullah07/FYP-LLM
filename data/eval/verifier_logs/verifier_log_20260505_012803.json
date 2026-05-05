@@ -1,0 +1,240 @@
+{
+  "run_id": "20260505_012803",
+  "timestamp": "2026-05-05T01:28:27.458498",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Zhenhua Wu, 2021)",
+      "cited_author": "Zhenhua Wu",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3154258817",
+      "matched_title": "ADMETlab 2.0: an integrated online platform for accurate and comprehensive predi",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Guo‐Li Xiong",
+        "Zhenhua Wu",
+        "Jiacai Yi"
+      ],
+      "matched_doi": "https://doi.org/10.1093/nar/gkab255"
+    },
+    {
+      "raw_citation": "(Marlen Neubert, 2022)",
+      "cited_author": "Marlen Neubert",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4310273071",
+      "matched_title": "Graph neural networks for materials science and chemistry",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Patrick Reiser",
+        "Marlen Neubert",
+        "André Eberhard"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s43246-022-00315-6"
+    },
+    {
+      "raw_citation": "(Coley, 2020)",
+      "cited_author": "Coley",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3024033076",
+      "matched_title": "Molecular Representation: Going Long on Fingerprints",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Lagnajit Pattanaik",
+        "Connor W. Coley"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.chempr.2020.05.002"
+    },
+    {
+      "raw_citation": "(Marques, 2019)",
+      "cited_author": "Marques",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2968923792",
+      "matched_title": "Recent advances and applications of machine learning in solid-state materials sc",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jonathan Schmidt",
+        "Mário R. G. Marques",
+        "Silvana Botti"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41524-019-0221-0"
+    },
+    {
+      "raw_citation": "(Brian DeCost, 2022)",
+      "cited_author": "Brian DeCost",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3208687975",
+      "matched_title": "Recent advances and applications of deep learning methods in materials science",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kamal Choudhary",
+        "Brian DeCost",
+        "Chi Chen"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41524-022-00734-6"
+    },
+    {
+      "raw_citation": "(Jinglan Zhang, 2021)",
+      "cited_author": "Jinglan Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Kevrekidis, 2021)",
+      "cited_author": "Kevrekidis",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3163993681",
+      "matched_title": "Physics-informed machine learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "George Em Karniadakis",
+        "Ioannis G. Kevrekidis",
+        "Lu Lu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00314-5"
+    },
+    {
+      "raw_citation": "(Douglas Renfrew, 2021)",
+      "cited_author": "Douglas Renfrew",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3164046276",
+      "matched_title": "Structure-based protein function prediction using graph convolutional networks",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Vladimir Gligorijević",
+        "P. Douglas Renfrew",
+        "Tomasz Kościółek"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-021-23303-9"
+    },
+    {
+      "raw_citation": "(Shirui Pan, 2021)",
+      "cited_author": "Shirui Pan",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3003265726",
+      "matched_title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Shaoxiong Ji",
+        "Shirui Pan",
+        "Erik Cambria"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tnnls.2021.3070843"
+    },
+    {
+      "raw_citation": "(Andrew Arrasmith, 2021)",
+      "cited_author": "Andrew Arrasmith",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111162498",
+      "matched_title": "Variational quantum algorithms",
+      "matched_year": 2021,
+      "matched_authors": [
+        "M. Cerezo",
+        "Andrew Arrasmith",
+        "Ryan Babbush"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-021-00348-9"
+    },
+    {
+      "raw_citation": "(Jürgen Bajorath, 2020)",
+      "cited_author": "Jürgen Bajorath",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3023042104",
+      "matched_title": "QSAR without borders",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Eugene Muratov",
+        "Jürgen Bajorath",
+        "Robert P. Sheridan"
+      ],
+      "matched_doi": "https://doi.org/10.1039/d0cs00098a"
+    },
+    {
+      "raw_citation": "(Yu Zheng, 2023)",
+      "cited_author": "Yu Zheng",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4315977496",
+      "matched_title": "A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Chen Gao",
+        "Yu Zheng",
+        "Nian Li"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3568022"
+    },
+    {
+      "raw_citation": "(Marcella Iannuzzi, 2020)",
+      "cited_author": "Marcella Iannuzzi",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3027308092",
+      "matched_title": "CP2K: An electronic structure and molecular dynamics software package - Quickste",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Thomas D. Kühne",
+        "Marcella Iannuzzi",
+        "Mauro Del Ben"
+      ],
+      "matched_doi": "https://doi.org/10.1063/5.0007045"
+    }
+  ]
+}

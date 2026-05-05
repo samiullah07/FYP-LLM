@@ -1,0 +1,239 @@
+{
+  "run_id": "20260505_111807",
+  "timestamp": "2026-05-05T11:18:23.257581",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Bottou, 1998)",
+      "cited_author": "Bottou",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(Zhang, 2019)",
+      "cited_author": "Zhang",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2952902402",
+      "matched_title": "A Tensorized Transformer for Language Modeling",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Xindian Ma",
+        "Peng Zhang",
+        "Shuai Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1906.09777"
+    },
+    {
+      "raw_citation": "(Díaz-Rodríguez, 2019)",
+      "cited_author": "Díaz-Rodríguez",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Yin, 2020)",
+      "cited_author": "Yin",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3105966348",
+      "matched_title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaoqi Jiao",
+        "Yichun Yin",
+        "Lifeng Shang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.372"
+    },
+    {
+      "raw_citation": "(Rao, 2022)",
+      "cited_author": "Rao",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4210827551",
+      "matched_title": "A survey on sentiment analysis methods, applications, and challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Mayur Wankhade",
+        "Annavarapu Chandra Sekhara Rao",
+        "Chaitanya Kulkarni"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-022-10144-1"
+    },
+    {
+      "raw_citation": "(Gurevych, 2019)",
+      "cited_author": "Gurevych",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970641574",
+      "matched_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1410"
+    },
+    {
+      "raw_citation": "(Yao, 2021)",
+      "cited_author": "Yao",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3156636935",
+      "matched_title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Tianyu Gao",
+        "Xingcheng Yao",
+        "Danqi Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.emnlp-main.552"
+    },
+    {
+      "raw_citation": "(Zou, 2019)",
+      "cited_author": "Zou",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2952902402",
+      "matched_title": "A Tensorized Transformer for Language Modeling",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Xindian Ma",
+        "Peng Zhang",
+        "Shuai Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1906.09777"
+    },
+    {
+      "raw_citation": "(Yuan, 2022)",
+      "cited_author": "Yuan",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Kshetri, 2023)",
+      "cited_author": "Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4360620450",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Seßler, 2023)",
+      "cited_author": "Seßler",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Ell, 2018)",
+      "cited_author": "Ell",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(Koli, 2022)",
+      "cited_author": "Koli",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2747680751",
+      "matched_title": "Natural language processing: state of the art, current trends and challenges",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Diksha Khurana",
+        "Aditya Koli",
+        "Kiran Khatter"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11042-022-13428-4"
+    }
+  ]
+}

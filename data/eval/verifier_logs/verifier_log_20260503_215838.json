@@ -1,0 +1,184 @@
+{
+  "run_id": "20260503_215838",
+  "timestamp": "2026-05-03T21:58:41.397818",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Acharya et al., 2023)",
+      "cited_author": "Acharya et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4321610982",
+      "matched_title": "Suppressing quantum errors by scaling a surface code logical qubit",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Google Quantum AI",
+        "Rajeev Acharya",
+        "I. L. Aleǐner"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-022-05434-1"
+    },
+    {
+      "raw_citation": "(Bluvstein et al., 2023)",
+      "cited_author": "Bluvstein et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389373471",
+      "matched_title": "Logical quantum processor based on reconfigurable atom arrays",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dolev Bluvstein",
+        "Simon J. Evered",
+        "Alexandra A. Geim"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06927-3"
+    },
+    {
+      "raw_citation": "(Bourassa et al., 2021)",
+      "cited_author": "Bourassa et al.",
+      "cited_year": 2021,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3092581746",
+      "matched_title": "Blueprint for a Scalable Photonic Fault-Tolerant Quantum Computer",
+      "matched_year": 2021,
+      "matched_authors": [
+        "J. Eli Bourassa",
+        "Rafael N. Alexander",
+        "Michael Vasmer"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2021-02-04-392"
+    },
+    {
+      "raw_citation": "(Dennis et al., 2002)",
+      "cited_author": "Dennis et al.",
+      "cited_year": 2002,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W1493005553",
+      "matched_title": "Simulating the Longitudinal Effects of Changes in Financial Aid on Student Depar",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Stephen L. DesJardins",
+        "Dennis A. Ahlburg",
+        "Brian P. McCall"
+      ],
+      "matched_doi": "https://doi.org/10.2307/3069685"
+    },
+    {
+      "raw_citation": "(Aghaee Rad et al., 2025)",
+      "cited_author": "Aghaee Rad et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406693713",
+      "matched_title": "Scaling and networking a modular photonic quantum computer",
+      "matched_year": 2025,
+      "matched_authors": [
+        "H. Aghaee Rad",
+        "T. L. Ainsworth",
+        "Rafael N. Alexander"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-024-08406-9"
+    },
+    {
+      "raw_citation": "(Fauseweh, 2024)",
+      "cited_author": "Fauseweh",
+      "cited_year": 2024,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392595180",
+      "matched_title": "Quantum many-body simulations on digital quantum computers: State-of-the-art and",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Benedikt Fauseweh"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-024-46402-9"
+    },
+    {
+      "raw_citation": "(Herman et al., 2023)",
+      "cited_author": "Herman et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383879098",
+      "matched_title": "Quantum computing for finance",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Dylan Herman",
+        "Cody Googin",
+        "Xiaoyuan Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42254-023-00603-1"
+    },
+    {
+      "raw_citation": "(Outeiral et al., 2020)",
+      "cited_author": "Outeiral et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3028293372",
+      "matched_title": "The prospects of quantum computing in computational molecular biology",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Carlos Outeiral",
+        "Martin Strahm",
+        "Jiye Shi"
+      ],
+      "matched_doi": "https://doi.org/10.1002/wcms.1481"
+    },
+    {
+      "raw_citation": "(Wintersperger et al., 2023)",
+      "cited_author": "Wintersperger et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386206037",
+      "matched_title": "Neutral atom quantum computing hardware: performance and end-user perspective",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karen Wintersperger",
+        "Florian Dommert",
+        "Thomas Ehmer"
+      ],
+      "matched_doi": "https://doi.org/10.1140/epjqt/s40507-023-00190-1"
+    },
+    {
+      "raw_citation": "(Higgott et al., 2025)",
+      "cited_author": "Higgott et al.",
+      "cited_year": 2025,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406617380",
+      "matched_title": "Sparse Blossom: correcting a million errors per core second with minimum-weight ",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Oscar Higgott",
+        "Craig Gidney"
+      ],
+      "matched_doi": "https://doi.org/10.22331/q-2025-01-20-1600"
+    }
+  ]
+}

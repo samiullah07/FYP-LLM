@@ -1,0 +1,262 @@
+{
+  "run_id": "20260503_222934",
+  "timestamp": "2026-05-03T22:29:34.223820",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Hagen Stübing et al., 2010)",
+      "cited_author": "Hagen Stübing et al.",
+      "cited_year": 2010,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2106897093",
+      "matched_title": "sim<sup>TD</sup>: a car-to-X system architecture for field operational tests [To",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Hagen Stübing",
+        "Marc Bechler",
+        "Dieter Heussner"
+      ],
+      "matched_doi": "https://doi.org/10.1109/mcom.2010.5458376"
+    },
+    {
+      "raw_citation": "(Thomas Grisham, 2009)",
+      "cited_author": "Thomas Grisham",
+      "cited_year": 2009,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2089293862",
+      "matched_title": "The Delphi technique: a method for testing complex and multifaceted topics",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Thomas Grisham"
+      ],
+      "matched_doi": "https://doi.org/10.1108/17538370910930545"
+    },
+    {
+      "raw_citation": "(Draper and Smith, 2005)",
+      "cited_author": "Draper and Smith",
+      "cited_year": 2005,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2034562813",
+      "matched_title": "Applied Regression Analysis",
+      "matched_year": 2005,
+      "matched_authors": [
+        "Draper, Norman Richard 1931-",
+        "Smith, Harry"
+      ],
+      "matched_doi": "https://doi.org/10.1198/tech.2005.s303"
+    },
+    {
+      "raw_citation": "(Byrne, 2000)",
+      "cited_author": "Byrne",
+      "cited_year": 2000,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2036149274",
+      "matched_title": "Structural equation modeling with AMOS: basic concepts, applications, and progra",
+      "matched_year": 2000,
+      "matched_authors": [
+        "Barbara M. Byrne"
+      ],
+      "matched_doi": "https://doi.org/10.4324/9781315757421"
+    },
+    {
+      "raw_citation": "(Hayes, 2013)",
+      "cited_author": "Hayes",
+      "cited_year": 2013,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1849190772",
+      "matched_title": "Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regre",
+      "matched_year": 2013,
+      "matched_authors": [
+        "Andrew F. Hayes"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Thomas and Hadi Hemmati, 2012)",
+      "cited_author": "Thomas and Hadi Hemmati",
+      "cited_year": 2012,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2045837563",
+      "matched_title": "Static test case prioritization using topic models",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Stephen W. Thomas",
+        "Hadi Hemmati",
+        "Ahmed E. Hassan"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10664-012-9219-7"
+    },
+    {
+      "raw_citation": "(Eisenhardt, 2009)",
+      "cited_author": "Eisenhardt",
+      "cited_year": 2009,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2582377764",
+      "matched_title": "Building theories from case study research",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Kathleen M. Eisenhardt"
+      ],
+      "matched_doi": "https://doi.org/10.3280/so2008-002004"
+    },
+    {
+      "raw_citation": "(Martha Jennings and Janna Fox, 1999)",
+      "cited_author": "Martha Jennings and Janna Fox",
+      "cited_year": 1999,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2097039180",
+      "matched_title": "The test-takers' choice: an investigation of the effect of topic on language-tes",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Martha Jennings",
+        "Janna Fox",
+        "Barbara Ann Graves"
+      ],
+      "matched_doi": "https://doi.org/10.1177/026553229901600402"
+    },
+    {
+      "raw_citation": "(Saunders and Philip Lewis, 1996)",
+      "cited_author": "Saunders and Philip Lewis",
+      "cited_year": 1996,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1505999675",
+      "matched_title": "Research Methods for Business Students",
+      "matched_year": 1996,
+      "matched_authors": [
+        "Mark N. K. Saunders",
+        "Philip Lewis",
+        "Adrian Thornhill"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Jon Kleinberg, 1999)",
+      "cited_author": "Jon Kleinberg",
+      "cited_year": 1999,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2138621811",
+      "matched_title": "Authoritative sources in a hyperlinked environment",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Jon Kleinberg"
+      ],
+      "matched_doi": "https://doi.org/10.1145/324133.324140"
+    },
+    {
+      "raw_citation": "(Gosling and Rentfrow, 2003)",
+      "cited_author": "Gosling and Rentfrow",
+      "cited_year": 2003,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2162090451",
+      "matched_title": "A very brief measure of the Big-Five personality domains",
+      "matched_year": 2003,
+      "matched_authors": [
+        "Samuel D. Gosling",
+        "Peter J. Rentfrow",
+        "William B. Swann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s0092-6566(03)00046-1"
+    },
+    {
+      "raw_citation": "(Steers, 1979)",
+      "cited_author": "Steers",
+      "cited_year": 1979,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1990199118",
+      "matched_title": "The measurement of organizational commitment",
+      "matched_year": 1979,
+      "matched_authors": [
+        "Richard T. Mowday",
+        "Richard M. Steers",
+        "Lyman W. Porter"
+      ],
+      "matched_doi": "https://doi.org/10.1016/0001-8791(79)90072-1"
+    },
+    {
+      "raw_citation": "(Keough, 2002)",
+      "cited_author": "Keough",
+      "cited_year": 2002,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1489838709",
+      "matched_title": "Experimental Design and Data Analysis for Biologists",
+      "matched_year": 2002,
+      "matched_authors": [
+        "Gerry P. Quinn",
+        "Michael J. Keough"
+      ],
+      "matched_doi": "https://doi.org/10.1017/cbo9780511806384"
+    },
+    {
+      "raw_citation": "(Anderson, 2007)",
+      "cited_author": "Anderson",
+      "cited_year": 2007,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1968883855",
+      "matched_title": "Validity and topic generality of a writing performance test",
+      "matched_year": 2007,
+      "matched_authors": [
+        "Hee-Kyung Lee",
+        "Carolyn J. Anderson"
+      ],
+      "matched_doi": "https://doi.org/10.1177/0265532207077200"
+    },
+    {
+      "raw_citation": "(Mendenhall, 1958)",
+      "cited_author": "Mendenhall",
+      "cited_year": 1958,
+      "status": "PARTIAL",
+      "confidence": 0.7,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2034406971",
+      "matched_title": "A BIBLIOGRAPHY ON LIFE TESTING AND RELATED TOPICS",
+      "matched_year": 1958,
+      "matched_authors": [
+        "William M. Mendenhall"
+      ],
+      "matched_doi": "https://doi.org/10.1093/biomet/45.3-4.521"
+    }
+  ]
+}

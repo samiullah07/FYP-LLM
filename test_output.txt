@@ -1,0 +1,146 @@
+﻿
+======================================================================
+  LITERATURE REVIEW AGENT SYSTEM
+  MSc Data Science — University of Hertfordshire
+  Agentic AI for Reliable Academic Literature Review
+======================================================================
+
+[Main] Running EXPERIMENTAL pipeline...
+[Main] Topic: Retrieval-Augmented Generation to reduce hallucinations
+
+
+============================================================
+[Workflow] Run ID      : 20260504_064756
+[Workflow] Model       : llama-3.3-70b-versatile
+[Workflow] Topic type  : moderate
+[Workflow] Topic       : Retrieval-Augmented Generation to reduce hallucinations
+============================================================
+
+[Graph] -- Node 1: Planner --------------------------
+[PlannerAgent] Generated 5 sub-queries for topic: 'Retrieval-Augmented Generation to reduce hallucinations'
+  1. Retrieval-Augmented Generation models for hallucination reduction in natural language processing
+  2. Retrieval strategies for improving factual accuracy in text generation tasks
+  3. Evaluating the effectiveness of Retrieval-Augmented Generation in mitigating hallucinations in dialogue systems
+  4. Impact of knowledge retrieval mechanisms on reducing hallucinations in language translation tasks
+  5. Analysis of Retrieval-Augmented Generation techniques for controlling hallucinations in creative writing applications
+
+[Graph] -- Node 2: Search ---------------------------
+[SearchAgent] Searching: 'Retrieval-Augmented Generation models for hallucination reduction in natural language processing'
+[SearchAgent] Added 5 (total: 5)
+[SearchAgent] Searching: 'Retrieval strategies for improving factual accuracy in text generation tasks'
+[SearchAgent] Added 5 (total: 10)
+[SearchAgent] Searching: 'Evaluating the effectiveness of Retrieval-Augmented Generation in mitigating hallucinations in dialogue systems'
+[SearchAgent] Added 3 (total: 13)
+[SearchAgent] Searching: 'Impact of knowledge retrieval mechanisms on reducing hallucinations in language translation tasks'
+[SearchAgent] Added 3 (total: 16)
+[SearchAgent] Searching: 'Analysis of Retrieval-Augmented Generation techniques for controlling hallucinations in creative writing applications'
+[SearchAgent] Added 4 (total: 20)
+
+[SearchAgent] Final unique paper count: 20
+
+[Graph] -- Node 3: Summariser -----------------------
+[SummariserAgent] TRUNCATED: 695 -> 499 words
+[SummariserAgent] Literature review written (3620 chars, 499 words)
+[SummariserAgent] Papers used: 15
+[SummariserAgent] Token usage — prompt: 0, completion: 0
+[SummariserAgent] Original word count: 695
+
+[Graph] -- Node 4: Verifier -------------------------
+
+[VerifierAgent] Starting citation verification...
+[VerifierAgent] Local corpus  : 20 papers
+[VerifierAgent] Found 15 unique citations.
+
+[VerifierAgent] Checking: (Charat Thongprayoon, 2024)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Integrating Retrieval-Augmented Generation with La...'
+
+[VerifierAgent] Checking: (Weizhe Yuan, 2022)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Pre-train, Prompt, and Predict: A Systematic Surve...'
+
+[VerifierAgent] Checking: (Khoshgoftaar, 2021)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Text Data Augmentation for Deep Learning...'
+
+[VerifierAgent] Checking: (Alghamdi, 2023)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Revolutionizing healthcare: the role of artificial...'
+
+[VerifierAgent] Checking: (Shekoofeh Azizi, 2023)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Large language models encode clinical knowledge...'
+
+[VerifierAgent] Checking: (Liu, 2017)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Get To The Point: Summarization with Pointer-Gener...'
+
+[VerifierAgent] Checking: (Thomas Kipf, 2018)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Modeling Relational Data with Graph Convolutional ...'
+
+[VerifierAgent] Checking: (Jan Born, 2013)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'About Sleep's Role in Memory...'
+
+[VerifierAgent] Checking: (Nan Ding, 2018)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Conceptual Captions: A Cleaned, Hypernymed, Image ...'
+
+[VerifierAgent] Checking: (Kristin, 2023)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'GPT-4 Technical Report...'
+
+[VerifierAgent] Checking: (Chen Ma, 2024)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'A survey on large language model based autonomous ...'
+
+[VerifierAgent] Checking: (Young‐Gab Kim, 2022)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'A Metaverse: Taxonomy, Components, Applications, a...'
+
+[VerifierAgent] Checking: (William Chan, 2022)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Palette: Image-to-Image Diffusion Models...'
+
+[VerifierAgent] Checking: (Shaden Shaar, 2021)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Findings of the Association for Computational Ling...'
+
+[VerifierAgent] Checking: (Yuke Zhu, 2017)
+  -> PARTIAL ! (conf: 0.70, Title mismatch, src: local) — 'Visual Genome: Connecting Language and Vision Usin...'
+[VerifierAgent] Taxonomy logged 15 entries
+[VerifierAgent] Log saved -> C:\Users\BEST LAPTOP\Desktop\FYP-LLM\data\eval\verifier_logs\verifier_log_20260504_064756.json
+
+============================================================
+[VerifierAgent] VERIFICATION SUMMARY
+============================================================
+  Total citations     : 15
+  Valid               : 0
+  Partial             : 15
+  Hallucinated        : 0
+  Hallucination Rate  : 0.0%
+============================================================
+
+  Error type breakdown:
+    Title mismatch            : 15
+
+
+============================================================
+[Workflow] PIPELINE COMPLETE
+============================================================
+  Sub-queries         : 5
+  Papers retrieved    : 20
+  Total citations     : 15
+  Valid               : 0
+  Hallucinated        : 0
+  Hallucination Rate  : 0.0%
+  Final review length : 0 chars
+  Latency             : 19.16s
+  Model used          : llama-3.3-70b-versatile
+============================================================
+
+--------------------------------------------------
+  RESULTS [EXPERIMENTAL]
+--------------------------------------------------
+  Sub-queries used    : 5
+  Papers retrieved    : 20
+  Review length       : 3620 chars
+  Total citations     : 15
+  Valid citations     : 0
+  Partial citations   : 15
+  Hallucinated        : 0
+  Hallucination Rate  : 0.0%
+--------------------------------------------------
+
+--- GENERATED REVIEW ---
+
+The integration of retrieval-augmented generation with large language models has been explored in various domains, including nephrology (Jing Miao, Charat Thongprayoon, 2024) and natural language processing (Pengfei Liu, Weizhe Yuan, 2022). This approach aims to reduce hallucinations in generated text by leveraging external knowledge sources (Connor Shorten, Taghi M. Khoshgoftaar, 2021). In the context of clinical practice, artificial intelligence has been shown to play a crucial role in revolutionizing healthcare (Shuroug A. Alowais, Sahar S. Alghamdi, 2023), and large language models have been found to encode clinical knowledge (Karan Singhal, Shekoofeh Azizi, 2023). The use of retrieval-augmented generation has been found to be effective in reducing hallucinations in text summarization tasks (Abigail See, Peter J. Liu, 2017). Additionally, the application of graph convolutional networks has been explored in modeling relational data (Michael Schlichtkrull, Thomas Kipf, 2018). The role of sleep in memory consolidation has also been investigated (Björn Rasch, Jan Born, 2013), highlighting the importance of understanding the underlying cognitive processes. In the context of image captioning, the use of cleaned and hypernymed datasets has been proposed (Piyush Sharma, Nan Ding, 2018). Recent advances in large language models, such as GPT-4 (Wijegunarathna, Kalana, Stock, Kristin, 2023), have demonstrated significant improvements in text generation capabilities. However, the integration of these models with retrieval-augmented generation techniques is still an active area of research (Lei Wang, Chen Ma, 2024). The application of these techniques in metaverse environments has also been explored (Sangmin Park, Young‐Gab Kim, 2022), highlighting the potential for retrieval-augmented generation in virtual worlds. Furthermore, the use of image-to-image diffusion models has been proposed for image generation tasks (Chitwan Saharia, William Chan, 2022). Despite the progress made in retrieval-augmented generation, there are still several research gaps that need to be addressed. For example, the evaluation of retrieval-augmented generation models in real-world applications is still limited (Firoj Alam, Shaden Shaar, 2021). Additionally, the integration of retrieval-augmented generation with other techniques, such as visual genome (Ranjay Krishna, Yuke Zhu, 2017), is still an area of ongoing research. Overall, the use of retrieval-augmented generation has the potential to significantly reduce hallucinations in text generation tasks, and further research is needed to fully explore its capabilities. References: Alam, F., Shaar, S., 2021. Findings of the Association for Computational Linguistics: EMNLP 2021. Alowais, S. A., Alghamdi, S. S., 2023. Revolutionizing healthcare: the role of artificial intelligence in clinical practice. Azizi, S., Singhal, K., 2023. Large language models encode clinical knowledge. Born, J., Rasch, B., 2013. About Sleep's Role in Memory. Chan, W., Saharia, C., 2022. Palette: Image-to-Image Diffusion Models. Ding, N., Sharma, P., 2018. Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning. Khoshgoftaar, T. M., Shorten, C., 2021. Text Data Augmentation for Deep Learning. Kim, Y. G., Park, S., 2022. A Metaverse: Taxonomy, Components, Applications, and Open Challenges. Kipf, T., Schlichtkrull, M., 2018. Modeling Relational Data with Graph Convolutional Networks. Krishna, R., Zhu, Y., 2017. Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations. Liu, P. J., See, A., 2017.
+
+--- END OF REVIEW ---

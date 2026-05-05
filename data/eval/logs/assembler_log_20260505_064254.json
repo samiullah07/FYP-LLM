@@ -1,0 +1,54 @@
+{
+  "run_id": "20260505_064254",
+  "topic": "RAG hallucination reduction",
+  "prompt_version": "1.1",
+  "final_review": "RAG Hallucination Reduction: A Review of the Literature\n\n**Introduction to RAG Hallucination**\n\nRAG (Retrieval-Augmented Generation) models have gained significant attention in recent years due to their ability to generate coherent and informative text (Retrieval-Augmented Generation (RAG): Advances and Challenges, 2025). However, one of the major challenges associated with RAG models is hallucination, which refers to the generation of irrelevant or false information (A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models, 2024). Hallucination can lead to decreased trust in RAG models and can have serious consequences in applications such as healthcare and finance (Generative AI in Medicine and Healthcare: Promises, Opportunities and Challenges, 2023). **Causes and Consequences of Hallucination**\n\nResearch has shown that hallucination in RAG models is often caused by the lack of sufficient training data or the presence of biases in the training data (A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions, 2023). Furthermore, the use of RAG models in applications where high accuracy is required can lead to serious consequences, such as misdiagnosis or financial losses (Generative AI in Medicine and Healthcare: Promises, Opportunities and Challenges, 2023). Additionally, the use of prompt engineering techniques, such as template-based prompting, has been shown to reduce hallucination in RAG models (A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications, 2024). **Current Research and Future Directions**\n\nRecent research has focused on the development of new RAG models that can reduce hallucination, such as the use of multi-task learning and the incorporation of external knowledge sources (Leveraging NLP and Retrieval-Augmented Generation (RAG) Models for Automated Business Intelligence Query Resolution, 2024). However, more research is needed to fully understand the causes and consequences of hallucination in RAG models and to develop effective mitigation techniques. **Conclusion**\n\nIn conclusion, hallucination is a significant challenge associated with RAG models, and more research is needed to fully understand its causes and consequences. The development of effective mitigation techniques, such as data augmentation and prompt engineering, holds promise for reducing hallucination in RAG models. **References**\n\nDevlin, J. W., & Skrobik, Y. (2018). Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU. Gao, Y., & Xiong, Y. (2023). Retrieval-Augmented Generation for Large Language Models: A Survey. Huang, L., & Yu, W. (2023). A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. Komeili, M., & Shuster, K. (2022). Internet-Augmented Dialogue Generation. Retrieval-Augmented Generation (RAG): Advances and Challenges. (2025). Retrieval-Augmented Generation Reduces Hallucination in Conversation. (2021). Shuster, K., & Poff, S. (2021). Retrieval-Augmented Generation Reduces Hallucination in Conversation. Shorten, C., & Khoshgoftaar, T. M. (2021). Text Data Augmentation for Deep Learning. Zhang, P., & Boulos, M. N. K. (2023). Generative AI in Medicine and Healthcare: Promises, Opportunities and Challenges.",
+  "changes": {
+    "draft_word_count": 504,
+    "final_word_count": 468,
+    "words_removed": 72,
+    "hallucinated_count": 6,
+    "hallucinated_refs": [
+      "(Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models, 2024)",
+      "(Opportunities and Challenges, 2023)",
+      "(Open Questions, 2023)",
+      "(Text Data Augmentation for Deep Learning, 2021)",
+      "(Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021)",
+      "(Techniques and Applications, 2024)"
+    ],
+    "likely_removed_refs": [
+      "(Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models, 2024)",
+      "(Opportunities and Challenges, 2023)",
+      "(Open Questions, 2023)",
+      "(Text Data Augmentation for Deep Learning, 2021)",
+      "(Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021)",
+      "(Techniques and Applications, 2024)"
+    ],
+    "review_shortened_by": "72 words",
+    "sentences_dropped": 2,
+    "sentences_rewritten": 0,
+    "assembler_changes": [
+      {
+        "original_sentence": "**Mitigation Techniques**\n\nSeveral techniques have been proposed to mitigate hallucination in RAG models, including data augmentation (Text Data Augmentation for Deep Learning, 2021) and the use of retrieval-augmented generation (Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021).",
+        "new_sentence": "DROPPED",
+        "citation_status": "UNKNOWN",
+        "citation": "(Text Data Augmentation for Deep Learning, 2021)"
+      },
+      {
+        "original_sentence": "**Mitigation Techniques**\n\nSeveral techniques have been proposed to mitigate hallucination in RAG models, including data augmentation (Text Data Augmentation for Deep Learning, 2021) and the use of retrieval-augmented generation (Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021).",
+        "new_sentence": "DROPPED",
+        "citation_status": "UNKNOWN",
+        "citation": "(Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021)"
+      }
+    ]
+  },
+  "verified_refs": [],
+  "hallucinated_refs": [
+    "(Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models, 2024)",
+    "(Opportunities and Challenges, 2023)",
+    "(Open Questions, 2023)",
+    "(Text Data Augmentation for Deep Learning, 2021)",
+    "(Retrieval-Augmented Generation Reduces Hallucination in Conversation, 2021)",
+    "(Techniques and Applications, 2024)"
+  ]
+}

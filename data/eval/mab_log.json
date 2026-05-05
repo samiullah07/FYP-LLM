@@ -1,0 +1,113 @@
+{
+  "counts": {
+    "niche": {
+      "llama-3.1-8b-instant": 0,
+      "llama-3.3-70b-versatile": 0
+    },
+    "moderate": {
+      "llama-3.1-8b-instant": 1,
+      "llama-3.3-70b-versatile": 5
+    },
+    "well_covered": {
+      "llama-3.1-8b-instant": 1,
+      "llama-3.3-70b-versatile": 2
+    }
+  },
+  "values": {
+    "niche": {
+      "llama-3.1-8b-instant": 0.0,
+      "llama-3.3-70b-versatile": 0.0
+    },
+    "moderate": {
+      "llama-3.1-8b-instant": 0.0,
+      "llama-3.3-70b-versatile": 0.9818
+    },
+    "well_covered": {
+      "llama-3.1-8b-instant": 0.714,
+      "llama-3.3-70b-versatile": 1.0
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-05-05T06:43:24.326478",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 1.0,
+      "reward": 0.0,
+      "new_avg_reward": 0.0,
+      "total_pulls": 1
+    },
+    {
+      "timestamp": "2026-05-05T06:47:22.810163",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 1
+    },
+    {
+      "timestamp": "2026-05-05T06:48:14.178673",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 2
+    },
+    {
+      "timestamp": "2026-05-05T06:49:03.129217",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.091,
+      "reward": 0.909,
+      "new_avg_reward": 0.9696666666666667,
+      "total_pulls": 3
+    },
+    {
+      "timestamp": "2026-05-05T11:00:29.649651",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.97725,
+      "total_pulls": 4
+    },
+    {
+      "timestamp": "2026-05-05T11:01:19.094904",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.9818,
+      "total_pulls": 5
+    },
+    {
+      "timestamp": "2026-05-05T11:07:52.505016",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.286,
+      "reward": 0.714,
+      "new_avg_reward": 0.714,
+      "total_pulls": 1
+    },
+    {
+      "timestamp": "2026-05-05T11:11:09.149070",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 1
+    },
+    {
+      "timestamp": "2026-05-05T11:18:23.363168",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 2
+    }
+  ]
+}
