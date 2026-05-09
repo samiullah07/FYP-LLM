@@ -1,0 +1,282 @@
+{
+  "run_id": "20260506_144118",
+  "timestamp": "2026-05-06T14:41:41.008622",
+  "total": 16,
+  "entries": [
+    {
+      "raw_citation": "(Lin, 2004)",
+      "cited_author": "Lin",
+      "cited_year": 2004,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Liu et al., 2019)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389519254",
+      "matched_title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yang Liu",
+        "Dan Iter",
+        "Xu Yi‐chong"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.153"
+    },
+    {
+      "raw_citation": "(Papineni et al., 2002)",
+      "cited_author": "Papineni et al.",
+      "cited_year": 2002,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Banerjee and Lavie, 2005)",
+      "cited_author": "Banerjee and Lavie",
+      "cited_year": 2005,
+      "status": "HALLUCINATED",
+      "confidence": 0.0,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Yang Liu and Dan Iter, 2023)",
+      "cited_author": "Yang Liu and Dan Iter",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389519254",
+      "matched_title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yang Liu",
+        "Dan Iter",
+        "Xu Yi‐chong"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.emnlp-main.153"
+    },
+    {
+      "raw_citation": "(Reimers and Gurevych, 2019)",
+      "cited_author": "Reimers and Gurevych",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970641574",
+      "matched_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1410"
+    },
+    {
+      "raw_citation": "(See et al., 2017)",
+      "cited_author": "See et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2606974598",
+      "matched_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Abigail See",
+        "Peter J. Liu",
+        "Christopher D. Manning"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p17-1099"
+    },
+    {
+      "raw_citation": "(Liu, 2017)",
+      "cited_author": "Liu",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2606974598",
+      "matched_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Abigail See",
+        "Peter J. Liu",
+        "Christopher D. Manning"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p17-1099"
+    },
+    {
+      "raw_citation": "(Barredo Arrieta et al., 2019)",
+      "cited_author": "Barredo Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Ribeiro et al., 2016)",
+      "cited_author": "Ribeiro et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2495852730",
+      "matched_title": "Unexpected early tumor recurrence in patients with hepatitis C virus -related he",
+      "matched_year": 2016,
+      "matched_authors": [
+        "María Reig",
+        "Zoe Mariñó",
+        "Christie Perelló"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Lundberg and Lee, 2017)",
+      "cited_author": "Lundberg and Lee",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Guidotti et al., 2019)",
+      "cited_author": "Guidotti et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2962772482",
+      "matched_title": "A survey of methods for explaining black box models",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Riccardo Guidotti",
+        "Anna Monreale",
+        "Salvatore Ruggieri"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3236009"
+    },
+    {
+      "raw_citation": "(Afzal and Alam, 2020)",
+      "cited_author": "Afzal and Alam",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3086767710",
+      "matched_title": "Clinical Context–Aware Biomedical Text Summarization Using Deep Neural Network: ",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Muhammad Afzal",
+        "Fakhare Alam",
+        "Khalid Mahmood Malik"
+      ],
+      "matched_doi": "https://doi.org/10.2196/19810"
+    },
+    {
+      "raw_citation": "(Weiss et al., 2016)",
+      "cited_author": "Weiss et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2395579298",
+      "matched_title": "A survey of transfer learning",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Karl R. Weiss",
+        "Taghi M. Khoshgoftaar",
+        "Dingding Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-016-0043-6"
+    },
+    {
+      "raw_citation": "(Touvron et al., 2023)",
+      "cited_author": "Touvron et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322718191",
+      "matched_title": "LLaMA: Open and Efficient Foundation Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hugo Touvron",
+        "Thibaut Lavril",
+        "Gautier Izacard"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2302.13971"
+    },
+    {
+      "raw_citation": "(Singhal and Azizi, 2023)",
+      "cited_author": "Singhal and Azizi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384071683",
+      "matched_title": "Large language models encode clinical knowledge",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Karan Singhal",
+        "Shekoofeh Azizi",
+        "Tao Tu"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-06291-2"
+    }
+  ]
+}

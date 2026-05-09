@@ -1,0 +1,184 @@
+{
+  "run_id": "20260509_040334",
+  "timestamp": "2026-05-09T04:04:18.052580",
+  "total": 10,
+  "entries": [
+    {
+      "raw_citation": "(Meng-Hao Guo and Cheng-Ze Lu, 2023)",
+      "cited_author": "Meng-Hao Guo and Cheng-Ze Lu",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/s41095-023-0364-2",
+      "matched_title": "Visual attention network",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Meng-Hao Guo",
+        "Cheng-Ze Lu",
+        "Zheng-Ning Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s41095-023-0364-2"
+    },
+    {
+      "raw_citation": "(Wenxuan Wang and Chen Chen, 2021)",
+      "cited_author": "Wenxuan Wang and Chen Chen",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/978-3-030-87193-2_11",
+      "matched_title": "TransBTS: Multimodal Brain Tumor Segmentation Using Transformer",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Wenxuan Wang",
+        "Chen Chen",
+        "Meng Ding"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87193-2_11"
+    },
+    {
+      "raw_citation": "(José Maurício and Inês Domingues, 2023)",
+      "cited_author": "José Maurício and Inês Domingues",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.3390/app13095521",
+      "matched_title": "Comparing Vision Transformers and Convolutional Neural Networks for Image Classi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "José Maurício",
+        "Inês Domingues",
+        "Jorge Bernardino"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app13095521"
+    },
+    {
+      "raw_citation": "(Yunhe Gao and Mu Zhou, 2021)",
+      "cited_author": "Yunhe Gao and Mu Zhou",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/978-3-030-87199-4_6",
+      "matched_title": "UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris Metaxas"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87199-4_6"
+    },
+    {
+      "raw_citation": "(Hao Fei and Yafeng Ren, 2020)",
+      "cited_author": "Hao Fei and Yafeng Ren",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/2020.emnlp-main.168",
+      "matched_title": "Retrofitting Structure-aware Transformer Language Model for End Tasks",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Hao Fei",
+        "Yafeng Ren",
+        "Donghong Ji"
+      ],
+      "matched_doi": "10.18653/v1/2020.emnlp-main.168"
+    },
+    {
+      "raw_citation": "(Hiroyuki Deguchi and Akihiro Tamura, 2020)",
+      "cited_author": "Hiroyuki Deguchi and Akihiro Tamura",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.5715/jnlp.27.553",
+      "matched_title": "Dependency-Based Self-Attention for Transformer Neural Machine Translation",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Hiroyuki Deguchi",
+        "Akihiro Tamura",
+        "Takashi Ninomiya"
+      ],
+      "matched_doi": "10.5715/jnlp.27.553"
+    },
+    {
+      "raw_citation": "(Biao Zhang and Ivan Titov, 2019)",
+      "cited_author": "Biao Zhang and Ivan Titov",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/d19-1083",
+      "matched_title": "Improving Deep Transformer with Depth-Scaled Initialization and Merged Attention",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Biao Zhang",
+        "Ivan Titov",
+        "Rico Sennrich"
+      ],
+      "matched_doi": "10.18653/v1/d19-1083"
+    },
+    {
+      "raw_citation": "(Masaki Asada and Makoto Miwa, 2023)",
+      "cited_author": "Masaki Asada and Makoto Miwa",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/2023.bionlp-1.34",
+      "matched_title": "BioNART: A Biomedical Non-AutoRegressive Transformer for Natural Language Genera",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Masaki Asada",
+        "Makoto Miwa"
+      ],
+      "matched_doi": "10.18653/v1/2023.bionlp-1.34"
+    },
+    {
+      "raw_citation": "(Maria Mouratidi and Massimo Poesio, 2025)",
+      "cited_author": "Maria Mouratidi and Massimo Poesio",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.26615/978-954-452-104-2-004",
+      "matched_title": "Comparing Eye-gaze and Transformer Attention Mechanisms in Reading Tasks",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Maria Mouratidi",
+        "Massimo Poesio"
+      ],
+      "matched_doi": "10.26615/978-954-452-104-2-004"
+    },
+    {
+      "raw_citation": "(Holter and Ell, 2018)",
+      "cited_author": "Holter and Ell",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.4230/lipics.cosit.2022.18",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "run_id": "20260509_115119",
+  "timestamp": "2026-05-09T11:51:29.304319",
+  "total": 20,
+  "entries": [
+    {
+      "raw_citation": "(Pranjal Kumar, 2024)",
+      "cited_author": "Pranjal Kumar",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401671778",
+      "matched_title": "Large language models (LLMs): survey, technical frameworks, and future challenge",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Pranjal Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10888-y"
+    },
+    {
+      "raw_citation": "(Christiano et al., 2017)",
+      "cited_author": "Christiano et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "MISATTRIBUTION",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3132661792",
+      "matched_title": "Inference and analysis of cell-cell communication using CellChat",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Suoqin Jin",
+        "Christian F. Guerrero‐Juarez",
+        "Lihua Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41467-021-21246-9"
+    },
+    {
+      "raw_citation": "(Irving et al., 2019)",
+      "cited_author": "Irving et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Li et al., 2020)",
+      "cited_author": "Li et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Xiaofeng Han et al., 2025)",
+      "cited_author": "Xiaofeng Han et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4413788337",
+      "matched_title": "Multimodal fusion and vision–language models: A survey for robot vision",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Xiaofeng Han",
+        "Shunpeng Chen",
+        "Zheng Qing Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2025.103652"
+    },
+    {
+      "raw_citation": "(Rajpurkar et al., 2020)",
+      "cited_author": "Rajpurkar et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4365143687",
+      "matched_title": "Foundation models for generalist medical artificial intelligence",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Michael Moor",
+        "Oishi Banerjee",
+        "Zahra Shakeri Hossein Abad"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41586-023-05881-4"
+    },
+    {
+      "raw_citation": "(Nerella et al., 2023)",
+      "cited_author": "Nerella et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383175678",
+      "matched_title": "Transformers in Healthcare: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Subhash Nerella",
+        "Sabyasachi Bandyopadhyay",
+        "Jiaqing Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2307.00067"
+    },
+    {
+      "raw_citation": "(Liu et al., 2020)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2020,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402054386",
+      "matched_title": "Artificial Intelligence of Things: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Md Shakhrul Iman Siam",
+        "Hyunho Ahn",
+        "Li Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3690639"
+    },
+    {
+      "raw_citation": "(Pham et al., 2025)",
+      "cited_author": "Pham et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407667497",
+      "matched_title": "A Review on Vision-Language-Based Approaches: Challenges and Applications",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Minh-Tien Pham",
+        "Quang-Huy Pham",
+        "Quang-Duong Tran"
+      ],
+      "matched_doi": "https://doi.org/10.32604/cmc.2025.060363"
+    },
+    {
+      "raw_citation": "(Luyang Fang et al., 2025)",
+      "cited_author": "Luyang Fang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4416383678",
+      "matched_title": "Knowledge distillation and dataset distillation of large language models: emergi",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Luyang Fang",
+        "Xiaowei Yu",
+        "Jiazhang Cai"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-025-11423-3"
+    },
+    {
+      "raw_citation": "(Hinton et al., 2015)",
+      "cited_author": "Hinton et al.",
+      "cited_year": 2015,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2163605009",
+      "matched_title": "ImageNet classification with deep convolutional neural networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey E. Hinton"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3065386"
+    },
+    {
+      "raw_citation": "(Guo et al., 2023)",
+      "cited_author": "Guo et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386794608",
+      "matched_title": "Towards Artificial General Intelligence (AGI) in the Internet of Things (IoT): O",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Fei Dou",
+        "Jin Ye",
+        "Yuan Geng"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.07438"
+    },
+    {
+      "raw_citation": "(Jianyuan Ni et al., 2024)",
+      "cited_author": "Jianyuan Ni et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4395477635",
+      "matched_title": "A Survey on Multimodal Wearable Sensor-based Human Action Recognition",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jianyuan Ni",
+        "Hao Tang",
+        "Syed Tousiful Haque"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2404.15349"
+    },
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Bahdanau et al., 2015)",
+      "cited_author": "Bahdanau et al.",
+      "cited_year": 2015,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Pham et al., 2023)",
+      "cited_author": "Pham et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407667497",
+      "matched_title": "A Review on Vision-Language-Based Approaches: Challenges and Applications",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Minh-Tien Pham",
+        "Quang-Huy Pham",
+        "Quang-Duong Tran"
+      ],
+      "matched_doi": "https://doi.org/10.32604/cmc.2025.060363"
+    },
+    {
+      "raw_citation": "(Minh-Tien Pham et al., 2025)",
+      "cited_author": "Minh-Tien Pham et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407667497",
+      "matched_title": "A Review on Vision-Language-Based Approaches: Challenges and Applications",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Minh-Tien Pham",
+        "Quang-Huy Pham",
+        "Quang-Duong Tran"
+      ],
+      "matched_doi": "https://doi.org/10.32604/cmc.2025.060363"
+    },
+    {
+      "raw_citation": "(Shuolei Yin et al., 2025)",
+      "cited_author": "Shuolei Yin et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409431856",
+      "matched_title": "Foundation Models in Agriculture: A Comprehensive Review",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Shuolei Yin",
+        "Yejing Xi",
+        "Xun Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/agriculture15080847"
+    },
+    {
+      "raw_citation": "(Jinzhou Lin et al., 2023)",
+      "cited_author": "Jinzhou Lin et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388276042",
+      "matched_title": "Advances in Embodied Navigation Using Large Language Models: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jinzhou Lin",
+        "Han Gao",
+        "Feng, Xuxiang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2311.00530"
+    },
+    {
+      "raw_citation": "(Mingchen Cai et al., 2025)",
+      "cited_author": "Mingchen Cai et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4413265202",
+      "matched_title": "Continuous Monitoring with AI-Enhanced BioMEMS Sensors: A Focus on Sustainable E",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Mingchen Cai",
+        "Hao Sun",
+        "Tianyue Yang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/mi16080902"
+    }
+  ]
+}

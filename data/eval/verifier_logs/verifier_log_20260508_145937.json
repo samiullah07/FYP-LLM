@@ -1,0 +1,257 @@
+{
+  "run_id": "20260508_145937",
+  "timestamp": "2026-05-08T14:59:37.517937",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Lewis et al., 2020)",
+      "cited_author": "Lewis et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3098425262",
+      "matched_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Patrick Lewis",
+        "Ethan Perez",
+        "Aleksandra Piktus"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Shorten and Khoshgoftaar, 2021)",
+      "cited_author": "Shorten and Khoshgoftaar",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3176923149",
+      "matched_title": "Text Data Augmentation for Deep Learning",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar",
+        "Borko Furht"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00492-0"
+    },
+    {
+      "raw_citation": "(Asai and Gardner, 2022)",
+      "cited_author": "Asai and Gardner",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4225992558",
+      "matched_title": "Evidentiality-guided Generation for Knowledge-Intensive NLP Tasks",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Akari Asai",
+        "Matt Gardner",
+        "Hannaneh Hajishirzi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.naacl-main.162"
+    },
+    {
+      "raw_citation": "(Liu and Shen, 2022)",
+      "cited_author": "Liu and Shen",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3122241445",
+      "matched_title": "What Makes Good In-Context Examples for GPT-3?",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Jiachang Liu",
+        "Dinghan Shen",
+        "Yizhe Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.deelio-1.10"
+    },
+    {
+      "raw_citation": "(Singhal and Tu, 2025)",
+      "cited_author": "Singhal and Tu",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406152279",
+      "matched_title": "Toward expert-level medical question answering with large language models",
+      "matched_year": 2025,
+      "matched_authors": [
+        "K. K. Singhal",
+        "Tao Tu",
+        "Juraj Gottweis"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s41591-024-03423-7"
+    },
+    {
+      "raw_citation": "(Shlyk and Groza, 2024)",
+      "cited_author": "Shlyk and Groza",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402683886",
+      "matched_title": "REAL: A Retrieval-Augmented Entity Linking Approach for Biomedical Concept Recog",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Darya Shlyk",
+        "Tudor Groza",
+        "Marco Mesiti"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.bionlp-1.29"
+    },
+    {
+      "raw_citation": "(Shuster and Poff, 2021)",
+      "cited_author": "Shuster and Poff",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3155807546",
+      "matched_title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Kurt Shuster",
+        "Spencer Poff",
+        "Moya Chen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.findings-emnlp.320"
+    },
+    {
+      "raw_citation": "(Qin and Eisner, 2021)",
+      "cited_author": "Qin and Eisner",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3166846774",
+      "matched_title": "Learning How to Ask: Querying LMs with Mixtures of Soft Prompts",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Guanghui Qin",
+        "Jason Eisner"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.naacl-main.410"
+    },
+    {
+      "raw_citation": "(Alzubaidi and Zhang, 2021)",
+      "cited_author": "Alzubaidi and Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Gudiño and Grandi, 2019)",
+      "cited_author": "Gudiño and Grandi",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4242282425",
+      "matched_title": "Philosophical Transactions of the Royal Society of London. Series A, Mathematica",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jairo Gudiño",
+        "Umberto Grandi",
+        "César A. Hidalgo"
+      ],
+      "matched_doi": "https://doi.org/10.1098/rsta"
+    },
+    {
+      "raw_citation": "(Muehlburger and Wotawa, 2024)",
+      "cited_author": "Muehlburger and Wotawa",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401306886",
+      "matched_title": "Enriching Location Representation with Detailed Semantic Information",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Muehlburger, Herbert",
+        "Wotawa, Franz"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.giscience.2025.3"
+    },
+    {
+      "raw_citation": "(Sun and Wang, 2022)",
+      "cited_author": "Sun and Wang",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4302305884",
+      "matched_title": "Recitation-Augmented Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Zhiqing Sun",
+        "Xuezhi Wang",
+        "Yi Tay"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2210.01296"
+    },
+    {
+      "raw_citation": "(Chen and Lin, 2024)",
+      "cited_author": "Chen and Lin",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4393147129",
+      "matched_title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Jiawei Chen",
+        "Hongyu Lin",
+        "Xianpei Han"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v38i16.29728"
+    },
+    {
+      "raw_citation": "(Qu and Ding, 2021)",
+      "cited_author": "Qu and Ding",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3168875417",
+      "matched_title": "RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Dom",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yingqi Qu",
+        "Yuchen Ding",
+        "Jing Liu"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.naacl-main.466"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "run_id": "20260508_183956",
+  "timestamp": "2026-05-08T18:40:43.099902",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Scherrer, 2020)",
+      "cited_author": "Scherrer",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.18653/v1/2020.findings-emnlp.49",
+      "matched_title": "Fixed Encoder Self-Attention Patterns in Transformer-Based Machine Translation",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Alessandro Raganato",
+        "Yves Scherrer",
+        "Jörg Tiedemann"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.49"
+    },
+    {
+      "raw_citation": "(Dehdari, 2018)",
+      "cited_author": "Dehdari",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1007/s10590-017-9203-5",
+      "matched_title": "Neural machine translation for low-resource languages without parallel corpora",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Alina Karakanta",
+        "Jon Dehdari",
+        "Josef van Genabith"
+      ],
+      "matched_doi": "10.1007/s10590-017-9203-5"
+    },
+    {
+      "raw_citation": "(Stojanovski, 2023)",
+      "cited_author": "Stojanovski",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/2023.loresmt-1.5",
+      "matched_title": "Language-Family Adapters for Low-Resource Multilingual Neural Machine Translatio",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Alexandra Chronopoulou",
+        "Dario Stojanovski",
+        "Alexander Fraser"
+      ],
+      "matched_doi": "10.18653/v1/2023.loresmt-1.5"
+    },
+    {
+      "raw_citation": "(De Silva, 2025)",
+      "cited_author": "De Silva",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/2025.loresmt-1.15",
+      "matched_title": "Encoder-Aware Sequence-Level Knowledge Distillation for Low-Resource Neural Mach",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Menan Velayuthan",
+        "Nisansa De Silva",
+        "Surangika Ranathunga"
+      ],
+      "matched_doi": "10.18653/v1/2025.loresmt-1.15"
+    }
+  ]
+}

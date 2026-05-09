@@ -57,7 +57,7 @@ def build_vector_store(papers: List[Paper]) -> Tuple[faiss.IndexFlatIP, List[Pap
 
     dim = vectors.shape[1]
     index = faiss.IndexFlatIP(dim)
-    index.add(vectors)
+    index.add(vectors)  # pylint: disable=no-value-for-parameter
 
     return index, papers
 

@@ -620,7 +620,7 @@ def render_system_results(state: dict, system: str):
 
     with col_review:
         section_open("Generated Review")
-        st.markdown(f'<div class="review-box">{review_text}</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="review-box">{html.escape(str(review_text))}</div>', unsafe_allow_html=True)
         section_close()
 
         st.download_button(
@@ -635,6 +635,13 @@ def render_system_results(state: dict, system: str):
         citations = state.get("citation_details", [])
 
         if citations:
+            # Build a quick lookup for papers by paper_id to find source
+            papers_by_id = {}
+            for p in state.get("papers", []):
+                pid = getattr(p, "paper_id", None)
+                if pid:
+                    papers_by_id[pid] = p
+
             for cit in citations:
                 raw = getattr(cit, "raw_reference", str(cit))
                 valid = getattr(cit, "valid", None)
@@ -654,10 +661,45 @@ def render_system_results(state: dict, system: str):
                 if safe_reason:
                     reason_html = f"<span class='soft-text' style='font-size:.74rem; text-align:right;'>{safe_reason}</span>"
 
+                # Source badge
+                source_badge_html = ""
+                matched_id = getattr(cit, "matched_paper_id", None)
+                if matched_id:
+                    print(f"[DEBUG] matched_id = {repr(matched_id)}")
+                    ss_papers = {k: v for k, v in papers_by_id.items() if getattr(v, 'source', '') == 'semanticscholar'}
+                    print(f"[DEBUG] semanticscholar paper_ids = {list(ss_papers.keys())[:3]}")
+                if matched_id and matched_id in papers_by_id:
+                    paper = papers_by_id[matched_id]
+                    source = getattr(paper, "source", None)
+                    if source:
+                        source_colours = {
+                            "openalex": "#1a73e8",
+                            "semanticscholar": "#7c3aed",
+                            "semantic_scholar": "#7c3aed",
+                            "crossref": "#ea8c00"
+                        }
+                        colour = source_colours.get(source, "#666666")
+                        label_map = {
+                            "openalex": "OpenAlex",
+                            "semanticscholar": "Semantic Scholar",
+                            "semantic_scholar": "Semantic Scholar",
+                            "crossref": "Crossref"
+                        }
+                        label = label_map.get(source, source)
+                        source_badge_html = (
+                            f'<span style="background:{colour};color:white;'
+                            f'padding:2px 8px;border-radius:10px;'
+                            f'font-size:11px;font-weight:600">{label}</span>'
+                        )
+
+                left_content = f'<div style="color:#dce7fb; line-height:1.6;">{safe_raw}</div>'
+                if source_badge_html:
+                    left_content += f'<div style="margin:4px 0;">{source_badge_html}</div>'
+
                 st.markdown(
                     f"""
                     <div class="citation-row">
-                        <div style="color:#dce7fb; line-height:1.6;">{safe_raw}</div>
+                        {left_content}
                         <div style="display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
                             {badge}
                             {reason_html}
@@ -673,7 +715,7 @@ def render_system_results(state: dict, system: str):
         if is_exp and state.get("sub_queries"):
             section_open("Sub-queries Generated")
             for i, q in enumerate(state.get("sub_queries", []), 1):
-                st.markdown(f'<div class="subquery-pill"><b>{i}.</b> {q}</div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="subquery-pill"><b>{i}.</b> {html.escape(str(q))}</div>', unsafe_allow_html=True)
             section_close()
 
 def render_comparison(base: dict, exp: dict):
@@ -903,7 +945,7 @@ def page_evaluation() -> None:
         try:
             with open(os.path.join(_ROOT, rel), encoding="utf-8") as f:
                 return json.load(f)
-        except:
+        except Exception:
             return []
 
     def _load_csv(rel):
@@ -911,7 +953,7 @@ def page_evaluation() -> None:
         try:
             with open(os.path.join(_ROOT, rel), encoding="utf-8") as f:
                 return list(csv.DictReader(f))
-        except:
+        except Exception:
             return []
 
     _tax  = _load_json("evaluation_results/error_taxonomy_log.json")
@@ -1038,7 +1080,7 @@ def page_evaluation() -> None:
                 hall = float(row.get('hall_pct',0))
                 color = "green" if hall == 0 else "orange" if hall < 15 else "red"
                 icon = "✅" if hall == 0 else "⚠️" if hall < 15 else "❌"
-            except:
+            except Exception:
                 color = "grey"
                 icon = "❓"
             st.markdown(
@@ -1067,7 +1109,7 @@ def page_evaluation() -> None:
             try:
                 color = "green" if float(hall) == 0 else "orange" if float(hall) < 15 else "red"
                 icon = "✅" if float(hall) == 0 else "⚠️" if float(hall) < 15 else "❌"
-            except:
+            except Exception:
                 color = "grey"
                 icon = "❓"
             ts = h.get('timestamp','')[:16]

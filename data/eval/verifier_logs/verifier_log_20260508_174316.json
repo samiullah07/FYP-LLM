@@ -1,0 +1,113 @@
+{
+  "run_id": "20260508_174316",
+  "timestamp": "2026-05-08T17:43:48.365271",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Kasneci and Seßler, 2023)",
+      "cited_author": "Kasneci and Seßler",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1016/j.lindif.2023.102274",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Touvron and Lavril, 2023)",
+      "cited_author": "Touvron and Lavril",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.2302.13971",
+      "matched_title": "LLaMA: Open and Efficient Foundation Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hugo Touvron",
+        "Thibaut Lavril",
+        "Gautier Izacard"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2302.13971"
+    },
+    {
+      "raw_citation": "(Laith Alzubaidi and Zhang, 2021)",
+      "cited_author": "Laith Alzubaidi and Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1186/s40537-021-00444-8",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Tagarelli and Simeri, 2021)",
+      "cited_author": "Tagarelli and Simeri",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/s10506-021-09301-8",
+      "matched_title": "Unsupervised law article mining based on deep pre-trained language representatio",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Andrea Tagarelli",
+        "Andrea Simeri"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10506-021-09301-8"
+    },
+    {
+      "raw_citation": "(Zhou and Zhang, 2021)",
+      "cited_author": "Zhou and Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1609/aaai.v35i12.17325",
+      "matched_title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Haoyi Zhou",
+        "Shanghang Zhang",
+        "Jieqi Peng"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v35i12.17325"
+    },
+    {
+      "raw_citation": "(Shorten and Khoshgoftaar, 2019)",
+      "cited_author": "Shorten and Khoshgoftaar",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1186/s40537-019-0197-0",
+      "matched_title": "A survey on Image Data Augmentation for Deep Learning",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-019-0197-0"
+    }
+  ]
+}

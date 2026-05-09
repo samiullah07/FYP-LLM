@@ -1,0 +1,60 @@
+{
+  "run_id": "20260508_181155",
+  "timestamp": "2026-05-08T18:12:29.358691",
+  "total": 3,
+  "entries": [
+    {
+      "raw_citation": "(Zhou et al., 2022)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/s11263-022-01653-1",
+      "matched_title": "Learning to Prompt for Vision-Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kaiyang Zhou",
+        "Jingkang Yang",
+        "Chen Change Loy"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-022-01653-1"
+    },
+    {
+      "raw_citation": "(Gao et al., 2023)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/s11263-023-01891-x",
+      "matched_title": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Peng Gao",
+        "Shijie Geng",
+        "Renrui Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-023-01891-x"
+    },
+    {
+      "raw_citation": "(Davidson et al., 2023)",
+      "cited_author": "Davidson et al.",
+      "cited_year": 2023,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "10.31235/osf.io/sthwk_v2",
+      "matched_title": "Large Language Models for Text Classification: From Zero-Shot Learning to Instru",
+      "matched_year": 0,
+      "matched_authors": [
+        "Thomas Davidson",
+        "Youngjin Chae"
+      ],
+      "matched_doi": "10.31235/osf.io/sthwk_v2"
+    }
+  ]
+}

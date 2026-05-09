@@ -1,0 +1,146 @@
+{
+  "run_id": "20260508_183209",
+  "timestamp": "2026-05-08T18:32:53.040685",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Laith Alzubaidi and Jinglan Zhang, 2021)",
+      "cited_author": "Laith Alzubaidi and Jinglan Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1186/s40537-021-00444-8",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Pengfei Liu and Weizhe Yuan, 2022)",
+      "cited_author": "Pengfei Liu and Weizhe Yuan",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1145/3560815",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Anoop Kunchukuttan and Pushpak Bhattacharyya, 2021)",
+      "cited_author": "Anoop Kunchukuttan and Pushpak Bhattacharyya",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1201/9781003096771-5",
+      "matched_title": "Improving Subword-level Translation Quality",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Anoop Kunchukuttan",
+        "Pushpak Bhattacharyya"
+      ],
+      "matched_doi": "10.1201/9781003096771-5"
+    },
+    {
+      "raw_citation": "(Herry Sujaini and Samuel Cahyawijaya, 2023)",
+      "cited_author": "Herry Sujaini and Samuel Cahyawijaya",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.12720/jait.14.5.1073-1081",
+      "matched_title": "Analysis of Language Model Role in Improving Machine Translation Accuracy for Ex",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Herry Sujaini",
+        "Samuel Cahyawijaya",
+        "Arif B. Putra"
+      ],
+      "matched_doi": "10.12720/jait.14.5.1073-1081"
+    },
+    {
+      "raw_citation": "(Duncan Poupard, 2024)",
+      "cited_author": "Duncan Poupard",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1080/14781700.2024.2336000",
+      "matched_title": "Attention is all low-resource languages need",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Duncan Poupard"
+      ],
+      "matched_doi": "10.1080/14781700.2024.2336000"
+    },
+    {
+      "raw_citation": "(Paddington Chiguvare and Christopher W Cleghorn, 2021)",
+      "cited_author": "Paddington Chiguvare and Christopher W Cleghorn",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1109/ssci50451.2021.9659923",
+      "matched_title": "Improving transformer model translation for low resource South African languages",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Paddington Chiguvare",
+        "Christopher W Cleghorn"
+      ],
+      "matched_doi": "10.1109/ssci50451.2021.9659923"
+    },
+    {
+      "raw_citation": "(Dwivedi and Nir Kshetri, 2023)",
+      "cited_author": "Dwivedi and Nir Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    },
+    {
+      "raw_citation": "(Amulya Dash and Yashvardhan Sharma, 2025)",
+      "cited_author": "Amulya Dash and Yashvardhan Sharma",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.5220/0013319000003905",
+      "matched_title": "Towards Improving Translation Ability of Large Language Models on Low Resource L",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Amulya Dash",
+        "Yashvardhan Sharma"
+      ],
+      "matched_doi": "10.5220/0013319000003905"
+    }
+  ]
+}

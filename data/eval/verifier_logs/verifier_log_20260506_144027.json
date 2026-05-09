@@ -1,0 +1,275 @@
+{
+  "run_id": "20260506_144027",
+  "timestamp": "2026-05-06T14:41:04.421932",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Liu, 2017)",
+      "cited_author": "Liu",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2606974598",
+      "matched_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Abigail See",
+        "Peter J. Liu",
+        "Christopher D. Manning"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p17-1099"
+    },
+    {
+      "raw_citation": "(Mohamed El Bachir Menaï, 2018)",
+      "cited_author": "Mohamed El Bachir Menaï",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2810035500",
+      "matched_title": "Solving Multi-Document Summarization as an Orienteering Problem",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Asma N. Alsaleh",
+        "Mohamed El Bachir Menaï"
+      ],
+      "matched_doi": "https://doi.org/10.3390/a11070096"
+    },
+    {
+      "raw_citation": "(Bowen Zhou, 2016)",
+      "cited_author": "Bowen Zhou",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2963929190",
+      "matched_title": "Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Ramesh Nallapati",
+        "Bowen Zhou",
+        "Cícero dos Santos"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/k16-1028"
+    },
+    {
+      "raw_citation": "(Hao Peng, 2020)",
+      "cited_author": "Hao Peng",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3046441874",
+      "matched_title": "A Survey on Text Classification: From Shallow to Deep Learning",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Qian Li",
+        "Hao Peng",
+        "Jianxin Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2008.00364"
+    },
+    {
+      "raw_citation": "(Iryna Gurevych, 2019)",
+      "cited_author": "Iryna Gurevych",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2970641574",
+      "matched_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/d19-1410"
+    },
+    {
+      "raw_citation": "(Natalia Díaz-Rodríguez, 2019)",
+      "cited_author": "Natalia Díaz-Rodríguez",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Haiyang Yu, 2020)",
+      "cited_author": "Haiyang Yu",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4311833010",
+      "matched_title": "Explainability in Graph Neural Networks: A Taxonomic Survey",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Hao Yuan",
+        "Haiyang Yu",
+        "Shurui Gui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2012.15445"
+    },
+    {
+      "raw_citation": "(Nitish Shirish Keskar, 2018)",
+      "cited_author": "Nitish Shirish Keskar",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2809324505",
+      "matched_title": "The Natural Language Decathlon: Multitask Learning as Question Answering",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Bryan McCann",
+        "Nitish Shirish Keskar",
+        "Caiming Xiong"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1806.08730"
+    },
+    {
+      "raw_citation": "(Jinglan Zhang, 2021)",
+      "cited_author": "Jinglan Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Kathrin Seßler, 2023)",
+      "cited_author": "Kathrin Seßler",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    },
+    {
+      "raw_citation": "(Yong Jiang, 2017)",
+      "cited_author": "Yong Jiang",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2664267452",
+      "matched_title": "Artificial intelligence in healthcare: past, present and future",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Fei Jiang",
+        "Yong Jiang",
+        "Hui Zhi"
+      ],
+      "matched_doi": "https://doi.org/10.1136/svn-2017-000101"
+    },
+    {
+      "raw_citation": "(Marín, 2019)",
+      "cited_author": "Marín",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981863007",
+      "matched_title": "Systematic review of research on artificial intelligence applications in higher ",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Olaf Zawacki‐Richter",
+        "Victoria I. Marín",
+        "Melissa Bond"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s41239-019-0171-0"
+    },
+    {
+      "raw_citation": "(Anuja Arora, 2022)",
+      "cited_author": "Anuja Arora",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4283725441",
+      "matched_title": "Automatic Text Summarization for Hindi Using Real Coded Genetic Algorithm",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Arti Jain",
+        "Anuja Arora",
+        "Jorge Morato"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app12136584"
+    },
+    {
+      "raw_citation": "(Hao Peng, 2022)",
+      "cited_author": "Hao Peng",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4226418765",
+      "matched_title": "A Survey on Text Classification: From Traditional to Deep Learning",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Qian Li",
+        "Hao Peng",
+        "Jianxin Li"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3495162"
+    },
+    {
+      "raw_citation": "(Nan Ding, 2018)",
+      "cited_author": "Nan Ding",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2886641317",
+      "matched_title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Piyush Sharma",
+        "Nan Ding",
+        "Sebastian Goodman"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p18-1238"
+    }
+  ]
+}

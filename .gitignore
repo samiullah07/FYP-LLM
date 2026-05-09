@@ -1,6 +1,7 @@
-.env
 .python-version
 uv.lock
 __pycache__/
 .venv/
 project.toml
+config.bat
+node_modules

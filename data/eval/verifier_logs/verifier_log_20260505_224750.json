@@ -1,0 +1,427 @@
+{
+  "run_id": "20260505_224750",
+  "timestamp": "2026-05-05T22:48:22.697728",
+  "total": 25,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Bahdanau et al., 2015)",
+      "cited_author": "Bahdanau et al.",
+      "cited_year": 2015,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Yang et al., 2019)",
+      "cited_author": "Yang et al.",
+      "cited_year": 2019,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "Year off by 1",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Radford et al., 2019)",
+      "cited_author": "Radford et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Devlin et al., 2019)",
+      "cited_author": "Devlin et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963341956",
+      "matched_title": "",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jacob Devlin",
+        "Ming‐Wei Chang",
+        "Kenton Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1423"
+    },
+    {
+      "raw_citation": "(Dosovitskiy et al., 2020)",
+      "cited_author": "Dosovitskiy et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Amer Aleissaee et al., 2023)",
+      "cited_author": "Amer Aleissaee et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4362519158",
+      "matched_title": "Transformers in Remote Sensing: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Abdulaziz Amer Aleissaee",
+        "Amandeep Kumar",
+        "Rao Muhammad Anwer"
+      ],
+      "matched_doi": "https://doi.org/10.3390/rs15071860"
+    },
+    {
+      "raw_citation": "(Wang et al., 2025)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406330070",
+      "matched_title": "Vision Transformers for Image Classification: A Comparative Survey",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Yaoli Wang",
+        "Yaojun Deng",
+        "Yuanjin Zheng"
+      ],
+      "matched_doi": "https://doi.org/10.3390/technologies13010032"
+    },
+    {
+      "raw_citation": "(Carion et al., 2020)",
+      "cited_author": "Carion et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhou et al., 2023)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384159609",
+      "matched_title": "nnFormer: Volumetric Medical Image Segmentation via a 3D Transformer",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hong-Yu Zhou",
+        "Jiansen Guo",
+        "Yinghao Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tip.2023.3293771"
+    },
+    {
+      "raw_citation": "(Zhou et al., 2021)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3204614423",
+      "matched_title": "UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris Metaxas"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87199-4_6"
+    },
+    {
+      "raw_citation": "(Gao et al., 2021)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3204614423",
+      "matched_title": "UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris Metaxas"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87199-4_6"
+    },
+    {
+      "raw_citation": "(Ahmed et al., 2023)",
+      "cited_author": "Ahmed et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385258623",
+      "matched_title": "Transformers in Time-Series Analysis: A Tutorial",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Sabeen Ahmed",
+        "Ian E. Nielsen",
+        "Aakash Tripathi"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s00034-023-02454-8"
+    },
+    {
+      "raw_citation": "(Li et al., 2020)",
+      "cited_author": "Li et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Chen et al., 2020)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Yang et al., 2022)",
+      "cited_author": "Yang et al.",
+      "cited_year": 2022,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "Year off by 1",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3188511781",
+      "matched_title": "Transformer-Based Attention Networks for Continuous Pixel-Wise Prediction",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Guanglei Yang",
+        "Hao Tang",
+        "Mingli Ding"
+      ],
+      "matched_doi": "https://doi.org/10.1109/iccv48922.2021.01596"
+    },
+    {
+      "raw_citation": "(Saidul Islam et al., 2023)",
+      "cited_author": "Saidul Islam et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388923662",
+      "matched_title": "A comprehensive survey on applications of transformers for deep learning tasks",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Saidul Islam",
+        "Hanae Elmekki",
+        "Ahmed Elsebai"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.eswa.2023.122666"
+    },
+    {
+      "raw_citation": "(Holter et al., 2018)",
+      "cited_author": "Holter et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(LeCun et al., 1998)",
+      "cited_author": "LeCun et al.",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(Hong-Yu Zhou et al., 2021)",
+      "cited_author": "Hong-Yu Zhou et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3198035652",
+      "matched_title": "nnFormer: Interleaved Transformer for Volumetric Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Hong-Yu Zhou",
+        "Jiansen Guo",
+        "Yinghao Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2109.03201"
+    },
+    {
+      "raw_citation": "(Guanglei Yang et al., 2021)",
+      "cited_author": "Guanglei Yang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3188511781",
+      "matched_title": "Transformer-Based Attention Networks for Continuous Pixel-Wise Prediction",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Guanglei Yang",
+        "Hao Tang",
+        "Mingli Ding"
+      ],
+      "matched_doi": "https://doi.org/10.1109/iccv48922.2021.01596"
+    },
+    {
+      "raw_citation": "(Xu et al., 2021)",
+      "cited_author": "Xu et al.",
+      "cited_year": 2021,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Rahali et al., 2023)",
+      "cited_author": "Rahali et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4313558932",
+      "matched_title": "End-to-End Transformer-Based Models in Textual-Based NLP",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Abir Rahali",
+        "Moulay A. Akhloufi"
+      ],
+      "matched_doi": "https://doi.org/10.3390/ai4010004"
+    },
+    {
+      "raw_citation": "(Azad et al., 2022)",
+      "cited_author": "Azad et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4296425595",
+      "matched_title": "TransDeepLab: Convolution-Free Transformer-Based DeepLab v3+ for Medical Image S",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Reza Azad",
+        "Moein Heidari",
+        "Moein Shariatnia"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-031-16919-9_9"
+    },
+    {
+      "raw_citation": "(Maurício et al., 2023)",
+      "cited_author": "Maurício et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4367598041",
+      "matched_title": "Comparing Vision Transformers and Convolutional Neural Networks for Image Classi",
+      "matched_year": 2023,
+      "matched_authors": [
+        "José Maurício",
+        "Inês Domingues",
+        "Jorge Bernardino"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app13095521"
+    }
+  ]
+}

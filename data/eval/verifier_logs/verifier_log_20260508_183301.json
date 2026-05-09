@@ -1,0 +1,285 @@
+{
+  "run_id": "20260508_183301",
+  "timestamp": "2026-05-08T18:33:06.137979",
+  "total": 16,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2626778328",
+      "matched_title": "Attention Is All You Need",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar"
+      ],
+      "matched_doi": "https://doi.org/10.65215/2q58a426"
+    },
+    {
+      "raw_citation": "(Vaswani and Shazeer, 2025)",
+      "cited_author": "Vaswani and Shazeer",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2626778328",
+      "matched_title": "Attention Is All You Need",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar"
+      ],
+      "matched_doi": "https://doi.org/10.65215/2q58a426"
+    },
+    {
+      "raw_citation": "(Li and Liu, 2019)",
+      "cited_author": "Li and Liu",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2903739847",
+      "matched_title": "Neural Speech Synthesis with Transformer Network",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Naihan Li",
+        "Shujie Liu",
+        "Yanqing Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v33i01.33016706"
+    },
+    {
+      "raw_citation": "(Yu and Li, 2019)",
+      "cited_author": "Yu and Li",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Raganato and Tiedemann, 2018)",
+      "cited_author": "Raganato and Tiedemann",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2912351236",
+      "matched_title": "An Analysis of Encoder Representations in Transformer-Based Machine Translation",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Alessandro Raganato",
+        "Jörg Tiedemann"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/w18-5431"
+    },
+    {
+      "raw_citation": "(Tang and Sennrich, 2018)",
+      "cited_author": "Tang and Sennrich",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2897507397",
+      "matched_title": "An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Ne",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Gongbo Tang",
+        "Rico Sennrich",
+        "Joakim Nivre"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/w18-6304"
+    },
+    {
+      "raw_citation": "(Bugliarello and Okazaki, 2020)",
+      "cited_author": "Bugliarello and Okazaki",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3035589854",
+      "matched_title": "Enhancing Machine Translation with Dependency-Aware Self-Attention",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Emanuele Bugliarello",
+        "Naoaki Okazaki"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.acl-main.147"
+    },
+    {
+      "raw_citation": "(He and Tan, 2018)",
+      "cited_author": "He and Tan",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2897507397",
+      "matched_title": "An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Ne",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Gongbo Tang",
+        "Rico Sennrich",
+        "Joakim Nivre"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/w18-6304"
+    },
+    {
+      "raw_citation": "(Cros Vila and Escolano, 2018)",
+      "cited_author": "Cros Vila and Escolano",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2901607128",
+      "matched_title": "End-to-End Speech Translation with the Transformer",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Laura Cros Vila",
+        "Carlos Escolano",
+        "José A. R. Fonollosa"
+      ],
+      "matched_doi": "https://doi.org/10.21437/iberspeech.2018-13"
+    },
+    {
+      "raw_citation": "(Li and Liu, 2018)",
+      "cited_author": "Li and Liu",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2890964657",
+      "matched_title": "Layer-Wise Coordination between Encoder and Decoder for Neural Machine Translati",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Tianyu He",
+        "Xu Tan",
+        "Yingce Xia"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Kobayashi and Kuribayashi, 2020)",
+      "cited_author": "Kobayashi and Kuribayashi",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3099143320",
+      "matched_title": "Attention is Not Only a Weight: Analyzing Transformers with Vector Norms",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Goro Kobayashi",
+        "Tatsuki Kuribayashi",
+        "Sho Yokoi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.emnlp-main.574"
+    },
+    {
+      "raw_citation": "(Yang and Yan, 2020)",
+      "cited_author": "Yang and Yan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111375540",
+      "matched_title": "ReTransformer",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaoxuan Yang",
+        "Bonan Yan",
+        "Hai Li"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3400302.3415640"
+    },
+    {
+      "raw_citation": "(Ma and Zhang, 2019)",
+      "cited_author": "Ma and Zhang",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2952902402",
+      "matched_title": "A Tensorized Transformer for Language Modeling",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Xindian Ma",
+        "Peng Zhang",
+        "Shuai Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1906.09777"
+    },
+    {
+      "raw_citation": "(Jakubův and Chvalovský, 2023)",
+      "cited_author": "Jakubův and Chvalovský",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4385245566",
+      "matched_title": "MizAR 60 for Mizar 50",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jakubův, Jan",
+        "Chvalovský, Karel",
+        "Goertzel, Zarathustra"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.itp.2023.19"
+    },
+    {
+      "raw_citation": "(LeCun and Bottou, 1998)",
+      "cited_author": "LeCun and Bottou",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(NIPS, 2017)",
+      "cited_author": "NIPS",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

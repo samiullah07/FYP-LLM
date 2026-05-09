@@ -1,11 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(python C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py --mode experimental --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\")",
-      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py\" --mode experimental --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\")",
-      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\main.py\" --topic \"Zero-shot learning and few-shot generalisation in vision-language foundation models\" --verbose --streamlit > \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\temp_experimental_output.txt\")",
-      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\apply_mab_fix.py\")",
-      "PowerShell(& \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\\\\test_force_model.py\")"
+      "Bash(python *)",
+      "Bash(dir retrievers *)",
+      "PowerShell(Start-Process -FilePath \"python\" -ArgumentList \"-m streamlit run app.py\" -WorkingDirectory \"C:\\\\Users\\\\BEST LAPTOP\\\\Desktop\\\\FYP-LLM\" -WindowStyle Normal)",
+      "PowerShell(python -m py_compile src/deduplication.py; python -m py_compile agents/search_agent.py; echo \"Compilation done\")",
+      "PowerShell(python temp_test_papers.py)",
+      "PowerShell(python -m py_compile src/deduplication.py; python -m py_compile agents/search_agent.py; echo OK)",
+      "PowerShell(python temp_diagnostic.py)",
+      "PowerShell(python -m py_compile app.py; echo \"Compilation OK\")",
+      "PowerShell(python temp_debug_script.py)",
+      "PowerShell(python -m py_compile src/paper_normalizer.py; python -m py_compile agents/search_agent.py; python -m py_compile retrievers/semantic_scholar_client.py; python -m py_compile app.py; echo \"Compilation OK\")",
+      "PowerShell(python temp_pipeline_test.py)",
+      "Bash(pip install *)",
+      "Bash(\".venv\\\\Scripts\\\\pip.exe\" install *)",
+      "Bash(C:\\\\Users\\\\BEST *)"
     ]
   }
 }

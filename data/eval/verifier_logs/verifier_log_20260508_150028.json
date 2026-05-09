@@ -1,0 +1,79 @@
+{
+  "run_id": "20260508_150028",
+  "timestamp": "2026-05-08T15:00:48.492397",
+  "total": 4,
+  "entries": [
+    {
+      "raw_citation": "(Donahue, 2022)",
+      "cited_author": "Donahue",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4225323055",
+      "matched_title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Jean-Baptiste Alayrac",
+        "Jeff Donahue",
+        "Pauline Luc"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2204.14198"
+    },
+    {
+      "raw_citation": "(Lavril, 2023)",
+      "cited_author": "Lavril",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4322718191",
+      "matched_title": "LLaMA: Open and Efficient Foundation Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hugo Touvron",
+        "Thibaut Lavril",
+        "Gautier Izacard"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2302.13971"
+    },
+    {
+      "raw_citation": "(Chen, 2021)",
+      "cited_author": "Chen",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3215626407",
+      "matched_title": "Florence: A New Foundation Model for Computer Vision",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Lu Yuan",
+        "Dongdong Chen",
+        "Yi‐Ling Chen"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2111.11432"
+    },
+    {
+      "raw_citation": "(Khoshgoftaar, 2016)",
+      "cited_author": "Khoshgoftaar",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2395579298",
+      "matched_title": "A survey of transfer learning",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Karl R. Weiss",
+        "Taghi M. Khoshgoftaar",
+        "Dingding Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-016-0043-6"
+    }
+  ]
+}

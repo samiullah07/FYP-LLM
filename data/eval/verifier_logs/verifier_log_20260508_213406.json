@@ -1,0 +1,39 @@
+{
+  "run_id": "20260508_213406",
+  "timestamp": "2026-05-08T21:34:07.700434",
+  "total": 2,
+  "entries": [
+    {
+      "raw_citation": "(He et al., 2018)",
+      "cited_author": "He et al.",
+      "cited_year": 2018,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Yang and Yan, 2020)",
+      "cited_author": "Yang and Yan",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3111375540",
+      "matched_title": "ReTransformer",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Xiaoxuan Yang",
+        "Bonan Yan",
+        "Hai Li"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3400302.3415640"
+    }
+  ]
+}
