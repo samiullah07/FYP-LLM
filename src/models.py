@@ -10,7 +10,7 @@ class Paper(BaseModel):
     year: Optional[int] = None
     venue: Optional[str] = None
     doi: Optional[str] = None
-    source: Literal["openalex", "semanticscholar", "manual"] = "openalex"
+    source: Literal["openalex", "semanticscholar", "crossref", "manual"] = "openalex"
 
 class Claim(BaseModel):
     text: str
@@ -18,6 +18,7 @@ class Claim(BaseModel):
     is_supported: Optional[bool] = None
 
 class Citation(BaseModel):
+    status: str = "VALID"  # VALID, PARTIAL, HALLUCINATED
     raw_reference: str
     matched_paper_id: Optional[str] = None
     valid: Optional[bool] = None

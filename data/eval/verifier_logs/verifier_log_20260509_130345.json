@@ -1,0 +1,150 @@
+{
+  "run_id": "20260509_130345",
+  "timestamp": "2026-05-09T13:04:22.403619",
+  "total": 8,
+  "entries": [
+    {
+      "raw_citation": "(Feifan Song and Bowen Yu, 2024)",
+      "cited_author": "Feifan Song and Bowen Yu",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1609/aaai.v38i17.29865",
+      "matched_title": "Preference Ranking Optimization for Human Alignment",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Feifan Song",
+        "Bowen Yu",
+        "Minghao Li"
+      ],
+      "matched_doi": "https://doi.org/10.1609/aaai.v38i17.29865"
+    },
+    {
+      "raw_citation": "(Hao Liu and Carmelo Sferrazza, 2023)",
+      "cited_author": "Hao Liu and Carmelo Sferrazza",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.2302.02676",
+      "matched_title": "Chain of Hindsight Aligns Language Models with Feedback",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hao Liu",
+        "Carmelo Sferrazza",
+        "Pieter Abbeel"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2302.02676"
+    },
+    {
+      "raw_citation": "(Hannah Kirk and Andrew Bean, 2023)",
+      "cited_author": "Hannah Kirk and Andrew Bean",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.18653/v1/2023.emnlp-main.148",
+      "matched_title": "The Past, Present and Better Future of Feedback Learning in Large Language Model",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hannah Kirk",
+        "Andrew Bean",
+        "Bertie Vidgen"
+      ],
+      "matched_doi": "10.18653/v1/2023.emnlp-main.148"
+    },
+    {
+      "raw_citation": "(Chaithanya Ravulu and Rahul Sarabu, 2024)",
+      "cited_author": "Chaithanya Ravulu and Rahul Sarabu",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1109/aixdke63520.2024.00019",
+      "matched_title": "Mitigating Bias in Reinforcement Learning from Human Feedback for Large Language",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Chaithanya Ravulu",
+        "Rahul Sarabu",
+        "Manoj Suryadevara"
+      ],
+      "matched_doi": "10.1109/aixdke63520.2024.00019"
+    },
+    {
+      "raw_citation": "(Josef Dai and Xuehai Pan, 2023)",
+      "cited_author": "Josef Dai and Xuehai Pan",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.2310.12773",
+      "matched_title": "Safe RLHF: Safe Reinforcement Learning from Human Feedback",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Josef Dai",
+        "Xuehai Pan",
+        "Ruiyang Sun"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2310.12773"
+    },
+    {
+      "raw_citation": "(Man Fai Wong and Chee Wei Tan, 2024)",
+      "cited_author": "Man Fai Wong and Chee Wei Tan",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1109/tbdata.2024.3524104",
+      "matched_title": "Aligning Crowd-Sourced Human Feedback for Reinforcement Learning on Code Generat",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Man Fai Wong",
+        "Chee Wei Tan"
+      ],
+      "matched_doi": "10.1109/tbdata.2024.3524104"
+    },
+    {
+      "raw_citation": "(Feifan Song and Bowen Yu, 2023)",
+      "cited_author": "Feifan Song and Bowen Yu",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.2306.17492",
+      "matched_title": "Preference Ranking Optimization for Human Alignment",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Feifan Song",
+        "Bowen Yu",
+        "Minghao Li"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2306.17492"
+    },
+    {
+      "raw_citation": "(Dwivedi and Nir Kshetri, 2023)",
+      "cited_author": "Dwivedi and Nir Kshetri",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+      "matched_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on ",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yogesh K. Dwivedi",
+        "Nir Kshetri",
+        "Laurie Hughes"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+    }
+  ]
+}

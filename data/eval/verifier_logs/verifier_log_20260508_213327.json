@@ -1,0 +1,77 @@
+{
+  "run_id": "20260508_213327",
+  "timestamp": "2026-05-08T21:34:00.670737",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Parallel Attention Mechanisms in Neural Machine Translation, 2018)",
+      "cited_author": "Parallel Attention Mechanisms in Neural Machine Translation",
+      "cited_year": 2018,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(The Case of Word Sense Disambiguation in Neural Machine Translation, 2018)",
+      "cited_author": "The Case of Word Sense Disambiguation in Neural Machine Translation",
+      "cited_year": 2018,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Improving Multimodal Neural Machine Translation Based on Sparse Attention, 2024)",
+      "cited_author": "Improving Multimodal Neural Machine Translation Based on Sparse Attention",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Document-Level Neural Machine Translation via Multi-Scale Wavelet Fusion and G-Meshed Transformer with Attention Alignment, 2025)",
+      "cited_author": "Document-Level Neural Machine Translation via Multi-Scale Wavelet Fusion and G-Meshed Transformer with Attention Alignment",
+      "cited_year": 2025,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

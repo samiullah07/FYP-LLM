@@ -1,0 +1,165 @@
+{
+  "run_id": "20260509_102852",
+  "timestamp": "2026-05-09T10:28:54.662618",
+  "total": 9,
+  "entries": [
+    {
+      "raw_citation": "(Rombach et al., 2022)",
+      "cited_author": "Rombach et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4312933868",
+      "matched_title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Robin Rombach",
+        "Andreas Blattmann",
+        "Dominik Lorenz"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52688.2022.01042"
+    },
+    {
+      "raw_citation": "(Saharia et al., 2022)",
+      "cited_author": "Saharia et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4281485151",
+      "matched_title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Chitwan Saharia",
+        "William Chan",
+        "Saurabh Saxena"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2205.11487"
+    },
+    {
+      "raw_citation": "(Blattmann et al., 2023)",
+      "cited_author": "Blattmann et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386071957",
+      "matched_title": "Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Andreas Blattmann",
+        "Robin Rombach",
+        "Huan Ling"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.02161"
+    },
+    {
+      "raw_citation": "(Ruiz et al., 2023)",
+      "cited_author": "Ruiz et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386072096",
+      "matched_title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Genera",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Nataniel Ruiz",
+        "Yuanzhen Li",
+        "Varun Jampani"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.02155"
+    },
+    {
+      "raw_citation": "(Lin et al., 2023)",
+      "cited_author": "Lin et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386065887",
+      "matched_title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Chen-Hsuan Lin",
+        "Jun Gao",
+        "Luming Tang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.00037"
+    },
+    {
+      "raw_citation": "(Tumanyan et al., 2023)",
+      "cited_author": "Tumanyan et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386113271",
+      "matched_title": "Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Narek Tumanyan",
+        "Michal Geyer",
+        "Shai Bagon"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.00191"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2023)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386071613",
+      "matched_title": "Inversion-based Style Transfer with Diffusion Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yuxin Zhang",
+        "Nisha Huang",
+        "Fan Tang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.00978"
+    },
+    {
+      "raw_citation": "(Wang et al., 2023)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386066388",
+      "matched_title": "RODIN: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Tengfei Wang",
+        "Bo Zhang",
+        "Ting Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/cvpr52729.2023.00443"
+    },
+    {
+      "raw_citation": "(Wu et al., 2023)",
+      "cited_author": "Wu et al.",
+      "cited_year": 2023,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

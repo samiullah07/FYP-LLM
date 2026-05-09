@@ -1,0 +1,43 @@
+{
+  "run_id": "20260506_183446",
+  "timestamp": "2026-05-06T18:35:10.811301",
+  "total": 2,
+  "entries": [
+    {
+      "raw_citation": "(Bai et al., 2026)",
+      "cited_author": "Bai et al.",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W7128096608",
+      "matched_title": "ORACL: Optimized Reasoning for Autoscaling via Chain of Thought with LLMs for Mi",
+      "matched_year": 2026,
+      "matched_authors": [
+        "Haoyu Bai",
+        "Muhammed Tawfiqul Islam",
+        "Minxian Xu"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Zhang et al., 2025)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4416649973",
+      "matched_title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Duzhen Zhang",
+        "Zhongzhi Li",
+        "Mingliang Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tpami.2025.3637037"
+    }
+  ]
+}

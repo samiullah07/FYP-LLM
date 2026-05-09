@@ -702,5 +702,115 @@
     "latency": 23.09,
     "model": "llama-3.1-8b-instant",
     "papers": 0
+  },
+  {
+    "topic": "Can agentic verification pipelines detect their own hallucinations in generated academic citations?",
+    "timestamp": "2026-05-06T00:24:53.634870",
+    "hall_pct": 0.0,
+    "valid": 5,
+    "hallucinated": 0,
+    "total": 5,
+    "latency": 19.06,
+    "model": "llama-3.1-8b-instant",
+    "papers": 0
+  },
+  {
+    "topic": "UCB1 multi-armed bandit algorithms for adaptive model selection in hallucination-aware LLM pipelines",
+    "timestamp": "2026-05-06T00:25:50.064321",
+    "hall_pct": 0.0,
+    "valid": 2,
+    "hallucinated": 0,
+    "total": 2,
+    "latency": 16.15,
+    "model": "llama-3.1-8b-instant",
+    "papers": 0
+  },
+  {
+    "topic": "Evaluation metrics for text summarization quality in neural language models",
+    "timestamp": "2026-05-06T14:41:05.975034",
+    "hall_pct": 0.0,
+    "valid": 15,
+    "hallucinated": 0,
+    "total": 15,
+    "latency": 37.42,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Retrieval-augmented generation for knowledge-intensive NLP tasks",
+    "timestamp": "2026-05-08T14:59:29.527008",
+    "hall_pct": 0.0,
+    "valid": 13,
+    "hallucinated": 0,
+    "total": 13,
+    "latency": 26.3,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Few-shot learning with large language models",
+    "timestamp": "2026-05-08T15:00:50.114896",
+    "hall_pct": 0.0,
+    "valid": 4,
+    "hallucinated": 0,
+    "total": 4,
+    "latency": 20.32,
+    "model": "llama-3.1-8b-instant",
+    "papers": 0
+  },
+  {
+    "topic": "Transformer attention mechanisms in neural machine translation",
+    "timestamp": "2026-05-08T18:32:54.458380",
+    "hall_pct": 0.0,
+    "valid": 8,
+    "hallucinated": 0,
+    "total": 8,
+    "latency": 43.98,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Diffusion models for image generation and text-to-image synthesis",
+    "timestamp": "2026-05-09T10:28:44.164479",
+    "hall_pct": 0.0,
+    "valid": 3,
+    "hallucinated": 0,
+    "total": 3,
+    "latency": 45.2,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Knowledge distillation and model compression for edge deployment",
+    "timestamp": "2026-05-09T11:49:19.080688",
+    "hall_pct": 14.299999999999999,
+    "valid": 6,
+    "hallucinated": 1,
+    "total": 7,
+    "latency": 59.6,
+    "model": "llama-3.1-8b-instant",
+    "papers": 0
+  },
+  {
+    "topic": "Reinforcement learning from human feedback for LLM alignment\nDeep learning for medical image segmentation and diagnosis  \nKnowledge distillation and model compression for edge deployment\nTransformer attention mechanisms in neural machine translation",
+    "timestamp": "2026-05-09T11:51:09.976933",
+    "hall_pct": 0.0,
+    "valid": 8,
+    "hallucinated": 0,
+    "total": 8,
+    "latency": 36.73,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
+  },
+  {
+    "topic": "Reinforcement learning from human feedback for LLM alignment\nDeep learning for medical image segmentation and diagnosis\nKnowledge distillation and model compression for edge deployment\nTransformer attention mechanisms in neural machine translation",
+    "timestamp": "2026-05-09T13:04:23.844700",
+    "hall_pct": 0.0,
+    "valid": 8,
+    "hallucinated": 0,
+    "total": 8,
+    "latency": 37.52,
+    "model": "llama-3.3-70b-versatile",
+    "papers": 0
   }
 ]

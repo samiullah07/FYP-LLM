@@ -1,0 +1,240 @@
+{
+  "run_id": "20260508_145901",
+  "timestamp": "2026-05-08T14:59:27.955720",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Alawwad and Alhothali, 2024)",
+      "cited_author": "Alawwad and Alhothali",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392875681",
+      "matched_title": "Enhancing Textbook Question Answering Task with Large Language Models and Retrie",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Hessa Abdulrahman Alawwad",
+        "Areej Alhothali",
+        "Usman Naseem"
+      ],
+      "matched_doi": "https://doi.org/10.2139/ssrn.4761601"
+    },
+    {
+      "raw_citation": "(Zakka and Shad, 2024)",
+      "cited_author": "Zakka and Shad",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391221150",
+      "matched_title": "Almanac — Retrieval-Augmented Language Models for Clinical Medicine",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Cyril Zakka",
+        "Rohan Shad",
+        "Akash Chaurasia"
+      ],
+      "matched_doi": "https://doi.org/10.1056/aioa2300068"
+    },
+    {
+      "raw_citation": "(Shao and Gong, 2023)",
+      "cited_author": "Shao and Gong",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389520468",
+      "matched_title": "Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Gen",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Zhihong Shao",
+        "Yeyun Gong",
+        "Yelong Shen"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.findings-emnlp.620"
+    },
+    {
+      "raw_citation": "(Siriwardhana and Weerasekera, 2023)",
+      "cited_author": "Siriwardhana and Weerasekera",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4317898419",
+      "matched_title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models f",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Shamane Siriwardhana",
+        "Rivindu Weerasekera",
+        "Elliott Wen"
+      ],
+      "matched_doi": "https://doi.org/10.1162/tacl_a_00530"
+    },
+    {
+      "raw_citation": "(Arrieta and Díaz-Rodríguez, 2019)",
+      "cited_author": "Arrieta and Díaz-Rodríguez",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(See and Liu, 2017)",
+      "cited_author": "See and Liu",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2606974598",
+      "matched_title": "Get To The Point: Summarization with Pointer-Generator Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Abigail See",
+        "Peter J. Liu",
+        "Christopher D. Manning"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/p17-1099"
+    },
+    {
+      "raw_citation": "(Liu and Yuan, 2022)",
+      "cited_author": "Liu and Yuan",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3185341429",
+      "matched_title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natu",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Pengfei Liu",
+        "Weizhe Yuan",
+        "Jinlan Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3560815"
+    },
+    {
+      "raw_citation": "(Liberati and Altman, 2009)",
+      "cited_author": "Liberati and Altman",
+      "cited_year": 2009,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3022903699",
+      "matched_title": "The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studi",
+      "matched_year": 2009,
+      "matched_authors": [
+        "Alessandro Liberati",
+        "Douglas G. Altman",
+        "Jennifer Tetzlaff"
+      ],
+      "matched_doi": "https://doi.org/10.1371/journal.pmed.1000100"
+    },
+    {
+      "raw_citation": "(Ndiaye et al., 2024)",
+      "cited_author": "Ndiaye et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392145873",
+      "matched_title": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, e",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Ndiaye, Matar",
+        "Lespez, Laurent",
+        "Tribolo, Chantal"
+      ],
+      "matched_doi": "https://doi.org/10.3929/ethz-b-000667478"
+    },
+    {
+      "raw_citation": "(Turney and Pantel, 2010)",
+      "cited_author": "Turney and Pantel",
+      "cited_year": 2010,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1662133657",
+      "matched_title": "From Frequency to Meaning: Vector Space Models of Semantics",
+      "matched_year": 2010,
+      "matched_authors": [
+        "Peter D. Turney",
+        "Patrick Pantel"
+      ],
+      "matched_doi": "https://doi.org/10.1613/jair.2934"
+    },
+    {
+      "raw_citation": "(Alzubaidi and Zhang, 2021)",
+      "cited_author": "Alzubaidi and Zhang",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3140854437",
+      "matched_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, ",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Laith Alzubaidi",
+        "Jinglan Zhang",
+        "Amjad J. Humaidi"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "raw_citation": "(Jain and Murty, 1999)",
+      "cited_author": "Jain and Murty",
+      "cited_year": 1999,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W1992419399",
+      "matched_title": "Data clustering",
+      "matched_year": 1999,
+      "matched_authors": [
+        "Anil K. Jain",
+        "M. Narasimha Murty",
+        "Patrick J. Flynn"
+      ],
+      "matched_doi": "https://doi.org/10.1145/331499.331504"
+    },
+    {
+      "raw_citation": "(Najafabadi and Villanustre, 2015)",
+      "cited_author": "Najafabadi and Villanustre",
+      "cited_year": 2015,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2118023920",
+      "matched_title": "Deep learning applications and challenges in big data analytics",
+      "matched_year": 2015,
+      "matched_authors": [
+        "Maryam M. Najafabadi",
+        "Flavio Villanustre",
+        "Taghi M. Khoshgoftaar"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s40537-014-0007-7"
+    }
+  ]
+}

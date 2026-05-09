@@ -1,0 +1,128 @@
+{
+  "run_id": "20260509_114818",
+  "timestamp": "2026-05-09T11:49:17.619849",
+  "total": 7,
+  "entries": [
+    {
+      "raw_citation": "(Gou et al., 2021)",
+      "cited_author": "Gou et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1007/s11263-021-01453-z",
+      "matched_title": "Knowledge Distillation: A Survey",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Jianping Gou",
+        "Baosheng Yu",
+        "Stephen J. Maybank"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-021-01453-z"
+    },
+    {
+      "raw_citation": "(Cheng et al., 2017)",
+      "cited_author": "Cheng et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.1710.09282",
+      "matched_title": "A Survey of Model Compression and Acceleration for Deep Neural Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Yu Cheng",
+        "Duo Wang",
+        "Pan Zhou"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1710.09282"
+    },
+    {
+      "raw_citation": "(Chen et al., 2017)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2017,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.48550/arxiv.1710.09282",
+      "matched_title": "A Survey of Model Compression and Acceleration for Deep Neural Networks",
+      "matched_year": 2017,
+      "matched_authors": [
+        "Yu Cheng",
+        "Duo Wang",
+        "Pan Zhou"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1710.09282"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2021)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://doi.org/10.1109/tpami.2021.3067100",
+      "matched_title": "Self-Distillation: Towards Efficient and Compact Neural Networks",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Linfeng Zhang",
+        "Chenglong Bao",
+        "Kaisheng Ma"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tpami.2021.3067100"
+    },
+    {
+      "raw_citation": "(Ma et al., 2024)",
+      "cited_author": "Ma et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Wang et al., 2022)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1109/cac57257.2022.10055501",
+      "matched_title": "Application of Model Compression Technology Based on Knowledge Distillation in C",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Fengjie Wang",
+        "Chongyu Pan",
+        "Jian Huang"
+      ],
+      "matched_doi": "10.1109/cac57257.2022.10055501"
+    },
+    {
+      "raw_citation": "(Ghojogh et al., 2026)",
+      "cited_author": "Ghojogh et al.",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "10.1007/978-3-032-10738-1_20",
+      "matched_title": "Neural Network Compression and Knowledge Distillation",
+      "matched_year": 2026,
+      "matched_authors": [
+        "Benyamin Ghojogh",
+        "Ali Ghodsi"
+      ],
+      "matched_doi": "10.1007/978-3-032-10738-1_20"
+    }
+  ]
+}

@@ -20,6 +20,9 @@ open-access successor with equivalent or broader coverage across all disciplines
 
 import sys
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Ensure project root is on sys.path
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,6 +31,9 @@ if str(ROOT) not in sys.path:
 
 from src.api_clients import search_openalex_works
 from src.models import Paper
+from retrievers.semantic_scholar_client import SemanticScholarRetriever
+from retrievers.crossref_client import CrossrefRetriever
+from src.deduplication import paper_hash
 import time
 
 # ---------------------------------------------------------------------------
@@ -43,13 +49,54 @@ MAX_PAPERS_PER_QUERY = 5
 # ---------------------------------------------------------------------------
 
 
+
+# Semantic Scholar retriever (lazy-initialized)
+_semantic_retriever = None
+
+def _get_semantic_retriever():
+    global _semantic_retriever
+    if _semantic_retriever is None:
+        try:
+            _semantic_retriever = SemanticScholarRetriever()
+        except ValueError as e:
+            print(f"[SearchAgent] Semantic Scholar disabled: {e}")
+            _semantic_retriever = None
+    return _semantic_retriever
+
+
+# Crossref retriever (lazy‑initialized)
+_crossref_retriever = None
+
+
+def _get_crossref_retriever():
+    global _crossref_retriever
+    if _crossref_retriever is None:
+        try:
+            _crossref_retriever = CrossrefRetriever()
+        except ValueError as e:
+            print(f"[SearchAgent] Crossref disabled: {e}")
+            _crossref_retriever = None
+    return _crossref_retriever
+
+def _paper_to_dict(p: Paper) -> dict:
+    """Convert a Paper object to a dict compatible with paper_hash."""
+    return {
+        "title": p.title,
+        "authors": p.authors,
+        "year": p.year,
+        "doi": p.doi,
+        "source": p.source,
+    }
+
+
 def retrieve_papers(sub_queries: list[str]) -> list[Paper]:
-    all_papers: list[Paper] = []
-    seen_dois:  set[str]    = set()
-    seen_titles: set[str]   = set()
+    all_dicts: list[dict] = []
+    seen_hashes = set()
 
     for query in sub_queries:
         print(f"[SearchAgent] Searching: '{query}'")
+
+        # 1. OpenAlex retrieval (keep existing logic)
         try:
             papers = search_openalex_works(
                 query=query,
@@ -57,29 +104,67 @@ def retrieve_papers(sub_queries: list[str]) -> list[Paper]:
             )
         except Exception as e:
             print(f"[SearchAgent] ERROR: {e}")
-            continue
+            papers = []
 
-        # ADD: small delay to avoid API rate limiting
         time.sleep(0.5)
 
-        added = 0
         for paper in papers:
-            if paper.doi and paper.doi in seen_dois:
-                continue
-            title_key = paper.title.lower().strip()
-            if title_key in seen_titles:
-                continue
-            if paper.doi:
-                seen_dois.add(paper.doi)
-            seen_titles.add(title_key)
-            all_papers.append(paper)
-            added += 1
+            d = _paper_to_dict(paper)
+            h = paper_hash(d)
+            if h not in seen_hashes:
+                seen_hashes.add(h)
+                all_dicts.append(d)
 
-        print(f"[SearchAgent] Added {added} (total: {len(all_papers)})")
+        # 2. Semantic Scholar retrieval (new)
+        retriever = _get_semantic_retriever()
+        if retriever:
+            try:
+                sem_papers = retriever.fetch_papers(query, limit=MAX_PAPERS_PER_QUERY)
+                for p in sem_papers:
+                    h = paper_hash(p)
+                    if h not in seen_hashes:
+                        seen_hashes.add(h)
+                        all_dicts.append(p)
+            except Exception as e:
+                print(f"[SearchAgent] Semantic Scholar error: {e}")
 
-    print(f"\n[SearchAgent] Final unique paper count: {len(all_papers)}")
-    return all_papers
+        # 3. Crossref retrieval (new)
+        crossref_retriever = _get_crossref_retriever()
+        if crossref_retriever:
+            try:
+                crossref_papers = crossref_retriever.fetch_papers(
+                    query, limit=MAX_PAPERS_PER_QUERY
+                )
+                for p in crossref_papers:
+                    h = paper_hash(p)
+                    if h not in seen_hashes:
+                        seen_hashes.add(h)
+                        all_dicts.append(p)
+            except Exception as e:
+                print(f"[SearchAgent] Crossref error: {e}")
 
+        print(f"[SearchAgent] Query '{query}' done, total dicts: {len(all_dicts)}")
+
+    # Convert dicts back to Paper objects
+    result: list[Paper] = []
+    for d in all_dicts:
+        try:
+            paper = Paper(
+                paper_id=d.get("doi") or d.get("paper_id") or str(hash(d.get("title", ""))),
+                title=d["title"],
+                abstract=d.get("abstract"),
+                authors=d.get("authors", []),
+                year=d.get("year"),
+                venue=d.get("venue"),
+                doi=d.get("doi"),
+                source=d.get("source", "openalex"),
+            )
+            result.append(paper)
+        except Exception as e:
+            print(f"[SearchAgent] Failed to convert dict to Paper: {e}")
+
+    print(f"\n[SearchAgent] Final unique paper count: {len(result)}")
+    return result
 
 class SearchAgent:
     """

@@ -1,0 +1,266 @@
+{
+  "run_id": "20260509_130429",
+  "timestamp": "2026-05-09T13:04:32.960772",
+  "total": 15,
+  "entries": [
+    {
+      "raw_citation": "(Kumar, 2024)",
+      "cited_author": "Kumar",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401671778",
+      "matched_title": "Large language models (LLMs): survey, technical frameworks, and future challenge",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Pranjal Kumar"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-024-10888-y"
+    },
+    {
+      "raw_citation": "(Li et al., 2025)",
+      "cited_author": "Li et al.",
+      "cited_year": 2025,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Fang et al., 2025)",
+      "cited_author": "Fang et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4413788337",
+      "matched_title": "Multimodal fusion and vision–language models: A survey for robot vision",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Xiaofeng Han",
+        "Shunpeng Chen",
+        "Zheng Qing Fu"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2025.103652"
+    },
+    {
+      "raw_citation": "(Nerella et al., 2023)",
+      "cited_author": "Nerella et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383175678",
+      "matched_title": "Transformers in Healthcare: A Survey",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Subhash Nerella",
+        "Sabyasachi Bandyopadhyay",
+        "Jiaqing Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2307.00067"
+    },
+    {
+      "raw_citation": "(Pham et al., 2025)",
+      "cited_author": "Pham et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4407667497",
+      "matched_title": "A Review on Vision-Language-Based Approaches: Challenges and Applications",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Minh-Tien Pham",
+        "Quang-Huy Pham",
+        "Quang-Duong Tran"
+      ],
+      "matched_doi": "https://doi.org/10.32604/cmc.2025.060363"
+    },
+    {
+      "raw_citation": "(Guo et al., 2023)",
+      "cited_author": "Guo et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386794608",
+      "matched_title": "Towards Artificial General Intelligence (AGI) in the Internet of Things (IoT): O",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Fei Dou",
+        "Jin Ye",
+        "Yuan Geng"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.07438"
+    },
+    {
+      "raw_citation": "(Siam et al., 2024)",
+      "cited_author": "Siam et al.",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402054386",
+      "matched_title": "Artificial Intelligence of Things: A Survey",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Md Shakhrul Iman Siam",
+        "Hyunho Ahn",
+        "Li Liu"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3690639"
+    },
+    {
+      "raw_citation": "(Dou et al., 2023)",
+      "cited_author": "Dou et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386794608",
+      "matched_title": "Towards Artificial General Intelligence (AGI) in the Internet of Things (IoT): O",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Fei Dou",
+        "Jin Ye",
+        "Yuan Geng"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.07438"
+    },
+    {
+      "raw_citation": "(Han et al., 2025)",
+      "cited_author": "Han et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4406064967",
+      "matched_title": "Open challenges and opportunities in federated foundation models towards biomedi",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Xingyu Li",
+        "Peng Lu",
+        "Yu‐Ping Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1186/s13040-024-00414-9"
+    },
+    {
+      "raw_citation": "(Yin et al., 2025)",
+      "cited_author": "Yin et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4409431856",
+      "matched_title": "Foundation Models in Agriculture: A Comprehensive Review",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Shuolei Yin",
+        "Yejing Xi",
+        "Xun Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.3390/agriculture15080847"
+    },
+    {
+      "raw_citation": "(Lin et al., 2023)",
+      "cited_author": "Lin et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4387209735",
+      "matched_title": "A Survey on Image-text Multimodal Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Ruifeng Guo",
+        "Jingxuan Wei",
+        "Linzhuang Sun"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.15857"
+    },
+    {
+      "raw_citation": "(Cai et al., 2025)",
+      "cited_author": "Cai et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4416383678",
+      "matched_title": "Knowledge distillation and dataset distillation of large language models: emergi",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Luyang Fang",
+        "Xiaowei Yu",
+        "Jiazhang Cai"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s10462-025-11423-3"
+    },
+    {
+      "raw_citation": "(Ni et al., 2024)",
+      "cited_author": "Ni et al.",
+      "cited_year": 2024,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Martins et al., 2025)",
+      "cited_author": "Martins et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4410286823",
+      "matched_title": "A Review Toward Deep Learning for High Dynamic Range Reconstruction",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Gabriel de Lima Martins",
+        "Josue Lopez-Cabrejos",
+        "Julio Martins"
+      ],
+      "matched_doi": "https://doi.org/10.3390/app15105339"
+    },
+    {
+      "raw_citation": "(Acharya et al., 2025)",
+      "cited_author": "Acharya et al.",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W7110983869",
+      "matched_title": "A Comprehensive Review of Neuro-symbolic AI for Robustness, Uncertainty Quantifi",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Kamal Acharya",
+        "Houbing Song"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s13369-025-10887-3"
+    }
+  ]
+}
