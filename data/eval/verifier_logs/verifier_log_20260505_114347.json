@@ -1,0 +1,106 @@
+{
+  "run_id": "20260505_114347",
+  "timestamp": "2026-05-05T11:44:04.906683",
+  "total": 6,
+  "entries": [
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(LeCun et al., 1998)",
+      "cited_author": "LeCun et al.",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(Hu et al., 2020)",
+      "cited_author": "Hu et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Arrieta et al., 2019)",
+      "cited_author": "Arrieta et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2981731882",
+      "matched_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities a",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "raw_citation": "(Holter et al., 2018)",
+      "cited_author": "Holter et al.",
+      "cited_year": 2018,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2896457183",
+      "matched_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Con",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Holter, Ole Magnus",
+        "Ell, Basil"
+      ],
+      "matched_doi": "https://doi.org/10.4230/lipics.cosit.2022.18"
+    },
+    {
+      "raw_citation": "(Kasneci et al., 2023)",
+      "cited_author": "Kasneci et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4323655724",
+      "matched_title": "ChatGPT for good? On opportunities and challenges of large language models for e",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Enkelejda Kasneci",
+        "Kathrin Seßler",
+        "Stefan Küchemann"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.lindif.2023.102274"
+    }
+  ]
+}

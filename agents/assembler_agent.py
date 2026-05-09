@@ -238,8 +238,14 @@ def assemble_final_review(
             continue
 
         # Check statuses of citations in this sentence
-        has_hallucinated = any(c.valid is False and c.error_reason != "PARTIAL" for c in sent_citations)
-        has_partial = any(c.valid is True and c.error_reason for c in sent_citations)
+        has_hallucinated = any(
+                (getattr(c, "status", None) == "HALLUCINATED") or
+                (c.valid is False and c.error_reason != "PARTIAL")
+                for c in sent_citations)
+        has_partial = any(
+                (getattr(c, "status", None) == "PARTIAL") or
+                (c.valid is True and c.error_reason)
+                for c in sent_citations)
 
         # HALLUCINATED citations: DROP sentence entirely
         if has_hallucinated:
@@ -295,7 +301,8 @@ def assemble_final_review(
     print(f"[AssemblerAgent] Sentences dropped    : {changes['sentences_dropped']}")
     print(f"[AssemblerAgent] Sentences rewritten : {changes['sentences_rewritten']}")
     print(f"[AssemblerAgent] Verified refs kept  : {len(verified_refs)}")
-    print(f"[AssemblerAgent] Hallucinated removed: {len(hallucinated_refs)}")
+    # Use the actual count of dropped sentences (which correspond to hallucinated citations)
+    print(f"[AssemblerAgent] Hallucinated removed: {changes['sentences_dropped']}")
 
     from configs.prompts import PROMPT_VERSION
 

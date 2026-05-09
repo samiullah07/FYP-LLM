@@ -1,0 +1,97 @@
+{
+  "run_id": "20260506_002433",
+  "timestamp": "2026-05-06T00:24:51.967210",
+  "total": 5,
+  "entries": [
+    {
+      "raw_citation": "(Zhang and Li, 2023)",
+      "cited_author": "Zhang and Li",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386501849",
+      "matched_title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Yue Zhang",
+        "Yafu Li",
+        "Leyang Cui"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2309.01219"
+    },
+    {
+      "raw_citation": "(Sapkota and Roumeliotis, 2025)",
+      "cited_author": "Sapkota and Roumeliotis",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4412505619",
+      "matched_title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "matched_doi": "https://doi.org/10.70777/si.v2i3.15161"
+    },
+    {
+      "raw_citation": "(Mahowald and Ivanova, 2024)",
+      "cited_author": "Mahowald and Ivanova",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4392935324",
+      "matched_title": "Dissociating language and thought in large language models",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Kyle Mahowald",
+        "Anna A. Ivanova",
+        "Idan Blank"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.tics.2024.01.011"
+    },
+    {
+      "raw_citation": "(Hadi and al Tashi, 2023)",
+      "cited_author": "Hadi and al Tashi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4383737134",
+      "matched_title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Pr",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Muhammad Usman Hadi",
+        "qasem al tashi",
+        "Rizwan Qureshi"
+      ],
+      "matched_doi": "https://doi.org/10.36227/techrxiv.23589741.v1"
+    },
+    {
+      "raw_citation": "(Hou and Zhao, 2023)",
+      "cited_author": "Hou and Zhao",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4386081573",
+      "matched_title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Xinyi Hou",
+        "Yanjie Zhao",
+        "Yue Liu"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2308.10620"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "run_id": "20260505_114410",
+  "timestamp": "2026-05-05T11:44:22.255282",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Bottou, 1998)",
+      "cited_author": "Bottou",
+      "cited_year": 1998,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W2112796928",
+      "matched_title": "Gradient-based learning applied to document recognition",
+      "matched_year": 1998,
+      "matched_authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio"
+      ],
+      "matched_doi": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "raw_citation": "(Vaswani et al., 2017)",
+      "cited_author": "Vaswani et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(He et al., 2016)",
+      "cited_author": "He et al.",
+      "cited_year": 2016,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Ba et al., 2016)",
+      "cited_author": "Ba et al.",
+      "cited_year": 2016,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Wu et al., 2019)",
+      "cited_author": "Wu et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Rahimi et al., 2020)",
+      "cited_author": "Rahimi et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Devlin et al., 2019)",
+      "cited_author": "Devlin et al.",
+      "cited_year": 2019,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2963341956",
+      "matched_title": "",
+      "matched_year": 2019,
+      "matched_authors": [
+        "Jacob Devlin",
+        "Ming‐Wei Chang",
+        "Kenton Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n19-1423"
+    },
+    {
+      "raw_citation": "(Liu et al., 2020)",
+      "cited_author": "Liu et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Lample et al., 2016)",
+      "cited_author": "Lample et al.",
+      "cited_year": 2016,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2296283641",
+      "matched_title": "Neural Architectures for Named Entity Recognition",
+      "matched_year": 2016,
+      "matched_authors": [
+        "Guillaume Lample",
+        "Miguel Ballesteros",
+        "Sandeep Subramanian"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/n16-1030"
+    },
+    {
+      "raw_citation": "(Radford et al., 2019)",
+      "cited_author": "Radford et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "local",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Gao et al., 2021)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3204614423",
+      "matched_title": "UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris Metaxas"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-030-87199-4_6"
+    },
+    {
+      "raw_citation": "(Zhou et al., 2023)",
+      "cited_author": "Zhou et al.",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4384159609",
+      "matched_title": "nnFormer: Volumetric Medical Image Segmentation via a 3D Transformer",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Hong-Yu Zhou",
+        "Jiansen Guo",
+        "Yinghao Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.1109/tip.2023.3293771"
+    },
+    {
+      "raw_citation": "(Santos et al., 2020)",
+      "cited_author": "Santos et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    },
+    {
+      "raw_citation": "(Zhang et al., 2020)",
+      "cited_author": "Zhang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3047848469",
+      "matched_title": "FTRANS",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Bingbing Li",
+        "Santosh Pandey",
+        "Haowen Fang"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3370748.3406567"
+    }
+  ]
+}

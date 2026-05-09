@@ -1,0 +1,226 @@
+{
+  "run_id": "20260506_183518",
+  "timestamp": "2026-05-06T18:35:50.144539",
+  "total": 14,
+  "entries": [
+    {
+      "raw_citation": "(Brown et al., 2020)",
+      "cited_author": "Brown et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Ghorbani et al., 2019)",
+      "cited_author": "Ghorbani et al.",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Robbins, 1985)",
+      "cited_author": "Robbins",
+      "cited_year": 1985,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2186609817",
+      "matched_title": "New Testament Interpretation through Rhetorical Criticism",
+      "matched_year": 1985,
+      "matched_authors": [
+        "Vernon K. Robbins"
+      ],
+      "matched_doi": "https://doi.org/10.1525/rh.1985.3.2.145"
+    },
+    {
+      "raw_citation": "(Audibert et al., 2009)",
+      "cited_author": "Audibert et al.",
+      "cited_year": 2009,
+      "status": "PARTIAL",
+      "confidence": 0.571,
+      "error_type": "WRONG_YEAR",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2167875775",
+      "matched_title": "Deviations of Stochastic Bandit Regret",
+      "matched_year": 2011,
+      "matched_authors": [
+        "Antoine Salomon",
+        "Jean-Yves Audibert"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-3-642-24412-4_15"
+    },
+    {
+      "raw_citation": "(Gao et al., 2020)",
+      "cited_author": "Gao et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2988937804",
+      "matched_title": "DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Gener",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yizhe Zhang",
+        "Siqi Sun",
+        "Michel Galley"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.acl-demos.30"
+    },
+    {
+      "raw_citation": "(Suh et al., 2020)",
+      "cited_author": "Suh et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3013473417",
+      "matched_title": "Host plant list of the scale insects (Hemiptera: Coccomorpha) in South Korea",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Soo‐Jung Suh"
+      ],
+      "matched_doi": "https://doi.org/10.5281/zenodo.4646015"
+    },
+    {
+      "raw_citation": "(Wang et al., 2020)",
+      "cited_author": "Wang et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3007940623",
+      "matched_title": "Pathological findings of COVID-19 associated with acute respiratory distress syn",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Zhe Xu",
+        "Lei Shi",
+        "Yijin Wang"
+      ],
+      "matched_doi": "https://doi.org/10.1016/s2213-2600(20)30076-x"
+    },
+    {
+      "raw_citation": "(Haoyu Bai, 2026)",
+      "cited_author": "Haoyu Bai",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W7128096608",
+      "matched_title": "ORACL: Optimized Reasoning for Autoscaling via Chain of Thought with LLMs for Mi",
+      "matched_year": 2026,
+      "matched_authors": [
+        "Haoyu Bai",
+        "Muhammed Tawfiqul Islam",
+        "Minxian Xu"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Lin et al., 2022)",
+      "cited_author": "Lin et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4221166835",
+      "matched_title": "Unified Structure Generation for Universal Information Extraction",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yaojie Lu",
+        "Q. Liu",
+        "Dai Dai"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.acl-long.395"
+    },
+    {
+      "raw_citation": "(Rajeswaran et al., 2017)",
+      "cited_author": "Rajeswaran et al.",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(ACL, 2020)",
+      "cited_author": "ACL",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(ICML, 2019)",
+      "cited_author": "ICML",
+      "cited_year": 2019,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(IJCAI, 2022)",
+      "cited_author": "IJCAI",
+      "cited_year": 2022,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(ICML, 2017)",
+      "cited_author": "ICML",
+      "cited_year": 2017,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    }
+  ]
+}

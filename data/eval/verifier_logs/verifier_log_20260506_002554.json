@@ -1,0 +1,192 @@
+{
+  "run_id": "20260506_002554",
+  "timestamp": "2026-05-06T00:26:11.129710",
+  "total": 11,
+  "entries": [
+    {
+      "raw_citation": "(Auer et al., 2002)",
+      "cited_author": "Auer et al.",
+      "cited_year": 2002,
+      "status": "HALLUCINATED",
+      "confidence": 0.321,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Jaakkola, 2017)",
+      "cited_author": "Jaakkola",
+      "cited_year": 2017,
+      "status": "PARTIAL",
+      "confidence": 0.893,
+      "error_type": "Year off by 1",
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2903262661",
+      "matched_title": "A graph-convolutional neural network model for the prediction of chemical reacti",
+      "matched_year": 2018,
+      "matched_authors": [
+        "Connor W. Coley",
+        "Wengong Jin",
+        "Luke Rogers"
+      ],
+      "matched_doi": "https://doi.org/10.1039/c8sc04228d"
+    },
+    {
+      "raw_citation": "(Li et al., 2010)",
+      "cited_author": "Li et al.",
+      "cited_year": 2010,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Goyal, 2012)",
+      "cited_author": "Goyal",
+      "cited_year": 2012,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2141645258",
+      "matched_title": "Further Optimal Regret Bounds for Thompson Sampling",
+      "matched_year": 2012,
+      "matched_authors": [
+        "Shipra Agrawal",
+        "Navin Goyal"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.1209.3353"
+    },
+    {
+      "raw_citation": "(Holtzman et al., 2021)",
+      "cited_author": "Holtzman et al.",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3155777744",
+      "matched_title": "Discourse Understanding and Factual Consistency in Abstractive Summarization",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Saadia Gabriel",
+        "Antoine Bosselut",
+        "Jeff Da"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.eacl-main.34"
+    },
+    {
+      "raw_citation": "(Haoyu Bai et al., 2026)",
+      "cited_author": "Haoyu Bai et al.",
+      "cited_year": 2026,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W7128096608",
+      "matched_title": "ORACL: Optimized Reasoning for Autoscaling via Chain of Thought with LLMs for Mi",
+      "matched_year": 2026,
+      "matched_authors": [
+        "Haoyu Bai",
+        "Muhammed Tawfiqul Islam",
+        "Minxian Xu"
+      ],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Chen et al., 2020)",
+      "cited_author": "Chen et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W2988937804",
+      "matched_title": "DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Gener",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Yizhe Zhang",
+        "Siqi Sun",
+        "Michel Galley"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.acl-demos.30"
+    },
+    {
+      "raw_citation": "(Lee et al., 2020)",
+      "cited_author": "Lee et al.",
+      "cited_year": 2020,
+      "status": "HALLUCINATED",
+      "confidence": 0.429,
+      "error_type": "UNKNOWN",
+      "match_source": "openalex",
+      "matched_paper_id": null,
+      "matched_title": null,
+      "matched_year": null,
+      "matched_authors": [],
+      "matched_doi": null
+    },
+    {
+      "raw_citation": "(Tao et al., 2022)",
+      "cited_author": "Tao et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4385572953",
+      "matched_title": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Tianbao Xie",
+        "Chen Wu",
+        "Peng Shi"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.emnlp-main.39"
+    },
+    {
+      "raw_citation": "(Tian et al., 2020)",
+      "cited_author": "Tian et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W3114651185",
+      "matched_title": "CLUE: A Chinese Language Understanding Evaluation Benchmark",
+      "matched_year": 2020,
+      "matched_authors": [
+        "Liang Xu",
+        "Hai Hu",
+        "Xuanwei Zhang"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2020.coling-main.419"
+    },
+    {
+      "raw_citation": "(Kim et al., 2022)",
+      "cited_author": "Kim et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "openalex",
+      "matched_paper_id": "https://openalex.org/W4224313754",
+      "matched_title": "DiffCSE: Difference-based Contrastive Learning for Sentence Embeddings",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Yung-Sung Chuang",
+        "Rumen Dangovski",
+        "Hongyin Luo"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2022.naacl-main.311"
+    }
+  ]
+}

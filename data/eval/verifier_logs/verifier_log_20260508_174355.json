@@ -1,0 +1,241 @@
+{
+  "run_id": "20260508_174355",
+  "timestamp": "2026-05-08T17:43:56.357161",
+  "total": 13,
+  "entries": [
+    {
+      "raw_citation": "(Brown et al., 2020)",
+      "cited_author": "Brown et al.",
+      "cited_year": 2020,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3030163527",
+      "matched_title": "Language Models are Few-Shot Learners",
+      "matched_year": 2020,
+      "matched_authors": [
+        "T. B. Brown",
+        "Benjamin Mann",
+        "Nick Ryder"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2005.14165"
+    },
+    {
+      "raw_citation": "(Geng and Wang, 2024)",
+      "cited_author": "Geng and Wang",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4391558635",
+      "matched_title": "Large Language Models are Few-Shot Summarizers: Multi-Intent Comment Generation ",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Mingyang Geng",
+        "Shangwen Wang",
+        "Dezun Dong"
+      ],
+      "matched_doi": "https://doi.org/10.1145/3597503.3608134"
+    },
+    {
+      "raw_citation": "(Chowdhery et al., 2022)",
+      "cited_author": "Chowdhery et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4224308101",
+      "matched_title": "PaLM: Scaling Language Modeling with Pathways",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Aakanksha Chowdhery",
+        "Sharan Narang",
+        "Jacob Devlin"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2204.02311"
+    },
+    {
+      "raw_citation": "(Zhou and Yang, 2022)",
+      "cited_author": "Zhou and Yang",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3198377975",
+      "matched_title": "Learning to Prompt for Vision-Language Models",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Kaiyang Zhou",
+        "Jingkang Yang",
+        "Chen Change Loy"
+      ],
+      "matched_doi": "https://doi.org/10.1007/s11263-022-01653-1"
+    },
+    {
+      "raw_citation": "(Swanson and Mathewson, 2021)",
+      "cited_author": "Swanson and Mathewson",
+      "cited_year": 2021,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W3155340931",
+      "matched_title": "Story Centaur: Large Language Model Few Shot Learning as a Creative Writing Tool",
+      "matched_year": 2021,
+      "matched_authors": [
+        "Ben Z Swanson",
+        "Kory W. Mathewson",
+        "Ben Pietrzak"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2021.eacl-demos.29"
+    },
+    {
+      "raw_citation": "(Park and Hwang, 2024)",
+      "cited_author": "Park and Hwang",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4402670222",
+      "matched_title": "Low-Resource Cross-Lingual Summarization through Few-Shot Learning with Large La",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Gyutae Park",
+        "Seojin Hwang",
+        "Hwanhee Lee"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.loresmt-1.6"
+    },
+    {
+      "raw_citation": "(Zhang and Rajabi, 2023)",
+      "cited_author": "Zhang and Rajabi",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4389519128",
+      "matched_title": "Machine Translation with Large Language Models: Prompting, Few-shot Learning, an",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Xuan Zhang",
+        "Navid Rajabi",
+        "Kevin Duh"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2023.wmt-1.43"
+    },
+    {
+      "raw_citation": "(Weng and Li, 2023)",
+      "cited_author": "Weng and Li",
+      "cited_year": 2023,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4388999041",
+      "matched_title": "Instance-Aware and Semantic-Guided Prompt for Few-Shot Learning in Large Languag",
+      "matched_year": 2023,
+      "matched_authors": [
+        "Jinta Weng",
+        "Donghao Li",
+        "Yifan Deng"
+      ],
+      "matched_doi": "https://doi.org/10.1007/978-981-99-8148-9_5"
+    },
+    {
+      "raw_citation": "(Alayrac et al., 2022)",
+      "cited_author": "Alayrac et al.",
+      "cited_year": 2022,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4225323055",
+      "matched_title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "matched_year": 2022,
+      "matched_authors": [
+        "Jean-Baptiste Alayrac",
+        "Jeff Donahue",
+        "Pauline Luc"
+      ],
+      "matched_doi": "https://doi.org/10.48550/arxiv.2204.14198"
+    },
+    {
+      "raw_citation": "(Guo and Mousavi, 2025)",
+      "cited_author": "Guo and Mousavi",
+      "cited_year": 2025,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4414567308",
+      "matched_title": "Leveraging few-shot learning and large language models for analyzing blood press",
+      "matched_year": 2025,
+      "matched_authors": [
+        "Yuting Guo",
+        "Seyedeh Somayyeh Mousavi",
+        "Yao Ge"
+      ],
+      "matched_doi": "https://doi.org/10.1016/j.compbiomed.2025.111128"
+    },
+    {
+      "raw_citation": "(Snyder and Vignaux, 2024)",
+      "cited_author": "Snyder and Vignaux",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4399581253",
+      "matched_title": "The Goldilocks paradigm: comparing classical machine learning, large language mo",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Scott H. Snyder",
+        "Patricia A. Vignaux",
+        "Mustafa Kemal Ozalp"
+      ],
+      "matched_doi": "https://doi.org/10.1038/s42004-024-01220-4"
+    },
+    {
+      "raw_citation": "(Aguirre and Sasse, 2024)",
+      "cited_author": "Aguirre and Sasse",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4404781054",
+      "matched_title": "Selecting Shots for Demographic Fairness in Few-Shot Learning with Large Languag",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Carlos Aguirre",
+        "Kuleen Sasse",
+        "Isabel Cachola"
+      ],
+      "matched_doi": "https://doi.org/10.18653/v1/2024.nlp4pi-1.4"
+    },
+    {
+      "raw_citation": "(Meshkin and Zirkle, 2024)",
+      "cited_author": "Meshkin and Zirkle",
+      "cited_year": 2024,
+      "status": "VALID",
+      "confidence": 1.0,
+      "error_type": null,
+      "match_source": "local",
+      "matched_paper_id": "https://openalex.org/W4401798548",
+      "matched_title": "Harnessing large language models’ zero-shot and few-shot learning capabilities f",
+      "matched_year": 2024,
+      "matched_authors": [
+        "Hamed Meshkin",
+        "Joel Zirkle",
+        "Ghazal Arabidarrehdor"
+      ],
+      "matched_doi": "https://doi.org/10.1093/bib/bbae354"
+    }
+  ]
+}

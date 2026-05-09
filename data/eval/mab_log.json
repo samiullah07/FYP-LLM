@@ -5,12 +5,12 @@
       "llama-3.3-70b-versatile": 0
     },
     "moderate": {
-      "llama-3.1-8b-instant": 1,
-      "llama-3.3-70b-versatile": 5
+      "llama-3.1-8b-instant": 7,
+      "llama-3.3-70b-versatile": 9
     },
     "well_covered": {
-      "llama-3.1-8b-instant": 1,
-      "llama-3.3-70b-versatile": 2
+      "llama-3.1-8b-instant": 4,
+      "llama-3.3-70b-versatile": 10
     }
   },
   "values": {
@@ -19,11 +19,11 @@
       "llama-3.3-70b-versatile": 0.0
     },
     "moderate": {
-      "llama-3.1-8b-instant": 0.0,
-      "llama-3.3-70b-versatile": 0.9818
+      "llama-3.1-8b-instant": 0.8367142857142857,
+      "llama-3.3-70b-versatile": 0.9898888888888888
     },
     "well_covered": {
-      "llama-3.1-8b-instant": 0.714,
+      "llama-3.1-8b-instant": 0.54525,
       "llama-3.3-70b-versatile": 1.0
     }
   },
@@ -108,6 +108,195 @@
       "reward": 1.0,
       "new_avg_reward": 1.0,
       "total_pulls": 2
+    },
+    {
+      "timestamp": "2026-05-05T11:44:05.011928",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.333,
+      "reward": 0.667,
+      "new_avg_reward": 0.6905,
+      "total_pulls": 2
+    },
+    {
+      "timestamp": "2026-05-05T22:47:37.880527",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 3
+    },
+    {
+      "timestamp": "2026-05-06T00:24:52.299094",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.5,
+      "total_pulls": 2
+    },
+    {
+      "timestamp": "2026-05-06T00:25:48.756882",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.6666666666666666,
+      "total_pulls": 3
+    },
+    {
+      "timestamp": "2026-05-06T14:41:04.665151",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.9848333333333333,
+      "total_pulls": 6
+    },
+    {
+      "timestamp": "2026-05-06T18:35:11.124157",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.75,
+      "total_pulls": 4
+    },
+    {
+      "timestamp": "2026-05-08T14:59:28.214167",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.987,
+      "total_pulls": 7
+    },
+    {
+      "timestamp": "2026-05-08T15:00:48.754782",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.8,
+      "total_pulls": 5
+    },
+    {
+      "timestamp": "2026-05-08T17:43:48.515283",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.988625,
+      "total_pulls": 8
+    },
+    {
+      "timestamp": "2026-05-08T18:12:29.494043",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.8333333333333334,
+      "total_pulls": 6
+    },
+    {
+      "timestamp": "2026-05-08T18:32:53.169411",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 4
+    },
+    {
+      "timestamp": "2026-05-08T18:40:43.481152",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.2,
+      "reward": 0.8,
+      "new_avg_reward": 0.727,
+      "total_pulls": 3
+    },
+    {
+      "timestamp": "2026-05-08T21:20:08.472802",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 5
+    },
+    {
+      "timestamp": "2026-05-08T21:22:13.734988",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 6
+    },
+    {
+      "timestamp": "2026-05-08T21:34:00.743678",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "well_covered",
+      "hallucination_rate": 1.0,
+      "reward": 0.0,
+      "new_avg_reward": 0.54525,
+      "total_pulls": 4
+    },
+    {
+      "timestamp": "2026-05-09T09:58:34.938334",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 7
+    },
+    {
+      "timestamp": "2026-05-09T10:26:09.241187",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 8
+    },
+    {
+      "timestamp": "2026-05-09T10:28:42.880941",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 0.9898888888888888,
+      "total_pulls": 9
+    },
+    {
+      "timestamp": "2026-05-09T11:49:17.765672",
+      "model": "llama-3.1-8b-instant",
+      "topic_type": "moderate",
+      "hallucination_rate": 0.143,
+      "reward": 0.857,
+      "new_avg_reward": 0.8367142857142857,
+      "total_pulls": 7
+    },
+    {
+      "timestamp": "2026-05-09T11:51:08.671915",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 9
+    },
+    {
+      "timestamp": "2026-05-09T13:04:22.545535",
+      "model": "llama-3.3-70b-versatile",
+      "topic_type": "well_covered",
+      "hallucination_rate": 0.0,
+      "reward": 1.0,
+      "new_avg_reward": 1.0,
+      "total_pulls": 10
     }
   ]
 }
